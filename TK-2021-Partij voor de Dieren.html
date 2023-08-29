@@ -1,0 +1,3264 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_aad0481a614817b57c178a4ce56ede75 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+             <h3 align="center" style="font-size:16px"><b>Tweede Kamerverkiezingen 2021 - Partij voor de Dieren</b></h3>
+             
+    
+            <div class="folium-map" id="map_aad0481a614817b57c178a4ce56ede75" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_aad0481a614817b57c178a4ce56ede75 = L.map(
+                "map_aad0481a614817b57c178a4ce56ede75",
+                {
+                    center: [52.447962, 4.815532],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5c15d016b1e4381f98431dc7f36bc42d = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+            var circle_1788923d6f3fdd9efde1820c4846ecf0 = L.circle(
+                [52.4348512794222, 4.83875408303172],
+                {"bubblingMouseEvents": true, "color": "#b0e300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b0e300", "fillOpacity": 0.23684210526315788, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 92, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_2dceb8818e08f43296c87558ad1d409a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f6796e7a5eeec5f60892bf57ec963f5 = $(`<div id="html_7f6796e7a5eeec5f60892bf57ec963f5" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 46</div>`)[0];
+                popup_2dceb8818e08f43296c87558ad1d409a.setContent(html_7f6796e7a5eeec5f60892bf57ec963f5);
+            
+        
+
+        circle_1788923d6f3fdd9efde1820c4846ecf0.bindPopup(popup_2dceb8818e08f43296c87558ad1d409a)
+        ;
+
+        
+    
+    
+            var marker_7a04b86fd1bace434267f0f130db72d5 = L.marker(
+                [52.4348512794222, 4.83875408303172],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_4f3c5b5c1d71454981dde1cd3f0e545d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a10d465d1603c1c75c0b5ef8d9b41c2 = $(`<div id="html_8a10d465d1603c1c75c0b5ef8d9b41c2" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Gymzaal Wibautstraat, INGANG SPARRESTRAAT (postcode: 1505 CB)</h4><p> Totaal geldige uitgebrachte stemmen: 1002</p><p><b>Partij voor de Dieren</b> 5%</br> (Absoluut aantal stemmen: 46)<p><b>Top drie:</b><ol><li>DENK (16%)</li><li>PVV (Partij voor de Vrijheid) (14%)</li><li>SP (Socialistische Partij) (9%)</li></ol></p></p></div>`)[0];
+                popup_4f3c5b5c1d71454981dde1cd3f0e545d.setContent(html_8a10d465d1603c1c75c0b5ef8d9b41c2);
+            
+        
+
+        marker_7a04b86fd1bace434267f0f130db72d5.bindPopup(popup_4f3c5b5c1d71454981dde1cd3f0e545d)
+        ;
+
+        
+    
+    
+            var circle_a6c08cde07183441880b6693e60a7003 = L.circle(
+                [52.4302414245138, 4.83844251760654],
+                {"bubblingMouseEvents": true, "color": "#c3ea00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c3ea00", "fillOpacity": 0.1894736842105263, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 110, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_bf40642551fdfc69f6afcb229ddba35b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b92086706f9b10976009cb4e1cdd6d3b = $(`<div id="html_b92086706f9b10976009cb4e1cdd6d3b" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 55</div>`)[0];
+                popup_bf40642551fdfc69f6afcb229ddba35b.setContent(html_b92086706f9b10976009cb4e1cdd6d3b);
+            
+        
+
+        circle_a6c08cde07183441880b6693e60a7003.bindPopup(popup_bf40642551fdfc69f6afcb229ddba35b)
+        ;
+
+        
+    
+    
+            var marker_c300c95b407f2fc295a78a40ad3604f1 = L.marker(
+                [52.4302414245138, 4.83844251760654],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_99d2018e77dfcb666b4fe7f303aa3d50 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31ec071f62a7e1fd4a7038c585e1829d = $(`<div id="html_31ec071f62a7e1fd4a7038c585e1829d" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Handboogschutters Czaar Peter (postcode: 1505 VH)</h4><p> Totaal geldige uitgebrachte stemmen: 1265</p><p><b>Partij voor de Dieren</b> 4%</br> (Absoluut aantal stemmen: 55)<p><b>Top drie:</b><ol><li>VVD (15%)</li><li>DENK (13%)</li><li>PVV (Partij voor de Vrijheid) (12%)</li></ol></p></p></div>`)[0];
+                popup_99d2018e77dfcb666b4fe7f303aa3d50.setContent(html_31ec071f62a7e1fd4a7038c585e1829d);
+            
+        
+
+        marker_c300c95b407f2fc295a78a40ad3604f1.bindPopup(popup_99d2018e77dfcb666b4fe7f303aa3d50)
+        ;
+
+        
+    
+    
+            var circle_ec12da2250663db70448082a8fd0539c = L.circle(
+                [52.4351859265992, 4.85635672835818],
+                {"bubblingMouseEvents": true, "color": "#eaf800", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#eaf800", "fillOpacity": 0.09473684210526315, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_05132bf6fc832b2f3ab087cf450b0b5e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a73abfc4fa32c851792cf88da425caa = $(`<div id="html_8a73abfc4fa32c851792cf88da425caa" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 15</div>`)[0];
+                popup_05132bf6fc832b2f3ab087cf450b0b5e.setContent(html_8a73abfc4fa32c851792cf88da425caa);
+            
+        
+
+        circle_ec12da2250663db70448082a8fd0539c.bindPopup(popup_05132bf6fc832b2f3ab087cf450b0b5e)
+        ;
+
+        
+    
+    
+            var marker_941121cbe048cf43a66112bb6c2eacf6 = L.marker(
+                [52.4351859265992, 4.85635672835818],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_287e032a1492f41eb0e9062d8098746b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1dd466996eacb932a64b2d392e955b1e = $(`<div id="html_1dd466996eacb932a64b2d392e955b1e" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Wijkcentrum de Poelenburcht (postcode: 1504 NX)</h4><p> Totaal geldige uitgebrachte stemmen: 667</p><p><b>Partij voor de Dieren</b> 2%</br> (Absoluut aantal stemmen: 15)<p><b>Top drie:</b><ol><li>DENK (34%)</li><li>D66 (10%)</li><li>VVD (8%)</li></ol></p></p></div>`)[0];
+                popup_287e032a1492f41eb0e9062d8098746b.setContent(html_1dd466996eacb932a64b2d392e955b1e);
+            
+        
+
+        marker_941121cbe048cf43a66112bb6c2eacf6.bindPopup(popup_287e032a1492f41eb0e9062d8098746b)
+        ;
+
+        
+    
+    
+            var circle_b00d9e259f5f044d6efd314123a342a7 = L.circle(
+                [52.4410170902092, 4.84751015107142],
+                {"bubblingMouseEvents": true, "color": "#c3ea00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c3ea00", "fillOpacity": 0.1894736842105263, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 60, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_2d8ce16d7211d43088237751e5371c5f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad6d4111a59aa43addc5b8e923417595 = $(`<div id="html_ad6d4111a59aa43addc5b8e923417595" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 30</div>`)[0];
+                popup_2d8ce16d7211d43088237751e5371c5f.setContent(html_ad6d4111a59aa43addc5b8e923417595);
+            
+        
+
+        circle_b00d9e259f5f044d6efd314123a342a7.bindPopup(popup_2d8ce16d7211d43088237751e5371c5f)
+        ;
+
+        
+    
+    
+            var marker_38781adb9b9505ac4d3eb7660284987d = L.marker(
+                [52.4410170902092, 4.84751015107142],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_c76d0b83e97657facd9edbd29803c61b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dcbb642aaaf6c22a81a4a606c157af55 = $(`<div id="html_dcbb642aaaf6c22a81a4a606c157af55" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Zaans Natuur en Milieu Centrum (postcode: 1504 LB)</h4><p> Totaal geldige uitgebrachte stemmen: 722</p><p><b>Partij voor de Dieren</b> 4%</br> (Absoluut aantal stemmen: 30)<p><b>Top drie:</b><ol><li>DENK (28%)</li><li>D66 (8%)</li><li>GROENLINKS (7%)</li></ol></p></p></div>`)[0];
+                popup_c76d0b83e97657facd9edbd29803c61b.setContent(html_dcbb642aaaf6c22a81a4a606c157af55);
+            
+        
+
+        marker_38781adb9b9505ac4d3eb7660284987d.bindPopup(popup_c76d0b83e97657facd9edbd29803c61b)
+        ;
+
+        
+    
+    
+            var circle_d97209a21fa36072b408de2dd2f6cb70 = L.circle(
+                [52.44326, 4.8509],
+                {"bubblingMouseEvents": true, "color": "#c3ea00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c3ea00", "fillOpacity": 0.1894736842105263, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 68, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_ca6de04168bb5ff89b7f8a779973e46d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12d09fb619d88623b750147d4e273385 = $(`<div id="html_12d09fb619d88623b750147d4e273385" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 34</div>`)[0];
+                popup_ca6de04168bb5ff89b7f8a779973e46d.setContent(html_12d09fb619d88623b750147d4e273385);
+            
+        
+
+        circle_d97209a21fa36072b408de2dd2f6cb70.bindPopup(popup_ca6de04168bb5ff89b7f8a779973e46d)
+        ;
+
+        
+    
+    
+            var marker_1639a8b2a81067f1c0a5d66ae9776e55 = L.marker(
+                [52.44326, 4.8509],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_7886a08d02acc77d13c0b4a790c1266a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f70655f76df54a2192c0b69c167de887 = $(`<div id="html_f70655f76df54a2192c0b69c167de887" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau JerehSalem (postcode: 1503 RD)</h4><p> Totaal geldige uitgebrachte stemmen: 838</p><p><b>Partij voor de Dieren</b> 4%</br> (Absoluut aantal stemmen: 34)<p><b>Top drie:</b><ol><li>DENK (28%)</li><li>VVD (11%)</li><li>PVV (Partij voor de Vrijheid) (8%)</li></ol></p></p></div>`)[0];
+                popup_7886a08d02acc77d13c0b4a790c1266a.setContent(html_f70655f76df54a2192c0b69c167de887);
+            
+        
+
+        marker_1639a8b2a81067f1c0a5d66ae9776e55.bindPopup(popup_7886a08d02acc77d13c0b4a790c1266a)
+        ;
+
+        
+    
+    
+            var circle_1a5e075f49939c74f07e60786028e6a0 = L.circle(
+                [52.4488948977989, 4.84325606986341],
+                {"bubblingMouseEvents": true, "color": "#d6f100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d6f100", "fillOpacity": 0.14210526315789473, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 62, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_246ffb3dc481c8f7c9cb94cdc19b73a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d6e9dafed465f94a3b6c1962d03002e = $(`<div id="html_9d6e9dafed465f94a3b6c1962d03002e" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 31</div>`)[0];
+                popup_246ffb3dc481c8f7c9cb94cdc19b73a4.setContent(html_9d6e9dafed465f94a3b6c1962d03002e);
+            
+        
+
+        circle_1a5e075f49939c74f07e60786028e6a0.bindPopup(popup_246ffb3dc481c8f7c9cb94cdc19b73a4)
+        ;
+
+        
+    
+    
+            var marker_29764d267d6398d7719fda969c3c353b = L.marker(
+                [52.4488948977989, 4.84325606986341],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_85e7908fa5fe566d5f4a03d4030388f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c6f17da3ff997cb434221e4d5e741bb7 = $(`<div id="html_c6f17da3ff997cb434221e4d5e741bb7" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau ICBS de Windroos, INGANG PINASSTRAAT 4 (postcode: 1503 TJ)</h4><p> Totaal geldige uitgebrachte stemmen: 998</p><p><b>Partij voor de Dieren</b> 3%</br> (Absoluut aantal stemmen: 31)<p><b>Top drie:</b><ol><li>DENK (30%)</li><li>D66 (11%)</li><li>VVD (10%)</li></ol></p></p></div>`)[0];
+                popup_85e7908fa5fe566d5f4a03d4030388f2.setContent(html_c6f17da3ff997cb434221e4d5e741bb7);
+            
+        
+
+        marker_29764d267d6398d7719fda969c3c353b.bindPopup(popup_85e7908fa5fe566d5f4a03d4030388f2)
+        ;
+
+        
+    
+    
+            var circle_03726aca544870706be90187c0fd5887 = L.circle(
+                [52.45458, 4.83273],
+                {"bubblingMouseEvents": true, "color": "#c3ea00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c3ea00", "fillOpacity": 0.1894736842105263, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 82, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_30ce81ce23f88337a9d41db5ac62ed74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dcf393934c424c54360ae976f75c5376 = $(`<div id="html_dcf393934c424c54360ae976f75c5376" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 41</div>`)[0];
+                popup_30ce81ce23f88337a9d41db5ac62ed74.setContent(html_dcf393934c424c54360ae976f75c5376);
+            
+        
+
+        circle_03726aca544870706be90187c0fd5887.bindPopup(popup_30ce81ce23f88337a9d41db5ac62ed74)
+        ;
+
+        
+    
+    
+            var marker_bd8513110ee6e528318a9bf0bc17967f = L.marker(
+                [52.45458, 4.83273],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_d0d8a591d59114ce10c294237ae603de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_501dcdfed86c14cab2a75476d0df5d1e = $(`<div id="html_501dcdfed86c14cab2a75476d0df5d1e" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Gymzaal Blaise Pascal College (postcode: 1503 HX)</h4><p> Totaal geldige uitgebrachte stemmen: 925</p><p><b>Partij voor de Dieren</b> 4%</br> (Absoluut aantal stemmen: 41)<p><b>Top drie:</b><ol><li>VVD (18%)</li><li>D66 (16%)</li><li>PVV (Partij voor de Vrijheid) (11%)</li></ol></p></p></div>`)[0];
+                popup_d0d8a591d59114ce10c294237ae603de.setContent(html_501dcdfed86c14cab2a75476d0df5d1e);
+            
+        
+
+        marker_bd8513110ee6e528318a9bf0bc17967f.bindPopup(popup_d0d8a591d59114ce10c294237ae603de)
+        ;
+
+        
+    
+    
+            var circle_3b31d1d67b7fb2649147e64bdff8442b = L.circle(
+                [52.4462128169437, 4.83883427460164],
+                {"bubblingMouseEvents": true, "color": "#b0e300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b0e300", "fillOpacity": 0.23684210526315788, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 94, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_06f8d02be87111ad407e27c93cbbdaf8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8eeb71f90fd9b0422a57d358b8260b9b = $(`<div id="html_8eeb71f90fd9b0422a57d358b8260b9b" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 47</div>`)[0];
+                popup_06f8d02be87111ad407e27c93cbbdaf8.setContent(html_8eeb71f90fd9b0422a57d358b8260b9b);
+            
+        
+
+        circle_3b31d1d67b7fb2649147e64bdff8442b.bindPopup(popup_06f8d02be87111ad407e27c93cbbdaf8)
+        ;
+
+        
+    
+    
+            var marker_00a4cc90c6a3883fc612c65134ce8113 = L.marker(
+                [52.4462128169437, 4.83883427460164],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_24d90946d1bf26f32012e929276ed228 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26cab97fdac371960196506c25ee0a29 = $(`<div id="html_26cab97fdac371960196506c25ee0a29" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Evean De Meerpaal, INGANG TJOTTERLAAN 174 (postcode: 1503 LE)</h4><p> Totaal geldige uitgebrachte stemmen: 925</p><p><b>Partij voor de Dieren</b> 5%</br> (Absoluut aantal stemmen: 47)<p><b>Top drie:</b><ol><li>VVD (18%)</li><li>D66 (14%)</li><li>PVV (Partij voor de Vrijheid) (9%)</li></ol></p></p></div>`)[0];
+                popup_24d90946d1bf26f32012e929276ed228.setContent(html_26cab97fdac371960196506c25ee0a29);
+            
+        
+
+        marker_00a4cc90c6a3883fc612c65134ce8113.bindPopup(popup_24d90946d1bf26f32012e929276ed228)
+        ;
+
+        
+    
+    
+            var circle_6a05603c1e00442857a60ad1f13d9d61 = L.circle(
+                [52.4398921135354, 4.84147719046261],
+                {"bubblingMouseEvents": true, "color": "#b0e300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b0e300", "fillOpacity": 0.23684210526315788, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 92, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_16892b5b7273610d51accb38d88dc845 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b90ab9576d824d110ba976507b378d02 = $(`<div id="html_b90ab9576d824d110ba976507b378d02" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 46</div>`)[0];
+                popup_16892b5b7273610d51accb38d88dc845.setContent(html_b90ab9576d824d110ba976507b378d02);
+            
+        
+
+        circle_6a05603c1e00442857a60ad1f13d9d61.bindPopup(popup_16892b5b7273610d51accb38d88dc845)
+        ;
+
+        
+    
+    
+            var marker_9beccfc17b047155305f89fb69981c55 = L.marker(
+                [52.4398921135354, 4.84147719046261],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_4bc44e50e91a6cdd5ba895e358c2522c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_855eb0c0dba534819eeb564b8e0ac7d3 = $(`<div id="html_855eb0c0dba534819eeb564b8e0ac7d3" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Gymzaal Noorderven (postcode: 1504 AL)</h4><p> Totaal geldige uitgebrachte stemmen: 982</p><p><b>Partij voor de Dieren</b> 5%</br> (Absoluut aantal stemmen: 46)<p><b>Top drie:</b><ol><li>DENK (16%)</li><li>VVD (15%)</li><li>D66 (13%)</li></ol></p></p></div>`)[0];
+                popup_4bc44e50e91a6cdd5ba895e358c2522c.setContent(html_855eb0c0dba534819eeb564b8e0ac7d3);
+            
+        
+
+        marker_9beccfc17b047155305f89fb69981c55.bindPopup(popup_4bc44e50e91a6cdd5ba895e358c2522c)
+        ;
+
+        
+    
+    
+            var circle_77ffe7aec12c48f3656d34cecd05d4ba = L.circle(
+                [52.4361075306809, 4.83608616602998],
+                {"bubblingMouseEvents": true, "color": "#9fdc00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9fdc00", "fillOpacity": 0.28421052631578947, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 98, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_ea0380e3026423f14efd8d8f02479cf3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2024d3bddfeb96dee130ad97eff2058a = $(`<div id="html_2024d3bddfeb96dee130ad97eff2058a" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 49</div>`)[0];
+                popup_ea0380e3026423f14efd8d8f02479cf3.setContent(html_2024d3bddfeb96dee130ad97eff2058a);
+            
+        
+
+        circle_77ffe7aec12c48f3656d34cecd05d4ba.bindPopup(popup_ea0380e3026423f14efd8d8f02479cf3)
+        ;
+
+        
+    
+    
+            var marker_5418f7619570c316941b56da44119d8d = L.marker(
+                [52.4361075306809, 4.83608616602998],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_64a3a9dcc96b1e00f2510ef2d8b0ca71 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c3494bdde82833776e5e5661b8fe71b = $(`<div id="html_0c3494bdde82833776e5e5661b8fe71b" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau De Paaskerk (postcode: 1501 TN)</h4><p> Totaal geldige uitgebrachte stemmen: 754</p><p><b>Partij voor de Dieren</b> 6%</br> (Absoluut aantal stemmen: 49)<p><b>Top drie:</b><ol><li>PVV (Partij voor de Vrijheid) (16%)</li><li>VVD (12%)</li><li>D66 (11%)</li></ol></p></p></div>`)[0];
+                popup_64a3a9dcc96b1e00f2510ef2d8b0ca71.setContent(html_0c3494bdde82833776e5e5661b8fe71b);
+            
+        
+
+        marker_5418f7619570c316941b56da44119d8d.bindPopup(popup_64a3a9dcc96b1e00f2510ef2d8b0ca71)
+        ;
+
+        
+    
+    
+            var circle_f8e34889c00fa5daaf3a056e1e03872c = L.circle(
+                [52.4350944447356, 4.83345814243533],
+                {"bubblingMouseEvents": true, "color": "#8ed500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8ed500", "fillOpacity": 0.33157894736842103, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 108, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_4ba1dc98a6a8a49e6e489700a9e581a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe8e1a14fcf1ebd8c31e33e90f7a0c1a = $(`<div id="html_fe8e1a14fcf1ebd8c31e33e90f7a0c1a" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 54</div>`)[0];
+                popup_4ba1dc98a6a8a49e6e489700a9e581a7.setContent(html_fe8e1a14fcf1ebd8c31e33e90f7a0c1a);
+            
+        
+
+        circle_f8e34889c00fa5daaf3a056e1e03872c.bindPopup(popup_4ba1dc98a6a8a49e6e489700a9e581a7)
+        ;
+
+        
+    
+    
+            var marker_e53b7c37570cb2b00c03ac7c2124290a = L.marker(
+                [52.4350944447356, 4.83345814243533],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_81bce822df4023247fc0734a8a243be0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4302325c83720a1a745e8ddbc4905709 = $(`<div id="html_4302325c83720a1a745e8ddbc4905709" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau CBS Tamarinde,INGANG J.C. VAN WESSEMSTR (postcode: 1501 VR)</h4><p> Totaal geldige uitgebrachte stemmen: 782</p><p><b>Partij voor de Dieren</b> 7%</br> (Absoluut aantal stemmen: 54)<p><b>Top drie:</b><ol><li>D66 (17%)</li><li>PVV (Partij voor de Vrijheid) (16%)</li><li>VVD (13%)</li></ol></p></p></div>`)[0];
+                popup_81bce822df4023247fc0734a8a243be0.setContent(html_4302325c83720a1a745e8ddbc4905709);
+            
+        
+
+        marker_e53b7c37570cb2b00c03ac7c2124290a.bindPopup(popup_81bce822df4023247fc0734a8a243be0)
+        ;
+
+        
+    
+    
+            var circle_b18d31535c736e99be551a994db619aa = L.circle(
+                [52.4401728946294, 4.83360146053345],
+                {"bubblingMouseEvents": true, "color": "#d6f100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d6f100", "fillOpacity": 0.14210526315789473, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 28, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_7c4327653512248ac76020ea147f3557 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7215bad519b2e663159835627a30ff1 = $(`<div id="html_b7215bad519b2e663159835627a30ff1" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 14</div>`)[0];
+                popup_7c4327653512248ac76020ea147f3557.setContent(html_b7215bad519b2e663159835627a30ff1);
+            
+        
+
+        circle_b18d31535c736e99be551a994db619aa.bindPopup(popup_7c4327653512248ac76020ea147f3557)
+        ;
+
+        
+    
+    
+            var marker_10247bc33d5cfc7fde11541058619ab3 = L.marker(
+                [52.4401728946294, 4.83360146053345],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_3b987dffd9dfd04adfe13ba5a8344f83 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_56fe108e5e15160801fe48f8bff7ffa6 = $(`<div id="html_56fe108e5e15160801fe48f8bff7ffa6" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Wijkcentrum Dirk Prins (postcode: 1501 RM)</h4><p> Totaal geldige uitgebrachte stemmen: 547</p><p><b>Partij voor de Dieren</b> 3%</br> (Absoluut aantal stemmen: 14)<p><b>Top drie:</b><ol><li>D66 (16%)</li><li>PVV (Partij voor de Vrijheid) (16%)</li><li>VVD (14%)</li></ol></p></p></div>`)[0];
+                popup_3b987dffd9dfd04adfe13ba5a8344f83.setContent(html_56fe108e5e15160801fe48f8bff7ffa6);
+            
+        
+
+        marker_10247bc33d5cfc7fde11541058619ab3.bindPopup(popup_3b987dffd9dfd04adfe13ba5a8344f83)
+        ;
+
+        
+    
+    
+            var circle_d8d0bad0a8c21aca0f3d6c1022912307 = L.circle(
+                [52.4437444671407, 4.82528172230788],
+                {"bubblingMouseEvents": true, "color": "#d6f100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d6f100", "fillOpacity": 0.14210526315789473, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 52, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_289b38ba71636e92a80807141692130b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e6a602e2980419fbef35c1643aaf72b = $(`<div id="html_3e6a602e2980419fbef35c1643aaf72b" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 26</div>`)[0];
+                popup_289b38ba71636e92a80807141692130b.setContent(html_3e6a602e2980419fbef35c1643aaf72b);
+            
+        
+
+        circle_d8d0bad0a8c21aca0f3d6c1022912307.bindPopup(popup_289b38ba71636e92a80807141692130b)
+        ;
+
+        
+    
+    
+            var marker_a7edd5a894abe1989ab4492a7ce424bb = L.marker(
+                [52.4437444671407, 4.82528172230788],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_ceb8d0cf5df657231cda65634466ef0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb50d6635c629537d5db67593b296145 = $(`<div id="html_bb50d6635c629537d5db67593b296145" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Buurthuis de Kolk (postcode: 1502 VP)</h4><p> Totaal geldige uitgebrachte stemmen: 763</p><p><b>Partij voor de Dieren</b> 3%</br> (Absoluut aantal stemmen: 26)<p><b>Top drie:</b><ol><li>VVD (16%)</li><li>D66 (15%)</li><li>PVV (Partij voor de Vrijheid) (12%)</li></ol></p></p></div>`)[0];
+                popup_ceb8d0cf5df657231cda65634466ef0e.setContent(html_bb50d6635c629537d5db67593b296145);
+            
+        
+
+        marker_a7edd5a894abe1989ab4492a7ce424bb.bindPopup(popup_ceb8d0cf5df657231cda65634466ef0e)
+        ;
+
+        
+    
+    
+            var circle_d47221bac9ec4e3bc221f7589100fc7d = L.circle(
+                [52.4446902218248, 4.83593019061875],
+                {"bubblingMouseEvents": true, "color": "#9fdc00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9fdc00", "fillOpacity": 0.28421052631578947, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 80, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_1ee611f22874c246e9fc90a1152d6ac2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_299ffb133008dd208d491258de7914de = $(`<div id="html_299ffb133008dd208d491258de7914de" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 40</div>`)[0];
+                popup_1ee611f22874c246e9fc90a1152d6ac2.setContent(html_299ffb133008dd208d491258de7914de);
+            
+        
+
+        circle_d47221bac9ec4e3bc221f7589100fc7d.bindPopup(popup_1ee611f22874c246e9fc90a1152d6ac2)
+        ;
+
+        
+    
+    
+            var marker_e4eabd789d2d965c13e85b38e4a34b15 = L.marker(
+                [52.4446902218248, 4.83593019061875],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_d931f15b0d40371ff21da36adff72979 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e60d7eb53e55eee5f3548d9c132bc895 = $(`<div id="html_e60d7eb53e55eee5f3548d9c132bc895" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Hikari (postcode: 1503 XH)</h4><p> Totaal geldige uitgebrachte stemmen: 653</p><p><b>Partij voor de Dieren</b> 6%</br> (Absoluut aantal stemmen: 40)<p><b>Top drie:</b><ol><li>PVV (Partij voor de Vrijheid) (15%)</li><li>D66 (13%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_d931f15b0d40371ff21da36adff72979.setContent(html_e60d7eb53e55eee5f3548d9c132bc895);
+            
+        
+
+        marker_e4eabd789d2d965c13e85b38e4a34b15.bindPopup(popup_d931f15b0d40371ff21da36adff72979)
+        ;
+
+        
+    
+    
+            var circle_1d21011745381726828710f50e44d7c3 = L.circle(
+                [52.4482419421702, 4.82411601125049],
+                {"bubblingMouseEvents": true, "color": "#9fdc00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9fdc00", "fillOpacity": 0.28421052631578947, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 98, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_4fd7d0cc48a9f2d5a86504b266eb0016 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_48491d66e61816cc8419e5138a239f78 = $(`<div id="html_48491d66e61816cc8419e5138a239f78" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 49</div>`)[0];
+                popup_4fd7d0cc48a9f2d5a86504b266eb0016.setContent(html_48491d66e61816cc8419e5138a239f78);
+            
+        
+
+        circle_1d21011745381726828710f50e44d7c3.bindPopup(popup_4fd7d0cc48a9f2d5a86504b266eb0016)
+        ;
+
+        
+    
+    
+            var marker_dfa19efee07d8a23dda59ce396a4256e = L.marker(
+                [52.4482419421702, 4.82411601125049],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_fe0fdbfd10705880fcb48e8a004ae730 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_212f5236f63141605c9c800c99697e72 = $(`<div id="html_212f5236f63141605c9c800c99697e72" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Sporthal de Struijck, INGANG PROF.STRUIJCKENSTRAAT (postcode: 1502 RV)</h4><p> Totaal geldige uitgebrachte stemmen: 875</p><p><b>Partij voor de Dieren</b> 6%</br> (Absoluut aantal stemmen: 49)<p><b>Top drie:</b><ol><li>PVV (Partij voor de Vrijheid) (17%)</li><li>D66 (14%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_fe0fdbfd10705880fcb48e8a004ae730.setContent(html_212f5236f63141605c9c800c99697e72);
+            
+        
+
+        marker_dfa19efee07d8a23dda59ce396a4256e.bindPopup(popup_fe0fdbfd10705880fcb48e8a004ae730)
+        ;
+
+        
+    
+    
+            var circle_cfa66d373c9df6acddc2a30f5ba45e52 = L.circle(
+                [52.4499946653388, 4.82651160129359],
+                {"bubblingMouseEvents": true, "color": "#c3ea00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c3ea00", "fillOpacity": 0.1894736842105263, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 90, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_bddd7d40a4663fb42725b0d0d118a379 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c31edf9fb4cd28784b4d2dc8de98264a = $(`<div id="html_c31edf9fb4cd28784b4d2dc8de98264a" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 45</div>`)[0];
+                popup_bddd7d40a4663fb42725b0d0d118a379.setContent(html_c31edf9fb4cd28784b4d2dc8de98264a);
+            
+        
+
+        circle_cfa66d373c9df6acddc2a30f5ba45e52.bindPopup(popup_bddd7d40a4663fb42725b0d0d118a379)
+        ;
+
+        
+    
+    
+            var marker_c04216548f574e4609523c7569127e64 = L.marker(
+                [52.4499946653388, 4.82651160129359],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_5e622f17a8bcb7b25b82d58e116c5086 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_85471c14945909244efa14fe7bc18a98 = $(`<div id="html_85471c14945909244efa14fe7bc18a98" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau De Noorderkerk (postcode: 1502 DJ)</h4><p> Totaal geldige uitgebrachte stemmen: 1065</p><p><b>Partij voor de Dieren</b> 4%</br> (Absoluut aantal stemmen: 45)<p><b>Top drie:</b><ol><li>VVD (13%)</li><li>D66 (12%)</li><li>DENK (11%)</li></ol></p></p></div>`)[0];
+                popup_5e622f17a8bcb7b25b82d58e116c5086.setContent(html_85471c14945909244efa14fe7bc18a98);
+            
+        
+
+        marker_c04216548f574e4609523c7569127e64.bindPopup(popup_5e622f17a8bcb7b25b82d58e116c5086)
+        ;
+
+        
+    
+    
+            var circle_dc5730dca6e9d4c35cad0565b9ff8bfd = L.circle(
+                [52.4585249058718, 4.83071203926238],
+                {"bubblingMouseEvents": true, "color": "#d6f100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d6f100", "fillOpacity": 0.14210526315789473, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 28, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_cf65548649a6429f46f7a45c224c71c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78286ca1c26d095721aeffa3e35b8c2c = $(`<div id="html_78286ca1c26d095721aeffa3e35b8c2c" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 14</div>`)[0];
+                popup_cf65548649a6429f46f7a45c224c71c8.setContent(html_78286ca1c26d095721aeffa3e35b8c2c);
+            
+        
+
+        circle_dc5730dca6e9d4c35cad0565b9ff8bfd.bindPopup(popup_cf65548649a6429f46f7a45c224c71c8)
+        ;
+
+        
+    
+    
+            var marker_a19c98242397feccd9ecf2a68227df3b = L.marker(
+                [52.4585249058718, 4.83071203926238],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_867f8f03cd360bab4fb05e49fb63fe0a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8592865b78a7e3d626b91b264ef400a = $(`<div id="html_c8592865b78a7e3d626b91b264ef400a" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Basisschool Kogerveld (postcode: 1508 AW)</h4><p> Totaal geldige uitgebrachte stemmen: 495</p><p><b>Partij voor de Dieren</b> 3%</br> (Absoluut aantal stemmen: 14)<p><b>Top drie:</b><ol><li>VVD (16%)</li><li>D66 (12%)</li><li>PVV (Partij voor de Vrijheid) (10%)</li></ol></p></p></div>`)[0];
+                popup_867f8f03cd360bab4fb05e49fb63fe0a.setContent(html_c8592865b78a7e3d626b91b264ef400a);
+            
+        
+
+        marker_a19c98242397feccd9ecf2a68227df3b.bindPopup(popup_867f8f03cd360bab4fb05e49fb63fe0a)
+        ;
+
+        
+    
+    
+            var circle_ee07dc8b734dc3ad87ce9696095ae075 = L.circle(
+                [52.458505683455, 4.82492942742994],
+                {"bubblingMouseEvents": true, "color": "#d6f100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d6f100", "fillOpacity": 0.14210526315789473, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 64, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_d2b1c5c75da35c7b7e2d6bf75486fbd7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c74e5feede78c52950c546079f2c13e = $(`<div id="html_5c74e5feede78c52950c546079f2c13e" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 32</div>`)[0];
+                popup_d2b1c5c75da35c7b7e2d6bf75486fbd7.setContent(html_5c74e5feede78c52950c546079f2c13e);
+            
+        
+
+        circle_ee07dc8b734dc3ad87ce9696095ae075.bindPopup(popup_d2b1c5c75da35c7b7e2d6bf75486fbd7)
+        ;
+
+        
+    
+    
+            var marker_eed152d62047891c17c1bfd607d21ff4 = L.marker(
+                [52.458505683455, 4.82492942742994],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_3e7be85bf7949eb523094f1456085fc3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42bc8f00adef7ea4ac7e45e62e282f41 = $(`<div id="html_42bc8f00adef7ea4ac7e45e62e282f41" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Gymzaal Veldbloemenweg (postcode: 1508 WV)</h4><p> Totaal geldige uitgebrachte stemmen: 936</p><p><b>Partij voor de Dieren</b> 3%</br> (Absoluut aantal stemmen: 32)<p><b>Top drie:</b><ol><li>DENK (11%)</li><li>D66 (11%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_3e7be85bf7949eb523094f1456085fc3.setContent(html_42bc8f00adef7ea4ac7e45e62e282f41);
+            
+        
+
+        marker_eed152d62047891c17c1bfd607d21ff4.bindPopup(popup_3e7be85bf7949eb523094f1456085fc3)
+        ;
+
+        
+    
+    
+            var circle_f43a631caebf65f739585cf0059020fb = L.circle(
+                [52.4680454793858, 4.8346671318824],
+                {"bubblingMouseEvents": true, "color": "#9fdc00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9fdc00", "fillOpacity": 0.28421052631578947, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 84, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_b3b128e09cb0781fd5193cbb52e5570b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f3291d2a259a5aa7df09f4fa3d127f1 = $(`<div id="html_4f3291d2a259a5aa7df09f4fa3d127f1" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 42</div>`)[0];
+                popup_b3b128e09cb0781fd5193cbb52e5570b.setContent(html_4f3291d2a259a5aa7df09f4fa3d127f1);
+            
+        
+
+        circle_f43a631caebf65f739585cf0059020fb.bindPopup(popup_b3b128e09cb0781fd5193cbb52e5570b)
+        ;
+
+        
+    
+    
+            var marker_03427a4296722570c9663b44cc15dd5b = L.marker(
+                [52.4680454793858, 4.8346671318824],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_2657ac811eccbf13a02fc79b562060ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f3353498407e35caffbe5ab9013760e = $(`<div id="html_0f3353498407e35caffbe5ab9013760e" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Buurtcentrum de Bovenkruier (postcode: 1509 KP)</h4><p> Totaal geldige uitgebrachte stemmen: 754</p><p><b>Partij voor de Dieren</b> 6%</br> (Absoluut aantal stemmen: 42)<p><b>Top drie:</b><ol><li>VVD (22%)</li><li>D66 (13%)</li><li>PVV (Partij voor de Vrijheid) (12%)</li></ol></p></p></div>`)[0];
+                popup_2657ac811eccbf13a02fc79b562060ff.setContent(html_0f3353498407e35caffbe5ab9013760e);
+            
+        
+
+        marker_03427a4296722570c9663b44cc15dd5b.bindPopup(popup_2657ac811eccbf13a02fc79b562060ff)
+        ;
+
+        
+    
+    
+            var circle_7a21e17c1a20b68484514ef62f5e44e3 = L.circle(
+                [52.4682533252868, 4.83543864988416],
+                {"bubblingMouseEvents": true, "color": "#c3ea00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c3ea00", "fillOpacity": 0.1894736842105263, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 166, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_3a43d5dc3e44b10cf73f81e3a331fb74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3df3ee89e5fa89df21c96c5ce4f1c6c8 = $(`<div id="html_3df3ee89e5fa89df21c96c5ce4f1c6c8" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 83</div>`)[0];
+                popup_3a43d5dc3e44b10cf73f81e3a331fb74.setContent(html_3df3ee89e5fa89df21c96c5ce4f1c6c8);
+            
+        
+
+        circle_7a21e17c1a20b68484514ef62f5e44e3.bindPopup(popup_3a43d5dc3e44b10cf73f81e3a331fb74)
+        ;
+
+        
+    
+    
+            var marker_59537331f4cbd2cc105a97ed4b1e673c = L.marker(
+                [52.4682533252868, 4.83543864988416],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_70e8ce1ad48270314fdc42e43c8458f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a01a76e4b06e9bfc8e9d4203e2852cc8 = $(`<div id="html_a01a76e4b06e9bfc8e9d4203e2852cc8" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Sporthal de Tref (postcode: 1509 KR)</h4><p> Totaal geldige uitgebrachte stemmen: 1980</p><p><b>Partij voor de Dieren</b> 4%</br> (Absoluut aantal stemmen: 83)<p><b>Top drie:</b><ol><li>VVD (18%)</li><li>PVV (Partij voor de Vrijheid) (16%)</li><li>D66 (15%)</li></ol></p></p></div>`)[0];
+                popup_70e8ce1ad48270314fdc42e43c8458f9.setContent(html_a01a76e4b06e9bfc8e9d4203e2852cc8);
+            
+        
+
+        marker_59537331f4cbd2cc105a97ed4b1e673c.bindPopup(popup_70e8ce1ad48270314fdc42e43c8458f9)
+        ;
+
+        
+    
+    
+            var circle_a645c17910203f576be937fe05e44922 = L.circle(
+                [52.4287098425341, 4.83202209650496],
+                {"bubblingMouseEvents": true, "color": "#9fdc00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9fdc00", "fillOpacity": 0.28421052631578947, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 110, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_2c7b639fca73ae8683f3aadf29308a9f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_22d8b58bed2a9349e0f246eef38e0b78 = $(`<div id="html_22d8b58bed2a9349e0f246eef38e0b78" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 55</div>`)[0];
+                popup_2c7b639fca73ae8683f3aadf29308a9f.setContent(html_22d8b58bed2a9349e0f246eef38e0b78);
+            
+        
+
+        circle_a645c17910203f576be937fe05e44922.bindPopup(popup_2c7b639fca73ae8683f3aadf29308a9f)
+        ;
+
+        
+    
+    
+            var marker_cfbec27dd50ed66c5bd71887d8b3c0fe = L.marker(
+                [52.4287098425341, 4.83202209650496],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_0c67a8fd424a380c976f40995e08ff30 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7106d5df0ec7507376c8b6e634a22666 = $(`<div id="html_7106d5df0ec7507376c8b6e634a22666" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Speeltuinvereniging "Het Havenkwartier" (postcode: 1506 PK)</h4><p> Totaal geldige uitgebrachte stemmen: 995</p><p><b>Partij voor de Dieren</b> 6%</br> (Absoluut aantal stemmen: 55)<p><b>Top drie:</b><ol><li>VVD (20%)</li><li>PVV (Partij voor de Vrijheid) (17%)</li><li>D66 (15%)</li></ol></p></p></div>`)[0];
+                popup_0c67a8fd424a380c976f40995e08ff30.setContent(html_7106d5df0ec7507376c8b6e634a22666);
+            
+        
+
+        marker_cfbec27dd50ed66c5bd71887d8b3c0fe.bindPopup(popup_0c67a8fd424a380c976f40995e08ff30)
+        ;
+
+        
+    
+    
+            var circle_bf43484359a004cbbc643df6b4c7447d = L.circle(
+                [52.438610750159, 4.82477783177487],
+                {"bubblingMouseEvents": true, "color": "#7ece00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7ece00", "fillOpacity": 0.3789473684210526, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 158, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_476926321707a6b0681b6e39df3e9db3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7ee1089e1e599cbe29e4a1cd087b51a = $(`<div id="html_a7ee1089e1e599cbe29e4a1cd087b51a" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 79</div>`)[0];
+                popup_476926321707a6b0681b6e39df3e9db3.setContent(html_a7ee1089e1e599cbe29e4a1cd087b51a);
+            
+        
+
+        circle_bf43484359a004cbbc643df6b4c7447d.bindPopup(popup_476926321707a6b0681b6e39df3e9db3)
+        ;
+
+        
+    
+    
+            var marker_8330d3810adfa4110d2db32a2aef1eaf = L.marker(
+                [52.438610750159, 4.82477783177487],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_0dc967977a4afef69a2d68c368cabb76 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b939c99900d0b7c537ab634bfa4df690 = $(`<div id="html_b939c99900d0b7c537ab634bfa4df690" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Het Zaantheater (postcode: 1506 BB)</h4><p> Totaal geldige uitgebrachte stemmen: 964</p><p><b>Partij voor de Dieren</b> 8%</br> (Absoluut aantal stemmen: 79)<p><b>Top drie:</b><ol><li>D66 (21%)</li><li>VVD (17%)</li><li>GROENLINKS (9%)</li></ol></p></p></div>`)[0];
+                popup_0dc967977a4afef69a2d68c368cabb76.setContent(html_b939c99900d0b7c537ab634bfa4df690);
+            
+        
+
+        marker_8330d3810adfa4110d2db32a2aef1eaf.bindPopup(popup_0dc967977a4afef69a2d68c368cabb76)
+        ;
+
+        
+    
+    
+            var circle_7270fc1f61eaacc76d65c06cf371231a = L.circle(
+                [52.4381106743953, 4.81739063677804],
+                {"bubblingMouseEvents": true, "color": "#8ed500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8ed500", "fillOpacity": 0.33157894736842103, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 128, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_53db34f6fab73fb0a388e89c07e84af8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_25d7fd4a2c34b7b191e7e7a78826a550 = $(`<div id="html_25d7fd4a2c34b7b191e7e7a78826a550" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 64</div>`)[0];
+                popup_53db34f6fab73fb0a388e89c07e84af8.setContent(html_25d7fd4a2c34b7b191e7e7a78826a550);
+            
+        
+
+        circle_7270fc1f61eaacc76d65c06cf371231a.bindPopup(popup_53db34f6fab73fb0a388e89c07e84af8)
+        ;
+
+        
+    
+    
+            var marker_2d4fdc15cbba78f7298d05132e5d9f6b = L.marker(
+                [52.4381106743953, 4.81739063677804],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_b86588b08b5d5256c5b5717d80749bfe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e0a50f5803db7a691f2eaeff03899009 = $(`<div id="html_e0a50f5803db7a691f2eaeff03899009" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Pathé Bioscoop (postcode: 1506 TX)</h4><p> Totaal geldige uitgebrachte stemmen: 925</p><p><b>Partij voor de Dieren</b> 7%</br> (Absoluut aantal stemmen: 64)<p><b>Top drie:</b><ol><li>D66 (19%)</li><li>VVD (13%)</li><li>GROENLINKS (10%)</li></ol></p></p></div>`)[0];
+                popup_b86588b08b5d5256c5b5717d80749bfe.setContent(html_e0a50f5803db7a691f2eaeff03899009);
+            
+        
+
+        marker_2d4fdc15cbba78f7298d05132e5d9f6b.bindPopup(popup_b86588b08b5d5256c5b5717d80749bfe)
+        ;
+
+        
+    
+    
+            var circle_dbd79cef2e73f84d8890cdba0a628016 = L.circle(
+                [52.4479388436615, 4.81970415440335],
+                {"bubblingMouseEvents": true, "color": "#60bf00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#60bf00", "fillOpacity": 0.47368421052631576, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 140, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_38ebb964874eb800c08474fd480c7d27 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b01f7249a85ba539a3264fbeb9b52563 = $(`<div id="html_b01f7249a85ba539a3264fbeb9b52563" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 70</div>`)[0];
+                popup_38ebb964874eb800c08474fd480c7d27.setContent(html_b01f7249a85ba539a3264fbeb9b52563);
+            
+        
+
+        circle_dbd79cef2e73f84d8890cdba0a628016.bindPopup(popup_38ebb964874eb800c08474fd480c7d27)
+        ;
+
+        
+    
+    
+            var marker_85b5265436a8edb62a1495a1708db89b = L.marker(
+                [52.4479388436615, 4.81970415440335],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_2826fa3cb43f194306120aaa238ca778 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44b3eded4f1980bf027ea4be7f1294de = $(`<div id="html_44b3eded4f1980bf027ea4be7f1294de" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Het Tolhuys aan de Zaan (postcode: 1506 GG)</h4><p> Totaal geldige uitgebrachte stemmen: 702</p><p><b>Partij voor de Dieren</b> 10%</br> (Absoluut aantal stemmen: 70)<p><b>Top drie:</b><ol><li>VVD (18%)</li><li>D66 (14%)</li><li>PVV (Partij voor de Vrijheid) (12%)</li></ol></p></p></div>`)[0];
+                popup_2826fa3cb43f194306120aaa238ca778.setContent(html_44b3eded4f1980bf027ea4be7f1294de);
+            
+        
+
+        marker_85b5265436a8edb62a1495a1708db89b.bindPopup(popup_2826fa3cb43f194306120aaa238ca778)
+        ;
+
+        
+    
+    
+            var circle_6c56d9eed89109a9d446a2dfc983e291 = L.circle(
+                [52.4494236695288, 4.81688846487863],
+                {"bubblingMouseEvents": true, "color": "#8ed500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8ed500", "fillOpacity": 0.33157894736842103, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 120, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_4eb2db0024eaeba10677f61fad5a98be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88650f4a4d913e5ccefd323694fafc7a = $(`<div id="html_88650f4a4d913e5ccefd323694fafc7a" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 60</div>`)[0];
+                popup_4eb2db0024eaeba10677f61fad5a98be.setContent(html_88650f4a4d913e5ccefd323694fafc7a);
+            
+        
+
+        circle_6c56d9eed89109a9d446a2dfc983e291.bindPopup(popup_4eb2db0024eaeba10677f61fad5a98be)
+        ;
+
+        
+    
+    
+            var marker_995c9701336234b5a092dbc28f17416a = L.marker(
+                [52.4494236695288, 4.81688846487863],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_c85e22e8feebae7581d82cbed1179756 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2b42e73372f2e76f87e88e6402ee0f4 = $(`<div id="html_d2b42e73372f2e76f87e88e6402ee0f4" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Atletiekvereniging Zaanland (postcode: 1506 JA)</h4><p> Totaal geldige uitgebrachte stemmen: 923</p><p><b>Partij voor de Dieren</b> 7%</br> (Absoluut aantal stemmen: 60)<p><b>Top drie:</b><ol><li>D66 (22%)</li><li>VVD (18%)</li><li>GROENLINKS (9%)</li></ol></p></p></div>`)[0];
+                popup_c85e22e8feebae7581d82cbed1179756.setContent(html_d2b42e73372f2e76f87e88e6402ee0f4);
+            
+        
+
+        marker_995c9701336234b5a092dbc28f17416a.bindPopup(popup_c85e22e8feebae7581d82cbed1179756)
+        ;
+
+        
+    
+    
+            var circle_3f74eabcd17ee644856e7a8c8a87a278 = L.circle(
+                [52.4367841409923, 4.80783073122328],
+                {"bubblingMouseEvents": true, "color": "#c3ea00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c3ea00", "fillOpacity": 0.1894736842105263, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 56, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_64ddb961fdb17e5c983749d8bc3df3ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92443c5d0967ee6fe2b6c72709368d67 = $(`<div id="html_92443c5d0967ee6fe2b6c72709368d67" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 28</div>`)[0];
+                popup_64ddb961fdb17e5c983749d8bc3df3ed.setContent(html_92443c5d0967ee6fe2b6c72709368d67);
+            
+        
+
+        circle_3f74eabcd17ee644856e7a8c8a87a278.bindPopup(popup_64ddb961fdb17e5c983749d8bc3df3ed)
+        ;
+
+        
+    
+    
+            var marker_c7c58c310eb4febb4522ce1192b35f7e = L.marker(
+                [52.4367841409923, 4.80783073122328],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_e86cbd1e2c5eb083fb7c7fb6befa0d72 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_17c717e8694e96d2a8f198306eb2deef = $(`<div id="html_17c717e8694e96d2a8f198306eb2deef" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Regio College (postcode: 1507 EK)</h4><p> Totaal geldige uitgebrachte stemmen: 666</p><p><b>Partij voor de Dieren</b> 4%</br> (Absoluut aantal stemmen: 28)<p><b>Top drie:</b><ol><li>VVD (17%)</li><li>D66 (16%)</li><li>PVV (Partij voor de Vrijheid) (9%)</li></ol></p></p></div>`)[0];
+                popup_e86cbd1e2c5eb083fb7c7fb6befa0d72.setContent(html_17c717e8694e96d2a8f198306eb2deef);
+            
+        
+
+        marker_c7c58c310eb4febb4522ce1192b35f7e.bindPopup(popup_e86cbd1e2c5eb083fb7c7fb6befa0d72)
+        ;
+
+        
+    
+    
+            var circle_47350476187cd5f605b74d7e891666d1 = L.circle(
+                [52.4468415797807, 4.80463186224842],
+                {"bubblingMouseEvents": true, "color": "#d6f100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d6f100", "fillOpacity": 0.14210526315789473, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 46, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_c3854cc8bbdd0bf3fe9e1fe6e4f7ca65 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b8213eda66590b467d5a2b7006c6b026 = $(`<div id="html_b8213eda66590b467d5a2b7006c6b026" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 23</div>`)[0];
+                popup_c3854cc8bbdd0bf3fe9e1fe6e4f7ca65.setContent(html_b8213eda66590b467d5a2b7006c6b026);
+            
+        
+
+        circle_47350476187cd5f605b74d7e891666d1.bindPopup(popup_c3854cc8bbdd0bf3fe9e1fe6e4f7ca65)
+        ;
+
+        
+    
+    
+            var marker_07d4e68173d5230db27bc6ed5aa5baa2 = L.marker(
+                [52.4468415797807, 4.80463186224842],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_1cf9e7d3686e8af1665cfe8561f18e9c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8382509a819061ba027fb26ec3794ebc = $(`<div id="html_8382509a819061ba027fb26ec3794ebc" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Buurtcentrum De Zeskanter (postcode: 1507 JE)</h4><p> Totaal geldige uitgebrachte stemmen: 888</p><p><b>Partij voor de Dieren</b> 3%</br> (Absoluut aantal stemmen: 23)<p><b>Top drie:</b><ol><li>VVD (23%)</li><li>D66 (14%)</li><li>PVV (Partij voor de Vrijheid) (11%)</li></ol></p></p></div>`)[0];
+                popup_1cf9e7d3686e8af1665cfe8561f18e9c.setContent(html_8382509a819061ba027fb26ec3794ebc);
+            
+        
+
+        marker_07d4e68173d5230db27bc6ed5aa5baa2.bindPopup(popup_1cf9e7d3686e8af1665cfe8561f18e9c)
+        ;
+
+        
+    
+    
+            var circle_667762d154a0ad0636f4de29838480e3 = L.circle(
+                [52.4478477541714, 4.79932952103671],
+                {"bubblingMouseEvents": true, "color": "#c3ea00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c3ea00", "fillOpacity": 0.1894736842105263, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_73c57d5face63ba6666d15bbdf51b464 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f983fc90c22bdbdaaf4fe27cd61f7e18 = $(`<div id="html_f983fc90c22bdbdaaf4fe27cd61f7e18" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 50</div>`)[0];
+                popup_73c57d5face63ba6666d15bbdf51b464.setContent(html_f983fc90c22bdbdaaf4fe27cd61f7e18);
+            
+        
+
+        circle_667762d154a0ad0636f4de29838480e3.bindPopup(popup_73c57d5face63ba6666d15bbdf51b464)
+        ;
+
+        
+    
+    
+            var marker_f9ef2886a1f72a8263e74913de315a39 = L.marker(
+                [52.4478477541714, 4.79932952103671],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_5d6a864c333456920d6f01ee5854a8d9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c88bc633119c98eaa9db96424a076d6a = $(`<div id="html_c88bc633119c98eaa9db96424a076d6a" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Gymzaal Meverstraat (postcode: 1507 XE)</h4><p> Totaal geldige uitgebrachte stemmen: 1235</p><p><b>Partij voor de Dieren</b> 4%</br> (Absoluut aantal stemmen: 50)<p><b>Top drie:</b><ol><li>VVD (19%)</li><li>D66 (17%)</li><li>PVV (Partij voor de Vrijheid) (11%)</li></ol></p></p></div>`)[0];
+                popup_5d6a864c333456920d6f01ee5854a8d9.setContent(html_c88bc633119c98eaa9db96424a076d6a);
+            
+        
+
+        marker_f9ef2886a1f72a8263e74913de315a39.bindPopup(popup_5d6a864c333456920d6f01ee5854a8d9)
+        ;
+
+        
+    
+    
+            var circle_1d5a0f07651960aee3e1df15424df56f = L.circle(
+                [52.4468415797807, 4.80463186224842],
+                {"bubblingMouseEvents": true, "color": "#d6f100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d6f100", "fillOpacity": 0.14210526315789473, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 60, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_216c7af74c3accd5daabb20beb42d353 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a2b4e5fcd0ca5752b4573da1f0afa02f = $(`<div id="html_a2b4e5fcd0ca5752b4573da1f0afa02f" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 30</div>`)[0];
+                popup_216c7af74c3accd5daabb20beb42d353.setContent(html_a2b4e5fcd0ca5752b4573da1f0afa02f);
+            
+        
+
+        circle_1d5a0f07651960aee3e1df15424df56f.bindPopup(popup_216c7af74c3accd5daabb20beb42d353)
+        ;
+
+        
+    
+    
+            var marker_424b9a5a86c2ef1150cab3203cc116e3 = L.marker(
+                [52.4468415797807, 4.80463186224842],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_179ec7e1e677a716c4bd5f4f467a1f3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f49e329e686670f9ef0a92a5b4da2a73 = $(`<div id="html_f49e329e686670f9ef0a92a5b4da2a73" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau De Volleyhal (postcode: 1507 JE)</h4><p> Totaal geldige uitgebrachte stemmen: 1015</p><p><b>Partij voor de Dieren</b> 3%</br> (Absoluut aantal stemmen: 30)<p><b>Top drie:</b><ol><li>VVD (20%)</li><li>D66 (15%)</li><li>PVV (Partij voor de Vrijheid) (12%)</li></ol></p></p></div>`)[0];
+                popup_179ec7e1e677a716c4bd5f4f467a1f3f.setContent(html_f49e329e686670f9ef0a92a5b4da2a73);
+            
+        
+
+        marker_424b9a5a86c2ef1150cab3203cc116e3.bindPopup(popup_179ec7e1e677a716c4bd5f4f467a1f3f)
+        ;
+
+        
+    
+    
+            var circle_f70dc3ce995429923f1b19b059d311cd = L.circle(
+                [52.4353899911891, 4.81359628584482],
+                {"bubblingMouseEvents": true, "color": "#9fdc00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9fdc00", "fillOpacity": 0.28421052631578947, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 146, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_bf9e6571def78547f73dfcc577f004c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_378662628874cdfc9201669242f5708f = $(`<div id="html_378662628874cdfc9201669242f5708f" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 73</div>`)[0];
+                popup_bf9e6571def78547f73dfcc577f004c3.setContent(html_378662628874cdfc9201669242f5708f);
+            
+        
+
+        circle_f70dc3ce995429923f1b19b059d311cd.bindPopup(popup_bf9e6571def78547f73dfcc577f004c3)
+        ;
+
+        
+    
+    
+            var marker_594bbc0b0cf89c09d42c64a5c62c8bdf = L.marker(
+                [52.4353899911891, 4.81359628584482],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_817fcaca1afba6199bc395e8ffce76d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3026de5925b0e8faaabec6a7f023dae3 = $(`<div id="html_3026de5925b0e8faaabec6a7f023dae3" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Brandweerkazerne Houtveldweg (postcode: 1507 AJ)</h4><p> Totaal geldige uitgebrachte stemmen: 1300</p><p><b>Partij voor de Dieren</b> 6%</br> (Absoluut aantal stemmen: 73)<p><b>Top drie:</b><ol><li>VVD (18%)</li><li>D66 (14%)</li><li>PVV (Partij voor de Vrijheid) (13%)</li></ol></p></p></div>`)[0];
+                popup_817fcaca1afba6199bc395e8ffce76d7.setContent(html_3026de5925b0e8faaabec6a7f023dae3);
+            
+        
+
+        marker_594bbc0b0cf89c09d42c64a5c62c8bdf.bindPopup(popup_817fcaca1afba6199bc395e8ffce76d7)
+        ;
+
+        
+    
+    
+            var circle_253d152736dd3fe8ed751d1f45babfcc = L.circle(
+                [52.438312208919, 4.81548309075715],
+                {"bubblingMouseEvents": true, "color": "#9fdc00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9fdc00", "fillOpacity": 0.28421052631578947, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_99f1fe6ac9c6eb1f941ba1e31e298be6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_053faa632b0bc66f332eb56820df2f4c = $(`<div id="html_053faa632b0bc66f332eb56820df2f4c" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 50</div>`)[0];
+                popup_99f1fe6ac9c6eb1f941ba1e31e298be6.setContent(html_053faa632b0bc66f332eb56820df2f4c);
+            
+        
+
+        circle_253d152736dd3fe8ed751d1f45babfcc.bindPopup(popup_99f1fe6ac9c6eb1f941ba1e31e298be6)
+        ;
+
+        
+    
+    
+            var marker_0dfe88b9f0ee4dc0a954f758f167ce58 = L.marker(
+                [52.438312208919, 4.81548309075715],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_a67b4635e1bdf82f481acbfb40d2f321 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e0a3697af3290b43b6589da47c9c5cec = $(`<div id="html_e0a3697af3290b43b6589da47c9c5cec" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Stadhuis van Zaanstad (postcode: 1506 MZ)</h4><p> Totaal geldige uitgebrachte stemmen: 833</p><p><b>Partij voor de Dieren</b> 6%</br> (Absoluut aantal stemmen: 50)<p><b>Top drie:</b><ol><li>D66 (19%)</li><li>VVD (12%)</li><li>PVV (Partij voor de Vrijheid) (8%)</li></ol></p></p></div>`)[0];
+                popup_a67b4635e1bdf82f481acbfb40d2f321.setContent(html_e0a3697af3290b43b6589da47c9c5cec);
+            
+        
+
+        marker_0dfe88b9f0ee4dc0a954f758f167ce58.bindPopup(popup_a67b4635e1bdf82f481acbfb40d2f321)
+        ;
+
+        
+    
+    
+            var circle_d1de8beb0cd02268f5587c893e991a6b = L.circle(
+                [52.4396897206679, 4.81123759422224],
+                {"bubblingMouseEvents": true, "color": "#d6f100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d6f100", "fillOpacity": 0.14210526315789473, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 82, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_629d3ac4d4968f0513fb24f325ee3327 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf822415dd8810b14dea6c32b8df2fb0 = $(`<div id="html_cf822415dd8810b14dea6c32b8df2fb0" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 41</div>`)[0];
+                popup_629d3ac4d4968f0513fb24f325ee3327.setContent(html_cf822415dd8810b14dea6c32b8df2fb0);
+            
+        
+
+        circle_d1de8beb0cd02268f5587c893e991a6b.bindPopup(popup_629d3ac4d4968f0513fb24f325ee3327)
+        ;
+
+        
+    
+    
+            var marker_88b637b2efc3d4dddb6b29be6c7f88d9 = L.marker(
+                [52.4396897206679, 4.81123759422224],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_f6b31ba73187a42fdae0b5139811dfcb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_39a8705fdc77a4029b017dc709af416f = $(`<div id="html_39a8705fdc77a4029b017dc709af416f" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Best Western Zaan Inn (postcode: 1507 EB)</h4><p> Totaal geldige uitgebrachte stemmen: 1203</p><p><b>Partij voor de Dieren</b> 3%</br> (Absoluut aantal stemmen: 41)<p><b>Top drie:</b><ol><li>VVD (21%)</li><li>D66 (20%)</li><li>PVV (Partij voor de Vrijheid) (9%)</li></ol></p></p></div>`)[0];
+                popup_f6b31ba73187a42fdae0b5139811dfcb.setContent(html_39a8705fdc77a4029b017dc709af416f);
+            
+        
+
+        marker_88b637b2efc3d4dddb6b29be6c7f88d9.bindPopup(popup_f6b31ba73187a42fdae0b5139811dfcb)
+        ;
+
+        
+    
+    
+            var circle_87a387f677637b6813ec4eb6952063b5 = L.circle(
+                [52.4451603360557, 4.81888190895899],
+                {"bubblingMouseEvents": true, "color": "#7ece00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7ece00", "fillOpacity": 0.3789473684210526, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 102, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_4d0669dc9698c9cb5e80a98eca1414f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a4f97a3a826f82e986031364892f1cb = $(`<div id="html_6a4f97a3a826f82e986031364892f1cb" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 51</div>`)[0];
+                popup_4d0669dc9698c9cb5e80a98eca1414f1.setContent(html_6a4f97a3a826f82e986031364892f1cb);
+            
+        
+
+        circle_87a387f677637b6813ec4eb6952063b5.bindPopup(popup_4d0669dc9698c9cb5e80a98eca1414f1)
+        ;
+
+        
+    
+    
+            var marker_d72ac08b3aa19db81a70237b360b02ae = L.marker(
+                [52.4451603360557, 4.81888190895899],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_d94e40ba87859a744c59289cde4abbf1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1060e780b011d7da95c631635f76f610 = $(`<div id="html_1060e780b011d7da95c631635f76f610" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Cultureel Centrum Bullekerk (postcode: 1506 ED)</h4><p> Totaal geldige uitgebrachte stemmen: 635</p><p><b>Partij voor de Dieren</b> 8%</br> (Absoluut aantal stemmen: 51)<p><b>Top drie:</b><ol><li>D66 (17%)</li><li>VVD (16%)</li><li>GROENLINKS (11%)</li></ol></p></p></div>`)[0];
+                popup_d94e40ba87859a744c59289cde4abbf1.setContent(html_1060e780b011d7da95c631635f76f610);
+            
+        
+
+        marker_d72ac08b3aa19db81a70237b360b02ae.bindPopup(popup_d94e40ba87859a744c59289cde4abbf1)
+        ;
+
+        
+    
+    
+            var circle_13a0af7349187991d52cb45830eec5fe = L.circle(
+                [52.4400331050338, 4.83120063153511],
+                {"bubblingMouseEvents": true, "color": "#9fdc00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9fdc00", "fillOpacity": 0.28421052631578947, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 54, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_b1cf7ba187372d2c8a6948748eb24501 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b20d92a7a89c90e68a65e59b7b3df6aa = $(`<div id="html_b20d92a7a89c90e68a65e59b7b3df6aa" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 27</div>`)[0];
+                popup_b1cf7ba187372d2c8a6948748eb24501.setContent(html_b20d92a7a89c90e68a65e59b7b3df6aa);
+            
+        
+
+        circle_13a0af7349187991d52cb45830eec5fe.bindPopup(popup_b1cf7ba187372d2c8a6948748eb24501)
+        ;
+
+        
+    
+    
+            var marker_606d490a6eec4fb92bf5bbd44323c19f = L.marker(
+                [52.4400331050338, 4.83120063153511],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_b0b21a9f0d0d7e4a835733b7ae13e6d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c368eb92db8ecc1e3b589c5cb2dd1cb7 = $(`<div id="html_c368eb92db8ecc1e3b589c5cb2dd1cb7" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Buurthuis De Doorbraak (postcode: 1501 NS)</h4><p> Totaal geldige uitgebrachte stemmen: 439</p><p><b>Partij voor de Dieren</b> 6%</br> (Absoluut aantal stemmen: 27)<p><b>Top drie:</b><ol><li>VVD (13%)</li><li>PVV (Partij voor de Vrijheid) (13%)</li><li>D66 (12%)</li></ol></p></p></div>`)[0];
+                popup_b0b21a9f0d0d7e4a835733b7ae13e6d4.setContent(html_c368eb92db8ecc1e3b589c5cb2dd1cb7);
+            
+        
+
+        marker_606d490a6eec4fb92bf5bbd44323c19f.bindPopup(popup_b0b21a9f0d0d7e4a835733b7ae13e6d4)
+        ;
+
+        
+    
+    
+            var circle_872c52c3c09b47ccee12571a05b89dee = L.circle(
+                [52.442223919077, 4.82887613793218],
+                {"bubblingMouseEvents": true, "color": "#d6f100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d6f100", "fillOpacity": 0.14210526315789473, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 18, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_6819aa4d9f1274cfc303da5cb24389c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41cd8824661a1e681a9f3cd964daa118 = $(`<div id="html_41cd8824661a1e681a9f3cd964daa118" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 9</div>`)[0];
+                popup_6819aa4d9f1274cfc303da5cb24389c4.setContent(html_41cd8824661a1e681a9f3cd964daa118);
+            
+        
+
+        circle_872c52c3c09b47ccee12571a05b89dee.bindPopup(popup_6819aa4d9f1274cfc303da5cb24389c4)
+        ;
+
+        
+    
+    
+            var marker_38a8b0beb35ace94cb1f5f8f7bdf16bd = L.marker(
+                [52.442223919077, 4.82887613793218],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_089262d7665b05daaeb91bff163a85be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33e018c010a5ce16fdc8eb388771bc8a = $(`<div id="html_33e018c010a5ce16fdc8eb388771bc8a" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Zaandamse Operette Vereniging Czaar Peter (postcode: 1502 VC)</h4><p> Totaal geldige uitgebrachte stemmen: 322</p><p><b>Partij voor de Dieren</b> 3%</br> (Absoluut aantal stemmen: 9)<p><b>Top drie:</b><ol><li>VVD (13%)</li><li>PVV (Partij voor de Vrijheid) (12%)</li><li>D66 (12%)</li></ol></p></p></div>`)[0];
+                popup_089262d7665b05daaeb91bff163a85be.setContent(html_33e018c010a5ce16fdc8eb388771bc8a);
+            
+        
+
+        marker_38a8b0beb35ace94cb1f5f8f7bdf16bd.bindPopup(popup_089262d7665b05daaeb91bff163a85be)
+        ;
+
+        
+    
+    
+            var circle_c830aeca1ec12cf805a6f3cd99722119 = L.circle(
+                [52.4566561969046, 4.81112265795325],
+                {"bubblingMouseEvents": true, "color": "#b0e300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b0e300", "fillOpacity": 0.23684210526315788, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 160, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_79d3fce86457295d25feaaf7d615f8ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8a523c6c2a978a636f055fa7420a6e8 = $(`<div id="html_e8a523c6c2a978a636f055fa7420a6e8" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 80</div>`)[0];
+                popup_79d3fce86457295d25feaaf7d615f8ca.setContent(html_e8a523c6c2a978a636f055fa7420a6e8);
+            
+        
+
+        circle_c830aeca1ec12cf805a6f3cd99722119.bindPopup(popup_79d3fce86457295d25feaaf7d615f8ca)
+        ;
+
+        
+    
+    
+            var marker_ee55e0b9c35bbb0e60f4015aff14d62e = L.marker(
+                [52.4566561969046, 4.81112265795325],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_5c8577cb2b8f6588dbc8c90447d22d42 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4c0c1b4d82d93d6a88ee204680d25ce = $(`<div id="html_f4c0c1b4d82d93d6a88ee204680d25ce" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Kerk van de Nazarener (postcode: 1541 CD)</h4><p> Totaal geldige uitgebrachte stemmen: 1480</p><p><b>Partij voor de Dieren</b> 5%</br> (Absoluut aantal stemmen: 80)<p><b>Top drie:</b><ol><li>VVD (19%)</li><li>D66 (16%)</li><li>PVV (Partij voor de Vrijheid) (11%)</li></ol></p></p></div>`)[0];
+                popup_5c8577cb2b8f6588dbc8c90447d22d42.setContent(html_f4c0c1b4d82d93d6a88ee204680d25ce);
+            
+        
+
+        marker_ee55e0b9c35bbb0e60f4015aff14d62e.bindPopup(popup_5c8577cb2b8f6588dbc8c90447d22d42)
+        ;
+
+        
+    
+    
+            var circle_5b1d848b99736efc991f4af43be25279 = L.circle(
+                [52.4623226288237, 4.80918127200407],
+                {"bubblingMouseEvents": true, "color": "#8ed500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8ed500", "fillOpacity": 0.33157894736842103, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 188, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_fe8b25450a67ddf55aa95d5285eb5182 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e6a5e0861d912595c6cd7c65de588f2 = $(`<div id="html_8e6a5e0861d912595c6cd7c65de588f2" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 94</div>`)[0];
+                popup_fe8b25450a67ddf55aa95d5285eb5182.setContent(html_8e6a5e0861d912595c6cd7c65de588f2);
+            
+        
+
+        circle_5b1d848b99736efc991f4af43be25279.bindPopup(popup_fe8b25450a67ddf55aa95d5285eb5182)
+        ;
+
+        
+    
+    
+            var marker_865b5b125dd14bab24042178fc8b7d03 = L.marker(
+                [52.4623226288237, 4.80918127200407],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_965a92a66f26cccb43d25954575311a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71d9f8a49af98f9cce95bb2163e42e98 = $(`<div id="html_71d9f8a49af98f9cce95bb2163e42e98" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Buurthuis Het BrandtWeer (postcode: 1541 EK)</h4><p> Totaal geldige uitgebrachte stemmen: 1279</p><p><b>Partij voor de Dieren</b> 7%</br> (Absoluut aantal stemmen: 94)<p><b>Top drie:</b><ol><li>VVD (18%)</li><li>PVV (Partij voor de Vrijheid) (13%)</li><li>D66 (13%)</li></ol></p></p></div>`)[0];
+                popup_965a92a66f26cccb43d25954575311a2.setContent(html_71d9f8a49af98f9cce95bb2163e42e98);
+            
+        
+
+        marker_865b5b125dd14bab24042178fc8b7d03.bindPopup(popup_965a92a66f26cccb43d25954575311a2)
+        ;
+
+        
+    
+    
+            var circle_0250b64d4014d78f4f507898da02d667 = L.circle(
+                [52.4578118765428, 4.79968492620967],
+                {"bubblingMouseEvents": true, "color": "#9fdc00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9fdc00", "fillOpacity": 0.28421052631578947, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 88, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_8efced867f42ccc6b88fe9baaa12cb7e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e3b9a9fff6725247667c69efb905bfa = $(`<div id="html_1e3b9a9fff6725247667c69efb905bfa" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 44</div>`)[0];
+                popup_8efced867f42ccc6b88fe9baaa12cb7e.setContent(html_1e3b9a9fff6725247667c69efb905bfa);
+            
+        
+
+        circle_0250b64d4014d78f4f507898da02d667.bindPopup(popup_8efced867f42ccc6b88fe9baaa12cb7e)
+        ;
+
+        
+    
+    
+            var marker_b55d1bfc31c35f40fb010a712f3d7422 = L.marker(
+                [52.4578118765428, 4.79968492620967],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_19b5efa8bf424ca50894a52a21e7a6c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0fd4984fb7220d8453816a9b90319598 = $(`<div id="html_0fd4984fb7220d8453816a9b90319598" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Buurtcentrum De Vuister (postcode: 1541 WR)</h4><p> Totaal geldige uitgebrachte stemmen: 766</p><p><b>Partij voor de Dieren</b> 6%</br> (Absoluut aantal stemmen: 44)<p><b>Top drie:</b><ol><li>VVD (18%)</li><li>D66 (16%)</li><li>PVV (Partij voor de Vrijheid) (10%)</li></ol></p></p></div>`)[0];
+                popup_19b5efa8bf424ca50894a52a21e7a6c3.setContent(html_0fd4984fb7220d8453816a9b90319598);
+            
+        
+
+        marker_b55d1bfc31c35f40fb010a712f3d7422.bindPopup(popup_19b5efa8bf424ca50894a52a21e7a6c3)
+        ;
+
+        
+    
+    
+            var circle_fa826e4ae83c54e9530367b0a2a4939b = L.circle(
+                [52.45814, 4.79829],
+                {"bubblingMouseEvents": true, "color": "#9fdc00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9fdc00", "fillOpacity": 0.28421052631578947, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 122, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_3e9e3093697ffd333fbd82b2bb685279 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bae05ab4851604576690679e90afc35b = $(`<div id="html_bae05ab4851604576690679e90afc35b" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 61</div>`)[0];
+                popup_3e9e3093697ffd333fbd82b2bb685279.setContent(html_bae05ab4851604576690679e90afc35b);
+            
+        
+
+        circle_fa826e4ae83c54e9530367b0a2a4939b.bindPopup(popup_3e9e3093697ffd333fbd82b2bb685279)
+        ;
+
+        
+    
+    
+            var marker_ec8a0bc2e93fa95c41de8ddc9cc7cc7b = L.marker(
+                [52.45814, 4.79829],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_237f551ff4ee5d3d871ae804e5376b02 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a9d71bbbfb11e23bf3b6f901e66089e = $(`<div id="html_1a9d71bbbfb11e23bf3b6f901e66089e" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Stembureautent tegenover Westerkoogweg 62</h4><p> Totaal geldige uitgebrachte stemmen: 993</p><p><b>Partij voor de Dieren</b> 6%</br> (Absoluut aantal stemmen: 61)<p><b>Top drie:</b><ol><li>VVD (20%)</li><li>D66 (17%)</li><li>PVV (Partij voor de Vrijheid) (9%)</li></ol></p></p></div>`)[0];
+                popup_237f551ff4ee5d3d871ae804e5376b02.setContent(html_1a9d71bbbfb11e23bf3b6f901e66089e);
+            
+        
+
+        marker_ec8a0bc2e93fa95c41de8ddc9cc7cc7b.bindPopup(popup_237f551ff4ee5d3d871ae804e5376b02)
+        ;
+
+        
+    
+    
+            var circle_da83e9601a918b1acf716da92f8ea8d1 = L.circle(
+                [52.4598912043621, 4.79970080996201],
+                {"bubblingMouseEvents": true, "color": "#c3ea00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c3ea00", "fillOpacity": 0.1894736842105263, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 56, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_dd912562956d9b0fc52256fd1c4b5949 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4d7ed77e082e76df02de84efcf9ff40 = $(`<div id="html_f4d7ed77e082e76df02de84efcf9ff40" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 28</div>`)[0];
+                popup_dd912562956d9b0fc52256fd1c4b5949.setContent(html_f4d7ed77e082e76df02de84efcf9ff40);
+            
+        
+
+        circle_da83e9601a918b1acf716da92f8ea8d1.bindPopup(popup_dd912562956d9b0fc52256fd1c4b5949)
+        ;
+
+        
+    
+    
+            var marker_8a04d10c1f3d4e7167c68ef29e6dc7da = L.marker(
+                [52.4598912043621, 4.79970080996201],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_bbab76221f1d4d96ef9292529949210e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1790d0602a80c4457d925dd11e69cfc6 = $(`<div id="html_1790d0602a80c4457d925dd11e69cfc6" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Basisschool de Golfbreker (postcode: 1541 RT)</h4><p> Totaal geldige uitgebrachte stemmen: 656</p><p><b>Partij voor de Dieren</b> 4%</br> (Absoluut aantal stemmen: 28)<p><b>Top drie:</b><ol><li>D66 (23%)</li><li>VVD (20%)</li><li>PVV (Partij voor de Vrijheid) (9%)</li></ol></p></p></div>`)[0];
+                popup_bbab76221f1d4d96ef9292529949210e.setContent(html_1790d0602a80c4457d925dd11e69cfc6);
+            
+        
+
+        marker_8a04d10c1f3d4e7167c68ef29e6dc7da.bindPopup(popup_bbab76221f1d4d96ef9292529949210e)
+        ;
+
+        
+    
+    
+            var circle_4ed0bf38e4a6ca0a083779f571f98964 = L.circle(
+                [52.474476526878, 4.81284573608905],
+                {"bubblingMouseEvents": true, "color": "#9fdc00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9fdc00", "fillOpacity": 0.28421052631578947, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 76, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_ea7efab09d29ee9b851fb45ecb04d1e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79ecf113e7569e51acc8d7226f263207 = $(`<div id="html_79ecf113e7569e51acc8d7226f263207" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 38</div>`)[0];
+                popup_ea7efab09d29ee9b851fb45ecb04d1e9.setContent(html_79ecf113e7569e51acc8d7226f263207);
+            
+        
+
+        circle_4ed0bf38e4a6ca0a083779f571f98964.bindPopup(popup_ea7efab09d29ee9b851fb45ecb04d1e9)
+        ;
+
+        
+    
+    
+            var marker_33d69598d3879a47d15dece21fadf08b = L.marker(
+                [52.474476526878, 4.81284573608905],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_f4df1676e1aa999608ca478a14ac2236 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50c046dcb37601ae76f070b936e4985d = $(`<div id="html_50c046dcb37601ae76f070b936e4985d" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Apostolisch Genootschap (postcode: 1544 RV)</h4><p> Totaal geldige uitgebrachte stemmen: 664</p><p><b>Partij voor de Dieren</b> 6%</br> (Absoluut aantal stemmen: 38)<p><b>Top drie:</b><ol><li>VVD (17%)</li><li>D66 (17%)</li><li>PVV (Partij voor de Vrijheid) (11%)</li></ol></p></p></div>`)[0];
+                popup_f4df1676e1aa999608ca478a14ac2236.setContent(html_50c046dcb37601ae76f070b936e4985d);
+            
+        
+
+        marker_33d69598d3879a47d15dece21fadf08b.bindPopup(popup_f4df1676e1aa999608ca478a14ac2236)
+        ;
+
+        
+    
+    
+            var circle_4b84dac63792987abe67aff71abe1047 = L.circle(
+                [52.4709192134274, 4.79716220657438],
+                {"bubblingMouseEvents": true, "color": "#b0e300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b0e300", "fillOpacity": 0.23684210526315788, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 122, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_d832edac57a584ff7ad3ffe2830f0db2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1bcc00db9f273e81a607bd45d2168733 = $(`<div id="html_1bcc00db9f273e81a607bd45d2168733" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 61</div>`)[0];
+                popup_d832edac57a584ff7ad3ffe2830f0db2.setContent(html_1bcc00db9f273e81a607bd45d2168733);
+            
+        
+
+        circle_4b84dac63792987abe67aff71abe1047.bindPopup(popup_d832edac57a584ff7ad3ffe2830f0db2)
+        ;
+
+        
+    
+    
+            var marker_40dd6152363ce3dc18a1f91529a3e85e = L.marker(
+                [52.4709192134274, 4.79716220657438],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_114757f3dbdf6003a41a27eccf871202 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6af0fc589acfec40d6a22d5faf36dd9d = $(`<div id="html_6af0fc589acfec40d6a22d5faf36dd9d" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Gymzaal Fortuinweg (postcode: 1544 VX)</h4><p> Totaal geldige uitgebrachte stemmen: 1311</p><p><b>Partij voor de Dieren</b> 5%</br> (Absoluut aantal stemmen: 61)<p><b>Top drie:</b><ol><li>VVD (19%)</li><li>D66 (16%)</li><li>PVV (Partij voor de Vrijheid) (11%)</li></ol></p></p></div>`)[0];
+                popup_114757f3dbdf6003a41a27eccf871202.setContent(html_6af0fc589acfec40d6a22d5faf36dd9d);
+            
+        
+
+        marker_40dd6152363ce3dc18a1f91529a3e85e.bindPopup(popup_114757f3dbdf6003a41a27eccf871202)
+        ;
+
+        
+    
+    
+            var circle_d5fc753dd4c16ed4ac9dba27b0e04664 = L.circle(
+                [52.47709, 4.80169],
+                {"bubblingMouseEvents": true, "color": "#b0e300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b0e300", "fillOpacity": 0.23684210526315788, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 148, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_952b1630484d9557547b6e471f4efe92 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e020354e78c32d5f5331f7027c5f713 = $(`<div id="html_0e020354e78c32d5f5331f7027c5f713" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 74</div>`)[0];
+                popup_952b1630484d9557547b6e471f4efe92.setContent(html_0e020354e78c32d5f5331f7027c5f713);
+            
+        
+
+        circle_d5fc753dd4c16ed4ac9dba27b0e04664.bindPopup(popup_952b1630484d9557547b6e471f4efe92)
+        ;
+
+        
+    
+    
+            var marker_ce4647c859620c79fb5014e7de45174c = L.marker(
+                [52.47709, 4.80169],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_90b96fb05a3a4ff1ab7633721f8f3e78 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb1e826bd940403a6b46761bae907b62 = $(`<div id="html_bb1e826bd940403a6b46761bae907b62" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Stembureautent Guisveld (plein John Lennonstraat)</h4><p> Totaal geldige uitgebrachte stemmen: 1466</p><p><b>Partij voor de Dieren</b> 5%</br> (Absoluut aantal stemmen: 74)<p><b>Top drie:</b><ol><li>VVD (24%)</li><li>D66 (15%)</li><li>PVV (Partij voor de Vrijheid) (11%)</li></ol></p></p></div>`)[0];
+                popup_90b96fb05a3a4ff1ab7633721f8f3e78.setContent(html_bb1e826bd940403a6b46761bae907b62);
+            
+        
+
+        marker_ce4647c859620c79fb5014e7de45174c.bindPopup(popup_90b96fb05a3a4ff1ab7633721f8f3e78)
+        ;
+
+        
+    
+    
+            var circle_3ca51f8b5ea43f92ea03ef470ed0ee31 = L.circle(
+                [52.4887178275751, 4.79936304164201],
+                {"bubblingMouseEvents": true, "color": "#8ed500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8ed500", "fillOpacity": 0.33157894736842103, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 150, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_9d13b98c6e8e43cbf0b920b218bfb228 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0200485ddb4d770f93aa9d2146d8b26d = $(`<div id="html_0200485ddb4d770f93aa9d2146d8b26d" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 75</div>`)[0];
+                popup_9d13b98c6e8e43cbf0b920b218bfb228.setContent(html_0200485ddb4d770f93aa9d2146d8b26d);
+            
+        
+
+        circle_3ca51f8b5ea43f92ea03ef470ed0ee31.bindPopup(popup_9d13b98c6e8e43cbf0b920b218bfb228)
+        ;
+
+        
+    
+    
+            var marker_6a3927d58bdfa933c1e30bd896041fb3 = L.marker(
+                [52.4887178275751, 4.79936304164201],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_81c4f46e21d435a7cec1c397fe7c4f35 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_678ba06040d067b6bcb6ad633cb62197 = $(`<div id="html_678ba06040d067b6bcb6ad633cb62197" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Gymzaal Goudastraat (postcode: 1521 TP)</h4><p> Totaal geldige uitgebrachte stemmen: 1071</p><p><b>Partij voor de Dieren</b> 7%</br> (Absoluut aantal stemmen: 75)<p><b>Top drie:</b><ol><li>VVD (19%)</li><li>D66 (16%)</li><li>PVV (Partij voor de Vrijheid) (12%)</li></ol></p></p></div>`)[0];
+                popup_81c4f46e21d435a7cec1c397fe7c4f35.setContent(html_678ba06040d067b6bcb6ad633cb62197);
+            
+        
+
+        marker_6a3927d58bdfa933c1e30bd896041fb3.bindPopup(popup_81c4f46e21d435a7cec1c397fe7c4f35)
+        ;
+
+        
+    
+    
+            var circle_bc0592545c8eca46cb1f1ab996639def = L.circle(
+                [52.4945418833355, 4.7857679531017],
+                {"bubblingMouseEvents": true, "color": "#9fdc00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9fdc00", "fillOpacity": 0.28421052631578947, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 186, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_cbf182d67f3c5cbadfb2649622ac3573 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4dbc5d401027bfec7c2d9f791c40578b = $(`<div id="html_4dbc5d401027bfec7c2d9f791c40578b" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 93</div>`)[0];
+                popup_cbf182d67f3c5cbadfb2649622ac3573.setContent(html_4dbc5d401027bfec7c2d9f791c40578b);
+            
+        
+
+        circle_bc0592545c8eca46cb1f1ab996639def.bindPopup(popup_cbf182d67f3c5cbadfb2649622ac3573)
+        ;
+
+        
+    
+    
+            var marker_85e605cda120ea2260879675a06d63d7 = L.marker(
+                [52.4945418833355, 4.7857679531017],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_abe6432bc75da0e2a9af40d13e3081ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8cc943f9473c948b72eb1b3e475a7e97 = $(`<div id="html_8cc943f9473c948b72eb1b3e475a7e97" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Buurtcentrum De Lorzie (postcode: 1521 HS)</h4><p> Totaal geldige uitgebrachte stemmen: 1543</p><p><b>Partij voor de Dieren</b> 6%</br> (Absoluut aantal stemmen: 93)<p><b>Top drie:</b><ol><li>VVD (16%)</li><li>PVV (Partij voor de Vrijheid) (15%)</li><li>D66 (13%)</li></ol></p></p></div>`)[0];
+                popup_abe6432bc75da0e2a9af40d13e3081ca.setContent(html_8cc943f9473c948b72eb1b3e475a7e97);
+            
+        
+
+        marker_85e605cda120ea2260879675a06d63d7.bindPopup(popup_abe6432bc75da0e2a9af40d13e3081ca)
+        ;
+
+        
+    
+    
+            var circle_e45aa0b70390785ed491eb7908a35951 = L.circle(
+                [52.4961240051403, 4.786649419221],
+                {"bubblingMouseEvents": true, "color": "#c3ea00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c3ea00", "fillOpacity": 0.1894736842105263, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 26, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_a19f129455eab95a0ede705dd90ae3c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d251c68ced3d1c60205ff8d95b62020 = $(`<div id="html_1d251c68ced3d1c60205ff8d95b62020" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 13</div>`)[0];
+                popup_a19f129455eab95a0ede705dd90ae3c4.setContent(html_1d251c68ced3d1c60205ff8d95b62020);
+            
+        
+
+        circle_e45aa0b70390785ed491eb7908a35951.bindPopup(popup_a19f129455eab95a0ede705dd90ae3c4)
+        ;
+
+        
+    
+    
+            var marker_8550ef649a5adc2b2d4f226f5589da21 = L.marker(
+                [52.4961240051403, 4.786649419221],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_dabc42c680975c41af8d534e13ac756f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8c60d872857d80c957645ea006c7862 = $(`<div id="html_f8c60d872857d80c957645ea006c7862" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Gymzaal Anemoonstraat (postcode: 1521 WN)</h4><p> Totaal geldige uitgebrachte stemmen: 302</p><p><b>Partij voor de Dieren</b> 4%</br> (Absoluut aantal stemmen: 13)<p><b>Top drie:</b><ol><li>PVV (Partij voor de Vrijheid) (14%)</li><li>D66 (14%)</li><li>VVD (13%)</li></ol></p></p></div>`)[0];
+                popup_dabc42c680975c41af8d534e13ac756f.setContent(html_f8c60d872857d80c957645ea006c7862);
+            
+        
+
+        marker_8550ef649a5adc2b2d4f226f5589da21.bindPopup(popup_dabc42c680975c41af8d534e13ac756f)
+        ;
+
+        
+    
+    
+            var circle_d376081e3e33fae3d136e6c6b347925d = L.circle(
+                [52.4985896660462, 4.7885130196611],
+                {"bubblingMouseEvents": true, "color": "#b0e300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b0e300", "fillOpacity": 0.23684210526315788, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 72, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_6b55cc4a80696049fc291823c2060b99 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6ac042ec9511a62232671f6e63be03e = $(`<div id="html_b6ac042ec9511a62232671f6e63be03e" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 36</div>`)[0];
+                popup_6b55cc4a80696049fc291823c2060b99.setContent(html_b6ac042ec9511a62232671f6e63be03e);
+            
+        
+
+        circle_d376081e3e33fae3d136e6c6b347925d.bindPopup(popup_6b55cc4a80696049fc291823c2060b99)
+        ;
+
+        
+    
+    
+            var marker_51f61a7a94f19d651668fd06b3ce69c8 = L.marker(
+                [52.4985896660462, 4.7885130196611],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_c0c1d6ce8f8ea04bcc830fed0f855e3c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b6f5d1973ae93f8e5c835b188b73475 = $(`<div id="html_1b6f5d1973ae93f8e5c835b188b73475" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Evean Amandelbloesem (postcode: 1521 XH)</h4><p> Totaal geldige uitgebrachte stemmen: 696</p><p><b>Partij voor de Dieren</b> 5%</br> (Absoluut aantal stemmen: 36)<p><b>Top drie:</b><ol><li>PVV (Partij voor de Vrijheid) (16%)</li><li>VVD (16%)</li><li>D66 (10%)</li></ol></p></p></div>`)[0];
+                popup_c0c1d6ce8f8ea04bcc830fed0f855e3c.setContent(html_1b6f5d1973ae93f8e5c835b188b73475);
+            
+        
+
+        marker_51f61a7a94f19d651668fd06b3ce69c8.bindPopup(popup_c0c1d6ce8f8ea04bcc830fed0f855e3c)
+        ;
+
+        
+    
+    
+            var circle_635570133de4af97e890e1a21fec284e = L.circle(
+                [52.5163201472026, 4.78537151567208],
+                {"bubblingMouseEvents": true, "color": "#b0e300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b0e300", "fillOpacity": 0.23684210526315788, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 48, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_94d99571eceb9b5669c4a82610b8ba03 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e847e35711648a77cb25b62fc3c9fdc = $(`<div id="html_2e847e35711648a77cb25b62fc3c9fdc" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 24</div>`)[0];
+                popup_94d99571eceb9b5669c4a82610b8ba03.setContent(html_2e847e35711648a77cb25b62fc3c9fdc);
+            
+        
+
+        circle_635570133de4af97e890e1a21fec284e.bindPopup(popup_94d99571eceb9b5669c4a82610b8ba03)
+        ;
+
+        
+    
+    
+            var marker_eae07fa06169c48342148ea0ee2f331d = L.marker(
+                [52.5163201472026, 4.78537151567208],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_2870f0bedac723737974c6fcdb4743f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e21fc7740350a5b466ecd3a3e31a9006 = $(`<div id="html_e21fc7740350a5b466ecd3a3e31a9006" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Dorpshuis "De Noorddam" (postcode: 1525 PA)</h4><p> Totaal geldige uitgebrachte stemmen: 446</p><p><b>Partij voor de Dieren</b> 5%</br> (Absoluut aantal stemmen: 24)<p><b>Top drie:</b><ol><li>VVD (26%)</li><li>PVV (Partij voor de Vrijheid) (16%)</li><li>D66 (15%)</li></ol></p></p></div>`)[0];
+                popup_2870f0bedac723737974c6fcdb4743f7.setContent(html_e21fc7740350a5b466ecd3a3e31a9006);
+            
+        
+
+        marker_eae07fa06169c48342148ea0ee2f331d.bindPopup(popup_2870f0bedac723737974c6fcdb4743f7)
+        ;
+
+        
+    
+    
+            var circle_54e9188c186c043dbe8989e429638f80 = L.circle(
+                [52.490469491282, 4.79548404242603],
+                {"bubblingMouseEvents": true, "color": "#7ece00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7ece00", "fillOpacity": 0.3789473684210526, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_06e14617d9a4c0c15a0592bb73b52310 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a3d30641edcd36007fedfeaf2f20272d = $(`<div id="html_a3d30641edcd36007fedfeaf2f20272d" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 50</div>`)[0];
+                popup_06e14617d9a4c0c15a0592bb73b52310.setContent(html_a3d30641edcd36007fedfeaf2f20272d);
+            
+        
+
+        circle_54e9188c186c043dbe8989e429638f80.bindPopup(popup_06e14617d9a4c0c15a0592bb73b52310)
+        ;
+
+        
+    
+    
+            var marker_3c889a2cf422fe884736973a10db0614 = L.marker(
+                [52.490469491282, 4.79548404242603],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_69c2d4a78caf183ce4a610a86636adac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a1012f4c2ddd1507a6db8e798446710 = $(`<div id="html_3a1012f4c2ddd1507a6db8e798446710" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau De Wormerveerse Vermaning (postcode: 1521 DM)</h4><p> Totaal geldige uitgebrachte stemmen: 592</p><p><b>Partij voor de Dieren</b> 8%</br> (Absoluut aantal stemmen: 50)<p><b>Top drie:</b><ol><li>D66 (20%)</li><li>VVD (19%)</li><li>PVV (Partij voor de Vrijheid) (10%)</li></ol></p></p></div>`)[0];
+                popup_69c2d4a78caf183ce4a610a86636adac.setContent(html_3a1012f4c2ddd1507a6db8e798446710);
+            
+        
+
+        marker_3c889a2cf422fe884736973a10db0614.bindPopup(popup_69c2d4a78caf183ce4a610a86636adac)
+        ;
+
+        
+    
+    
+            var circle_fce37eabbc9cd129d5dadba9645dbee1 = L.circle(
+                [52.4985701431467, 4.76421171415811],
+                {"bubblingMouseEvents": true, "color": "#8ed500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8ed500", "fillOpacity": 0.33157894736842103, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 188, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_ba24d358c51ab909070c17443246b159 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b5dfe15d50bc703bfe640f621f780329 = $(`<div id="html_b5dfe15d50bc703bfe640f621f780329" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 94</div>`)[0];
+                popup_ba24d358c51ab909070c17443246b159.setContent(html_b5dfe15d50bc703bfe640f621f780329);
+            
+        
+
+        circle_fce37eabbc9cd129d5dadba9645dbee1.bindPopup(popup_ba24d358c51ab909070c17443246b159)
+        ;
+
+        
+    
+    
+            var marker_2c1f1a65a3c018da77af6bf762211099 = L.marker(
+                [52.4985701431467, 4.76421171415811],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_96f6755b0d0805d15d81c6c2fa2b1a6a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_966e950b5cdbf9e2529fb5915947b438 = $(`<div id="html_966e950b5cdbf9e2529fb5915947b438" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau St. Petrusparochie, INGANG KERK (postcode: 1561 HD)</h4><p> Totaal geldige uitgebrachte stemmen: 1404</p><p><b>Partij voor de Dieren</b> 7%</br> (Absoluut aantal stemmen: 94)<p><b>Top drie:</b><ol><li>VVD (19%)</li><li>D66 (17%)</li><li>PVV (Partij voor de Vrijheid) (11%)</li></ol></p></p></div>`)[0];
+                popup_96f6755b0d0805d15d81c6c2fa2b1a6a.setContent(html_966e950b5cdbf9e2529fb5915947b438);
+            
+        
+
+        marker_2c1f1a65a3c018da77af6bf762211099.bindPopup(popup_96f6755b0d0805d15d81c6c2fa2b1a6a)
+        ;
+
+        
+    
+    
+            var circle_eee1e6a4269b36d3a839c2b38593990e = L.circle(
+                [52.5060450986618, 4.76977679345518],
+                {"bubblingMouseEvents": true, "color": "#c3ea00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c3ea00", "fillOpacity": 0.1894736842105263, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 138, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_1bbd3fa890bbe4226e94403f425506c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f1e7f8bbd4bf59af84685aed9fd86476 = $(`<div id="html_f1e7f8bbd4bf59af84685aed9fd86476" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 69</div>`)[0];
+                popup_1bbd3fa890bbe4226e94403f425506c9.setContent(html_f1e7f8bbd4bf59af84685aed9fd86476);
+            
+        
+
+        circle_eee1e6a4269b36d3a839c2b38593990e.bindPopup(popup_1bbd3fa890bbe4226e94403f425506c9)
+        ;
+
+        
+    
+    
+            var marker_d10e4783d8e8dd1e1bef0baedcfd1401 = L.marker(
+                [52.5060450986618, 4.76977679345518],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_e07f07a4274571e0346ddb2b658f1753 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7f00187e787685d3361e4ab22140a08 = $(`<div id="html_c7f00187e787685d3361e4ab22140a08" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Dependance basisschool de Hoeksteen (postcode: 1561 TT)</h4><p> Totaal geldige uitgebrachte stemmen: 1710</p><p><b>Partij voor de Dieren</b> 4%</br> (Absoluut aantal stemmen: 69)<p><b>Top drie:</b><ol><li>VVD (27%)</li><li>D66 (19%)</li><li>PVV (Partij voor de Vrijheid) (11%)</li></ol></p></p></div>`)[0];
+                popup_e07f07a4274571e0346ddb2b658f1753.setContent(html_c7f00187e787685d3361e4ab22140a08);
+            
+        
+
+        marker_d10e4783d8e8dd1e1bef0baedcfd1401.bindPopup(popup_e07f07a4274571e0346ddb2b658f1753)
+        ;
+
+        
+    
+    
+            var circle_c28eec9bcb5c199caf55ebb56d6165a0 = L.circle(
+                [52.4993616317397, 4.75766526468831],
+                {"bubblingMouseEvents": true, "color": "#b0e300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b0e300", "fillOpacity": 0.23684210526315788, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 96, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_119c05b49d09ebeb83b129cf53690a77 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19696e37c158f16ae6fe5513b52ef0ba = $(`<div id="html_19696e37c158f16ae6fe5513b52ef0ba" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 48</div>`)[0];
+                popup_119c05b49d09ebeb83b129cf53690a77.setContent(html_19696e37c158f16ae6fe5513b52ef0ba);
+            
+        
+
+        circle_c28eec9bcb5c199caf55ebb56d6165a0.bindPopup(popup_119c05b49d09ebeb83b129cf53690a77)
+        ;
+
+        
+    
+    
+            var marker_b42a9cd0d1192cbdc0a04702e9d447c8 = L.marker(
+                [52.4993616317397, 4.75766526468831],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_b78087c0ebadb386b2ce1a61d2df03d6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_52e66217f10a010d15db721c7592f4bd = $(`<div id="html_52e66217f10a010d15db721c7592f4bd" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Gymzaal Braillestraat (postcode: 1561 JP)</h4><p> Totaal geldige uitgebrachte stemmen: 928</p><p><b>Partij voor de Dieren</b> 5%</br> (Absoluut aantal stemmen: 48)<p><b>Top drie:</b><ol><li>VVD (22%)</li><li>D66 (15%)</li><li>PVV (Partij voor de Vrijheid) (13%)</li></ol></p></p></div>`)[0];
+                popup_b78087c0ebadb386b2ce1a61d2df03d6.setContent(html_52e66217f10a010d15db721c7592f4bd);
+            
+        
+
+        marker_b42a9cd0d1192cbdc0a04702e9d447c8.bindPopup(popup_b78087c0ebadb386b2ce1a61d2df03d6)
+        ;
+
+        
+    
+    
+            var circle_acb22d2871e1f811d1c0689968412ac5 = L.circle(
+                [52.5010511158666, 4.76806714885284],
+                {"bubblingMouseEvents": true, "color": "#7ece00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7ece00", "fillOpacity": 0.3789473684210526, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 130, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_c3132a9f287ec33adf93c8b8e211b4d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9db417c551be9aa1a2f93237a01761d7 = $(`<div id="html_9db417c551be9aa1a2f93237a01761d7" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 65</div>`)[0];
+                popup_c3132a9f287ec33adf93c8b8e211b4d0.setContent(html_9db417c551be9aa1a2f93237a01761d7);
+            
+        
+
+        circle_acb22d2871e1f811d1c0689968412ac5.bindPopup(popup_c3132a9f287ec33adf93c8b8e211b4d0)
+        ;
+
+        
+    
+    
+            var marker_f724ce308191ca082f812cfacb34b560 = L.marker(
+                [52.5010511158666, 4.76806714885284],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_a79cfbec4765c504e4a7fcc3b8ecd83c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d97e0b0110c04f066abd22ed6e92a0e5 = $(`<div id="html_d97e0b0110c04f066abd22ed6e92a0e5" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau De Durghorstplantsoen (postcode: 1561 DB)</h4><p> Totaal geldige uitgebrachte stemmen: 839</p><p><b>Partij voor de Dieren</b> 8%</br> (Absoluut aantal stemmen: 65)<p><b>Top drie:</b><ol><li>VVD (17%)</li><li>PVV (Partij voor de Vrijheid) (16%)</li><li>D66 (12%)</li></ol></p></p></div>`)[0];
+                popup_a79cfbec4765c504e4a7fcc3b8ecd83c.setContent(html_d97e0b0110c04f066abd22ed6e92a0e5);
+            
+        
+
+        marker_f724ce308191ca082f812cfacb34b560.bindPopup(popup_a79cfbec4765c504e4a7fcc3b8ecd83c)
+        ;
+
+        
+    
+    
+            var circle_66787a6d62ce3ca72b9a8028edb020b6 = L.circle(
+                [52.5018990512508, 4.75079737559952],
+                {"bubblingMouseEvents": true, "color": "#c3ea00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c3ea00", "fillOpacity": 0.1894736842105263, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 116, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_412590f9d5636b9986a8b71403e94353 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db00abb7d848b73532d88719d2afc88b = $(`<div id="html_db00abb7d848b73532d88719d2afc88b" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 58</div>`)[0];
+                popup_412590f9d5636b9986a8b71403e94353.setContent(html_db00abb7d848b73532d88719d2afc88b);
+            
+        
+
+        circle_66787a6d62ce3ca72b9a8028edb020b6.bindPopup(popup_412590f9d5636b9986a8b71403e94353)
+        ;
+
+        
+    
+    
+            var marker_f6111ad7e113090edd51375a8d1d21f1 = L.marker(
+                [52.5018990512508, 4.75079737559952],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_473a0561a65c3567e66ce6952b7875b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e5d54f676413c9e28095aed4ba355704 = $(`<div id="html_e5d54f676413c9e28095aed4ba355704" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Gymzaal Jupiterstraat 139 Evenaar (postcode: 1562 WP)</h4><p> Totaal geldige uitgebrachte stemmen: 1404</p><p><b>Partij voor de Dieren</b> 4%</br> (Absoluut aantal stemmen: 58)<p><b>Top drie:</b><ol><li>VVD (19%)</li><li>PVV (Partij voor de Vrijheid) (15%)</li><li>D66 (14%)</li></ol></p></p></div>`)[0];
+                popup_473a0561a65c3567e66ce6952b7875b9.setContent(html_e5d54f676413c9e28095aed4ba355704);
+            
+        
+
+        marker_f6111ad7e113090edd51375a8d1d21f1.bindPopup(popup_473a0561a65c3567e66ce6952b7875b9)
+        ;
+
+        
+    
+    
+            var circle_f3c5f02638ee6148af5108dc57a494d9 = L.circle(
+                [52.5095006110953, 4.75778999520687],
+                {"bubblingMouseEvents": true, "color": "#c3ea00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c3ea00", "fillOpacity": 0.1894736842105263, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 60, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_01dcbac52d0b0d6b7b26063bf27d06e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_edd6cd66923924ece7f7e78ca41ebe03 = $(`<div id="html_edd6cd66923924ece7f7e78ca41ebe03" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 30</div>`)[0];
+                popup_01dcbac52d0b0d6b7b26063bf27d06e6.setContent(html_edd6cd66923924ece7f7e78ca41ebe03);
+            
+        
+
+        circle_f3c5f02638ee6148af5108dc57a494d9.bindPopup(popup_01dcbac52d0b0d6b7b26063bf27d06e6)
+        ;
+
+        
+    
+    
+            var marker_50eef5eceda2366b3c3c89f500e953f2 = L.marker(
+                [52.5095006110953, 4.75778999520687],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_4279cb662df248183d94401c6defc917 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7f428e412f5ff0235e09d2afad4807d = $(`<div id="html_d7f428e412f5ff0235e09d2afad4807d" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Odd Fellow Huis (postcode: 1562 RR)</h4><p> Totaal geldige uitgebrachte stemmen: 706</p><p><b>Partij voor de Dieren</b> 4%</br> (Absoluut aantal stemmen: 30)<p><b>Top drie:</b><ol><li>VVD (20%)</li><li>D66 (14%)</li><li>PVV (Partij voor de Vrijheid) (11%)</li></ol></p></p></div>`)[0];
+                popup_4279cb662df248183d94401c6defc917.setContent(html_d7f428e412f5ff0235e09d2afad4807d);
+            
+        
+
+        marker_50eef5eceda2366b3c3c89f500e953f2.bindPopup(popup_4279cb662df248183d94401c6defc917)
+        ;
+
+        
+    
+    
+            var circle_f5148d8404d8ecaa7dd97c91d5409c16 = L.circle(
+                [52.5049430179914, 4.76265480885237],
+                {"bubblingMouseEvents": true, "color": "#c3ea00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c3ea00", "fillOpacity": 0.1894736842105263, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 48, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_a01b28c3709892a3782cd26c105d78f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5bec1372ebaae54b596706312c5d0b4 = $(`<div id="html_a5bec1372ebaae54b596706312c5d0b4" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 24</div>`)[0];
+                popup_a01b28c3709892a3782cd26c105d78f1.setContent(html_a5bec1372ebaae54b596706312c5d0b4);
+            
+        
+
+        circle_f5148d8404d8ecaa7dd97c91d5409c16.bindPopup(popup_a01b28c3709892a3782cd26c105d78f1)
+        ;
+
+        
+    
+    
+            var marker_ca1052b29b93629575b1da1751e741b1 = L.marker(
+                [52.5049430179914, 4.76265480885237],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_e189c91bb6be77bcdd6cb0862c513a1d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_59d3999f5289759da3708b66d416f5de = $(`<div id="html_59d3999f5289759da3708b66d416f5de" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Basisschool de Hoeksteen (postcode: 1561 TZ)</h4><p> Totaal geldige uitgebrachte stemmen: 654</p><p><b>Partij voor de Dieren</b> 4%</br> (Absoluut aantal stemmen: 24)<p><b>Top drie:</b><ol><li>VVD (19%)</li><li>D66 (18%)</li><li>PVV (Partij voor de Vrijheid) (14%)</li></ol></p></p></div>`)[0];
+                popup_e189c91bb6be77bcdd6cb0862c513a1d.setContent(html_59d3999f5289759da3708b66d416f5de);
+            
+        
+
+        marker_ca1052b29b93629575b1da1751e741b1.bindPopup(popup_e189c91bb6be77bcdd6cb0862c513a1d)
+        ;
+
+        
+    
+    
+            var circle_abf709c6bec65e1b47585beb043d067a = L.circle(
+                [52.5038582832845, 4.75819181541509],
+                {"bubblingMouseEvents": true, "color": "#9fdc00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9fdc00", "fillOpacity": 0.28421052631578947, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 64, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_9fc8a8140a94ce2fdae219c81b0b2d50 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33638d3b739b1759e9eb6e2b91de1cdf = $(`<div id="html_33638d3b739b1759e9eb6e2b91de1cdf" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 32</div>`)[0];
+                popup_9fc8a8140a94ce2fdae219c81b0b2d50.setContent(html_33638d3b739b1759e9eb6e2b91de1cdf);
+            
+        
+
+        circle_abf709c6bec65e1b47585beb043d067a.bindPopup(popup_9fc8a8140a94ce2fdae219c81b0b2d50)
+        ;
+
+        
+    
+    
+            var marker_f6ca8f1fcd1eaccf8a2414c02c7015e1 = L.marker(
+                [52.5038582832845, 4.75819181541509],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_88771ecb64ec29f8f717c1d28aef0259 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eedc70525c2da6faf432be8cdc6fffaa = $(`<div id="html_eedc70525c2da6faf432be8cdc6fffaa" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Buurtcentrum de Pelikaan (postcode: 1562 AJ)</h4><p> Totaal geldige uitgebrachte stemmen: 577</p><p><b>Partij voor de Dieren</b> 6%</br> (Absoluut aantal stemmen: 32)<p><b>Top drie:</b><ol><li>PVV (Partij voor de Vrijheid) (14%)</li><li>VVD (14%)</li><li>D66 (13%)</li></ol></p></p></div>`)[0];
+                popup_88771ecb64ec29f8f717c1d28aef0259.setContent(html_eedc70525c2da6faf432be8cdc6fffaa);
+            
+        
+
+        marker_f6ca8f1fcd1eaccf8a2414c02c7015e1.bindPopup(popup_88771ecb64ec29f8f717c1d28aef0259)
+        ;
+
+        
+    
+    
+            var circle_8276617a0c8d0ff0346cb29cfc6d455e = L.circle(
+                [52.4586829353172, 4.73593515075808],
+                {"bubblingMouseEvents": true, "color": "#d6f100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d6f100", "fillOpacity": 0.14210526315789473, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 70, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_56baa103c0ec9a149694deb0c9aa0359 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e9e844aad6a72deaf89a494b2db28c2 = $(`<div id="html_3e9e844aad6a72deaf89a494b2db28c2" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 35</div>`)[0];
+                popup_56baa103c0ec9a149694deb0c9aa0359.setContent(html_3e9e844aad6a72deaf89a494b2db28c2);
+            
+        
+
+        circle_8276617a0c8d0ff0346cb29cfc6d455e.bindPopup(popup_56baa103c0ec9a149694deb0c9aa0359)
+        ;
+
+        
+    
+    
+            var marker_884f25917605c33e40b58c78efd2bad0 = L.marker(
+                [52.4586829353172, 4.73593515075808],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_6a8e565cde1fd17cba4520f3b8a37006 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_77873e24836ba545ff9b9acf5a595387 = $(`<div id="html_77873e24836ba545ff9b9acf5a595387" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Kantine vv Assendelft (postcode: 1566 BA)</h4><p> Totaal geldige uitgebrachte stemmen: 1023</p><p><b>Partij voor de Dieren</b> 3%</br> (Absoluut aantal stemmen: 35)<p><b>Top drie:</b><ol><li>VVD (26%)</li><li>PVV (Partij voor de Vrijheid) (15%)</li><li>D66 (13%)</li></ol></p></p></div>`)[0];
+                popup_6a8e565cde1fd17cba4520f3b8a37006.setContent(html_77873e24836ba545ff9b9acf5a595387);
+            
+        
+
+        marker_884f25917605c33e40b58c78efd2bad0.bindPopup(popup_6a8e565cde1fd17cba4520f3b8a37006)
+        ;
+
+        
+    
+    
+            var circle_ac6c0ba617f78ed7a6044cd77f90f9ba = L.circle(
+                [52.4663787021622, 4.74067975879772],
+                {"bubblingMouseEvents": true, "color": "#c3ea00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c3ea00", "fillOpacity": 0.1894736842105263, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 102, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_cf441926bbf2a62a7d645a7d05aa80c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb1cdf23b1628f20aa9df1d09c46b81e = $(`<div id="html_cb1cdf23b1628f20aa9df1d09c46b81e" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 51</div>`)[0];
+                popup_cf441926bbf2a62a7d645a7d05aa80c4.setContent(html_cb1cdf23b1628f20aa9df1d09c46b81e);
+            
+        
+
+        circle_ac6c0ba617f78ed7a6044cd77f90f9ba.bindPopup(popup_cf441926bbf2a62a7d645a7d05aa80c4)
+        ;
+
+        
+    
+    
+            var marker_1b5722ba77a476b70f10def7c332f155 = L.marker(
+                [52.4663787021622, 4.74067975879772],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_33bcfbc00ae6eff61f144d29081205c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c679d4034a451063b5868338f8caab1 = $(`<div id="html_9c679d4034a451063b5868338f8caab1" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Brandweerkazerne Assendelft (postcode: 1566 BE)</h4><p> Totaal geldige uitgebrachte stemmen: 1359</p><p><b>Partij voor de Dieren</b> 4%</br> (Absoluut aantal stemmen: 51)<p><b>Top drie:</b><ol><li>VVD (23%)</li><li>PVV (Partij voor de Vrijheid) (16%)</li><li>D66 (14%)</li></ol></p></p></div>`)[0];
+                popup_33bcfbc00ae6eff61f144d29081205c0.setContent(html_9c679d4034a451063b5868338f8caab1);
+            
+        
+
+        marker_1b5722ba77a476b70f10def7c332f155.bindPopup(popup_33bcfbc00ae6eff61f144d29081205c0)
+        ;
+
+        
+    
+    
+            var circle_610fd5c341498ea03c328ed7a99ab62b = L.circle(
+                [52.4734799449804, 4.74862088232136],
+                {"bubblingMouseEvents": true, "color": "#d6f100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d6f100", "fillOpacity": 0.14210526315789473, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 72, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_2abb66bc81de6efacc2b13958b3f42b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e0cfbf53aa67607e0308169e764b9e4c = $(`<div id="html_e0cfbf53aa67607e0308169e764b9e4c" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 36</div>`)[0];
+                popup_2abb66bc81de6efacc2b13958b3f42b2.setContent(html_e0cfbf53aa67607e0308169e764b9e4c);
+            
+        
+
+        circle_610fd5c341498ea03c328ed7a99ab62b.bindPopup(popup_2abb66bc81de6efacc2b13958b3f42b2)
+        ;
+
+        
+    
+    
+            var marker_c28799cc396c72f973e9934fa1cf5bd8 = L.marker(
+                [52.4734799449804, 4.74862088232136],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_21c292d06793b1ad24075a9d0a18f6e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_299ee9e027db3996bedd489c17411304 = $(`<div id="html_299ee9e027db3996bedd489c17411304" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Tennisvereniging Overdan (postcode: 1566 LK)</h4><p> Totaal geldige uitgebrachte stemmen: 1191</p><p><b>Partij voor de Dieren</b> 3%</br> (Absoluut aantal stemmen: 36)<p><b>Top drie:</b><ol><li>VVD (28%)</li><li>D66 (16%)</li><li>PVV (Partij voor de Vrijheid) (12%)</li></ol></p></p></div>`)[0];
+                popup_21c292d06793b1ad24075a9d0a18f6e8.setContent(html_299ee9e027db3996bedd489c17411304);
+            
+        
+
+        marker_c28799cc396c72f973e9934fa1cf5bd8.bindPopup(popup_21c292d06793b1ad24075a9d0a18f6e8)
+        ;
+
+        
+    
+    
+            var circle_38873027ca86c845f543ca6ed7ad4baa = L.circle(
+                [52.4652526794524, 4.73923100740452],
+                {"bubblingMouseEvents": true, "color": "#b0e300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b0e300", "fillOpacity": 0.23684210526315788, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 62, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_b5e9aff42659a0101aced3cdbf7d6ccd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_631c10ef2a8932384c01a9a7ebbd7b5d = $(`<div id="html_631c10ef2a8932384c01a9a7ebbd7b5d" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 31</div>`)[0];
+                popup_b5e9aff42659a0101aced3cdbf7d6ccd.setContent(html_631c10ef2a8932384c01a9a7ebbd7b5d);
+            
+        
+
+        circle_38873027ca86c845f543ca6ed7ad4baa.bindPopup(popup_b5e9aff42659a0101aced3cdbf7d6ccd)
+        ;
+
+        
+    
+    
+            var marker_f6e250f406fe5d7ff1c0a11c1f3e14b2 = L.marker(
+                [52.4652526794524, 4.73923100740452],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_0fe9fa3cdc2c739a45d337e3122eff9c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8980cd948d1b4b2465b5652b715b698 = $(`<div id="html_c8980cd948d1b4b2465b5652b715b698" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Buurtcentrum A3 (postcode: 1566 BR)</h4><p> Totaal geldige uitgebrachte stemmen: 627</p><p><b>Partij voor de Dieren</b> 5%</br> (Absoluut aantal stemmen: 31)<p><b>Top drie:</b><ol><li>VVD (20%)</li><li>D66 (17%)</li><li>PVV (Partij voor de Vrijheid) (14%)</li></ol></p></p></div>`)[0];
+                popup_0fe9fa3cdc2c739a45d337e3122eff9c.setContent(html_c8980cd948d1b4b2465b5652b715b698);
+            
+        
+
+        marker_f6e250f406fe5d7ff1c0a11c1f3e14b2.bindPopup(popup_0fe9fa3cdc2c739a45d337e3122eff9c)
+        ;
+
+        
+    
+    
+            var circle_ce8d20e3f9c43d204155366d2836de62 = L.circle(
+                [52.4929108078027, 4.76090786498438],
+                {"bubblingMouseEvents": true, "color": "#d6f100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d6f100", "fillOpacity": 0.14210526315789473, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 58, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_b67dc1f4061c61db6781225263813b69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d1a80fce72d8f419e34d8a3420802f7 = $(`<div id="html_3d1a80fce72d8f419e34d8a3420802f7" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 29</div>`)[0];
+                popup_b67dc1f4061c61db6781225263813b69.setContent(html_3d1a80fce72d8f419e34d8a3420802f7);
+            
+        
+
+        circle_ce8d20e3f9c43d204155366d2836de62.bindPopup(popup_b67dc1f4061c61db6781225263813b69)
+        ;
+
+        
+    
+    
+            var marker_99788bd1996486063c32e680586b1661 = L.marker(
+                [52.4929108078027, 4.76090786498438],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_93f8e70175b7cf77c381c6144115d49d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0aeea10c92d27275d59f712ceb8ede90 = $(`<div id="html_0aeea10c92d27275d59f712ceb8ede90" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Gymzaal de Springplank (postcode: 1566 KL)</h4><p> Totaal geldige uitgebrachte stemmen: 871</p><p><b>Partij voor de Dieren</b> 3%</br> (Absoluut aantal stemmen: 29)<p><b>Top drie:</b><ol><li>VVD (27%)</li><li>D66 (14%)</li><li>PVV (Partij voor de Vrijheid) (13%)</li></ol></p></p></div>`)[0];
+                popup_93f8e70175b7cf77c381c6144115d49d.setContent(html_0aeea10c92d27275d59f712ceb8ede90);
+            
+        
+
+        marker_99788bd1996486063c32e680586b1661.bindPopup(popup_93f8e70175b7cf77c381c6144115d49d)
+        ;
+
+        
+    
+    
+            var circle_eae17f587ce1c544fd2a590f21212d3b = L.circle(
+                [52.4842406762055, 4.75792699762675],
+                {"bubblingMouseEvents": true, "color": "#d6f100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d6f100", "fillOpacity": 0.14210526315789473, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 58, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_39f6f48272fef86cbbd6cf8f629654ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2dd33060a7955526b81f4cc8335d5b01 = $(`<div id="html_2dd33060a7955526b81f4cc8335d5b01" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 29</div>`)[0];
+                popup_39f6f48272fef86cbbd6cf8f629654ab.setContent(html_2dd33060a7955526b81f4cc8335d5b01);
+            
+        
+
+        circle_eae17f587ce1c544fd2a590f21212d3b.bindPopup(popup_39f6f48272fef86cbbd6cf8f629654ab)
+        ;
+
+        
+    
+    
+            var marker_133aca23637c1f6a4ca086dba2a29ff1 = L.marker(
+                [52.4842406762055, 4.75792699762675],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_5cd4852eaa0b7d294b333ecad69f734e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dff2d645257c29b19375a5f37405513a = $(`<div id="html_dff2d645257c29b19375a5f37405513a" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Gymzaal Blauwe Ring 90a (Octant) (postcode: 1566 MZ)</h4><p> Totaal geldige uitgebrachte stemmen: 935</p><p><b>Partij voor de Dieren</b> 3%</br> (Absoluut aantal stemmen: 29)<p><b>Top drie:</b><ol><li>VVD (26%)</li><li>D66 (17%)</li><li>PVV (Partij voor de Vrijheid) (13%)</li></ol></p></p></div>`)[0];
+                popup_5cd4852eaa0b7d294b333ecad69f734e.setContent(html_dff2d645257c29b19375a5f37405513a);
+            
+        
+
+        marker_133aca23637c1f6a4ca086dba2a29ff1.bindPopup(popup_5cd4852eaa0b7d294b333ecad69f734e)
+        ;
+
+        
+    
+    
+            var circle_f917a778da4c7e135b85e5cb7873e213 = L.circle(
+                [52.4879033711297, 4.75065372945903],
+                {"bubblingMouseEvents": true, "color": "#c3ea00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c3ea00", "fillOpacity": 0.1894736842105263, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 144, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_aed1d707e8bcbe809e00143d00eadb7f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24b005578aa678599322b0da57796fc3 = $(`<div id="html_24b005578aa678599322b0da57796fc3" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 72</div>`)[0];
+                popup_aed1d707e8bcbe809e00143d00eadb7f.setContent(html_24b005578aa678599322b0da57796fc3);
+            
+        
+
+        circle_f917a778da4c7e135b85e5cb7873e213.bindPopup(popup_aed1d707e8bcbe809e00143d00eadb7f)
+        ;
+
+        
+    
+    
+            var marker_813a0c00f56515c32fbb7ad522631ead = L.marker(
+                [52.4879033711297, 4.75065372945903],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_95177bcae2e6a4c9dc874f183f7512b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f02495ecfa7dd1bbc39871d14800e023 = $(`<div id="html_f02495ecfa7dd1bbc39871d14800e023" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Jongerenruimte BAAZ de Kaaik (postcode: 1567 HD)</h4><p> Totaal geldige uitgebrachte stemmen: 2045</p><p><b>Partij voor de Dieren</b> 4%</br> (Absoluut aantal stemmen: 72)<p><b>Top drie:</b><ol><li>VVD (23%)</li><li>D66 (17%)</li><li>PVV (Partij voor de Vrijheid) (9%)</li></ol></p></p></div>`)[0];
+                popup_95177bcae2e6a4c9dc874f183f7512b9.setContent(html_f02495ecfa7dd1bbc39871d14800e023);
+            
+        
+
+        marker_813a0c00f56515c32fbb7ad522631ead.bindPopup(popup_95177bcae2e6a4c9dc874f183f7512b9)
+        ;
+
+        
+    
+    
+            var circle_73e73b84bedf1fde2747c7e361c64960 = L.circle(
+                [52.4955076387006, 4.74776928278341],
+                {"bubblingMouseEvents": true, "color": "#d6f100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d6f100", "fillOpacity": 0.14210526315789473, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 32, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_8b39757f542f95b2e51f09f16a9fa27b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b89cdfeff4d6a88989bc24401ca94678 = $(`<div id="html_b89cdfeff4d6a88989bc24401ca94678" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 16</div>`)[0];
+                popup_8b39757f542f95b2e51f09f16a9fa27b.setContent(html_b89cdfeff4d6a88989bc24401ca94678);
+            
+        
+
+        circle_73e73b84bedf1fde2747c7e361c64960.bindPopup(popup_8b39757f542f95b2e51f09f16a9fa27b)
+        ;
+
+        
+    
+    
+            var marker_d67243e5467d2b7d89a9d14db9a038ce = L.marker(
+                [52.4955076387006, 4.74776928278341],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_6404da7b6ef75db962b6d43396286dbc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91e42aabaafa93933c618c1ae5b83d3f = $(`<div id="html_91e42aabaafa93933c618c1ae5b83d3f" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Gymzaal Kreekrijklaan 2 (postcode: 1567 LP)</h4><p> Totaal geldige uitgebrachte stemmen: 620</p><p><b>Partij voor de Dieren</b> 3%</br> (Absoluut aantal stemmen: 16)<p><b>Top drie:</b><ol><li>VVD (30%)</li><li>D66 (17%)</li><li>PVV (Partij voor de Vrijheid) (12%)</li></ol></p></p></div>`)[0];
+                popup_6404da7b6ef75db962b6d43396286dbc.setContent(html_91e42aabaafa93933c618c1ae5b83d3f);
+            
+        
+
+        marker_d67243e5467d2b7d89a9d14db9a038ce.bindPopup(popup_6404da7b6ef75db962b6d43396286dbc)
+        ;
+
+        
+    
+    
+            var circle_1772bb49c571362c2c69752d869b2a74 = L.circle(
+                [52.49454, 4.74488],
+                {"bubblingMouseEvents": true, "color": "#b0e300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b0e300", "fillOpacity": 0.23684210526315788, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 62, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_3fe67450f080a398c00632baaf446333 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_600ab32b117beea9a4a64d894f813ac6 = $(`<div id="html_600ab32b117beea9a4a64d894f813ac6" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 31</div>`)[0];
+                popup_3fe67450f080a398c00632baaf446333.setContent(html_600ab32b117beea9a4a64d894f813ac6);
+            
+        
+
+        circle_1772bb49c571362c2c69752d869b2a74.bindPopup(popup_3fe67450f080a398c00632baaf446333)
+        ;
+
+        
+    
+    
+            var marker_46fec1cc03f747b1084e88adeae9f994 = L.marker(
+                [52.49454, 4.74488],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_e70900214fd0521a8400c1990efdbbcd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c9088f7940bf7a9b6ec62bed7deb44e0 = $(`<div id="html_c9088f7940bf7a9b6ec62bed7deb44e0" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Gymzaal Beemdgras (postcode: 1567 MM)</h4><p> Totaal geldige uitgebrachte stemmen: 647</p><p><b>Partij voor de Dieren</b> 5%</br> (Absoluut aantal stemmen: 31)<p><b>Top drie:</b><ol><li>VVD (33%)</li><li>D66 (18%)</li><li>PVV (Partij voor de Vrijheid) (8%)</li></ol></p></p></div>`)[0];
+                popup_e70900214fd0521a8400c1990efdbbcd.setContent(html_c9088f7940bf7a9b6ec62bed7deb44e0);
+            
+        
+
+        marker_46fec1cc03f747b1084e88adeae9f994.bindPopup(popup_e70900214fd0521a8400c1990efdbbcd)
+        ;
+
+        
+    
+    
+            var circle_14ccf7e6264d4c82644ec047135f197f = L.circle(
+                [52.4481492205886, 4.77635566333753],
+                {"bubblingMouseEvents": true, "color": "#c3ea00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c3ea00", "fillOpacity": 0.1894736842105263, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 90, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_fa455d5c7c67a9413ef95b77ed6fb491 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7fa315c3fb5eaf245509786b3b458839 = $(`<div id="html_7fa315c3fb5eaf245509786b3b458839" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 45</div>`)[0];
+                popup_fa455d5c7c67a9413ef95b77ed6fb491.setContent(html_7fa315c3fb5eaf245509786b3b458839);
+            
+        
+
+        circle_14ccf7e6264d4c82644ec047135f197f.bindPopup(popup_fa455d5c7c67a9413ef95b77ed6fb491)
+        ;
+
+        
+    
+    
+            var marker_f21ae06dfca8a099afe5d551398a7734 = L.marker(
+                [52.4481492205886, 4.77635566333753],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_a6af29d43799ea0f03acf4f7edff6e2b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ef56867c6193602520da9efac744d40 = $(`<div id="html_5ef56867c6193602520da9efac744d40" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Dorpshuis "De Kwaker" (postcode: 1551 RC)</h4><p> Totaal geldige uitgebrachte stemmen: 1063</p><p><b>Partij voor de Dieren</b> 4%</br> (Absoluut aantal stemmen: 45)<p><b>Top drie:</b><ol><li>VVD (20%)</li><li>PVV (Partij voor de Vrijheid) (15%)</li><li>D66 (15%)</li></ol></p></p></div>`)[0];
+                popup_a6af29d43799ea0f03acf4f7edff6e2b.setContent(html_5ef56867c6193602520da9efac744d40);
+            
+        
+
+        marker_f21ae06dfca8a099afe5d551398a7734.bindPopup(popup_a6af29d43799ea0f03acf4f7edff6e2b)
+        ;
+
+        
+    
+    
+            var circle_f0238998cf5d2dc951f96e797dbaf7be = L.circle(
+                [52.4639496233422, 4.77042627806021],
+                {"bubblingMouseEvents": true, "color": "#b0e300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b0e300", "fillOpacity": 0.23684210526315788, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 90, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_4dbc559c64e942688a1a376a0ed33823 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc8a8926ecae0674ba2f42f5ce631f10 = $(`<div id="html_fc8a8926ecae0674ba2f42f5ce631f10" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 45</div>`)[0];
+                popup_4dbc559c64e942688a1a376a0ed33823.setContent(html_fc8a8926ecae0674ba2f42f5ce631f10);
+            
+        
+
+        circle_f0238998cf5d2dc951f96e797dbaf7be.bindPopup(popup_4dbc559c64e942688a1a376a0ed33823)
+        ;
+
+        
+    
+    
+            var marker_5e0678a828cb2e9011918c576daafefe = L.marker(
+                [52.4639496233422, 4.77042627806021],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_1c118372da6ea45dd04219fbfb029cc0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd4c19ae9b203a80321c081979d5a68d = $(`<div id="html_cd4c19ae9b203a80321c081979d5a68d" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Wijksteunpunt Lambert Melisz (postcode: 1551 CT)</h4><p> Totaal geldige uitgebrachte stemmen: 832</p><p><b>Partij voor de Dieren</b> 5%</br> (Absoluut aantal stemmen: 45)<p><b>Top drie:</b><ol><li>VVD (25%)</li><li>D66 (18%)</li><li>PVV (Partij voor de Vrijheid) (12%)</li></ol></p></p></div>`)[0];
+                popup_1c118372da6ea45dd04219fbfb029cc0.setContent(html_cd4c19ae9b203a80321c081979d5a68d);
+            
+        
+
+        marker_5e0678a828cb2e9011918c576daafefe.bindPopup(popup_1c118372da6ea45dd04219fbfb029cc0)
+        ;
+
+        
+    
+    
+            var circle_c57f9701bc9f486266c6536a5337c882 = L.circle(
+                [52.4625852783105, 4.77076480070976],
+                {"bubblingMouseEvents": true, "color": "#b0e300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b0e300", "fillOpacity": 0.23684210526315788, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 54, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_2855772caa3b0d6c128c042b6451b5f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df428f304dc5dba7f5a3d957fed81082 = $(`<div id="html_df428f304dc5dba7f5a3d957fed81082" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 27</div>`)[0];
+                popup_2855772caa3b0d6c128c042b6451b5f8.setContent(html_df428f304dc5dba7f5a3d957fed81082);
+            
+        
+
+        circle_c57f9701bc9f486266c6536a5337c882.bindPopup(popup_2855772caa3b0d6c128c042b6451b5f8)
+        ;
+
+        
+    
+    
+            var marker_9b42295b3a14d2df87e368b0ed7e1942 = L.marker(
+                [52.4625852783105, 4.77076480070976],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_7935513cfa1c80107c32f4b05fff5554 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_39f189dd9a9fd9de2f32bfe2c04ca7c7 = $(`<div id="html_39f189dd9a9fd9de2f32bfe2c04ca7c7" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Gymzaal Torenstraat, INGANG KERKBUURT 21 (postcode: 1551 BK)</h4><p> Totaal geldige uitgebrachte stemmen: 599</p><p><b>Partij voor de Dieren</b> 5%</br> (Absoluut aantal stemmen: 27)<p><b>Top drie:</b><ol><li>VVD (22%)</li><li>D66 (21%)</li><li>PVV (Partij voor de Vrijheid) (10%)</li></ol></p></p></div>`)[0];
+                popup_7935513cfa1c80107c32f4b05fff5554.setContent(html_39f189dd9a9fd9de2f32bfe2c04ca7c7);
+            
+        
+
+        marker_9b42295b3a14d2df87e368b0ed7e1942.bindPopup(popup_7935513cfa1c80107c32f4b05fff5554)
+        ;
+
+        
+    
+    
+            var circle_de1feaaffb080db406c4109960a74aeb = L.circle(
+                [52.4538503145608, 4.83017081367615],
+                {"bubblingMouseEvents": true, "color": "#7ece00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7ece00", "fillOpacity": 0.3789473684210526, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_26b21a4ae9da8418e28f9f0fe21fad04 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ada78c4e46dee29590149232f5552061 = $(`<div id="html_ada78c4e46dee29590149232f5552061" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 1</div>`)[0];
+                popup_26b21a4ae9da8418e28f9f0fe21fad04.setContent(html_ada78c4e46dee29590149232f5552061);
+            
+        
+
+        circle_de1feaaffb080db406c4109960a74aeb.bindPopup(popup_26b21a4ae9da8418e28f9f0fe21fad04)
+        ;
+
+        
+    
+    
+            var marker_595993206ba3ff50346945dec0938034 = L.marker(
+                [52.4538503145608, 4.83017081367615],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_23ef8361a08eaecdeda8300137386bf9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a35ed748b3cac06ea8f62a61a100e46e = $(`<div id="html_a35ed748b3cac06ea8f62a61a100e46e" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Evean Oostergouw, HOOFDINGANG (postcode: 1502 DZ)</h4><p> Totaal geldige uitgebrachte stemmen: 12</p><p><b>Partij voor de Dieren</b> 8%</br> (Absoluut aantal stemmen: 1)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (25%)</li><li>SP (Socialistische Partij) (16%)</li><li>VVD (8%)</li></ol></p></p></div>`)[0];
+                popup_23ef8361a08eaecdeda8300137386bf9.setContent(html_a35ed748b3cac06ea8f62a61a100e46e);
+            
+        
+
+        marker_595993206ba3ff50346945dec0938034.bindPopup(popup_23ef8361a08eaecdeda8300137386bf9)
+        ;
+
+        
+    
+    
+            var circle_acfaf0043d28a5424ed69a512be76c42 = L.circle(
+                [52.4398921135354, 4.84147719046261],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_807368350ce8e6f94cc4097ac89344b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_74ed75c8a93ebf35eb798b571b98b4c4 = $(`<div id="html_74ed75c8a93ebf35eb798b571b98b4c4" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 3</div>`)[0];
+                popup_807368350ce8e6f94cc4097ac89344b3.setContent(html_74ed75c8a93ebf35eb798b571b98b4c4);
+            
+        
+
+        circle_acfaf0043d28a5424ed69a512be76c42.bindPopup(popup_807368350ce8e6f94cc4097ac89344b3)
+        ;
+
+        
+    
+    
+            var marker_5da6d559f13a16334e27d29e3f634d96 = L.marker(
+                [52.4398921135354, 4.84147719046261],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_980808c1fd7f8c8d6919d3221c3120d3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f42fae2a8e0a6af7a60d720965a93ff = $(`<div id="html_0f42fae2a8e0a6af7a60d720965a93ff" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Evean Het Erasmushuis (postcode: 1504 AL)</h4><p> Totaal geldige uitgebrachte stemmen: 16</p><p><b>Partij voor de Dieren</b> 19%</br> (Absoluut aantal stemmen: 3)<p><b>Top drie:</b><ol><li>VVD (18%)</li><li>CDA (18%)</li><li>Partij voor de Dieren (18%)</li></ol></p></p></div>`)[0];
+                popup_980808c1fd7f8c8d6919d3221c3120d3.setContent(html_0f42fae2a8e0a6af7a60d720965a93ff);
+            
+        
+
+        marker_5da6d559f13a16334e27d29e3f634d96.bindPopup(popup_980808c1fd7f8c8d6919d3221c3120d3)
+        ;
+
+        
+    
+    
+            var circle_15688ad46197e70cf8213d166945a538 = L.circle(
+                [52.4496521489112, 4.802451336643],
+                {"bubblingMouseEvents": true, "color": "#6ec700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#6ec700", "fillOpacity": 0.4263157894736842, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_17da974f03ec1359bd7ba575bd550b27 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_332d7690d952b5dc8986c9cd810226a7 = $(`<div id="html_332d7690d952b5dc8986c9cd810226a7" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 1</div>`)[0];
+                popup_17da974f03ec1359bd7ba575bd550b27.setContent(html_332d7690d952b5dc8986c9cd810226a7);
+            
+        
+
+        circle_15688ad46197e70cf8213d166945a538.bindPopup(popup_17da974f03ec1359bd7ba575bd550b27)
+        ;
+
+        
+    
+    
+            var marker_1f82662c604cf58edb4a2982e49e76af = L.marker(
+                [52.4496521489112, 4.802451336643],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_a9ca65de0d4f7abb8b918fa02807a676 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9c9c1b19275e0ab348882071d784b88 = $(`<div id="html_a9c9c1b19275e0ab348882071d784b88" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Evean Westerwatering, HOOFDINGANG (postcode: 1507 KL)</h4><p> Totaal geldige uitgebrachte stemmen: 11</p><p><b>Partij voor de Dieren</b> 9%</br> (Absoluut aantal stemmen: 1)<p><b>Top drie:</b><ol><li>PVV (Partij voor de Vrijheid) (36%)</li><li>Partij van de Arbeid (P.v.d.A.) (18%)</li><li>VVD (9%)</li></ol></p></p></div>`)[0];
+                popup_a9ca65de0d4f7abb8b918fa02807a676.setContent(html_a9c9c1b19275e0ab348882071d784b88);
+            
+        
+
+        marker_1f82662c604cf58edb4a2982e49e76af.bindPopup(popup_a9ca65de0d4f7abb8b918fa02807a676)
+        ;
+
+        
+    
+    
+            var circle_c4831648d482a5916fd7652d46c1e5c2 = L.circle(
+                [52.4686798101724, 4.81133201400336],
+                {"bubblingMouseEvents": true, "color": "#d6f100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d6f100", "fillOpacity": 0.14210526315789473, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_3a377175d00a597624ae9fc5d4d4f1f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e6aca95c30610881f870408f5ad521ed = $(`<div id="html_e6aca95c30610881f870408f5ad521ed" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 1</div>`)[0];
+                popup_3a377175d00a597624ae9fc5d4d4f1f3.setContent(html_e6aca95c30610881f870408f5ad521ed);
+            
+        
+
+        circle_c4831648d482a5916fd7652d46c1e5c2.bindPopup(popup_3a377175d00a597624ae9fc5d4d4f1f3)
+        ;
+
+        
+    
+    
+            var marker_0e8c3e0820636d99cc63776636d1af22 = L.marker(
+                [52.4686798101724, 4.81133201400336],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_d5213a98f75d310ec989f21547e69fed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e91dbc4af03c62f2ff245ffe1828d1c1 = $(`<div id="html_e91dbc4af03c62f2ff245ffe1828d1c1" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Evean Parkzicht (postcode: 1541 JX)</h4><p> Totaal geldige uitgebrachte stemmen: 34</p><p><b>Partij voor de Dieren</b> 3%</br> (Absoluut aantal stemmen: 1)<p><b>Top drie:</b><ol><li>PVV (Partij voor de Vrijheid) (20%)</li><li>VVD (17%)</li><li>SP (Socialistische Partij) (14%)</li></ol></p></p></div>`)[0];
+                popup_d5213a98f75d310ec989f21547e69fed.setContent(html_e91dbc4af03c62f2ff245ffe1828d1c1);
+            
+        
+
+        marker_0e8c3e0820636d99cc63776636d1af22.bindPopup(popup_d5213a98f75d310ec989f21547e69fed)
+        ;
+
+        
+    
+    
+            var circle_2c17c005fa228fff5d1430ee669fab70 = L.circle(
+                [52.4770675397664, 4.79943388477033],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_7a366f70edb7b5fe5fbde885c517494a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_747741345532f230b950176f9b063653 = $(`<div id="html_747741345532f230b950176f9b063653" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 0</div>`)[0];
+                popup_7a366f70edb7b5fe5fbde885c517494a.setContent(html_747741345532f230b950176f9b063653);
+            
+        
+
+        circle_2c17c005fa228fff5d1430ee669fab70.bindPopup(popup_7a366f70edb7b5fe5fbde885c517494a)
+        ;
+
+        
+    
+    
+            var marker_0bf9d02bc7649da5bb686ca45612c1e2 = L.marker(
+                [52.4770675397664, 4.79943388477033],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_1b152f4e0294c4c9a132c3c23d68e92a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a21c84f15a1193487794b5ae29b02513 = $(`<div id="html_a21c84f15a1193487794b5ae29b02513" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Evean Guisveld (postcode: 1544 NX)</h4><p> Totaal geldige uitgebrachte stemmen: 4</p><p><b>Partij voor de Dieren</b> 0%</br> (Absoluut aantal stemmen: 0)<p><b>Top drie:</b><ol><li>VVD (50%)</li><li>PVV (Partij voor de Vrijheid) (25%)</li><li>Partij van de Arbeid (P.v.d.A.) (25%)</li></ol></p></p></div>`)[0];
+                popup_1b152f4e0294c4c9a132c3c23d68e92a.setContent(html_a21c84f15a1193487794b5ae29b02513);
+            
+        
+
+        marker_0bf9d02bc7649da5bb686ca45612c1e2.bindPopup(popup_1b152f4e0294c4c9a132c3c23d68e92a)
+        ;
+
+        
+    
+    
+            var circle_bc3099bc2e59055736f605e9e02b8a90 = L.circle(
+                [52.4872710450626, 4.80291775483274],
+                {"bubblingMouseEvents": true, "color": "#9fdc00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9fdc00", "fillOpacity": 0.28421052631578947, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_ad43c5bedc0e6c855f8e3ea304d83de0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_65d4307b5e218e3b072a307aa59c11ea = $(`<div id="html_65d4307b5e218e3b072a307aa59c11ea" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 1</div>`)[0];
+                popup_ad43c5bedc0e6c855f8e3ea304d83de0.setContent(html_65d4307b5e218e3b072a307aa59c11ea);
+            
+        
+
+        circle_bc3099bc2e59055736f605e9e02b8a90.bindPopup(popup_ad43c5bedc0e6c855f8e3ea304d83de0)
+        ;
+
+        
+    
+    
+            var marker_e660c73bb64bbd11e0ebe1b7250cf6fb = L.marker(
+                [52.4872710450626, 4.80291775483274],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_6fafe96fe3b6c0a15746036b999fdaea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5880dae68ca850aafaac5580cd738e3b = $(`<div id="html_5880dae68ca850aafaac5580cd738e3b" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Evean Acht Staten (postcode: 1521 CK)</h4><p> Totaal geldige uitgebrachte stemmen: 16</p><p><b>Partij voor de Dieren</b> 6%</br> (Absoluut aantal stemmen: 1)<p><b>Top drie:</b><ol><li>VVD (25%)</li><li>Partij van de Arbeid (P.v.d.A.) (18%)</li><li>D66 (12%)</li></ol></p></p></div>`)[0];
+                popup_6fafe96fe3b6c0a15746036b999fdaea.setContent(html_5880dae68ca850aafaac5580cd738e3b);
+            
+        
+
+        marker_e660c73bb64bbd11e0ebe1b7250cf6fb.bindPopup(popup_6fafe96fe3b6c0a15746036b999fdaea)
+        ;
+
+        
+    
+    
+            var circle_0cda20f5d90d2f49b8d5d96ea5ec635c = L.circle(
+                [52.5064686835784, 4.76422832216067],
+                {"bubblingMouseEvents": true, "color": "#c3ea00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c3ea00", "fillOpacity": 0.1894736842105263, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_e6bf338ce1ba203a8b859d18364f9c62 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0263ee56805061c55280d0366ec89148 = $(`<div id="html_0263ee56805061c55280d0366ec89148" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Partij voor de Dieren: 1</div>`)[0];
+                popup_e6bf338ce1ba203a8b859d18364f9c62.setContent(html_0263ee56805061c55280d0366ec89148);
+            
+        
+
+        circle_0cda20f5d90d2f49b8d5d96ea5ec635c.bindPopup(popup_e6bf338ce1ba203a8b859d18364f9c62)
+        ;
+
+        
+    
+    
+            var marker_5c7c70382c4db9af890646cce4e86da2 = L.marker(
+                [52.5064686835784, 4.76422832216067],
+                {}
+            ).addTo(map_aad0481a614817b57c178a4ce56ede75);
+        
+    
+        var popup_c806a6e630874ed8b263752c881d0ae3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f69cc3ee51e61541ca8e2d22fbb61143 = $(`<div id="html_f69cc3ee51e61541ca8e2d22fbb61143" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stembureau Evean Rosariumhorst (postcode: 1561 TV)</h4><p> Totaal geldige uitgebrachte stemmen: 26</p><p><b>Partij voor de Dieren</b> 4%</br> (Absoluut aantal stemmen: 1)<p><b>Top drie:</b><ol><li>VVD (30%)</li><li>SP (Socialistische Partij) (15%)</li><li>PVV (Partij voor de Vrijheid) (7%)</li></ol></p></p></div>`)[0];
+                popup_c806a6e630874ed8b263752c881d0ae3.setContent(html_f69cc3ee51e61541ca8e2d22fbb61143);
+            
+        
+
+        marker_5c7c70382c4db9af890646cce4e86da2.bindPopup(popup_c806a6e630874ed8b263752c881d0ae3)
+        ;
+
+        
+    
+</script>
+</html>
