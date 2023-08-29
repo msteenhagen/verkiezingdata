@@ -1,0 +1,3264 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_662f8ea9b5de1ba06473ab4271e8ed34 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+             <h3 align="center" style="font-size:16px"><b>Gemeenteraad Zaanstad 2022 - ChristenUnie</b></h3>
+             
+    
+            <div class="folium-map" id="map_662f8ea9b5de1ba06473ab4271e8ed34" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_662f8ea9b5de1ba06473ab4271e8ed34 = L.map(
+                "map_662f8ea9b5de1ba06473ab4271e8ed34",
+                {
+                    center: [52.447962, 4.815532],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_90109ac376bc3fdd624dc177ba5f7b94 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+            var circle_915059b3d72e221ae5ac84ea57cf88ab = L.circle(
+                [52.43434, 4.83998],
+                {"bubblingMouseEvents": true, "color": "#c9ec00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c9ec00", "fillOpacity": 0.17142857142857143, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 44, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_a2066605d53caf2e1d160928cf7c3b96 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_434c0a67930f3dac12166b947d1d8f28 = $(`<div id="html_434c0a67930f3dac12166b947d1d8f28" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 22</div>`)[0];
+                popup_a2066605d53caf2e1d160928cf7c3b96.setContent(html_434c0a67930f3dac12166b947d1d8f28);
+            
+        
+
+        circle_915059b3d72e221ae5ac84ea57cf88ab.bindPopup(popup_a2066605d53caf2e1d160928cf7c3b96)
+        ;
+
+        
+    
+    
+            var marker_72b5e31c53626864cd50333c47b4b86f = L.marker(
+                [52.43434, 4.83998],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_84b24aa85183ea7426ceded47e3a34be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e3ffc447aaf9d8d9e67b8a8de40d866c = $(`<div id="html_e3ffc447aaf9d8d9e67b8a8de40d866c" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Wibautstraat, INGANG SPARRESTRAAT</h4><p> Totaal geldige uitgebrachte stemmen: 607</p><p><b>ChristenUnie</b> 4%</br> (Absoluut aantal stemmen: 22)<p><b>Top drie:</b><ol><li>DENK (19%)</li><li>Partij van de Arbeid (P.v.d.A.) (16%)</li><li>Partij voor Ouderen en Veiligheid (12%)</li></ol></p></p></div>`)[0];
+                popup_84b24aa85183ea7426ceded47e3a34be.setContent(html_e3ffc447aaf9d8d9e67b8a8de40d866c);
+            
+        
+
+        marker_72b5e31c53626864cd50333c47b4b86f.bindPopup(popup_84b24aa85183ea7426ceded47e3a34be)
+        ;
+
+        
+    
+    
+            var circle_9e640de6ed2c198b60e0f99d26d042d3 = L.circle(
+                [52.4297, 4.83851],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.04285714285714286, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 18, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_5a7ede0614e6a72e1a9188b4fa49ac4c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f69e2281fc758dd47d645510128a0665 = $(`<div id="html_f69e2281fc758dd47d645510128a0665" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 9</div>`)[0];
+                popup_5a7ede0614e6a72e1a9188b4fa49ac4c.setContent(html_f69e2281fc758dd47d645510128a0665);
+            
+        
+
+        circle_9e640de6ed2c198b60e0f99d26d042d3.bindPopup(popup_5a7ede0614e6a72e1a9188b4fa49ac4c)
+        ;
+
+        
+    
+    
+            var marker_ce81c172417b8403116a32fb2a616e45 = L.marker(
+                [52.4297, 4.83851],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_492cef8aac435fac4a76ded58137de5b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb05320bbed8b1ca56b860348b2c17e6 = $(`<div id="html_fb05320bbed8b1ca56b860348b2c17e6" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Handboogschutters Czaar Peter</h4><p> Totaal geldige uitgebrachte stemmen: 769</p><p><b>ChristenUnie</b> 1%</br> (Absoluut aantal stemmen: 9)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (15%)</li><li>DENK (12%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li></ol></p></p></div>`)[0];
+                popup_492cef8aac435fac4a76ded58137de5b.setContent(html_fb05320bbed8b1ca56b860348b2c17e6);
+            
+        
+
+        marker_ce81c172417b8403116a32fb2a616e45.bindPopup(popup_492cef8aac435fac4a76ded58137de5b)
+        ;
+
+        
+    
+    
+            var circle_d11ea77319a7b18f53433a140ec6d899 = L.circle(
+                [52.43576, 4.85498],
+                {"bubblingMouseEvents": true, "color": "#ecf900", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ecf900", "fillOpacity": 0.08571428571428572, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 52, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_0c2a5e8ccab39defaa4abb522fd2b051 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e86a673b57aa925b7ce5846e2ed92406 = $(`<div id="html_e86a673b57aa925b7ce5846e2ed92406" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 26</div>`)[0];
+                popup_0c2a5e8ccab39defaa4abb522fd2b051.setContent(html_e86a673b57aa925b7ce5846e2ed92406);
+            
+        
+
+        circle_d11ea77319a7b18f53433a140ec6d899.bindPopup(popup_0c2a5e8ccab39defaa4abb522fd2b051)
+        ;
+
+        
+    
+    
+            var marker_35c6660ebf7b2a4984d9deb5ffc248b8 = L.marker(
+                [52.43576, 4.85498],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_45d127198fe65b62de3891d4b205eaf0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ace671253c3b94126f8d3fd512c00787 = $(`<div id="html_ace671253c3b94126f8d3fd512c00787" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Wijkcentrum de Poelenburcht</h4><p> Totaal geldige uitgebrachte stemmen: 1350</p><p><b>ChristenUnie</b> 2%</br> (Absoluut aantal stemmen: 26)<p><b>Top drie:</b><ol><li>DENK (33%)</li><li>Partij van de Arbeid (P.v.d.A.) (18%)</li><li>Partij voor Ouderen en Veiligheid (8%)</li></ol></p></p></div>`)[0];
+                popup_45d127198fe65b62de3891d4b205eaf0.setContent(html_ace671253c3b94126f8d3fd512c00787);
+            
+        
+
+        marker_35c6660ebf7b2a4984d9deb5ffc248b8.bindPopup(popup_45d127198fe65b62de3891d4b205eaf0)
+        ;
+
+        
+    
+    
+            var circle_958387d9966ad721606e721042903ab5 = L.circle(
+                [52.44074, 4.84661],
+                {"bubblingMouseEvents": true, "color": "#c9ec00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c9ec00", "fillOpacity": 0.17142857142857143, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_8bcfe9eebb89af74d5d32ad8ec35290a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c5742690810384e70248e559a08c567 = $(`<div id="html_2c5742690810384e70248e559a08c567" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 25</div>`)[0];
+                popup_8bcfe9eebb89af74d5d32ad8ec35290a.setContent(html_2c5742690810384e70248e559a08c567);
+            
+        
+
+        circle_958387d9966ad721606e721042903ab5.bindPopup(popup_8bcfe9eebb89af74d5d32ad8ec35290a)
+        ;
+
+        
+    
+    
+            var marker_a37251d661a9de57892422a08a9fdc8d = L.marker(
+                [52.44074, 4.84661],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_8303b75e89ba84a124d82b23c4966b4c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8368a0e8988d62bd909bddab6c7c2df = $(`<div id="html_e8368a0e8988d62bd909bddab6c7c2df" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Zaans Natuur en Milieu Centrum</h4><p> Totaal geldige uitgebrachte stemmen: 615</p><p><b>ChristenUnie</b> 4%</br> (Absoluut aantal stemmen: 25)<p><b>Top drie:</b><ol><li>DENK (24%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li><li>Partij voor Ouderen en Veiligheid (8%)</li></ol></p></p></div>`)[0];
+                popup_8303b75e89ba84a124d82b23c4966b4c.setContent(html_e8368a0e8988d62bd909bddab6c7c2df);
+            
+        
+
+        marker_a37251d661a9de57892422a08a9fdc8d.bindPopup(popup_8303b75e89ba84a124d82b23c4966b4c)
+        ;
+
+        
+    
+    
+            var circle_cbbe304652804e8dec1882cce3ebbe31 = L.circle(
+                [52.44875, 4.84416],
+                {"bubblingMouseEvents": true, "color": "#daf200", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#daf200", "fillOpacity": 0.1285714285714286, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 46, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_47aef6e26504e2f2cb5b9a9fc480c67f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d18d5157cf4da9eb8707c11a81735e0 = $(`<div id="html_8d18d5157cf4da9eb8707c11a81735e0" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 23</div>`)[0];
+                popup_47aef6e26504e2f2cb5b9a9fc480c67f.setContent(html_8d18d5157cf4da9eb8707c11a81735e0);
+            
+        
+
+        circle_cbbe304652804e8dec1882cce3ebbe31.bindPopup(popup_47aef6e26504e2f2cb5b9a9fc480c67f)
+        ;
+
+        
+    
+    
+            var marker_405adf56d83a8b701fcf44738aa88d3d = L.marker(
+                [52.44875, 4.84416],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_0e7695e2f803bfbe309fa6e9198e3e12 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e9248ccfcab8af6ab784c73aada1e9b = $(`<div id="html_4e9248ccfcab8af6ab784c73aada1e9b" style="width: 100.0%; height: 100.0%;"><h4>Stembureau ICBS de Windroos, INGANG PINASSTRAAT 4</h4><p> Totaal geldige uitgebrachte stemmen: 708</p><p><b>ChristenUnie</b> 3%</br> (Absoluut aantal stemmen: 23)<p><b>Top drie:</b><ol><li>DENK (26%)</li><li>Partij van de Arbeid (P.v.d.A.) (17%)</li><li>Partij voor Ouderen en Veiligheid (9%)</li></ol></p></p></div>`)[0];
+                popup_0e7695e2f803bfbe309fa6e9198e3e12.setContent(html_4e9248ccfcab8af6ab784c73aada1e9b);
+            
+        
+
+        marker_405adf56d83a8b701fcf44738aa88d3d.bindPopup(popup_0e7695e2f803bfbe309fa6e9198e3e12)
+        ;
+
+        
+    
+    
+            var circle_b56007a574533deb29a0ff0025cde545 = L.circle(
+                [52.45458, 4.83273],
+                {"bubblingMouseEvents": true, "color": "#b8e600", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b8e600", "fillOpacity": 0.21428571428571427, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 58, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_4b346306332362c16eeb408580f5d916 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df62c4ec485211816ad7782bd931c293 = $(`<div id="html_df62c4ec485211816ad7782bd931c293" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 29</div>`)[0];
+                popup_4b346306332362c16eeb408580f5d916.setContent(html_df62c4ec485211816ad7782bd931c293);
+            
+        
+
+        circle_b56007a574533deb29a0ff0025cde545.bindPopup(popup_4b346306332362c16eeb408580f5d916)
+        ;
+
+        
+    
+    
+            var marker_66bc0237e336a8457905b5628bddd240 = L.marker(
+                [52.45458, 4.83273],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_52cc8610e1ee5d2798b399e1d712d91e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2b037670ca6c7ba13657c8baa7a216a = $(`<div id="html_d2b037670ca6c7ba13657c8baa7a216a" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Blaise Pascal College</h4><p> Totaal geldige uitgebrachte stemmen: 572</p><p><b>ChristenUnie</b> 5%</br> (Absoluut aantal stemmen: 29)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (14%)</li><li>Partij van de Arbeid (P.v.d.A.) (12%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_52cc8610e1ee5d2798b399e1d712d91e.setContent(html_d2b037670ca6c7ba13657c8baa7a216a);
+            
+        
+
+        marker_66bc0237e336a8457905b5628bddd240.bindPopup(popup_52cc8610e1ee5d2798b399e1d712d91e)
+        ;
+
+        
+    
+    
+            var circle_9657a542096f487de9dbccb5094c2fdd = L.circle(
+                [52.44644, 4.83914],
+                {"bubblingMouseEvents": true, "color": "#daf200", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#daf200", "fillOpacity": 0.1285714285714286, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 66, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_d94f3924660ba108948dd39f324e1cc6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8832c65efb470c2c1ac565d275dba088 = $(`<div id="html_8832c65efb470c2c1ac565d275dba088" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 33</div>`)[0];
+                popup_d94f3924660ba108948dd39f324e1cc6.setContent(html_8832c65efb470c2c1ac565d275dba088);
+            
+        
+
+        circle_9657a542096f487de9dbccb5094c2fdd.bindPopup(popup_d94f3924660ba108948dd39f324e1cc6)
+        ;
+
+        
+    
+    
+            var marker_8572126ba255d316ac45d93d8460eb20 = L.marker(
+                [52.44644, 4.83914],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_1f6b85cdee503935b2df9530c45c4b1d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b854e48de87e9ab64514d00967ac76d8 = $(`<div id="html_b854e48de87e9ab64514d00967ac76d8" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean De Meerpaal, INGANG TJOTTERLAAN 174</h4><p> Totaal geldige uitgebrachte stemmen: 1022</p><p><b>ChristenUnie</b> 3%</br> (Absoluut aantal stemmen: 33)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (15%)</li><li>Partij voor Ouderen en Veiligheid (12%)</li><li>VVD (12%)</li></ol></p></p></div>`)[0];
+                popup_1f6b85cdee503935b2df9530c45c4b1d.setContent(html_b854e48de87e9ab64514d00967ac76d8);
+            
+        
+
+        marker_8572126ba255d316ac45d93d8460eb20.bindPopup(popup_1f6b85cdee503935b2df9530c45c4b1d)
+        ;
+
+        
+    
+    
+            var circle_63237870f64e852d9c64dd90b34b8a06 = L.circle(
+                [52.43927208598662, 4.8424228597558585],
+                {"bubblingMouseEvents": true, "color": "#daf200", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#daf200", "fillOpacity": 0.1285714285714286, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_d6e34ec6e5610678949dfacff81387c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_104fcdfe1599f6b41532b32dc581798c = $(`<div id="html_104fcdfe1599f6b41532b32dc581798c" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 20</div>`)[0];
+                popup_d6e34ec6e5610678949dfacff81387c0.setContent(html_104fcdfe1599f6b41532b32dc581798c);
+            
+        
+
+        circle_63237870f64e852d9c64dd90b34b8a06.bindPopup(popup_d6e34ec6e5610678949dfacff81387c0)
+        ;
+
+        
+    
+    
+            var marker_778832288cadb3f41f8eba23957a3310 = L.marker(
+                [52.43927208598662, 4.8424228597558585],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_1f14291f6e5b88a7de9dc5878f003e41 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d65d953e44c114988baa01a3c23af206 = $(`<div id="html_d65d953e44c114988baa01a3c23af206" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Noorderven</h4><p> Totaal geldige uitgebrachte stemmen: 599</p><p><b>ChristenUnie</b> 3%</br> (Absoluut aantal stemmen: 20)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (18%)</li><li>DENK (13%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_1f14291f6e5b88a7de9dc5878f003e41.setContent(html_d65d953e44c114988baa01a3c23af206);
+            
+        
+
+        marker_778832288cadb3f41f8eba23957a3310.bindPopup(popup_1f14291f6e5b88a7de9dc5878f003e41)
+        ;
+
+        
+    
+    
+            var circle_21717d0a0473292053828b179c15644e = L.circle(
+                [52.43656, 4.83676],
+                {"bubblingMouseEvents": true, "color": "#daf200", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#daf200", "fillOpacity": 0.1285714285714286, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 28, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_b3c86b2165f99b8afe8fd94ab129149d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b23a7c6fc678e218ae6efc1f1349714a = $(`<div id="html_b23a7c6fc678e218ae6efc1f1349714a" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 14</div>`)[0];
+                popup_b3c86b2165f99b8afe8fd94ab129149d.setContent(html_b23a7c6fc678e218ae6efc1f1349714a);
+            
+        
+
+        circle_21717d0a0473292053828b179c15644e.bindPopup(popup_b3c86b2165f99b8afe8fd94ab129149d)
+        ;
+
+        
+    
+    
+            var marker_8b2b3ad3ad2b6613057f1b010dad590e = L.marker(
+                [52.43656, 4.83676],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_a3b12d761476f145536d67b3194fae3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a52b970e8e3036e6adb63f5db2b74d2 = $(`<div id="html_3a52b970e8e3036e6adb63f5db2b74d2" style="width: 100.0%; height: 100.0%;"><h4>Stembureau De Paaskerk</h4><p> Totaal geldige uitgebrachte stemmen: 502</p><p><b>ChristenUnie</b> 3%</br> (Absoluut aantal stemmen: 14)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (14%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li><li>PVV (Partij voor de Vrijheid) (10%)</li></ol></p></p></div>`)[0];
+                popup_a3b12d761476f145536d67b3194fae3d.setContent(html_3a52b970e8e3036e6adb63f5db2b74d2);
+            
+        
+
+        marker_8b2b3ad3ad2b6613057f1b010dad590e.bindPopup(popup_a3b12d761476f145536d67b3194fae3d)
+        ;
+
+        
+    
+    
+            var circle_7d2ffcbdc0d499ca8139d428d9fb4e7c = L.circle(
+                [52.43558, 4.8336],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.04285714285714286, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_e9a176ea0a344f0b8f17e6d8ac8f9642 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95647cfe173de47efeda1172a7512b7b = $(`<div id="html_95647cfe173de47efeda1172a7512b7b" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 5</div>`)[0];
+                popup_e9a176ea0a344f0b8f17e6d8ac8f9642.setContent(html_95647cfe173de47efeda1172a7512b7b);
+            
+        
+
+        circle_7d2ffcbdc0d499ca8139d428d9fb4e7c.bindPopup(popup_e9a176ea0a344f0b8f17e6d8ac8f9642)
+        ;
+
+        
+    
+    
+            var marker_c5e25dc905f565c2d654786ae54ba897 = L.marker(
+                [52.43558, 4.8336],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_e67790e863917dbc6e243a53d10fdb44 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_77fd852b437be8f44dc4787d4eb9df8a = $(`<div id="html_77fd852b437be8f44dc4787d4eb9df8a" style="width: 100.0%; height: 100.0%;"><h4>Stembureau CBS Tamarinde,INGANG J.C. VAN WESSEMSTR</h4><p> Totaal geldige uitgebrachte stemmen: 499</p><p><b>ChristenUnie</b> 1%</br> (Absoluut aantal stemmen: 5)<p><b>Top drie:</b><ol><li>ROSA (17%)</li><li>Partij voor Ouderen en Veiligheid (15%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li></ol></p></p></div>`)[0];
+                popup_e67790e863917dbc6e243a53d10fdb44.setContent(html_77fd852b437be8f44dc4787d4eb9df8a);
+            
+        
+
+        marker_c5e25dc905f565c2d654786ae54ba897.bindPopup(popup_e67790e863917dbc6e243a53d10fdb44)
+        ;
+
+        
+    
+    
+            var circle_cf7144434a16f8802979a8c65f87fa32 = L.circle(
+                [52.44047, 4.83383],
+                {"bubblingMouseEvents": true, "color": "#daf200", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#daf200", "fillOpacity": 0.1285714285714286, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 36, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_74c9a032aa8c6c11cbbe2401ef292528 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8027cd4ee7c767a51e9ea3039d2499b1 = $(`<div id="html_8027cd4ee7c767a51e9ea3039d2499b1" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 18</div>`)[0];
+                popup_74c9a032aa8c6c11cbbe2401ef292528.setContent(html_8027cd4ee7c767a51e9ea3039d2499b1);
+            
+        
+
+        circle_cf7144434a16f8802979a8c65f87fa32.bindPopup(popup_74c9a032aa8c6c11cbbe2401ef292528)
+        ;
+
+        
+    
+    
+            var marker_aa80369713616a5f76d8cd30a3f72d14 = L.marker(
+                [52.44047, 4.83383],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_6bf9a3c7f6245b2ab5d6390982dddd30 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0232abdbe61e2e67837829dfd0161597 = $(`<div id="html_0232abdbe61e2e67837829dfd0161597" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Wijkcentrum Dirk Prins</h4><p> Totaal geldige uitgebrachte stemmen: 633</p><p><b>ChristenUnie</b> 3%</br> (Absoluut aantal stemmen: 18)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (18%)</li><li>Partij van de Arbeid (P.v.d.A.) (10%)</li><li>PVV (Partij voor de Vrijheid) (10%)</li></ol></p></p></div>`)[0];
+                popup_6bf9a3c7f6245b2ab5d6390982dddd30.setContent(html_0232abdbe61e2e67837829dfd0161597);
+            
+        
+
+        marker_aa80369713616a5f76d8cd30a3f72d14.bindPopup(popup_6bf9a3c7f6245b2ab5d6390982dddd30)
+        ;
+
+        
+    
+    
+            var circle_0e89cdadd752f79c5495a8cd8a1b1c85 = L.circle(
+                [52.44399, 4.82485],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.04285714285714286, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_02f5ff04024be81a7f7d15f7da4e6f8b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_32e7c35d5dc81cef5b422ce0c1014003 = $(`<div id="html_32e7c35d5dc81cef5b422ce0c1014003" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 7</div>`)[0];
+                popup_02f5ff04024be81a7f7d15f7da4e6f8b.setContent(html_32e7c35d5dc81cef5b422ce0c1014003);
+            
+        
+
+        circle_0e89cdadd752f79c5495a8cd8a1b1c85.bindPopup(popup_02f5ff04024be81a7f7d15f7da4e6f8b)
+        ;
+
+        
+    
+    
+            var marker_255110f1b199a19a1c5c9b52c8414f8e = L.marker(
+                [52.44399, 4.82485],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_0b3592bc067c8954399aa12d8e5a8a77 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d346e50546c2c5ebd73d899faa43c873 = $(`<div id="html_d346e50546c2c5ebd73d899faa43c873" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurthuis de Kolk</h4><p> Totaal geldige uitgebrachte stemmen: 707</p><p><b>ChristenUnie</b> 1%</br> (Absoluut aantal stemmen: 7)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (17%)</li><li>Partij voor Ouderen en Veiligheid (16%)</li><li>Democratisch Zaanstad (DZ) (10%)</li></ol></p></p></div>`)[0];
+                popup_0b3592bc067c8954399aa12d8e5a8a77.setContent(html_d346e50546c2c5ebd73d899faa43c873);
+            
+        
+
+        marker_255110f1b199a19a1c5c9b52c8414f8e.bindPopup(popup_0b3592bc067c8954399aa12d8e5a8a77)
+        ;
+
+        
+    
+    
+            var circle_0d3b3309246e8f7d5335955c23cf6a5a = L.circle(
+                [52.44805, 4.82367],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.04285714285714286, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_bbb4d2ec755463ec0cd741019b7f6e55 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e011ea6346310999f8b136a1efeea1c = $(`<div id="html_2e011ea6346310999f8b136a1efeea1c" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 7</div>`)[0];
+                popup_bbb4d2ec755463ec0cd741019b7f6e55.setContent(html_2e011ea6346310999f8b136a1efeea1c);
+            
+        
+
+        circle_0d3b3309246e8f7d5335955c23cf6a5a.bindPopup(popup_bbb4d2ec755463ec0cd741019b7f6e55)
+        ;
+
+        
+    
+    
+            var marker_6385cd08abeb1fd1c2ff976ccd60de9c = L.marker(
+                [52.44805, 4.82367],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_5eb9e051c64376906fcb57213f3d4446 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34194749edafc42e1289f05eabe6c271 = $(`<div id="html_34194749edafc42e1289f05eabe6c271" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Sporthal de Struijck, INGANG PROF.STRUIJCKENSTRAAT</h4><p> Totaal geldige uitgebrachte stemmen: 498</p><p><b>ChristenUnie</b> 1%</br> (Absoluut aantal stemmen: 7)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (15%)</li><li>Partij van de Arbeid (P.v.d.A.) (14%)</li><li>GROENLINKS (9%)</li></ol></p></p></div>`)[0];
+                popup_5eb9e051c64376906fcb57213f3d4446.setContent(html_34194749edafc42e1289f05eabe6c271);
+            
+        
+
+        marker_6385cd08abeb1fd1c2ff976ccd60de9c.bindPopup(popup_5eb9e051c64376906fcb57213f3d4446)
+        ;
+
+        
+    
+    
+            var circle_ec512e3141de8f6628964286f3a65957 = L.circle(
+                [52.44981, 4.82664],
+                {"bubblingMouseEvents": true, "color": "#c9ec00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c9ec00", "fillOpacity": 0.17142857142857143, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 106, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_222da10aebad1fde84640ac98ac43c2b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2997e4a97e5ab360cc99c4af261f66aa = $(`<div id="html_2997e4a97e5ab360cc99c4af261f66aa" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 53</div>`)[0];
+                popup_222da10aebad1fde84640ac98ac43c2b.setContent(html_2997e4a97e5ab360cc99c4af261f66aa);
+            
+        
+
+        circle_ec512e3141de8f6628964286f3a65957.bindPopup(popup_222da10aebad1fde84640ac98ac43c2b)
+        ;
+
+        
+    
+    
+            var marker_db29a37586565a9bd792588ba6d199ad = L.marker(
+                [52.44981, 4.82664],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_30de862959aac4308169123486a9fdb6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7378029aed78c71a8a63ee561c26e119 = $(`<div id="html_7378029aed78c71a8a63ee561c26e119" style="width: 100.0%; height: 100.0%;"><h4>Stembureau De Noorderkerk</h4><p> Totaal geldige uitgebrachte stemmen: 1449</p><p><b>ChristenUnie</b> 4%</br> (Absoluut aantal stemmen: 53)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (15%)</li><li>Partij voor Ouderen en Veiligheid (12%)</li><li>ROSA (8%)</li></ol></p></p></div>`)[0];
+                popup_30de862959aac4308169123486a9fdb6.setContent(html_7378029aed78c71a8a63ee561c26e119);
+            
+        
+
+        marker_db29a37586565a9bd792588ba6d199ad.bindPopup(popup_30de862959aac4308169123486a9fdb6)
+        ;
+
+        
+    
+    
+            var circle_0fbfeac73b82b070c46564bc88997fdb = L.circle(
+                [52.45823, 4.83142],
+                {"bubblingMouseEvents": true, "color": "#b8e600", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b8e600", "fillOpacity": 0.21428571428571427, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 22, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_40bad67419dd7bfb1e6f67176bfb7ecf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c716446752f817691afe9a6f6debc13e = $(`<div id="html_c716446752f817691afe9a6f6debc13e" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 11</div>`)[0];
+                popup_40bad67419dd7bfb1e6f67176bfb7ecf.setContent(html_c716446752f817691afe9a6f6debc13e);
+            
+        
+
+        circle_0fbfeac73b82b070c46564bc88997fdb.bindPopup(popup_40bad67419dd7bfb1e6f67176bfb7ecf)
+        ;
+
+        
+    
+    
+            var marker_8a6fa063875ad7c5aaaf7abcc886de31 = L.marker(
+                [52.45823, 4.83142],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_aad6eaa70095e6bf08fd554bc859228f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_94a6cc73fa22c4f14287b94343ea8429 = $(`<div id="html_94a6cc73fa22c4f14287b94343ea8429" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Basisschool Kogerveld</h4><p> Totaal geldige uitgebrachte stemmen: 228</p><p><b>ChristenUnie</b> 5%</br> (Absoluut aantal stemmen: 11)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (18%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li><li>D66 (9%)</li></ol></p></p></div>`)[0];
+                popup_aad6eaa70095e6bf08fd554bc859228f.setContent(html_94a6cc73fa22c4f14287b94343ea8429);
+            
+        
+
+        marker_8a6fa063875ad7c5aaaf7abcc886de31.bindPopup(popup_aad6eaa70095e6bf08fd554bc859228f)
+        ;
+
+        
+    
+    
+            var circle_1600c3157241f8db6c31cf2019cafce9 = L.circle(
+                [52.4582, 4.82359],
+                {"bubblingMouseEvents": true, "color": "#ecf900", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ecf900", "fillOpacity": 0.08571428571428572, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 28, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_ed33da53b193cf19e2c74b3e7e857806 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e522196f56ee4b4bced0326648d986e = $(`<div id="html_4e522196f56ee4b4bced0326648d986e" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 14</div>`)[0];
+                popup_ed33da53b193cf19e2c74b3e7e857806.setContent(html_4e522196f56ee4b4bced0326648d986e);
+            
+        
+
+        circle_1600c3157241f8db6c31cf2019cafce9.bindPopup(popup_ed33da53b193cf19e2c74b3e7e857806)
+        ;
+
+        
+    
+    
+            var marker_406d59840a0be4ec9b5073d3cac091d8 = L.marker(
+                [52.4582, 4.82359],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_9fca79ef9103807eaa96250da4ecc11f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c51474b11106159baf3d99ce9bb409fc = $(`<div id="html_c51474b11106159baf3d99ce9bb409fc" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Veldbloemenweg</h4><p> Totaal geldige uitgebrachte stemmen: 662</p><p><b>ChristenUnie</b> 2%</br> (Absoluut aantal stemmen: 14)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (14%)</li><li>ROSA (13%)</li><li>DENK (11%)</li></ol></p></p></div>`)[0];
+                popup_9fca79ef9103807eaa96250da4ecc11f.setContent(html_c51474b11106159baf3d99ce9bb409fc);
+            
+        
+
+        marker_406d59840a0be4ec9b5073d3cac091d8.bindPopup(popup_9fca79ef9103807eaa96250da4ecc11f)
+        ;
+
+        
+    
+    
+            var circle_a3909a61f97632fd9d3491e48e0cd8b5 = L.circle(
+                [52.4676, 4.8346],
+                {"bubblingMouseEvents": true, "color": "#c9ec00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c9ec00", "fillOpacity": 0.17142857142857143, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 124, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_54d7af15965079eedf5572434c5b7166 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba239d6d80aae529ddf1c8fc188f6397 = $(`<div id="html_ba239d6d80aae529ddf1c8fc188f6397" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 62</div>`)[0];
+                popup_54d7af15965079eedf5572434c5b7166.setContent(html_ba239d6d80aae529ddf1c8fc188f6397);
+            
+        
+
+        circle_a3909a61f97632fd9d3491e48e0cd8b5.bindPopup(popup_54d7af15965079eedf5572434c5b7166)
+        ;
+
+        
+    
+    
+            var marker_2beacd874d8403d2ac969f77cc465be0 = L.marker(
+                [52.4676, 4.8346],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_eb25b4a03f181b6a605f48bd4cae244b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_75c48690d6a3e3bdfe20fcbd750411e5 = $(`<div id="html_75c48690d6a3e3bdfe20fcbd750411e5" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurtcentrum de Bovenkruier</h4><p> Totaal geldige uitgebrachte stemmen: 1527</p><p><b>ChristenUnie</b> 4%</br> (Absoluut aantal stemmen: 62)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (20%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_eb25b4a03f181b6a605f48bd4cae244b.setContent(html_75c48690d6a3e3bdfe20fcbd750411e5);
+            
+        
+
+        marker_2beacd874d8403d2ac969f77cc465be0.bindPopup(popup_eb25b4a03f181b6a605f48bd4cae244b)
+        ;
+
+        
+    
+    
+            var circle_d7d44198e31a57f50bb6a28569ef5de0 = L.circle(
+                [52.46802, 4.8366],
+                {"bubblingMouseEvents": true, "color": "#daf200", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#daf200", "fillOpacity": 0.1285714285714286, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 60, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_79a6a8447e32131b2efb720df5d55a57 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dab3c252ac899a18ccbf8ca93c9f1353 = $(`<div id="html_dab3c252ac899a18ccbf8ca93c9f1353" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 30</div>`)[0];
+                popup_79a6a8447e32131b2efb720df5d55a57.setContent(html_dab3c252ac899a18ccbf8ca93c9f1353);
+            
+        
+
+        circle_d7d44198e31a57f50bb6a28569ef5de0.bindPopup(popup_79a6a8447e32131b2efb720df5d55a57)
+        ;
+
+        
+    
+    
+            var marker_d511806cd3a496d212574a248391c2e8 = L.marker(
+                [52.46802, 4.8366],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_94ff41769eacacc62d4d539e685ff0b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_02227eef8c13e9acd12b60aaae9ef3f0 = $(`<div id="html_02227eef8c13e9acd12b60aaae9ef3f0" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Sporthal de Tref</h4><p> Totaal geldige uitgebrachte stemmen: 1035</p><p><b>ChristenUnie</b> 3%</br> (Absoluut aantal stemmen: 30)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (15%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li><li>VVD (10%)</li></ol></p></p></div>`)[0];
+                popup_94ff41769eacacc62d4d539e685ff0b9.setContent(html_02227eef8c13e9acd12b60aaae9ef3f0);
+            
+        
+
+        marker_d511806cd3a496d212574a248391c2e8.bindPopup(popup_94ff41769eacacc62d4d539e685ff0b9)
+        ;
+
+        
+    
+    
+            var circle_c89a05e9832ac26c5d6b31bbb785dfa8 = L.circle(
+                [52.42847, 4.83209],
+                {"bubblingMouseEvents": true, "color": "#ecf900", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ecf900", "fillOpacity": 0.08571428571428572, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 26, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_b7371e1801b4241b8f5229f56c6d6272 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af096bf5e896ee2e9a39327c01920a96 = $(`<div id="html_af096bf5e896ee2e9a39327c01920a96" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 13</div>`)[0];
+                popup_b7371e1801b4241b8f5229f56c6d6272.setContent(html_af096bf5e896ee2e9a39327c01920a96);
+            
+        
+
+        circle_c89a05e9832ac26c5d6b31bbb785dfa8.bindPopup(popup_b7371e1801b4241b8f5229f56c6d6272)
+        ;
+
+        
+    
+    
+            var marker_205b795ef85a636edbfb488cf1be1bd8 = L.marker(
+                [52.42847, 4.83209],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_ae07aa853f71a6aa872cd440fc1fa64f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09c1481ddb24ae111ee15321052b6f97 = $(`<div id="html_09c1481ddb24ae111ee15321052b6f97" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Speeltuinvereniging "Het Havenkwartier"</h4><p> Totaal geldige uitgebrachte stemmen: 677</p><p><b>ChristenUnie</b> 2%</br> (Absoluut aantal stemmen: 13)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (15%)</li><li>Democratisch Zaanstad (DZ) (14%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_ae07aa853f71a6aa872cd440fc1fa64f.setContent(html_09c1481ddb24ae111ee15321052b6f97);
+            
+        
+
+        marker_205b795ef85a636edbfb488cf1be1bd8.bindPopup(popup_ae07aa853f71a6aa872cd440fc1fa64f)
+        ;
+
+        
+    
+    
+            var circle_584b8b173d2a94247a26f5a78f997b3c = L.circle(
+                [52.43837, 4.82545],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.04285714285714286, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 22, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_bd4d27da688536622391d558aa871d30 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6007f25c7e8ba5a7a9ee90a37f3f5f79 = $(`<div id="html_6007f25c7e8ba5a7a9ee90a37f3f5f79" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 11</div>`)[0];
+                popup_bd4d27da688536622391d558aa871d30.setContent(html_6007f25c7e8ba5a7a9ee90a37f3f5f79);
+            
+        
+
+        circle_584b8b173d2a94247a26f5a78f997b3c.bindPopup(popup_bd4d27da688536622391d558aa871d30)
+        ;
+
+        
+    
+    
+            var marker_c6de65a7e894fed7c6d4c8b0c875963c = L.marker(
+                [52.43837, 4.82545],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_a7461a9ebc770d2f352d2eec302b03bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3883c71ce98407080326f924e0c109f9 = $(`<div id="html_3883c71ce98407080326f924e0c109f9" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Het Zaantheater</h4><p> Totaal geldige uitgebrachte stemmen: 796</p><p><b>ChristenUnie</b> 1%</br> (Absoluut aantal stemmen: 11)<p><b>Top drie:</b><ol><li>ROSA (13%)</li><li>Partij van de Arbeid (P.v.d.A.) (12%)</li><li>GROENLINKS (11%)</li></ol></p></p></div>`)[0];
+                popup_a7461a9ebc770d2f352d2eec302b03bd.setContent(html_3883c71ce98407080326f924e0c109f9);
+            
+        
+
+        marker_c6de65a7e894fed7c6d4c8b0c875963c.bindPopup(popup_a7461a9ebc770d2f352d2eec302b03bd)
+        ;
+
+        
+    
+    
+            var circle_23850e23e43578db04f6752284204d3b = L.circle(
+                [52.44797, 4.81985],
+                {"bubblingMouseEvents": true, "color": "#ecf900", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ecf900", "fillOpacity": 0.08571428571428572, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_e5051209b109938465b04ae8e6108244 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7410a7a43cdf2e5a4ddb3c71ca393ccd = $(`<div id="html_7410a7a43cdf2e5a4ddb3c71ca393ccd" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 7</div>`)[0];
+                popup_e5051209b109938465b04ae8e6108244.setContent(html_7410a7a43cdf2e5a4ddb3c71ca393ccd);
+            
+        
+
+        circle_23850e23e43578db04f6752284204d3b.bindPopup(popup_e5051209b109938465b04ae8e6108244)
+        ;
+
+        
+    
+    
+            var marker_460755c9775b3607b42ba47af133d8d9 = L.marker(
+                [52.44797, 4.81985],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_c07623986181333bded415085f1572ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86a7b2105041341d847e234174beceec = $(`<div id="html_86a7b2105041341d847e234174beceec" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Het Tolhuys aan de Zaan</h4><p> Totaal geldige uitgebrachte stemmen: 454</p><p><b>ChristenUnie</b> 2%</br> (Absoluut aantal stemmen: 7)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (15%)</li><li>ROSA (14%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_c07623986181333bded415085f1572ea.setContent(html_86a7b2105041341d847e234174beceec);
+            
+        
+
+        marker_460755c9775b3607b42ba47af133d8d9.bindPopup(popup_c07623986181333bded415085f1572ea)
+        ;
+
+        
+    
+    
+            var circle_b13a8e76b20dd5bbe73e72d38acae4b2 = L.circle(
+                [52.44943, 4.8169],
+                {"bubblingMouseEvents": true, "color": "#ecf900", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ecf900", "fillOpacity": 0.08571428571428572, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 24, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_842c8b95ec49ffe9110867088d8d73ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4dc0e7f6c0101041826edf391b9177b9 = $(`<div id="html_4dc0e7f6c0101041826edf391b9177b9" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 12</div>`)[0];
+                popup_842c8b95ec49ffe9110867088d8d73ce.setContent(html_4dc0e7f6c0101041826edf391b9177b9);
+            
+        
+
+        circle_b13a8e76b20dd5bbe73e72d38acae4b2.bindPopup(popup_842c8b95ec49ffe9110867088d8d73ce)
+        ;
+
+        
+    
+    
+            var marker_39edbdc3244eefb5827b8194cc18079e = L.marker(
+                [52.44943, 4.8169],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_75bedfdbce86f5a487f6da067027b850 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d467f2ca4e2bd5dad8f87191e975c0a = $(`<div id="html_8d467f2ca4e2bd5dad8f87191e975c0a" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Atletiekvereniging Zaanland</h4><p> Totaal geldige uitgebrachte stemmen: 590</p><p><b>ChristenUnie</b> 2%</br> (Absoluut aantal stemmen: 12)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (16%)</li><li>ROSA (14%)</li><li>GROENLINKS (11%)</li></ol></p></p></div>`)[0];
+                popup_75bedfdbce86f5a487f6da067027b850.setContent(html_8d467f2ca4e2bd5dad8f87191e975c0a);
+            
+        
+
+        marker_39edbdc3244eefb5827b8194cc18079e.bindPopup(popup_75bedfdbce86f5a487f6da067027b850)
+        ;
+
+        
+    
+    
+            var circle_2ceefbd0056aa30f585bbc2f2b90e617 = L.circle(
+                [52.43817, 4.8118],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_cccee09b39d7b2e2248d2ed13fad92e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_760731953f3f1f72d6269bdf27408569 = $(`<div id="html_760731953f3f1f72d6269bdf27408569" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 1</div>`)[0];
+                popup_cccee09b39d7b2e2248d2ed13fad92e5.setContent(html_760731953f3f1f72d6269bdf27408569);
+            
+        
+
+        circle_2ceefbd0056aa30f585bbc2f2b90e617.bindPopup(popup_cccee09b39d7b2e2248d2ed13fad92e5)
+        ;
+
+        
+    
+    
+            var marker_bfc5a44b2a53f2a32e093c09d2f913a5 = L.marker(
+                [52.43817, 4.8118],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_3af271dfc67abf8525b721672d34af60 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_578eeae623948b288016f6cc0da30e5d = $(`<div id="html_578eeae623948b288016f6cc0da30e5d" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Zaan Hotel</h4><p> Totaal geldige uitgebrachte stemmen: 249</p><p><b>ChristenUnie</b> 0%</br> (Absoluut aantal stemmen: 1)<p><b>Top drie:</b><ol><li>D66 (12%)</li><li>ROSA (12%)</li><li>Democratisch Zaanstad (DZ) (12%)</li></ol></p></p></div>`)[0];
+                popup_3af271dfc67abf8525b721672d34af60.setContent(html_578eeae623948b288016f6cc0da30e5d);
+            
+        
+
+        marker_bfc5a44b2a53f2a32e093c09d2f913a5.bindPopup(popup_3af271dfc67abf8525b721672d34af60)
+        ;
+
+        
+    
+    
+            var circle_192a7fe33ff6bb867d23f2ed30511194 = L.circle(
+                [52.44768, 4.80579],
+                {"bubblingMouseEvents": true, "color": "#a7df00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a7df00", "fillOpacity": 0.2571428571428572, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 64, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_1695845c6f73a6bfcaffc706bf8de56b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e353544f88baf49d732e4395334046f1 = $(`<div id="html_e353544f88baf49d732e4395334046f1" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 32</div>`)[0];
+                popup_1695845c6f73a6bfcaffc706bf8de56b.setContent(html_e353544f88baf49d732e4395334046f1);
+            
+        
+
+        circle_192a7fe33ff6bb867d23f2ed30511194.bindPopup(popup_1695845c6f73a6bfcaffc706bf8de56b)
+        ;
+
+        
+    
+    
+            var marker_863a063aea851b6a8afe0e3b7d84b46e = L.marker(
+                [52.44768, 4.80579],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_c07a8a0baa973ba6a5ccdd01ed46a5c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c7c1380acd9240f257d973e15debb0e = $(`<div id="html_0c7c1380acd9240f257d973e15debb0e" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurtcentrum De Zeskanter</h4><p> Totaal geldige uitgebrachte stemmen: 516</p><p><b>ChristenUnie</b> 6%</br> (Absoluut aantal stemmen: 32)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (21%)</li><li>Democratisch Zaanstad (DZ) (13%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li></ol></p></p></div>`)[0];
+                popup_c07a8a0baa973ba6a5ccdd01ed46a5c6.setContent(html_0c7c1380acd9240f257d973e15debb0e);
+            
+        
+
+        marker_863a063aea851b6a8afe0e3b7d84b46e.bindPopup(popup_c07a8a0baa973ba6a5ccdd01ed46a5c6)
+        ;
+
+        
+    
+    
+            var circle_c9a107d35f756a70444fe961f13e7703 = L.circle(
+                [52.44802, 4.8004],
+                {"bubblingMouseEvents": true, "color": "#c9ec00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c9ec00", "fillOpacity": 0.17142857142857143, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 64, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_c3034fb1ade2ae8e9b5a6b5d07139609 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b36b7670a5a94e03a04d977e9f0505d3 = $(`<div id="html_b36b7670a5a94e03a04d977e9f0505d3" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 32</div>`)[0];
+                popup_c3034fb1ade2ae8e9b5a6b5d07139609.setContent(html_b36b7670a5a94e03a04d977e9f0505d3);
+            
+        
+
+        circle_c9a107d35f756a70444fe961f13e7703.bindPopup(popup_c3034fb1ade2ae8e9b5a6b5d07139609)
+        ;
+
+        
+    
+    
+            var marker_e41cafdb13b8c96e874b44471d8d9866 = L.marker(
+                [52.44802, 4.8004],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_06b8d9dbca32ed1dd11ad1210381ce67 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_adea08e9de4ee74052cc2067c1e860be = $(`<div id="html_adea08e9de4ee74052cc2067c1e860be" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Meverstraat</h4><p> Totaal geldige uitgebrachte stemmen: 872</p><p><b>ChristenUnie</b> 4%</br> (Absoluut aantal stemmen: 32)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (15%)</li><li>VVD (14%)</li><li>Partij van de Arbeid (P.v.d.A.) (14%)</li></ol></p></p></div>`)[0];
+                popup_06b8d9dbca32ed1dd11ad1210381ce67.setContent(html_adea08e9de4ee74052cc2067c1e860be);
+            
+        
+
+        marker_e41cafdb13b8c96e874b44471d8d9866.bindPopup(popup_06b8d9dbca32ed1dd11ad1210381ce67)
+        ;
+
+        
+    
+    
+            var circle_e55682684e3527e0e995c1f885e2f831 = L.circle(
+                [52.447231, 4.805182],
+                {"bubblingMouseEvents": true, "color": "#c9ec00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c9ec00", "fillOpacity": 0.17142857142857143, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_62edaa0443daf5f5013beee9afd97ab1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e2fd55560998ad4ed79ef0c2bad1f250 = $(`<div id="html_e2fd55560998ad4ed79ef0c2bad1f250" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 20</div>`)[0];
+                popup_62edaa0443daf5f5013beee9afd97ab1.setContent(html_e2fd55560998ad4ed79ef0c2bad1f250);
+            
+        
+
+        circle_e55682684e3527e0e995c1f885e2f831.bindPopup(popup_62edaa0443daf5f5013beee9afd97ab1)
+        ;
+
+        
+    
+    
+            var marker_e2fe145ea86118f770c03e05f5c0a2e7 = L.marker(
+                [52.447231, 4.805182],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_4822856f240d0a74b51ff2f26af07028 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4319eb05b611f152d1f9a9e07dec788 = $(`<div id="html_d4319eb05b611f152d1f9a9e07dec788" style="width: 100.0%; height: 100.0%;"><h4>Stembureau De Volleyhal</h4><p> Totaal geldige uitgebrachte stemmen: 538</p><p><b>ChristenUnie</b> 4%</br> (Absoluut aantal stemmen: 20)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (15%)</li><li>Partij voor Ouderen en Veiligheid (15%)</li><li>VVD (14%)</li></ol></p></p></div>`)[0];
+                popup_4822856f240d0a74b51ff2f26af07028.setContent(html_d4319eb05b611f152d1f9a9e07dec788);
+            
+        
+
+        marker_e2fe145ea86118f770c03e05f5c0a2e7.bindPopup(popup_4822856f240d0a74b51ff2f26af07028)
+        ;
+
+        
+    
+    
+            var circle_de0b7ea6474c67c481b051ad22176ff1 = L.circle(
+                [52.43566, 4.81414],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.04285714285714286, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 26, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_0deaf765c3cfd70e912df18df82d3ac1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a34f92df30c41876cd1a9a414061bc9c = $(`<div id="html_a34f92df30c41876cd1a9a414061bc9c" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 13</div>`)[0];
+                popup_0deaf765c3cfd70e912df18df82d3ac1.setContent(html_a34f92df30c41876cd1a9a414061bc9c);
+            
+        
+
+        circle_de0b7ea6474c67c481b051ad22176ff1.bindPopup(popup_0deaf765c3cfd70e912df18df82d3ac1)
+        ;
+
+        
+    
+    
+            var marker_ac92e99d0d2ca7c4ad781c3776a4e8f2 = L.marker(
+                [52.43566, 4.81414],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_7cf1913e9754bbef1209d2a10a6084ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91af5b8e322b633a8b97e1db5353f0b4 = $(`<div id="html_91af5b8e322b633a8b97e1db5353f0b4" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Brandweerkazerne Houtveldweg</h4><p> Totaal geldige uitgebrachte stemmen: 930</p><p><b>ChristenUnie</b> 1%</br> (Absoluut aantal stemmen: 13)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (16%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li><li>Democratisch Zaanstad (DZ) (11%)</li></ol></p></p></div>`)[0];
+                popup_7cf1913e9754bbef1209d2a10a6084ed.setContent(html_91af5b8e322b633a8b97e1db5353f0b4);
+            
+        
+
+        marker_ac92e99d0d2ca7c4ad781c3776a4e8f2.bindPopup(popup_7cf1913e9754bbef1209d2a10a6084ed)
+        ;
+
+        
+    
+    
+            var circle_53f399d244967180158d17f54b26d347 = L.circle(
+                [52.43832, 4.81463],
+                {"bubblingMouseEvents": true, "color": "#ecf900", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ecf900", "fillOpacity": 0.08571428571428572, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 96, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_0b84f9d5fbc464ffe7ff142f727585f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_771492b25ef0dae963881ec2b8875bbd = $(`<div id="html_771492b25ef0dae963881ec2b8875bbd" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 48</div>`)[0];
+                popup_0b84f9d5fbc464ffe7ff142f727585f8.setContent(html_771492b25ef0dae963881ec2b8875bbd);
+            
+        
+
+        circle_53f399d244967180158d17f54b26d347.bindPopup(popup_0b84f9d5fbc464ffe7ff142f727585f8)
+        ;
+
+        
+    
+    
+            var marker_434520642c7f84f44e18442145cd70cf = L.marker(
+                [52.43832, 4.81463],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_94d7f5e75c31b9e1498010f0c497c097 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9e7aa703ed2044ca0de842e84cae26a5 = $(`<div id="html_9e7aa703ed2044ca0de842e84cae26a5" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stadhuis van Zaanstad</h4><p> Totaal geldige uitgebrachte stemmen: 2420</p><p><b>ChristenUnie</b> 2%</br> (Absoluut aantal stemmen: 48)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (14%)</li><li>GROENLINKS (13%)</li><li>ROSA (10%)</li></ol></p></p></div>`)[0];
+                popup_94d7f5e75c31b9e1498010f0c497c097.setContent(html_9e7aa703ed2044ca0de842e84cae26a5);
+            
+        
+
+        marker_434520642c7f84f44e18442145cd70cf.bindPopup(popup_94d7f5e75c31b9e1498010f0c497c097)
+        ;
+
+        
+    
+    
+            var circle_82582ffcf8f69de59ef305d9115b5e7c = L.circle(
+                [52.43969, 4.81118],
+                {"bubblingMouseEvents": true, "color": "#ecf900", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ecf900", "fillOpacity": 0.08571428571428572, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 22, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_37bdbd47d0d0bbacfe46312747e6c179 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_93e379ebf3dfb37746537e49a551f0f4 = $(`<div id="html_93e379ebf3dfb37746537e49a551f0f4" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 11</div>`)[0];
+                popup_37bdbd47d0d0bbacfe46312747e6c179.setContent(html_93e379ebf3dfb37746537e49a551f0f4);
+            
+        
+
+        circle_82582ffcf8f69de59ef305d9115b5e7c.bindPopup(popup_37bdbd47d0d0bbacfe46312747e6c179)
+        ;
+
+        
+    
+    
+            var marker_0ae2653685e0418b048af0512d44b584 = L.marker(
+                [52.43969, 4.81118],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_3b3cf1774fbaf62ccf6dc4a5dc979d7b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_844b63855621d7dd614adfb7d08d206e = $(`<div id="html_844b63855621d7dd614adfb7d08d206e" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Best Western Zaan Inn</h4><p> Totaal geldige uitgebrachte stemmen: 696</p><p><b>ChristenUnie</b> 2%</br> (Absoluut aantal stemmen: 11)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (15%)</li><li>Partij voor Ouderen en Veiligheid (14%)</li><li>VVD (12%)</li></ol></p></p></div>`)[0];
+                popup_3b3cf1774fbaf62ccf6dc4a5dc979d7b.setContent(html_844b63855621d7dd614adfb7d08d206e);
+            
+        
+
+        marker_0ae2653685e0418b048af0512d44b584.bindPopup(popup_3b3cf1774fbaf62ccf6dc4a5dc979d7b)
+        ;
+
+        
+    
+    
+            var circle_2af21aba0b4c40d746bd22f110243041 = L.circle(
+                [52.44457, 4.81894],
+                {"bubblingMouseEvents": true, "color": "#daf200", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#daf200", "fillOpacity": 0.1285714285714286, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 66, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_8015710abb529c8e84fd805e59411df7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f87c841e316042be9b85a1fd657d672b = $(`<div id="html_f87c841e316042be9b85a1fd657d672b" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 33</div>`)[0];
+                popup_8015710abb529c8e84fd805e59411df7.setContent(html_f87c841e316042be9b85a1fd657d672b);
+            
+        
+
+        circle_2af21aba0b4c40d746bd22f110243041.bindPopup(popup_8015710abb529c8e84fd805e59411df7)
+        ;
+
+        
+    
+    
+            var marker_df9f4d2a61524fa45533b39779105491 = L.marker(
+                [52.44457, 4.81894],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_70993a3ba8b1e580bc46a4c9c22274ee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d00c805736ad62681fabace665ab0d83 = $(`<div id="html_d00c805736ad62681fabace665ab0d83" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Cultureel Centrum Bullekerk</h4><p> Totaal geldige uitgebrachte stemmen: 1066</p><p><b>ChristenUnie</b> 3%</br> (Absoluut aantal stemmen: 33)<p><b>Top drie:</b><ol><li>ROSA (14%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li><li>GROENLINKS (12%)</li></ol></p></p></div>`)[0];
+                popup_70993a3ba8b1e580bc46a4c9c22274ee.setContent(html_d00c805736ad62681fabace665ab0d83);
+            
+        
+
+        marker_df9f4d2a61524fa45533b39779105491.bindPopup(popup_70993a3ba8b1e580bc46a4c9c22274ee)
+        ;
+
+        
+    
+    
+            var circle_3f78d1b6878eb4568a6aa06dd09787a8 = L.circle(
+                [52.43955, 4.83068],
+                {"bubblingMouseEvents": true, "color": "#ecf900", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ecf900", "fillOpacity": 0.08571428571428572, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_b6f660d59f2a82d9de9bbb9455a4c3d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1e845eb6fa5d2bade3856192cce643d = $(`<div id="html_a1e845eb6fa5d2bade3856192cce643d" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 5</div>`)[0];
+                popup_b6f660d59f2a82d9de9bbb9455a4c3d1.setContent(html_a1e845eb6fa5d2bade3856192cce643d);
+            
+        
+
+        circle_3f78d1b6878eb4568a6aa06dd09787a8.bindPopup(popup_b6f660d59f2a82d9de9bbb9455a4c3d1)
+        ;
+
+        
+    
+    
+            var marker_5c0417cecc34b483b506ff1690da5ae6 = L.marker(
+                [52.43955, 4.83068],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_278872d097b32c187a5682f591297ab7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c6748a4ae5b363a2835505077e00f23 = $(`<div id="html_4c6748a4ae5b363a2835505077e00f23" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurthuis De Doorbraak</h4><p> Totaal geldige uitgebrachte stemmen: 308</p><p><b>ChristenUnie</b> 2%</br> (Absoluut aantal stemmen: 5)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (15%)</li><li>Partij voor Ouderen en Veiligheid (13%)</li><li>PVV (Partij voor de Vrijheid) (13%)</li></ol></p></p></div>`)[0];
+                popup_278872d097b32c187a5682f591297ab7.setContent(html_4c6748a4ae5b363a2835505077e00f23);
+            
+        
+
+        marker_5c0417cecc34b483b506ff1690da5ae6.bindPopup(popup_278872d097b32c187a5682f591297ab7)
+        ;
+
+        
+    
+    
+            var circle_a25782d77ac1891574097f910ae1980d = L.circle(
+                [52.45633, 4.81124],
+                {"bubblingMouseEvents": true, "color": "#c9ec00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c9ec00", "fillOpacity": 0.17142857142857143, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 96, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_d1c6796d91268da7902fb31cb9081165 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d8fadd7aaddf30274746a74990fa0ec = $(`<div id="html_6d8fadd7aaddf30274746a74990fa0ec" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 48</div>`)[0];
+                popup_d1c6796d91268da7902fb31cb9081165.setContent(html_6d8fadd7aaddf30274746a74990fa0ec);
+            
+        
+
+        circle_a25782d77ac1891574097f910ae1980d.bindPopup(popup_d1c6796d91268da7902fb31cb9081165)
+        ;
+
+        
+    
+    
+            var marker_d39975884043513231008298889b9817 = L.marker(
+                [52.45633, 4.81124],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_b74830ae55c42b91f738f6f1a102b7c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e5c1e05b6c5e078e9405c9bf75b0d018 = $(`<div id="html_e5c1e05b6c5e078e9405c9bf75b0d018" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Kerk van de Nazarener</h4><p> Totaal geldige uitgebrachte stemmen: 1102</p><p><b>ChristenUnie</b> 4%</br> (Absoluut aantal stemmen: 48)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (14%)</li><li>ROSA (13%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li></ol></p></p></div>`)[0];
+                popup_b74830ae55c42b91f738f6f1a102b7c3.setContent(html_e5c1e05b6c5e078e9405c9bf75b0d018);
+            
+        
+
+        marker_d39975884043513231008298889b9817.bindPopup(popup_b74830ae55c42b91f738f6f1a102b7c3)
+        ;
+
+        
+    
+    
+            var circle_f018382643316bd10454de77c5925aae = L.circle(
+                [52.46294, 4.80905],
+                {"bubblingMouseEvents": true, "color": "#ecf900", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ecf900", "fillOpacity": 0.08571428571428572, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 44, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_2695dc3c36e4c3031d9ba30bfce1efae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8bf8a744c8e59247452cfd3385457d6a = $(`<div id="html_8bf8a744c8e59247452cfd3385457d6a" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 22</div>`)[0];
+                popup_2695dc3c36e4c3031d9ba30bfce1efae.setContent(html_8bf8a744c8e59247452cfd3385457d6a);
+            
+        
+
+        circle_f018382643316bd10454de77c5925aae.bindPopup(popup_2695dc3c36e4c3031d9ba30bfce1efae)
+        ;
+
+        
+    
+    
+            var marker_03b7385b3b282cb054b86dc4fed414e1 = L.marker(
+                [52.46294, 4.80905],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_4f4e1ca2ac9680f0fb244bdb3bd2c1c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6abd5d2f1d59030c07585ef054b58188 = $(`<div id="html_6abd5d2f1d59030c07585ef054b58188" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurthuis Het BrandtWeer</h4><p> Totaal geldige uitgebrachte stemmen: 910</p><p><b>ChristenUnie</b> 2%</br> (Absoluut aantal stemmen: 22)<p><b>Top drie:</b><ol><li>ROSA (14%)</li><li>Partij voor Ouderen en Veiligheid (11%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li></ol></p></p></div>`)[0];
+                popup_4f4e1ca2ac9680f0fb244bdb3bd2c1c3.setContent(html_6abd5d2f1d59030c07585ef054b58188);
+            
+        
+
+        marker_03b7385b3b282cb054b86dc4fed414e1.bindPopup(popup_4f4e1ca2ac9680f0fb244bdb3bd2c1c3)
+        ;
+
+        
+    
+    
+            var circle_1f1d3ae05690006bc9569c91967362b0 = L.circle(
+                [52.4576, 4.79939],
+                {"bubblingMouseEvents": true, "color": "#b8e600", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b8e600", "fillOpacity": 0.21428571428571427, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 322, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_30ed68e4a0ae1c452503aa27452cba7d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_acbe5e56c2d73c71680383a7063ac604 = $(`<div id="html_acbe5e56c2d73c71680383a7063ac604" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 161</div>`)[0];
+                popup_30ed68e4a0ae1c452503aa27452cba7d.setContent(html_acbe5e56c2d73c71680383a7063ac604);
+            
+        
+
+        circle_1f1d3ae05690006bc9569c91967362b0.bindPopup(popup_30ed68e4a0ae1c452503aa27452cba7d)
+        ;
+
+        
+    
+    
+            var marker_000070fd16cd9a6fbb8e63d97592a56f = L.marker(
+                [52.4576, 4.79939],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_a5f359b727f2dd8902decd92c7a81421 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06da46b89d7f6454fbffbf8ee70389e5 = $(`<div id="html_06da46b89d7f6454fbffbf8ee70389e5" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurtcentrum De Vuister</h4><p> Totaal geldige uitgebrachte stemmen: 3294</p><p><b>ChristenUnie</b> 5%</br> (Absoluut aantal stemmen: 161)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (14%)</li><li>ROSA (12%)</li><li>Democratisch Zaanstad (DZ) (11%)</li></ol></p></p></div>`)[0];
+                popup_a5f359b727f2dd8902decd92c7a81421.setContent(html_06da46b89d7f6454fbffbf8ee70389e5);
+            
+        
+
+        marker_000070fd16cd9a6fbb8e63d97592a56f.bindPopup(popup_a5f359b727f2dd8902decd92c7a81421)
+        ;
+
+        
+    
+    
+            var circle_b49174c53444a15943d54e6b6c54e431 = L.circle(
+                [52.45906, 4.79932],
+                {"bubblingMouseEvents": true, "color": "#ecf900", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ecf900", "fillOpacity": 0.08571428571428572, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_31216adedd9d57043124cb41bbc7dc84 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62575db5e0afa915da755a36ead05d0b = $(`<div id="html_62575db5e0afa915da755a36ead05d0b" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 10</div>`)[0];
+                popup_31216adedd9d57043124cb41bbc7dc84.setContent(html_62575db5e0afa915da755a36ead05d0b);
+            
+        
+
+        circle_b49174c53444a15943d54e6b6c54e431.bindPopup(popup_31216adedd9d57043124cb41bbc7dc84)
+        ;
+
+        
+    
+    
+            var marker_99584cdc9bca67aa20a8409ab3a64328 = L.marker(
+                [52.45906, 4.79932],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_59cf13c54d5efbde9250a0cdd12f6292 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a9f98e7a78df7b9dbea5c0e59bb9435 = $(`<div id="html_5a9f98e7a78df7b9dbea5c0e59bb9435" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Basisschool de Golfbreker</h4><p> Totaal geldige uitgebrachte stemmen: 460</p><p><b>ChristenUnie</b> 2%</br> (Absoluut aantal stemmen: 10)<p><b>Top drie:</b><ol><li>VVD (15%)</li><li>ROSA (13%)</li><li>Partij voor Ouderen en Veiligheid (12%)</li></ol></p></p></div>`)[0];
+                popup_59cf13c54d5efbde9250a0cdd12f6292.setContent(html_5a9f98e7a78df7b9dbea5c0e59bb9435);
+            
+        
+
+        marker_99584cdc9bca67aa20a8409ab3a64328.bindPopup(popup_59cf13c54d5efbde9250a0cdd12f6292)
+        ;
+
+        
+    
+    
+            var circle_452806b8cf9d87f210719226ec1bc69f = L.circle(
+                [52.4746, 4.81349],
+                {"bubblingMouseEvents": true, "color": "#ecf900", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ecf900", "fillOpacity": 0.08571428571428572, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 64, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_88f8711a431a9ece9e329609ecfba945 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b04bce22e25b153667ee0bff44183956 = $(`<div id="html_b04bce22e25b153667ee0bff44183956" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 32</div>`)[0];
+                popup_88f8711a431a9ece9e329609ecfba945.setContent(html_b04bce22e25b153667ee0bff44183956);
+            
+        
+
+        circle_452806b8cf9d87f210719226ec1bc69f.bindPopup(popup_88f8711a431a9ece9e329609ecfba945)
+        ;
+
+        
+    
+    
+            var marker_a72f201ce6bebb01dc96491077db663d = L.marker(
+                [52.4746, 4.81349],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_72baae33475e25581f3a42bbddcebf0d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df2964c6f785ee498282c836ac5a7edf = $(`<div id="html_df2964c6f785ee498282c836ac5a7edf" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Apostolisch Genootschap</h4><p> Totaal geldige uitgebrachte stemmen: 1432</p><p><b>ChristenUnie</b> 2%</br> (Absoluut aantal stemmen: 32)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (14%)</li><li>ROSA (13%)</li><li>Partij voor Ouderen en Veiligheid (12%)</li></ol></p></p></div>`)[0];
+                popup_72baae33475e25581f3a42bbddcebf0d.setContent(html_df2964c6f785ee498282c836ac5a7edf);
+            
+        
+
+        marker_a72f201ce6bebb01dc96491077db663d.bindPopup(popup_72baae33475e25581f3a42bbddcebf0d)
+        ;
+
+        
+    
+    
+            var circle_ed8532f301f99649264f06b76483d1c3 = L.circle(
+                [52.47439, 4.79702],
+                {"bubblingMouseEvents": true, "color": "#ecf900", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ecf900", "fillOpacity": 0.08571428571428572, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 56, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_044cf87333413e4aa1df2d5849fb5a4a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fdb86f6663adceb20ea6572c27b52714 = $(`<div id="html_fdb86f6663adceb20ea6572c27b52714" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 28</div>`)[0];
+                popup_044cf87333413e4aa1df2d5849fb5a4a.setContent(html_fdb86f6663adceb20ea6572c27b52714);
+            
+        
+
+        circle_ed8532f301f99649264f06b76483d1c3.bindPopup(popup_044cf87333413e4aa1df2d5849fb5a4a)
+        ;
+
+        
+    
+    
+            var marker_461a5bfb8970606a09aceed45f72abc1 = L.marker(
+                [52.47439, 4.79702],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_a08d5b7941af33d58e6634d338db9c8f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1b56189f31baa80a46b2b6c2aa0f5ae = $(`<div id="html_c1b56189f31baa80a46b2b6c2aa0f5ae" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Fortuinweg</h4><p> Totaal geldige uitgebrachte stemmen: 1177</p><p><b>ChristenUnie</b> 2%</br> (Absoluut aantal stemmen: 28)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (13%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li><li>Partij voor Ouderen en Veiligheid (13%)</li></ol></p></p></div>`)[0];
+                popup_a08d5b7941af33d58e6634d338db9c8f.setContent(html_c1b56189f31baa80a46b2b6c2aa0f5ae);
+            
+        
+
+        marker_461a5bfb8970606a09aceed45f72abc1.bindPopup(popup_a08d5b7941af33d58e6634d338db9c8f)
+        ;
+
+        
+    
+    
+            var circle_0771091acd032080bdb4e47fd08f5330 = L.circle(
+                [52.47303, 4.80383],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_89f10cf04fe20166d652a6fa14358213 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69b929215dbf5567a1d6ef985957a5ef = $(`<div id="html_69b929215dbf5567a1d6ef985957a5ef" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 2</div>`)[0];
+                popup_89f10cf04fe20166d652a6fa14358213.setContent(html_69b929215dbf5567a1d6ef985957a5ef);
+            
+        
+
+        circle_0771091acd032080bdb4e47fd08f5330.bindPopup(popup_89f10cf04fe20166d652a6fa14358213)
+        ;
+
+        
+    
+    
+            var marker_1f1c23b050d2c9f3d8a5a736c6354180 = L.marker(
+                [52.47303, 4.80383],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_841a07377d4ab06e2642be204f5ce34a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_65a18e297eab07c581933f41a5ccca10 = $(`<div id="html_65a18e297eab07c581933f41a5ccca10" style="width: 100.0%; height: 100.0%;"><h4>Stembureau ZFC Orkest & Muziekschool</h4><p> Totaal geldige uitgebrachte stemmen: 549</p><p><b>ChristenUnie</b> 0%</br> (Absoluut aantal stemmen: 2)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (17%)</li><li>Partij voor Ouderen en Veiligheid (16%)</li><li>Democratisch Zaanstad (DZ) (10%)</li></ol></p></p></div>`)[0];
+                popup_841a07377d4ab06e2642be204f5ce34a.setContent(html_65a18e297eab07c581933f41a5ccca10);
+            
+        
+
+        marker_1f1c23b050d2c9f3d8a5a736c6354180.bindPopup(popup_841a07377d4ab06e2642be204f5ce34a)
+        ;
+
+        
+    
+    
+            var circle_3742d55649b1c639fd9931395e579d4b = L.circle(
+                [52.48903, 4.79962],
+                {"bubblingMouseEvents": true, "color": "#daf200", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#daf200", "fillOpacity": 0.1285714285714286, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 38, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_c17af66fd7ba4135ae0d3093cd8f527a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43924267a4e1015d863f58e6a7f16e1b = $(`<div id="html_43924267a4e1015d863f58e6a7f16e1b" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 19</div>`)[0];
+                popup_c17af66fd7ba4135ae0d3093cd8f527a.setContent(html_43924267a4e1015d863f58e6a7f16e1b);
+            
+        
+
+        circle_3742d55649b1c639fd9931395e579d4b.bindPopup(popup_c17af66fd7ba4135ae0d3093cd8f527a)
+        ;
+
+        
+    
+    
+            var marker_71f03455ffbcbbf380a80db2a5976c7e = L.marker(
+                [52.48903, 4.79962],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_19c28e796fa1dee39625d4fec36d7c62 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b9004d1713b40110346797e775f06d6 = $(`<div id="html_7b9004d1713b40110346797e775f06d6" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Goudastraat</h4><p> Totaal geldige uitgebrachte stemmen: 610</p><p><b>ChristenUnie</b> 3%</br> (Absoluut aantal stemmen: 19)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (13%)</li><li>ROSA (12%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_19c28e796fa1dee39625d4fec36d7c62.setContent(html_7b9004d1713b40110346797e775f06d6);
+            
+        
+
+        marker_71f03455ffbcbbf380a80db2a5976c7e.bindPopup(popup_19c28e796fa1dee39625d4fec36d7c62)
+        ;
+
+        
+    
+    
+            var circle_d852bd615598ff3acbab082e286e6683 = L.circle(
+                [52.49417, 4.7868],
+                {"bubblingMouseEvents": true, "color": "#ecf900", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ecf900", "fillOpacity": 0.08571428571428572, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 112, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_9a4b392431dfc7d10014c09c44eed4b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6dd3be439d827e85cd02a9ec654945c0 = $(`<div id="html_6dd3be439d827e85cd02a9ec654945c0" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 56</div>`)[0];
+                popup_9a4b392431dfc7d10014c09c44eed4b2.setContent(html_6dd3be439d827e85cd02a9ec654945c0);
+            
+        
+
+        circle_d852bd615598ff3acbab082e286e6683.bindPopup(popup_9a4b392431dfc7d10014c09c44eed4b2)
+        ;
+
+        
+    
+    
+            var marker_efd3827f9f2fa5c61a47bb311be2b998 = L.marker(
+                [52.49417, 4.7868],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_4ca04e37b59203f9220fc0ec984a6d3c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ced389ca69cec557936d6caa9129cd56 = $(`<div id="html_ced389ca69cec557936d6caa9129cd56" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurtcentrum De Lorzie</h4><p> Totaal geldige uitgebrachte stemmen: 2293</p><p><b>ChristenUnie</b> 2%</br> (Absoluut aantal stemmen: 56)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (21%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li><li>ROSA (10%)</li></ol></p></p></div>`)[0];
+                popup_4ca04e37b59203f9220fc0ec984a6d3c.setContent(html_ced389ca69cec557936d6caa9129cd56);
+            
+        
+
+        marker_efd3827f9f2fa5c61a47bb311be2b998.bindPopup(popup_4ca04e37b59203f9220fc0ec984a6d3c)
+        ;
+
+        
+    
+    
+            var circle_9c55cca2c5ba204fdb083960acedc012 = L.circle(
+                [52.49593, 4.78692],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.04285714285714286, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_db0499ed25c9e1004a20d727588bd9ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd659fecd59a1592a185ca02c5d0512e = $(`<div id="html_bd659fecd59a1592a185ca02c5d0512e" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 2</div>`)[0];
+                popup_db0499ed25c9e1004a20d727588bd9ae.setContent(html_bd659fecd59a1592a185ca02c5d0512e);
+            
+        
+
+        circle_9c55cca2c5ba204fdb083960acedc012.bindPopup(popup_db0499ed25c9e1004a20d727588bd9ae)
+        ;
+
+        
+    
+    
+            var marker_80985de0d2bb19ae4043ecdcc823a9c7 = L.marker(
+                [52.49593, 4.78692],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_cf849b4ed62e4561b3736bb149f97b8d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b8dadfb72a14242348c16081f182baf = $(`<div id="html_9b8dadfb72a14242348c16081f182baf" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Anemoonstraat</h4><p> Totaal geldige uitgebrachte stemmen: 227</p><p><b>ChristenUnie</b> 1%</br> (Absoluut aantal stemmen: 2)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (18%)</li><li>Partij voor Ouderen en Veiligheid (16%)</li><li>Partij van de Arbeid (P.v.d.A.) (10%)</li></ol></p></p></div>`)[0];
+                popup_cf849b4ed62e4561b3736bb149f97b8d.setContent(html_9b8dadfb72a14242348c16081f182baf);
+            
+        
+
+        marker_80985de0d2bb19ae4043ecdcc823a9c7.bindPopup(popup_cf849b4ed62e4561b3736bb149f97b8d)
+        ;
+
+        
+    
+    
+            var circle_2201ff06f5fdaccc3805e6c66b22fc6f = L.circle(
+                [52.49792, 4.78813],
+                {"bubblingMouseEvents": true, "color": "#daf200", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#daf200", "fillOpacity": 0.1285714285714286, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 24, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_9622dc99f4d4cb608308288d87b591df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd9722c85d0a0bfbc80567d106c77b57 = $(`<div id="html_bd9722c85d0a0bfbc80567d106c77b57" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 12</div>`)[0];
+                popup_9622dc99f4d4cb608308288d87b591df.setContent(html_bd9722c85d0a0bfbc80567d106c77b57);
+            
+        
+
+        circle_2201ff06f5fdaccc3805e6c66b22fc6f.bindPopup(popup_9622dc99f4d4cb608308288d87b591df)
+        ;
+
+        
+    
+    
+            var marker_41bf4a64217bb106d08118d8bd9fe55b = L.marker(
+                [52.49792, 4.78813],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_7a153266a87eebe533e8d06365598b4d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_310750800a66f290e3227c74f2f32f33 = $(`<div id="html_310750800a66f290e3227c74f2f32f33" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Vereniging de Bloesem, complex de Amandelbloesem</h4><p> Totaal geldige uitgebrachte stemmen: 477</p><p><b>ChristenUnie</b> 3%</br> (Absoluut aantal stemmen: 12)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (20%)</li><li>Democratisch Zaanstad (DZ) (12%)</li><li>CDA (9%)</li></ol></p></p></div>`)[0];
+                popup_7a153266a87eebe533e8d06365598b4d.setContent(html_310750800a66f290e3227c74f2f32f33);
+            
+        
+
+        marker_41bf4a64217bb106d08118d8bd9fe55b.bindPopup(popup_7a153266a87eebe533e8d06365598b4d)
+        ;
+
+        
+    
+    
+            var circle_3c201b68723a78221449e89585e18614 = L.circle(
+                [52.51745, 4.78595],
+                {"bubblingMouseEvents": true, "color": "#ecf900", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ecf900", "fillOpacity": 0.08571428571428572, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_21796c2a7855b670558af191844ea242 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69d2a2e5682178514f87b307a6d7590c = $(`<div id="html_69d2a2e5682178514f87b307a6d7590c" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 6</div>`)[0];
+                popup_21796c2a7855b670558af191844ea242.setContent(html_69d2a2e5682178514f87b307a6d7590c);
+            
+        
+
+        circle_3c201b68723a78221449e89585e18614.bindPopup(popup_21796c2a7855b670558af191844ea242)
+        ;
+
+        
+    
+    
+            var marker_1d72f6a83686da4eca5036ce0ac579d2 = L.marker(
+                [52.51745, 4.78595],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_4e95076dc2d4666a082afa86a93bfa0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_558f5e04c298e2d709166a1fc059f5a4 = $(`<div id="html_558f5e04c298e2d709166a1fc059f5a4" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Dorpshuis "De Noorddam"</h4><p> Totaal geldige uitgebrachte stemmen: 296</p><p><b>ChristenUnie</b> 2%</br> (Absoluut aantal stemmen: 6)<p><b>Top drie:</b><ol><li>VVD (19%)</li><li>Democratisch Zaanstad (DZ) (15%)</li><li>Partij voor Ouderen en Veiligheid (10%)</li></ol></p></p></div>`)[0];
+                popup_4e95076dc2d4666a082afa86a93bfa0e.setContent(html_558f5e04c298e2d709166a1fc059f5a4);
+            
+        
+
+        marker_1d72f6a83686da4eca5036ce0ac579d2.bindPopup(popup_4e95076dc2d4666a082afa86a93bfa0e)
+        ;
+
+        
+    
+    
+            var circle_f18017201afca9ab4a8d611bee12de0d = L.circle(
+                [52.49055, 4.79631],
+                {"bubblingMouseEvents": true, "color": "#ecf900", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ecf900", "fillOpacity": 0.08571428571428572, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_b204698b0e0f2f881fd464dbd9ab57da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a172f1b3a32d6243eda6b6605e4dd640 = $(`<div id="html_a172f1b3a32d6243eda6b6605e4dd640" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 5</div>`)[0];
+                popup_b204698b0e0f2f881fd464dbd9ab57da.setContent(html_a172f1b3a32d6243eda6b6605e4dd640);
+            
+        
+
+        circle_f18017201afca9ab4a8d611bee12de0d.bindPopup(popup_b204698b0e0f2f881fd464dbd9ab57da)
+        ;
+
+        
+    
+    
+            var marker_b30700d7c59bd4ffcb3271d63fc3aec7 = L.marker(
+                [52.49055, 4.79631],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_baca3da66f86e8d1aa191c8fe7fa2ac2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9184dd73e632010c136a431928cfb6ee = $(`<div id="html_9184dd73e632010c136a431928cfb6ee" style="width: 100.0%; height: 100.0%;"><h4>Stembureau De Wormerveerse Vermaning</h4><p> Totaal geldige uitgebrachte stemmen: 330</p><p><b>ChristenUnie</b> 2%</br> (Absoluut aantal stemmen: 5)<p><b>Top drie:</b><ol><li>ROSA (17%)</li><li>VVD (13%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li></ol></p></p></div>`)[0];
+                popup_baca3da66f86e8d1aa191c8fe7fa2ac2.setContent(html_9184dd73e632010c136a431928cfb6ee);
+            
+        
+
+        marker_b30700d7c59bd4ffcb3271d63fc3aec7.bindPopup(popup_baca3da66f86e8d1aa191c8fe7fa2ac2)
+        ;
+
+        
+    
+    
+            var circle_f9d317e5b5cca136db49a5880f0c94cf = L.circle(
+                [52.4979, 4.76625],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.04285714285714286, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 26, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_f3c686351698fd5b59d3cdb7b98b46db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4951f194452eec6a097f57e9a725c111 = $(`<div id="html_4951f194452eec6a097f57e9a725c111" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 13</div>`)[0];
+                popup_f3c686351698fd5b59d3cdb7b98b46db.setContent(html_4951f194452eec6a097f57e9a725c111);
+            
+        
+
+        circle_f9d317e5b5cca136db49a5880f0c94cf.bindPopup(popup_f3c686351698fd5b59d3cdb7b98b46db)
+        ;
+
+        
+    
+    
+            var marker_3fea11d1c6d33ef94333088130a23ce7 = L.marker(
+                [52.4979, 4.76625],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_06f88e6b37f2110ba28352f6030688c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2eba0e478e49c1934f7d14080d5fdb57 = $(`<div id="html_2eba0e478e49c1934f7d14080d5fdb57" style="width: 100.0%; height: 100.0%;"><h4>Stembureau St. Petrusparochie, INGANG KERK</h4><p> Totaal geldige uitgebrachte stemmen: 1100</p><p><b>ChristenUnie</b> 1%</br> (Absoluut aantal stemmen: 13)<p><b>Top drie:</b><ol><li>ROSA (16%)</li><li>Partij voor Ouderen en Veiligheid (16%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_06f88e6b37f2110ba28352f6030688c8.setContent(html_2eba0e478e49c1934f7d14080d5fdb57);
+            
+        
+
+        marker_3fea11d1c6d33ef94333088130a23ce7.bindPopup(popup_06f88e6b37f2110ba28352f6030688c8)
+        ;
+
+        
+    
+    
+            var circle_1996088e7029dbe3e994c77fc76ba915 = L.circle(
+                [52.50597, 4.76797],
+                {"bubblingMouseEvents": true, "color": "#ecf900", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ecf900", "fillOpacity": 0.08571428571428572, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 38, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_ffe4134b4c7e5a2fc1658cad21fe938e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec2d3deba748ea8b91b7ebc341e12f3a = $(`<div id="html_ec2d3deba748ea8b91b7ebc341e12f3a" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 19</div>`)[0];
+                popup_ffe4134b4c7e5a2fc1658cad21fe938e.setContent(html_ec2d3deba748ea8b91b7ebc341e12f3a);
+            
+        
+
+        circle_1996088e7029dbe3e994c77fc76ba915.bindPopup(popup_ffe4134b4c7e5a2fc1658cad21fe938e)
+        ;
+
+        
+    
+    
+            var marker_352446c68b34d80d61f9bb87c2dc1099 = L.marker(
+                [52.50597, 4.76797],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_37b15835304da9a9a16045c7c6fb6eca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d746aa1bf19f03a0b397e64e30342e0d = $(`<div id="html_d746aa1bf19f03a0b397e64e30342e0d" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Dependance basisschool de Hoeksteen</h4><p> Totaal geldige uitgebrachte stemmen: 1136</p><p><b>ChristenUnie</b> 2%</br> (Absoluut aantal stemmen: 19)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (17%)</li><li>VVD (17%)</li><li>Democratisch Zaanstad (DZ) (14%)</li></ol></p></p></div>`)[0];
+                popup_37b15835304da9a9a16045c7c6fb6eca.setContent(html_d746aa1bf19f03a0b397e64e30342e0d);
+            
+        
+
+        marker_352446c68b34d80d61f9bb87c2dc1099.bindPopup(popup_37b15835304da9a9a16045c7c6fb6eca)
+        ;
+
+        
+    
+    
+            var circle_8ae86bf4995509b50c0782e5210fb0fe = L.circle(
+                [52.49977, 4.75707],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.04285714285714286, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_67c83e949ed47f7a328caa1c23c13715 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f1c5bd1f69b4b905153cdc93ccda6938 = $(`<div id="html_f1c5bd1f69b4b905153cdc93ccda6938" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 6</div>`)[0];
+                popup_67c83e949ed47f7a328caa1c23c13715.setContent(html_f1c5bd1f69b4b905153cdc93ccda6938);
+            
+        
+
+        circle_8ae86bf4995509b50c0782e5210fb0fe.bindPopup(popup_67c83e949ed47f7a328caa1c23c13715)
+        ;
+
+        
+    
+    
+            var marker_57bbac0801922625fcf59a972fb0ded9 = L.marker(
+                [52.49977, 4.75707],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_255e508df2bfdbaaed07c18ba367a588 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0fb4989dc1d846677ed02f655f0d817 = $(`<div id="html_f0fb4989dc1d846677ed02f655f0d817" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Braillestraat</h4><p> Totaal geldige uitgebrachte stemmen: 527</p><p><b>ChristenUnie</b> 1%</br> (Absoluut aantal stemmen: 6)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (18%)</li><li>Democratisch Zaanstad (DZ) (12%)</li><li>ROSA (12%)</li></ol></p></p></div>`)[0];
+                popup_255e508df2bfdbaaed07c18ba367a588.setContent(html_f0fb4989dc1d846677ed02f655f0d817);
+            
+        
+
+        marker_57bbac0801922625fcf59a972fb0ded9.bindPopup(popup_255e508df2bfdbaaed07c18ba367a588)
+        ;
+
+        
+    
+    
+            var circle_8f018ffd44bc966ab7f176b9322111a8 = L.circle(
+                [52.50114, 4.76816],
+                {"bubblingMouseEvents": true, "color": "#c9ec00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c9ec00", "fillOpacity": 0.17142857142857143, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 38, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_35387ad73c03e1a0a392b1382f7b995d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c23376b269ddff9030ac73838c7583d = $(`<div id="html_7c23376b269ddff9030ac73838c7583d" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 19</div>`)[0];
+                popup_35387ad73c03e1a0a392b1382f7b995d.setContent(html_7c23376b269ddff9030ac73838c7583d);
+            
+        
+
+        circle_8f018ffd44bc966ab7f176b9322111a8.bindPopup(popup_35387ad73c03e1a0a392b1382f7b995d)
+        ;
+
+        
+    
+    
+            var marker_0347bc60b4d9dac9c9fda3c5731e8e9b = L.marker(
+                [52.50114, 4.76816],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_df2278a90e474f7200f5df647b6e0f02 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a86ef224b017d624e390f38b46adae19 = $(`<div id="html_a86ef224b017d624e390f38b46adae19" style="width: 100.0%; height: 100.0%;"><h4>Stembureau De Durghorstplantsoen</h4><p> Totaal geldige uitgebrachte stemmen: 519</p><p><b>ChristenUnie</b> 4%</br> (Absoluut aantal stemmen: 19)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (29%)</li><li>ROSA (10%)</li><li>Partij van de Arbeid (P.v.d.A.) (10%)</li></ol></p></p></div>`)[0];
+                popup_df2278a90e474f7200f5df647b6e0f02.setContent(html_a86ef224b017d624e390f38b46adae19);
+            
+        
+
+        marker_0347bc60b4d9dac9c9fda3c5731e8e9b.bindPopup(popup_df2278a90e474f7200f5df647b6e0f02)
+        ;
+
+        
+    
+    
+            var circle_6bd435bd239198a8b47875e220f5ecb7 = L.circle(
+                [52.50135, 4.75089],
+                {"bubblingMouseEvents": true, "color": "#ecf900", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ecf900", "fillOpacity": 0.08571428571428572, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 36, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_b159fa2f13db2876d4ba8d2e55d63fb9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a13b3978f44573f2564d32771287fd69 = $(`<div id="html_a13b3978f44573f2564d32771287fd69" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 18</div>`)[0];
+                popup_b159fa2f13db2876d4ba8d2e55d63fb9.setContent(html_a13b3978f44573f2564d32771287fd69);
+            
+        
+
+        circle_6bd435bd239198a8b47875e220f5ecb7.bindPopup(popup_b159fa2f13db2876d4ba8d2e55d63fb9)
+        ;
+
+        
+    
+    
+            var marker_f5aee1c216355473e1f7adc06a933223 = L.marker(
+                [52.50135, 4.75089],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_0dd0cd859d4f539f56b988e2ce4aacc8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f0ecbf6fc87fa60376cf9c5ee8e9bc8 = $(`<div id="html_9f0ecbf6fc87fa60376cf9c5ee8e9bc8" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Jupiterstraat 139 Evenaar</h4><p> Totaal geldige uitgebrachte stemmen: 863</p><p><b>ChristenUnie</b> 2%</br> (Absoluut aantal stemmen: 18)<p><b>Top drie:</b><ol><li>VVD (16%)</li><li>Partij voor Ouderen en Veiligheid (15%)</li><li>Partij van de Arbeid (P.v.d.A.) (12%)</li></ol></p></p></div>`)[0];
+                popup_0dd0cd859d4f539f56b988e2ce4aacc8.setContent(html_9f0ecbf6fc87fa60376cf9c5ee8e9bc8);
+            
+        
+
+        marker_f5aee1c216355473e1f7adc06a933223.bindPopup(popup_0dd0cd859d4f539f56b988e2ce4aacc8)
+        ;
+
+        
+    
+    
+            var circle_4e8ce161dec97c9fc928db97c52cbe73 = L.circle(
+                [52.50908, 4.75773],
+                {"bubblingMouseEvents": true, "color": "#ecf900", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ecf900", "fillOpacity": 0.08571428571428572, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 22, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_451de6038b171dfd6d4a2074865d4fe6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c5fbc74f8cce20d0f1c5db5aaae4ea8 = $(`<div id="html_7c5fbc74f8cce20d0f1c5db5aaae4ea8" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 11</div>`)[0];
+                popup_451de6038b171dfd6d4a2074865d4fe6.setContent(html_7c5fbc74f8cce20d0f1c5db5aaae4ea8);
+            
+        
+
+        circle_4e8ce161dec97c9fc928db97c52cbe73.bindPopup(popup_451de6038b171dfd6d4a2074865d4fe6)
+        ;
+
+        
+    
+    
+            var marker_7f2dbd754b528dbf337b804d3e435997 = L.marker(
+                [52.50908, 4.75773],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_d66c379b1066fae73936eaa75c355558 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_832a3fca07a7d759e22d5db83c249e7a = $(`<div id="html_832a3fca07a7d759e22d5db83c249e7a" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Odd Fellow Huis</h4><p> Totaal geldige uitgebrachte stemmen: 459</p><p><b>ChristenUnie</b> 2%</br> (Absoluut aantal stemmen: 11)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (16%)</li><li>Democratisch Zaanstad (DZ) (14%)</li><li>VVD (13%)</li></ol></p></p></div>`)[0];
+                popup_d66c379b1066fae73936eaa75c355558.setContent(html_832a3fca07a7d759e22d5db83c249e7a);
+            
+        
+
+        marker_7f2dbd754b528dbf337b804d3e435997.bindPopup(popup_d66c379b1066fae73936eaa75c355558)
+        ;
+
+        
+    
+    
+            var circle_59c3324466b5a18d2c61ae62e1d2c2bb = L.circle(
+                [52.50491, 4.76333],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.04285714285714286, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_e7c76ec94d5c489854576cb98070f981 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e3a2b2098ab339dcbf5b682846979919 = $(`<div id="html_e3a2b2098ab339dcbf5b682846979919" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 4</div>`)[0];
+                popup_e7c76ec94d5c489854576cb98070f981.setContent(html_e3a2b2098ab339dcbf5b682846979919);
+            
+        
+
+        circle_59c3324466b5a18d2c61ae62e1d2c2bb.bindPopup(popup_e7c76ec94d5c489854576cb98070f981)
+        ;
+
+        
+    
+    
+            var marker_42b8c479f578f6db944a306f0cf9519d = L.marker(
+                [52.50491, 4.76333],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_25876aae284c35532949dd7fd4267bac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d3c23cb9829d809b2efb7d2aeaad1ce = $(`<div id="html_3d3c23cb9829d809b2efb7d2aeaad1ce" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Basisschool de Hoeksteen</h4><p> Totaal geldige uitgebrachte stemmen: 316</p><p><b>ChristenUnie</b> 1%</br> (Absoluut aantal stemmen: 4)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (20%)</li><li>Democratisch Zaanstad (DZ) (12%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li></ol></p></p></div>`)[0];
+                popup_25876aae284c35532949dd7fd4267bac.setContent(html_3d3c23cb9829d809b2efb7d2aeaad1ce);
+            
+        
+
+        marker_42b8c479f578f6db944a306f0cf9519d.bindPopup(popup_25876aae284c35532949dd7fd4267bac)
+        ;
+
+        
+    
+    
+            var circle_f0b9c24d69e464c0f8fc41e2ee11c32c = L.circle(
+                [52.50401, 4.75849],
+                {"bubblingMouseEvents": true, "color": "#ecf900", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ecf900", "fillOpacity": 0.08571428571428572, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 96, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_83091ae6fa1de9598dca5fea16cfc054 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0007d0fb56d18027ff1acdc414f06a52 = $(`<div id="html_0007d0fb56d18027ff1acdc414f06a52" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 48</div>`)[0];
+                popup_83091ae6fa1de9598dca5fea16cfc054.setContent(html_0007d0fb56d18027ff1acdc414f06a52);
+            
+        
+
+        circle_f0b9c24d69e464c0f8fc41e2ee11c32c.bindPopup(popup_83091ae6fa1de9598dca5fea16cfc054)
+        ;
+
+        
+    
+    
+            var marker_db1d32d45ae7ec85d7bfb2251f67a63a = L.marker(
+                [52.50401, 4.75849],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_e44cfaf5b4bec00e63c9ee6f5de79087 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3a7fa4e8ef0fa6275ec30f1f7f7dabe = $(`<div id="html_b3a7fa4e8ef0fa6275ec30f1f7f7dabe" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurtcentrum de Pelikaan</h4><p> Totaal geldige uitgebrachte stemmen: 1992</p><p><b>ChristenUnie</b> 2%</br> (Absoluut aantal stemmen: 48)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (18%)</li><li>Partij van de Arbeid (P.v.d.A.) (12%)</li><li>VVD (10%)</li></ol></p></p></div>`)[0];
+                popup_e44cfaf5b4bec00e63c9ee6f5de79087.setContent(html_b3a7fa4e8ef0fa6275ec30f1f7f7dabe);
+            
+        
+
+        marker_db1d32d45ae7ec85d7bfb2251f67a63a.bindPopup(popup_e44cfaf5b4bec00e63c9ee6f5de79087)
+        ;
+
+        
+    
+    
+            var circle_ceddf56974c4e54da5c450359352aca3 = L.circle(
+                [52.45938, 4.73717],
+                {"bubblingMouseEvents": true, "color": "#daf200", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#daf200", "fillOpacity": 0.1285714285714286, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 34, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_57576610e7c003599c5ab99ee24d65a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f0eca16041773a0803c20d51e626aae = $(`<div id="html_1f0eca16041773a0803c20d51e626aae" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 17</div>`)[0];
+                popup_57576610e7c003599c5ab99ee24d65a2.setContent(html_1f0eca16041773a0803c20d51e626aae);
+            
+        
+
+        circle_ceddf56974c4e54da5c450359352aca3.bindPopup(popup_57576610e7c003599c5ab99ee24d65a2)
+        ;
+
+        
+    
+    
+            var marker_910335dcb78dd9a64e0930e62c3734d1 = L.marker(
+                [52.45938, 4.73717],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_aaad3d383083e016970e1e3caa77c856 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_faf0163c48d8eed31d18a64dda1baef5 = $(`<div id="html_faf0163c48d8eed31d18a64dda1baef5" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Kantine vv Assendelft</h4><p> Totaal geldige uitgebrachte stemmen: 614</p><p><b>ChristenUnie</b> 3%</br> (Absoluut aantal stemmen: 17)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (20%)</li><li>VVD (17%)</li><li>Partij voor Ouderen en Veiligheid (11%)</li></ol></p></p></div>`)[0];
+                popup_aaad3d383083e016970e1e3caa77c856.setContent(html_faf0163c48d8eed31d18a64dda1baef5);
+            
+        
+
+        marker_910335dcb78dd9a64e0930e62c3734d1.bindPopup(popup_aaad3d383083e016970e1e3caa77c856)
+        ;
+
+        
+    
+    
+            var circle_815dccb37158a814975d05fc2d378e35 = L.circle(
+                [52.46675, 4.74109],
+                {"bubblingMouseEvents": true, "color": "#ecf900", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ecf900", "fillOpacity": 0.08571428571428572, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 32, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_689b656213878aec5bdbad82b920205c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b32dd6c030596eaba9efbf85d4b98d5e = $(`<div id="html_b32dd6c030596eaba9efbf85d4b98d5e" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 16</div>`)[0];
+                popup_689b656213878aec5bdbad82b920205c.setContent(html_b32dd6c030596eaba9efbf85d4b98d5e);
+            
+        
+
+        circle_815dccb37158a814975d05fc2d378e35.bindPopup(popup_689b656213878aec5bdbad82b920205c)
+        ;
+
+        
+    
+    
+            var marker_9fceebff736fcffe677a29c4a5fbd7ce = L.marker(
+                [52.46675, 4.74109],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_d35d1b9415093a9d13161ba303b74f2c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e9fdfe9300a56082baf3c91855d9b62 = $(`<div id="html_7e9fdfe9300a56082baf3c91855d9b62" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Brandweerkazerne Assendelft</h4><p> Totaal geldige uitgebrachte stemmen: 988</p><p><b>ChristenUnie</b> 2%</br> (Absoluut aantal stemmen: 16)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (19%)</li><li>Partij voor Ouderen en Veiligheid (17%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_d35d1b9415093a9d13161ba303b74f2c.setContent(html_7e9fdfe9300a56082baf3c91855d9b62);
+            
+        
+
+        marker_9fceebff736fcffe677a29c4a5fbd7ce.bindPopup(popup_d35d1b9415093a9d13161ba303b74f2c)
+        ;
+
+        
+    
+    
+            var circle_2b28d6ea2a3b26589bb18f4ada5c3580 = L.circle(
+                [52.4742, 4.74845],
+                {"bubblingMouseEvents": true, "color": "#ecf900", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ecf900", "fillOpacity": 0.08571428571428572, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 32, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_36f701ec7c4dfb00cb8dd7b44d193ec6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b613fa011edb1c5b39ab49b25ca130f = $(`<div id="html_0b613fa011edb1c5b39ab49b25ca130f" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 16</div>`)[0];
+                popup_36f701ec7c4dfb00cb8dd7b44d193ec6.setContent(html_0b613fa011edb1c5b39ab49b25ca130f);
+            
+        
+
+        circle_2b28d6ea2a3b26589bb18f4ada5c3580.bindPopup(popup_36f701ec7c4dfb00cb8dd7b44d193ec6)
+        ;
+
+        
+    
+    
+            var marker_a0968aaacd7f8ec078bb4d3ffd4769d6 = L.marker(
+                [52.4742, 4.74845],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_5274e757464ff561dc1ea98f8f15ab36 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e9a526bb069b55154dcb1fab499fe8e = $(`<div id="html_1e9a526bb069b55154dcb1fab499fe8e" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Tennisvereniging Overdan</h4><p> Totaal geldige uitgebrachte stemmen: 821</p><p><b>ChristenUnie</b> 2%</br> (Absoluut aantal stemmen: 16)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (22%)</li><li>VVD (14%)</li><li>Partij voor Ouderen en Veiligheid (13%)</li></ol></p></p></div>`)[0];
+                popup_5274e757464ff561dc1ea98f8f15ab36.setContent(html_1e9a526bb069b55154dcb1fab499fe8e);
+            
+        
+
+        marker_a0968aaacd7f8ec078bb4d3ffd4769d6.bindPopup(popup_5274e757464ff561dc1ea98f8f15ab36)
+        ;
+
+        
+    
+    
+            var circle_200510f68242b9f275a2027dab270543 = L.circle(
+                [52.46618, 4.74004],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.04285714285714286, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 16, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_46513de5d973d21980197cdb76484226 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a50618a0e37edf0b5e52a4d8948cff05 = $(`<div id="html_a50618a0e37edf0b5e52a4d8948cff05" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 8</div>`)[0];
+                popup_46513de5d973d21980197cdb76484226.setContent(html_a50618a0e37edf0b5e52a4d8948cff05);
+            
+        
+
+        circle_200510f68242b9f275a2027dab270543.bindPopup(popup_46513de5d973d21980197cdb76484226)
+        ;
+
+        
+    
+    
+            var marker_2d7d365c13bbae18f83d00cb81bedfc5 = L.marker(
+                [52.46618, 4.74004],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_d0898f28aa012bbd48233c15d4e42a70 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86081859b9902c196887dee9a5770690 = $(`<div id="html_86081859b9902c196887dee9a5770690" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurtcentrum A3</h4><p> Totaal geldige uitgebrachte stemmen: 981</p><p><b>ChristenUnie</b> 1%</br> (Absoluut aantal stemmen: 8)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (20%)</li><li>Partij voor Ouderen en Veiligheid (17%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li></ol></p></p></div>`)[0];
+                popup_d0898f28aa012bbd48233c15d4e42a70.setContent(html_86081859b9902c196887dee9a5770690);
+            
+        
+
+        marker_2d7d365c13bbae18f83d00cb81bedfc5.bindPopup(popup_d0898f28aa012bbd48233c15d4e42a70)
+        ;
+
+        
+    
+    
+            var circle_7015cd87d078510c376dd99ff27c2a9f = L.circle(
+                [52.49317, 4.75898],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.04285714285714286, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_0a82001f6bf4a66131c0e3c04c01db87 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03aabc6b743ae11b3353fed09c9c796f = $(`<div id="html_03aabc6b743ae11b3353fed09c9c796f" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 6</div>`)[0];
+                popup_0a82001f6bf4a66131c0e3c04c01db87.setContent(html_03aabc6b743ae11b3353fed09c9c796f);
+            
+        
+
+        circle_7015cd87d078510c376dd99ff27c2a9f.bindPopup(popup_0a82001f6bf4a66131c0e3c04c01db87)
+        ;
+
+        
+    
+    
+            var marker_6c9df7ab8560cf8432bd717a20998024 = L.marker(
+                [52.49317, 4.75898],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_58c962f52c83f581898d5b1c028c224c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f81667cba1c93bc9431f987a39b12754 = $(`<div id="html_f81667cba1c93bc9431f987a39b12754" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal de Springplank</h4><p> Totaal geldige uitgebrachte stemmen: 537</p><p><b>ChristenUnie</b> 1%</br> (Absoluut aantal stemmen: 6)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (18%)</li><li>Partij voor Ouderen en Veiligheid (15%)</li><li>VVD (13%)</li></ol></p></p></div>`)[0];
+                popup_58c962f52c83f581898d5b1c028c224c.setContent(html_f81667cba1c93bc9431f987a39b12754);
+            
+        
+
+        marker_6c9df7ab8560cf8432bd717a20998024.bindPopup(popup_58c962f52c83f581898d5b1c028c224c)
+        ;
+
+        
+    
+    
+            var circle_e5c2483fee94cfcf79354c82990573fe = L.circle(
+                [52.48415, 4.76134],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.04285714285714286, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 16, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_b44b1b84b3ee335fd8ad4d188922c251 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_507f81f803dba14ce94a414ae706aac5 = $(`<div id="html_507f81f803dba14ce94a414ae706aac5" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 8</div>`)[0];
+                popup_b44b1b84b3ee335fd8ad4d188922c251.setContent(html_507f81f803dba14ce94a414ae706aac5);
+            
+        
+
+        circle_e5c2483fee94cfcf79354c82990573fe.bindPopup(popup_b44b1b84b3ee335fd8ad4d188922c251)
+        ;
+
+        
+    
+    
+            var marker_107e4b72001d2e5d1e4dfd87e55ecc38 = L.marker(
+                [52.48415, 4.76134],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_c0955e0a468c66428b7438d7ed5fef10 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53f40b84c8eecfea85d305be7c245cde = $(`<div id="html_53f40b84c8eecfea85d305be7c245cde" style="width: 100.0%; height: 100.0%;"><h4>Stembureau BUKO</h4><p> Totaal geldige uitgebrachte stemmen: 970</p><p><b>ChristenUnie</b> 1%</br> (Absoluut aantal stemmen: 8)<p><b>Top drie:</b><ol><li>VVD (16%)</li><li>Partij voor Ouderen en Veiligheid (13%)</li><li>Partij van de Arbeid (P.v.d.A.) (12%)</li></ol></p></p></div>`)[0];
+                popup_c0955e0a468c66428b7438d7ed5fef10.setContent(html_53f40b84c8eecfea85d305be7c245cde);
+            
+        
+
+        marker_107e4b72001d2e5d1e4dfd87e55ecc38.bindPopup(popup_c0955e0a468c66428b7438d7ed5fef10)
+        ;
+
+        
+    
+    
+            var circle_67608027d376ada231be159a7a2b22f9 = L.circle(
+                [52.48838, 4.75082],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.04285714285714286, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 16, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_4d66f5b6f79a956a807c7b195dcf835e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_691bcec4d9b7fc71a23430d6a558d99a = $(`<div id="html_691bcec4d9b7fc71a23430d6a558d99a" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 8</div>`)[0];
+                popup_4d66f5b6f79a956a807c7b195dcf835e.setContent(html_691bcec4d9b7fc71a23430d6a558d99a);
+            
+        
+
+        circle_67608027d376ada231be159a7a2b22f9.bindPopup(popup_4d66f5b6f79a956a807c7b195dcf835e)
+        ;
+
+        
+    
+    
+            var marker_d6cab4dff11237de1fc7353c60630f56 = L.marker(
+                [52.48838, 4.75082],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_f9f1c32b232be4b767b43c8bc8559181 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec595b3d50a7e6fc020e02ea4d68cdfe = $(`<div id="html_ec595b3d50a7e6fc020e02ea4d68cdfe" style="width: 100.0%; height: 100.0%;"><h4>Stembureau JongerenHUB Noord</h4><p> Totaal geldige uitgebrachte stemmen: 959</p><p><b>ChristenUnie</b> 1%</br> (Absoluut aantal stemmen: 8)<p><b>Top drie:</b><ol><li>VVD (20%)</li><li>DENK (11%)</li><li>Partij voor Ouderen en Veiligheid (11%)</li></ol></p></p></div>`)[0];
+                popup_f9f1c32b232be4b767b43c8bc8559181.setContent(html_ec595b3d50a7e6fc020e02ea4d68cdfe);
+            
+        
+
+        marker_d6cab4dff11237de1fc7353c60630f56.bindPopup(popup_f9f1c32b232be4b767b43c8bc8559181)
+        ;
+
+        
+    
+    
+            var circle_644aff050e8e439851372ceb2fba65d9 = L.circle(
+                [52.49536, 4.75036],
+                {"bubblingMouseEvents": true, "color": "#daf200", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#daf200", "fillOpacity": 0.1285714285714286, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 22, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_609c35eb289296cf6eb899f3c5f6cd68 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8887bbf4d4cb5c4a51fac2350e481832 = $(`<div id="html_8887bbf4d4cb5c4a51fac2350e481832" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 11</div>`)[0];
+                popup_609c35eb289296cf6eb899f3c5f6cd68.setContent(html_8887bbf4d4cb5c4a51fac2350e481832);
+            
+        
+
+        circle_644aff050e8e439851372ceb2fba65d9.bindPopup(popup_609c35eb289296cf6eb899f3c5f6cd68)
+        ;
+
+        
+    
+    
+            var marker_7c2468e6546b303d8ea6688dc9f4a8b2 = L.marker(
+                [52.49536, 4.75036],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_9765029a5bae5ee84629d520ab0da12f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_603eb6899465115eff04faddf0293388 = $(`<div id="html_603eb6899465115eff04faddf0293388" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Kreekrijklaan 2</h4><p> Totaal geldige uitgebrachte stemmen: 356</p><p><b>ChristenUnie</b> 3%</br> (Absoluut aantal stemmen: 11)<p><b>Top drie:</b><ol><li>VVD (20%)</li><li>Partij van de Arbeid (P.v.d.A.) (12%)</li><li>Democratisch Zaanstad (DZ) (12%)</li></ol></p></p></div>`)[0];
+                popup_9765029a5bae5ee84629d520ab0da12f.setContent(html_603eb6899465115eff04faddf0293388);
+            
+        
+
+        marker_7c2468e6546b303d8ea6688dc9f4a8b2.bindPopup(popup_9765029a5bae5ee84629d520ab0da12f)
+        ;
+
+        
+    
+    
+            var circle_3e329ea7df8d16953db9327a12f371ad = L.circle(
+                [52.49454, 4.74488],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.04285714285714286, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_d8f00003e5ec89c22f1b1e9507274e82 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_204e9f4657a522060d0e85f041414b75 = $(`<div id="html_204e9f4657a522060d0e85f041414b75" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 4</div>`)[0];
+                popup_d8f00003e5ec89c22f1b1e9507274e82.setContent(html_204e9f4657a522060d0e85f041414b75);
+            
+        
+
+        circle_3e329ea7df8d16953db9327a12f371ad.bindPopup(popup_d8f00003e5ec89c22f1b1e9507274e82)
+        ;
+
+        
+    
+    
+            var marker_4d3a7137237877baaf4ded6bfec8fc54 = L.marker(
+                [52.49454, 4.74488],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_3ad47ea92e2a81c5701a90c01518a41f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e908bffec43be9810fec5b9476d3d71c = $(`<div id="html_e908bffec43be9810fec5b9476d3d71c" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Beemdgras</h4><p> Totaal geldige uitgebrachte stemmen: 412</p><p><b>ChristenUnie</b> 1%</br> (Absoluut aantal stemmen: 4)<p><b>Top drie:</b><ol><li>VVD (23%)</li><li>Democratisch Zaanstad (DZ) (12%)</li><li>Partij van de Arbeid (P.v.d.A.) (10%)</li></ol></p></p></div>`)[0];
+                popup_3ad47ea92e2a81c5701a90c01518a41f.setContent(html_e908bffec43be9810fec5b9476d3d71c);
+            
+        
+
+        marker_4d3a7137237877baaf4ded6bfec8fc54.bindPopup(popup_3ad47ea92e2a81c5701a90c01518a41f)
+        ;
+
+        
+    
+    
+            var circle_f457d17847f13a5704c15161f11b6c4d = L.circle(
+                [52.48864, 4.75283],
+                {"bubblingMouseEvents": true, "color": "#ecf900", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ecf900", "fillOpacity": 0.08571428571428572, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 82, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_56ac5949dc8a7bf1a922f5e844edd518 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42a150d24a2bc10465e1dc9a20b128ca = $(`<div id="html_42a150d24a2bc10465e1dc9a20b128ca" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 41</div>`)[0];
+                popup_56ac5949dc8a7bf1a922f5e844edd518.setContent(html_42a150d24a2bc10465e1dc9a20b128ca);
+            
+        
+
+        circle_f457d17847f13a5704c15161f11b6c4d.bindPopup(popup_56ac5949dc8a7bf1a922f5e844edd518)
+        ;
+
+        
+    
+    
+            var marker_f41f0ab241a8f949e1fe59877ba03727 = L.marker(
+                [52.48864, 4.75283],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_cff699ee8edb8e5b88edb9e59f12c037 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_742d2c654342ba0a9f58b6a326253c8f = $(`<div id="html_742d2c654342ba0a9f58b6a326253c8f" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Het Sociale Winkeltje</h4><p> Totaal geldige uitgebrachte stemmen: 2001</p><p><b>ChristenUnie</b> 2%</br> (Absoluut aantal stemmen: 41)<p><b>Top drie:</b><ol><li>VVD (17%)</li><li>Partij voor Ouderen en Veiligheid (14%)</li><li>Democratisch Zaanstad (DZ) (11%)</li></ol></p></p></div>`)[0];
+                popup_cff699ee8edb8e5b88edb9e59f12c037.setContent(html_742d2c654342ba0a9f58b6a326253c8f);
+            
+        
+
+        marker_f41f0ab241a8f949e1fe59877ba03727.bindPopup(popup_cff699ee8edb8e5b88edb9e59f12c037)
+        ;
+
+        
+    
+    
+            var circle_d48228bdaaf68c87a98615289c0b7962 = L.circle(
+                [52.44896, 4.77604],
+                {"bubblingMouseEvents": true, "color": "#daf200", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#daf200", "fillOpacity": 0.1285714285714286, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 42, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_71ad00b19ac502103a824e65ba905e9e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f8d63923fe67b966065eefe5f30f194 = $(`<div id="html_3f8d63923fe67b966065eefe5f30f194" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 21</div>`)[0];
+                popup_71ad00b19ac502103a824e65ba905e9e.setContent(html_3f8d63923fe67b966065eefe5f30f194);
+            
+        
+
+        circle_d48228bdaaf68c87a98615289c0b7962.bindPopup(popup_71ad00b19ac502103a824e65ba905e9e)
+        ;
+
+        
+    
+    
+            var marker_3915df604b97ebe275f21e87804a661b = L.marker(
+                [52.44896, 4.77604],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_75ab61660138efd376a5ba7da68dea7a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06f3f737edae570304e262a68b02d8d5 = $(`<div id="html_06f3f737edae570304e262a68b02d8d5" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Dorpshuis "De Kwaker"</h4><p> Totaal geldige uitgebrachte stemmen: 725</p><p><b>ChristenUnie</b> 3%</br> (Absoluut aantal stemmen: 21)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (14%)</li><li>VVD (14%)</li><li>PVV (Partij voor de Vrijheid) (10%)</li></ol></p></p></div>`)[0];
+                popup_75ab61660138efd376a5ba7da68dea7a.setContent(html_06f3f737edae570304e262a68b02d8d5);
+            
+        
+
+        marker_3915df604b97ebe275f21e87804a661b.bindPopup(popup_75ab61660138efd376a5ba7da68dea7a)
+        ;
+
+        
+    
+    
+            var circle_52f6411bbcbddea525bc35d27579de31 = L.circle(
+                [52.4638, 4.76978],
+                {"bubblingMouseEvents": true, "color": "#daf200", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#daf200", "fillOpacity": 0.1285714285714286, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 68, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_d46dbb2a4a6839d7d6518b9fb28dae4a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_efdcfeccd364eb4973d155d7f6f1c749 = $(`<div id="html_efdcfeccd364eb4973d155d7f6f1c749" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 34</div>`)[0];
+                popup_d46dbb2a4a6839d7d6518b9fb28dae4a.setContent(html_efdcfeccd364eb4973d155d7f6f1c749);
+            
+        
+
+        circle_52f6411bbcbddea525bc35d27579de31.bindPopup(popup_d46dbb2a4a6839d7d6518b9fb28dae4a)
+        ;
+
+        
+    
+    
+            var marker_b3f177ad6c9e98ae540f4d8cc52e163b = L.marker(
+                [52.4638, 4.76978],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_4bd8c2df2dfcf1d5f764c431b8ee4e5d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e79455c88068c385d3b0fa54c8c6d253 = $(`<div id="html_e79455c88068c385d3b0fa54c8c6d253" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Wijksteunpunt Lambert Melisz</h4><p> Totaal geldige uitgebrachte stemmen: 1258</p><p><b>ChristenUnie</b> 3%</br> (Absoluut aantal stemmen: 34)<p><b>Top drie:</b><ol><li>VVD (16%)</li><li>Partij voor Ouderen en Veiligheid (13%)</li><li>Partij van de Arbeid (P.v.d.A.) (10%)</li></ol></p></p></div>`)[0];
+                popup_4bd8c2df2dfcf1d5f764c431b8ee4e5d.setContent(html_e79455c88068c385d3b0fa54c8c6d253);
+            
+        
+
+        marker_b3f177ad6c9e98ae540f4d8cc52e163b.bindPopup(popup_4bd8c2df2dfcf1d5f764c431b8ee4e5d)
+        ;
+
+        
+    
+    
+            var circle_568222a7639eeb799b86302c34d853b1 = L.circle(
+                [52.46317, 4.77163],
+                {"bubblingMouseEvents": true, "color": "#daf200", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#daf200", "fillOpacity": 0.1285714285714286, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 18, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_00198ad6429aa1f455f84efe28b2482f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9f33a33d977fff6379c4609aae47604 = $(`<div id="html_a9f33a33d977fff6379c4609aae47604" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 9</div>`)[0];
+                popup_00198ad6429aa1f455f84efe28b2482f.setContent(html_a9f33a33d977fff6379c4609aae47604);
+            
+        
+
+        circle_568222a7639eeb799b86302c34d853b1.bindPopup(popup_00198ad6429aa1f455f84efe28b2482f)
+        ;
+
+        
+    
+    
+            var marker_7057cd1d10ed87ed88f5e2578a90cfaf = L.marker(
+                [52.46317, 4.77163],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_bacdf4bf5727a032448437e92aef5648 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5158efa208f818072dd8c60a2f5e8ea2 = $(`<div id="html_5158efa208f818072dd8c60a2f5e8ea2" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Torenstraat, INGANG KERKBUURT 21</h4><p> Totaal geldige uitgebrachte stemmen: 269</p><p><b>ChristenUnie</b> 3%</br> (Absoluut aantal stemmen: 9)<p><b>Top drie:</b><ol><li>VVD (17%)</li><li>ROSA (13%)</li><li>Democratisch Zaanstad (DZ) (11%)</li></ol></p></p></div>`)[0];
+                popup_bacdf4bf5727a032448437e92aef5648.setContent(html_5158efa208f818072dd8c60a2f5e8ea2);
+            
+        
+
+        marker_7057cd1d10ed87ed88f5e2578a90cfaf.bindPopup(popup_bacdf4bf5727a032448437e92aef5648)
+        ;
+
+        
+    
+    
+            var circle_d805e43b0536626f29006d821029e05b = L.circle(
+                [52.45375, 4.83569],
+                {"bubblingMouseEvents": true, "color": "#b8e600", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b8e600", "fillOpacity": 0.21428571428571427, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_bad3993ae60ccd83813d5c5655597c86 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_226113ac0eb3f51ba24674bcca979aec = $(`<div id="html_226113ac0eb3f51ba24674bcca979aec" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 1</div>`)[0];
+                popup_bad3993ae60ccd83813d5c5655597c86.setContent(html_226113ac0eb3f51ba24674bcca979aec);
+            
+        
+
+        circle_d805e43b0536626f29006d821029e05b.bindPopup(popup_bad3993ae60ccd83813d5c5655597c86)
+        ;
+
+        
+    
+    
+            var marker_7950848269d21761fb4d027e4fdb529d = L.marker(
+                [52.45375, 4.83569],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_28fa4460ce0c1dd0d266854fc6a6cd3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cea1d785d2d58ea8f78ed0598f7e2415 = $(`<div id="html_cea1d785d2d58ea8f78ed0598f7e2415" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean Oostergouw, HOOFDINGANG</h4><p> Totaal geldige uitgebrachte stemmen: 20</p><p><b>ChristenUnie</b> 5%</br> (Absoluut aantal stemmen: 1)<p><b>Top drie:</b><ol><li>SP (Socialistische Partij) (15%)</li><li>VVD (10%)</li><li>Partij van de Arbeid (P.v.d.A.) (10%)</li></ol></p></p></div>`)[0];
+                popup_28fa4460ce0c1dd0d266854fc6a6cd3e.setContent(html_cea1d785d2d58ea8f78ed0598f7e2415);
+            
+        
+
+        marker_7950848269d21761fb4d027e4fdb529d.bindPopup(popup_28fa4460ce0c1dd0d266854fc6a6cd3e)
+        ;
+
+        
+    
+    
+            var circle_26265a50d79444b4108a12ab4add38d7 = L.circle(
+                [52.44012, 4.84136],
+                {"bubblingMouseEvents": true, "color": "#b8e600", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b8e600", "fillOpacity": 0.21428571428571427, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_55ab453bec9ea7538f9dbeba653ede3c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b299ad2272cad7f378c6f3abb8c4c4a = $(`<div id="html_5b299ad2272cad7f378c6f3abb8c4c4a" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 1</div>`)[0];
+                popup_55ab453bec9ea7538f9dbeba653ede3c.setContent(html_5b299ad2272cad7f378c6f3abb8c4c4a);
+            
+        
+
+        circle_26265a50d79444b4108a12ab4add38d7.bindPopup(popup_55ab453bec9ea7538f9dbeba653ede3c)
+        ;
+
+        
+    
+    
+            var marker_0b6276bd739e18be9b2be6252593d7a0 = L.marker(
+                [52.44012, 4.84136],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_8b1b5d03c570db4d6cfd012fea93224f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8ccab877f94b20dd002e8fca1815eec = $(`<div id="html_c8ccab877f94b20dd002e8fca1815eec" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean Het Erasmushuis</h4><p> Totaal geldige uitgebrachte stemmen: 20</p><p><b>ChristenUnie</b> 5%</br> (Absoluut aantal stemmen: 1)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (20%)</li><li>Partij voor Ouderen en Veiligheid (15%)</li><li>D66 (15%)</li></ol></p></p></div>`)[0];
+                popup_8b1b5d03c570db4d6cfd012fea93224f.setContent(html_c8ccab877f94b20dd002e8fca1815eec);
+            
+        
+
+        marker_0b6276bd739e18be9b2be6252593d7a0.bindPopup(popup_8b1b5d03c570db4d6cfd012fea93224f)
+        ;
+
+        
+    
+    
+            var circle_47c5417fb6d3c39abfd2ffee146dbc65 = L.circle(
+                [52.44115, 4.83269],
+                {"bubblingMouseEvents": true, "color": "#89d300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#89d300", "fillOpacity": 0.34285714285714286, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_504894c5ed3bdc62ab770f6e68059986 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3699715b654570a1b3e5fb03432a6704 = $(`<div id="html_3699715b654570a1b3e5fb03432a6704" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 4</div>`)[0];
+                popup_504894c5ed3bdc62ab770f6e68059986.setContent(html_3699715b654570a1b3e5fb03432a6704);
+            
+        
+
+        circle_47c5417fb6d3c39abfd2ffee146dbc65.bindPopup(popup_504894c5ed3bdc62ab770f6e68059986)
+        ;
+
+        
+    
+    
+            var marker_fa1ce1c633d1d719fca5c079d12feeda = L.marker(
+                [52.44115, 4.83269],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_d9429f5fac17eb52aedd691ee1841977 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8872beb3983befa9bcfde7a40170d419 = $(`<div id="html_8872beb3983befa9bcfde7a40170d419" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Zorgcentrum Mennistenerf</h4><p> Totaal geldige uitgebrachte stemmen: 51</p><p><b>ChristenUnie</b> 8%</br> (Absoluut aantal stemmen: 4)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (43%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li><li>DENK (11%)</li></ol></p></p></div>`)[0];
+                popup_d9429f5fac17eb52aedd691ee1841977.setContent(html_8872beb3983befa9bcfde7a40170d419);
+            
+        
+
+        marker_fa1ce1c633d1d719fca5c079d12feeda.bindPopup(popup_d9429f5fac17eb52aedd691ee1841977)
+        ;
+
+        
+    
+    
+            var circle_a9a32968bbd23eb61410af7ef3b7e723 = L.circle(
+                [52.44342, 4.83039],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 18, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_6004d4fa92e89cae965a051222410410 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10748be367f8038f60c62404415a233d = $(`<div id="html_10748be367f8038f60c62404415a233d" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 9</div>`)[0];
+                popup_6004d4fa92e89cae965a051222410410.setContent(html_10748be367f8038f60c62404415a233d);
+            
+        
+
+        circle_a9a32968bbd23eb61410af7ef3b7e723.bindPopup(popup_6004d4fa92e89cae965a051222410410)
+        ;
+
+        
+    
+    
+            var marker_f2d7d6af888a9ff36d6f4fc8e644c9b5 = L.marker(
+                [52.44342, 4.83039],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_0096a5049afc6e3d9bb7fed091613ee9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f11511343bc5ae8a97a60a789c806126 = $(`<div id="html_f11511343bc5ae8a97a60a789c806126" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Hervormd Centrum Pennemes, HOOFDINGANG</h4><p> Totaal geldige uitgebrachte stemmen: 42</p><p><b>ChristenUnie</b> 21%</br> (Absoluut aantal stemmen: 9)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (21%)</li><li>ChristenUnie (21%)</li><li>Partij van de Arbeid (P.v.d.A.) (14%)</li></ol></p></p></div>`)[0];
+                popup_0096a5049afc6e3d9bb7fed091613ee9.setContent(html_f11511343bc5ae8a97a60a789c806126);
+            
+        
+
+        marker_f2d7d6af888a9ff36d6f4fc8e644c9b5.bindPopup(popup_0096a5049afc6e3d9bb7fed091613ee9)
+        ;
+
+        
+    
+    
+            var circle_4492f408677cc8abcf42586d3b2abf5c = L.circle(
+                [52.4704, 4.83439],
+                {"bubblingMouseEvents": true, "color": "#a7df00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a7df00", "fillOpacity": 0.2571428571428572, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_1c84e4e7fe6251011a92f96dbd64ead7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a32634723ea12fe5fd46f4b369626d47 = $(`<div id="html_a32634723ea12fe5fd46f4b369626d47" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 3</div>`)[0];
+                popup_1c84e4e7fe6251011a92f96dbd64ead7.setContent(html_a32634723ea12fe5fd46f4b369626d47);
+            
+        
+
+        circle_4492f408677cc8abcf42586d3b2abf5c.bindPopup(popup_1c84e4e7fe6251011a92f96dbd64ead7)
+        ;
+
+        
+    
+    
+            var marker_24c3b7360eea61c83484d6a4e0ac1a5d = L.marker(
+                [52.4704, 4.83439],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_d78ccf7cc3875aee027291b8acc3612c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f462fd3b8f96b2d710dd6941733f0d0f = $(`<div id="html_f462fd3b8f96b2d710dd6941733f0d0f" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Zorgcentrum Nieuw Groenland</h4><p> Totaal geldige uitgebrachte stemmen: 47</p><p><b>ChristenUnie</b> 6%</br> (Absoluut aantal stemmen: 3)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (14%)</li><li>CDA (12%)</li><li>Partij voor de Dieren (12%)</li></ol></p></p></div>`)[0];
+                popup_d78ccf7cc3875aee027291b8acc3612c.setContent(html_f462fd3b8f96b2d710dd6941733f0d0f);
+            
+        
+
+        marker_24c3b7360eea61c83484d6a4e0ac1a5d.bindPopup(popup_d78ccf7cc3875aee027291b8acc3612c)
+        ;
+
+        
+    
+    
+            var circle_474f4bffef5595f6056f3b91fa5d18d2 = L.circle(
+                [52.44279, 4.81852],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_641d8b43c8fae811ba0ec9ccd15c161a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2b2f1d704e473bcb1bcc5c6faaa4de3 = $(`<div id="html_d2b2f1d704e473bcb1bcc5c6faaa4de3" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 0</div>`)[0];
+                popup_641d8b43c8fae811ba0ec9ccd15c161a.setContent(html_d2b2f1d704e473bcb1bcc5c6faaa4de3);
+            
+        
+
+        circle_474f4bffef5595f6056f3b91fa5d18d2.bindPopup(popup_641d8b43c8fae811ba0ec9ccd15c161a)
+        ;
+
+        
+    
+    
+            var marker_c0d7ea61adc489e048902d6ee5317566 = L.marker(
+                [52.44279, 4.81852],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_b4fd6b1116c5839024fbb11680efd2db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dad53574eba8b3dd092299c80235e7e2 = $(`<div id="html_dad53574eba8b3dd092299c80235e7e2" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Zorgcentrum Saenden</h4><p> Totaal geldige uitgebrachte stemmen: 10</p><p><b>ChristenUnie</b> 0%</br> (Absoluut aantal stemmen: 0)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (30%)</li><li>VVD (20%)</li><li>CDA (20%)</li></ol></p></p></div>`)[0];
+                popup_b4fd6b1116c5839024fbb11680efd2db.setContent(html_dad53574eba8b3dd092299c80235e7e2);
+            
+        
+
+        marker_c0d7ea61adc489e048902d6ee5317566.bindPopup(popup_b4fd6b1116c5839024fbb11680efd2db)
+        ;
+
+        
+    
+    
+            var circle_8889ab8669ea65a2f8faf3d553cb079b = L.circle(
+                [52.44905, 4.80177],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_ecb163c8516e7b292c6f2ae5cb354315 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ae2c093f505b462fb8b8676cf2e0c7d = $(`<div id="html_5ae2c093f505b462fb8b8676cf2e0c7d" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 0</div>`)[0];
+                popup_ecb163c8516e7b292c6f2ae5cb354315.setContent(html_5ae2c093f505b462fb8b8676cf2e0c7d);
+            
+        
+
+        circle_8889ab8669ea65a2f8faf3d553cb079b.bindPopup(popup_ecb163c8516e7b292c6f2ae5cb354315)
+        ;
+
+        
+    
+    
+            var marker_48c3286dc932b9a2f5971a8107cc1267 = L.marker(
+                [52.44905, 4.80177],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_0da1a2f1dad8f7db39468de3bd97d82e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bbac5d1f0e29f8a4d212245a7c9d48e5 = $(`<div id="html_bbac5d1f0e29f8a4d212245a7c9d48e5" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean Westerwatering, HOOFDINGANG</h4><p> Totaal geldige uitgebrachte stemmen: 50</p><p><b>ChristenUnie</b> 0%</br> (Absoluut aantal stemmen: 0)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (54%)</li><li>Democratisch Zaanstad (DZ) (10%)</li><li>Partij van de Arbeid (P.v.d.A.) (8%)</li></ol></p></p></div>`)[0];
+                popup_0da1a2f1dad8f7db39468de3bd97d82e.setContent(html_bbac5d1f0e29f8a4d212245a7c9d48e5);
+            
+        
+
+        marker_48c3286dc932b9a2f5971a8107cc1267.bindPopup(popup_0da1a2f1dad8f7db39468de3bd97d82e)
+        ;
+
+        
+    
+    
+            var circle_c085d070c0cd49f599d94b0ecce6f55c = L.circle(
+                [52.46873, 4.81152],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_45cc872f00c0abf32dd14a43e07c83ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5887c532f4e5fa6f5c46989487110841 = $(`<div id="html_5887c532f4e5fa6f5c46989487110841" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 0</div>`)[0];
+                popup_45cc872f00c0abf32dd14a43e07c83ae.setContent(html_5887c532f4e5fa6f5c46989487110841);
+            
+        
+
+        circle_c085d070c0cd49f599d94b0ecce6f55c.bindPopup(popup_45cc872f00c0abf32dd14a43e07c83ae)
+        ;
+
+        
+    
+    
+            var marker_04d97ea8367a8b9282f407d6ddf61287 = L.marker(
+                [52.46873, 4.81152],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_b1d1f32ba76768b442f4eb52d986ff9e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc563ad38ba4c1166cfc5b2be915a7ad = $(`<div id="html_cc563ad38ba4c1166cfc5b2be915a7ad" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean Parkzicht</h4><p> Totaal geldige uitgebrachte stemmen: 46</p><p><b>ChristenUnie</b> 0%</br> (Absoluut aantal stemmen: 0)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (26%)</li><li>Partij van de Arbeid (P.v.d.A.) (15%)</li><li>ROSA (13%)</li></ol></p></p></div>`)[0];
+                popup_b1d1f32ba76768b442f4eb52d986ff9e.setContent(html_cc563ad38ba4c1166cfc5b2be915a7ad);
+            
+        
+
+        marker_04d97ea8367a8b9282f407d6ddf61287.bindPopup(popup_b1d1f32ba76768b442f4eb52d986ff9e)
+        ;
+
+        
+    
+    
+            var circle_ba30d9162380a294b2755bc87aaffc88 = L.circle(
+                [52.47728, 4.80156],
+                {"bubblingMouseEvents": true, "color": "#53b900", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#53b900", "fillOpacity": 0.5142857142857143, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_9d5626ac6ec98687b228165748d8ff5b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cab98833290d427abea627b1492615aa = $(`<div id="html_cab98833290d427abea627b1492615aa" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 1</div>`)[0];
+                popup_9d5626ac6ec98687b228165748d8ff5b.setContent(html_cab98833290d427abea627b1492615aa);
+            
+        
+
+        circle_ba30d9162380a294b2755bc87aaffc88.bindPopup(popup_9d5626ac6ec98687b228165748d8ff5b)
+        ;
+
+        
+    
+    
+            var marker_4841e19d5867387831557c5cb47d9d9f = L.marker(
+                [52.47728, 4.80156],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_4092c795c6d6daa61cb0a3b780fe7575 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_909009b338dcaacccaedd61aa6a40dd9 = $(`<div id="html_909009b338dcaacccaedd61aa6a40dd9" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean Guisveld</h4><p> Totaal geldige uitgebrachte stemmen: 8</p><p><b>ChristenUnie</b> 12%</br> (Absoluut aantal stemmen: 1)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (25%)</li><li>ROSA (12%)</li><li>D66 (12%)</li></ol></p></p></div>`)[0];
+                popup_4092c795c6d6daa61cb0a3b780fe7575.setContent(html_909009b338dcaacccaedd61aa6a40dd9);
+            
+        
+
+        marker_4841e19d5867387831557c5cb47d9d9f.bindPopup(popup_4092c795c6d6daa61cb0a3b780fe7575)
+        ;
+
+        
+    
+    
+            var circle_ba47e3d9d947eba51e25092cd8d4f0e9 = L.circle(
+                [52.48707, 4.80201],
+                {"bubblingMouseEvents": true, "color": "#b8e600", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b8e600", "fillOpacity": 0.21428571428571427, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_df17879fd17dd9c4a2b81b9ebaa6330b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e21f4a792c9f474aea3505bb0dafed2d = $(`<div id="html_e21f4a792c9f474aea3505bb0dafed2d" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 1</div>`)[0];
+                popup_df17879fd17dd9c4a2b81b9ebaa6330b.setContent(html_e21f4a792c9f474aea3505bb0dafed2d);
+            
+        
+
+        circle_ba47e3d9d947eba51e25092cd8d4f0e9.bindPopup(popup_df17879fd17dd9c4a2b81b9ebaa6330b)
+        ;
+
+        
+    
+    
+            var marker_d47730f827c8d8107de4a644dc0e06e2 = L.marker(
+                [52.48707, 4.80201],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_6c198bc6183dd68b233fbfddba5d5b0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3cedd05e6e1841188e618ee9fff6d2d9 = $(`<div id="html_3cedd05e6e1841188e618ee9fff6d2d9" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean Acht Staten</h4><p> Totaal geldige uitgebrachte stemmen: 19</p><p><b>ChristenUnie</b> 5%</br> (Absoluut aantal stemmen: 1)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (26%)</li><li>Partij voor Ouderen en Veiligheid (21%)</li><li>PVV (Partij voor de Vrijheid) (10%)</li></ol></p></p></div>`)[0];
+                popup_6c198bc6183dd68b233fbfddba5d5b0e.setContent(html_3cedd05e6e1841188e618ee9fff6d2d9);
+            
+        
+
+        marker_d47730f827c8d8107de4a644dc0e06e2.bindPopup(popup_6c198bc6183dd68b233fbfddba5d5b0e)
+        ;
+
+        
+    
+    
+            var circle_6e531ec076b4a55e44cef53152b35886 = L.circle(
+                [52.50553, 4.7625],
+                {"bubblingMouseEvents": true, "color": "#a7df00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a7df00", "fillOpacity": 0.2571428571428572, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_abe01d96cf1c33360c3af02eebfd8bde = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7bccd46030bbcf8e7a3656068f78ca3d = $(`<div id="html_7bccd46030bbcf8e7a3656068f78ca3d" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ChristenUnie: 1</div>`)[0];
+                popup_abe01d96cf1c33360c3af02eebfd8bde.setContent(html_7bccd46030bbcf8e7a3656068f78ca3d);
+            
+        
+
+        circle_6e531ec076b4a55e44cef53152b35886.bindPopup(popup_abe01d96cf1c33360c3af02eebfd8bde)
+        ;
+
+        
+    
+    
+            var marker_c7d49ad2ee046e8c65d9cb3bce00e2bd = L.marker(
+                [52.50553, 4.7625],
+                {}
+            ).addTo(map_662f8ea9b5de1ba06473ab4271e8ed34);
+        
+    
+        var popup_441a5d2b27b08cd87055082ff8a8d6bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38e4d7e4202d945d9956d516826be21e = $(`<div id="html_38e4d7e4202d945d9956d516826be21e" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean Rosariumhorst</h4><p> Totaal geldige uitgebrachte stemmen: 18</p><p><b>ChristenUnie</b> 6%</br> (Absoluut aantal stemmen: 1)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (27%)</li><li>Partij voor Ouderen en Veiligheid (11%)</li><li>D66 (11%)</li></ol></p></p></div>`)[0];
+                popup_441a5d2b27b08cd87055082ff8a8d6bf.setContent(html_38e4d7e4202d945d9956d516826be21e);
+            
+        
+
+        marker_c7d49ad2ee046e8c65d9cb3bce00e2bd.bindPopup(popup_441a5d2b27b08cd87055082ff8a8d6bf)
+        ;
+
+        
+    
+</script>
+</html>

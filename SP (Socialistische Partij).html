@@ -1,0 +1,3264 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c83c5169aaebc0a5e4fc04e88ddfda0d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+             <h3 align="center" style="font-size:16px"><b>Gemeenteraad Zaanstad 2022 - SP (Socialistische Partij)</b></h3>
+             
+    
+            <div class="folium-map" id="map_c83c5169aaebc0a5e4fc04e88ddfda0d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c83c5169aaebc0a5e4fc04e88ddfda0d = L.map(
+                "map_c83c5169aaebc0a5e4fc04e88ddfda0d",
+                {
+                    center: [52.447962, 4.815532],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_83ae8e79245104868c7509a02a310d9c = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+            var circle_b89165fc1384b41417714ebfb9e284e3 = L.circle(
+                [52.43434, 4.83998],
+                {"bubblingMouseEvents": true, "color": "#b3e400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b3e400", "fillOpacity": 0.24, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_e1e31f4e2a80c8e2aee4b9cd0e73d58a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e09e46f5b3c66a2b36631f23e29d3047 = $(`<div id="html_e09e46f5b3c66a2b36631f23e29d3047" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 25</div>`)[0];
+                popup_e1e31f4e2a80c8e2aee4b9cd0e73d58a.setContent(html_e09e46f5b3c66a2b36631f23e29d3047);
+            
+        
+
+        circle_b89165fc1384b41417714ebfb9e284e3.bindPopup(popup_e1e31f4e2a80c8e2aee4b9cd0e73d58a)
+        ;
+
+        
+    
+    
+            var marker_2ec49a6c943b7110b69eebea35896102 = L.marker(
+                [52.43434, 4.83998],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_193ebba44a680342fe3c2cb6d8bea9b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4477fcbd898c9f1933ef57a678c95382 = $(`<div id="html_4477fcbd898c9f1933ef57a678c95382" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Wibautstraat, INGANG SPARRESTRAAT</h4><p> Totaal geldige uitgebrachte stemmen: 607</p><p><b>SP (Socialistische Partij)</b> 4%</br> (Absoluut aantal stemmen: 25)<p><b>Top drie:</b><ol><li>DENK (19%)</li><li>Partij van de Arbeid (P.v.d.A.) (16%)</li><li>Partij voor Ouderen en Veiligheid (12%)</li></ol></p></p></div>`)[0];
+                popup_193ebba44a680342fe3c2cb6d8bea9b7.setContent(html_4477fcbd898c9f1933ef57a678c95382);
+            
+        
+
+        marker_2ec49a6c943b7110b69eebea35896102.bindPopup(popup_193ebba44a680342fe3c2cb6d8bea9b7)
+        ;
+
+        
+    
+    
+            var circle_a27e7ebcc513445537a57b424e5160a0 = L.circle(
+                [52.4297, 4.83851],
+                {"bubblingMouseEvents": true, "color": "#9cdb00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9cdb00", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 74, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_bac05d3af823bd1fc71760b317b67770 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_601719a20eab95d8b16ec3c43b2aa12f = $(`<div id="html_601719a20eab95d8b16ec3c43b2aa12f" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 37</div>`)[0];
+                popup_bac05d3af823bd1fc71760b317b67770.setContent(html_601719a20eab95d8b16ec3c43b2aa12f);
+            
+        
+
+        circle_a27e7ebcc513445537a57b424e5160a0.bindPopup(popup_bac05d3af823bd1fc71760b317b67770)
+        ;
+
+        
+    
+    
+            var marker_04fb0ac7e3f0ab95f55776c3871e5635 = L.marker(
+                [52.4297, 4.83851],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_49149c859468830699a866dea876ccf5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_695e8a8301b01a68fd5c9165faf0aa03 = $(`<div id="html_695e8a8301b01a68fd5c9165faf0aa03" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Handboogschutters Czaar Peter</h4><p> Totaal geldige uitgebrachte stemmen: 769</p><p><b>SP (Socialistische Partij)</b> 5%</br> (Absoluut aantal stemmen: 37)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (15%)</li><li>DENK (12%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li></ol></p></p></div>`)[0];
+                popup_49149c859468830699a866dea876ccf5.setContent(html_695e8a8301b01a68fd5c9165faf0aa03);
+            
+        
+
+        marker_04fb0ac7e3f0ab95f55776c3871e5635.bindPopup(popup_49149c859468830699a866dea876ccf5)
+        ;
+
+        
+    
+    
+            var circle_866deda3b15d4a3ef93658c64a4142dd = L.circle(
+                [52.43576, 4.85498],
+                {"bubblingMouseEvents": true, "color": "#9cdb00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9cdb00", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 130, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_5b5861e374a44d4da5a6b795991baf6f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_18ec5d16a568081bdb732c9dcf5393f3 = $(`<div id="html_18ec5d16a568081bdb732c9dcf5393f3" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 65</div>`)[0];
+                popup_5b5861e374a44d4da5a6b795991baf6f.setContent(html_18ec5d16a568081bdb732c9dcf5393f3);
+            
+        
+
+        circle_866deda3b15d4a3ef93658c64a4142dd.bindPopup(popup_5b5861e374a44d4da5a6b795991baf6f)
+        ;
+
+        
+    
+    
+            var marker_e3bbaee627976d84f87da82013138ea9 = L.marker(
+                [52.43576, 4.85498],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_1c261ceedbb41d1c6e7a10ada5e44bdd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_59b16439f1b640b2aa37b012e92945b5 = $(`<div id="html_59b16439f1b640b2aa37b012e92945b5" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Wijkcentrum de Poelenburcht</h4><p> Totaal geldige uitgebrachte stemmen: 1350</p><p><b>SP (Socialistische Partij)</b> 5%</br> (Absoluut aantal stemmen: 65)<p><b>Top drie:</b><ol><li>DENK (33%)</li><li>Partij van de Arbeid (P.v.d.A.) (18%)</li><li>Partij voor Ouderen en Veiligheid (8%)</li></ol></p></p></div>`)[0];
+                popup_1c261ceedbb41d1c6e7a10ada5e44bdd.setContent(html_59b16439f1b640b2aa37b012e92945b5);
+            
+        
+
+        marker_e3bbaee627976d84f87da82013138ea9.bindPopup(popup_1c261ceedbb41d1c6e7a10ada5e44bdd)
+        ;
+
+        
+    
+    
+            var circle_d5b2064b7c3e921d5f06879c04fc7ddf = L.circle(
+                [52.44074, 4.84661],
+                {"bubblingMouseEvents": true, "color": "#cbed00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cbed00", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_3faea8e3ad4bbb912cbbf2c1027c4488 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28b42899f4d7b43e11de2adfb15ffdc6 = $(`<div id="html_28b42899f4d7b43e11de2adfb15ffdc6" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 20</div>`)[0];
+                popup_3faea8e3ad4bbb912cbbf2c1027c4488.setContent(html_28b42899f4d7b43e11de2adfb15ffdc6);
+            
+        
+
+        circle_d5b2064b7c3e921d5f06879c04fc7ddf.bindPopup(popup_3faea8e3ad4bbb912cbbf2c1027c4488)
+        ;
+
+        
+    
+    
+            var marker_c6bda35ac79d05147b2f44e5d48ec7ca = L.marker(
+                [52.44074, 4.84661],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_b8c3fbd5e4364973af5d53bf2d458987 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7bdfab6d2275ff21021337266e3ab20 = $(`<div id="html_b7bdfab6d2275ff21021337266e3ab20" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Zaans Natuur en Milieu Centrum</h4><p> Totaal geldige uitgebrachte stemmen: 615</p><p><b>SP (Socialistische Partij)</b> 3%</br> (Absoluut aantal stemmen: 20)<p><b>Top drie:</b><ol><li>DENK (24%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li><li>Partij voor Ouderen en Veiligheid (8%)</li></ol></p></p></div>`)[0];
+                popup_b8c3fbd5e4364973af5d53bf2d458987.setContent(html_b7bdfab6d2275ff21021337266e3ab20);
+            
+        
+
+        marker_c6bda35ac79d05147b2f44e5d48ec7ca.bindPopup(popup_b8c3fbd5e4364973af5d53bf2d458987)
+        ;
+
+        
+    
+    
+            var circle_9dee1355158a846b91e6ea8a9b429b02 = L.circle(
+                [52.44875, 4.84416],
+                {"bubblingMouseEvents": true, "color": "#cbed00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cbed00", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 38, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_83c22f17b3374b6e8f0803e5a2162802 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aca1686f931bd6387e05feb4dbe4dba0 = $(`<div id="html_aca1686f931bd6387e05feb4dbe4dba0" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 19</div>`)[0];
+                popup_83c22f17b3374b6e8f0803e5a2162802.setContent(html_aca1686f931bd6387e05feb4dbe4dba0);
+            
+        
+
+        circle_9dee1355158a846b91e6ea8a9b429b02.bindPopup(popup_83c22f17b3374b6e8f0803e5a2162802)
+        ;
+
+        
+    
+    
+            var marker_fa3661b9ed6134456dc706c1aae3f174 = L.marker(
+                [52.44875, 4.84416],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_79f224c1d0f06ca7f2e97c51c5c6fd2d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d58bb9f918fb4b8620705682bf803f45 = $(`<div id="html_d58bb9f918fb4b8620705682bf803f45" style="width: 100.0%; height: 100.0%;"><h4>Stembureau ICBS de Windroos, INGANG PINASSTRAAT 4</h4><p> Totaal geldige uitgebrachte stemmen: 708</p><p><b>SP (Socialistische Partij)</b> 3%</br> (Absoluut aantal stemmen: 19)<p><b>Top drie:</b><ol><li>DENK (26%)</li><li>Partij van de Arbeid (P.v.d.A.) (17%)</li><li>Partij voor Ouderen en Veiligheid (9%)</li></ol></p></p></div>`)[0];
+                popup_79f224c1d0f06ca7f2e97c51c5c6fd2d.setContent(html_d58bb9f918fb4b8620705682bf803f45);
+            
+        
+
+        marker_fa3661b9ed6134456dc706c1aae3f174.bindPopup(popup_79f224c1d0f06ca7f2e97c51c5c6fd2d)
+        ;
+
+        
+    
+    
+            var circle_a57051b309391d4314e9b8e39f4c2a8d = L.circle(
+                [52.45458, 4.83273],
+                {"bubblingMouseEvents": true, "color": "#cbed00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cbed00", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 32, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_75a2b4d8102a6d654ab07a95751b00f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cec8b344895b610d0556506abd2a8cfe = $(`<div id="html_cec8b344895b610d0556506abd2a8cfe" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 16</div>`)[0];
+                popup_75a2b4d8102a6d654ab07a95751b00f9.setContent(html_cec8b344895b610d0556506abd2a8cfe);
+            
+        
+
+        circle_a57051b309391d4314e9b8e39f4c2a8d.bindPopup(popup_75a2b4d8102a6d654ab07a95751b00f9)
+        ;
+
+        
+    
+    
+            var marker_274bc7405e4c585dc83017db67188484 = L.marker(
+                [52.45458, 4.83273],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_c03dfaa3fffa2e333f1c59f590ce9160 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b55c2697557c62330c99af35026724e = $(`<div id="html_1b55c2697557c62330c99af35026724e" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Blaise Pascal College</h4><p> Totaal geldige uitgebrachte stemmen: 572</p><p><b>SP (Socialistische Partij)</b> 3%</br> (Absoluut aantal stemmen: 16)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (14%)</li><li>Partij van de Arbeid (P.v.d.A.) (12%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_c03dfaa3fffa2e333f1c59f590ce9160.setContent(html_1b55c2697557c62330c99af35026724e);
+            
+        
+
+        marker_274bc7405e4c585dc83017db67188484.bindPopup(popup_c03dfaa3fffa2e333f1c59f590ce9160)
+        ;
+
+        
+    
+    
+            var circle_d293892ebd0a7a10e4e8bcaab81003c9 = L.circle(
+                [52.44644, 4.83914],
+                {"bubblingMouseEvents": true, "color": "#9cdb00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9cdb00", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 108, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_ce663ef1a97ea3e127fcbfd29be3fa20 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_84cfd2efd9b20dda99da9b9b9f3cce43 = $(`<div id="html_84cfd2efd9b20dda99da9b9b9f3cce43" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 54</div>`)[0];
+                popup_ce663ef1a97ea3e127fcbfd29be3fa20.setContent(html_84cfd2efd9b20dda99da9b9b9f3cce43);
+            
+        
+
+        circle_d293892ebd0a7a10e4e8bcaab81003c9.bindPopup(popup_ce663ef1a97ea3e127fcbfd29be3fa20)
+        ;
+
+        
+    
+    
+            var marker_a28c915ffce7cb884d6f78fbd343203c = L.marker(
+                [52.44644, 4.83914],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_a054afaaa12a5c770f79c147f4b88e69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b999a5429a0dfa4e3590ef1320ca3ec = $(`<div id="html_2b999a5429a0dfa4e3590ef1320ca3ec" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean De Meerpaal, INGANG TJOTTERLAAN 174</h4><p> Totaal geldige uitgebrachte stemmen: 1022</p><p><b>SP (Socialistische Partij)</b> 5%</br> (Absoluut aantal stemmen: 54)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (15%)</li><li>Partij voor Ouderen en Veiligheid (12%)</li><li>VVD (12%)</li></ol></p></p></div>`)[0];
+                popup_a054afaaa12a5c770f79c147f4b88e69.setContent(html_2b999a5429a0dfa4e3590ef1320ca3ec);
+            
+        
+
+        marker_a28c915ffce7cb884d6f78fbd343203c.bindPopup(popup_a054afaaa12a5c770f79c147f4b88e69)
+        ;
+
+        
+    
+    
+            var circle_4ea4a1e351dafdc3b81edfb8ceb2d3f5 = L.circle(
+                [52.43927208598662, 4.8424228597558585],
+                {"bubblingMouseEvents": true, "color": "#cbed00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cbed00", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_2edd0702224bfeeeb79eab08c2421b66 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33be50f1ad94b3e438e766a0e8b3c676 = $(`<div id="html_33be50f1ad94b3e438e766a0e8b3c676" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 20</div>`)[0];
+                popup_2edd0702224bfeeeb79eab08c2421b66.setContent(html_33be50f1ad94b3e438e766a0e8b3c676);
+            
+        
+
+        circle_4ea4a1e351dafdc3b81edfb8ceb2d3f5.bindPopup(popup_2edd0702224bfeeeb79eab08c2421b66)
+        ;
+
+        
+    
+    
+            var marker_794a91e7c38c0979a2807b7b5b97f5ca = L.marker(
+                [52.43927208598662, 4.8424228597558585],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_a3b61060facc95051e9d6141af2336b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a523fb6a50c4d10ccdaddc5ba92cabab = $(`<div id="html_a523fb6a50c4d10ccdaddc5ba92cabab" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Noorderven</h4><p> Totaal geldige uitgebrachte stemmen: 599</p><p><b>SP (Socialistische Partij)</b> 3%</br> (Absoluut aantal stemmen: 20)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (18%)</li><li>DENK (13%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_a3b61060facc95051e9d6141af2336b7.setContent(html_a523fb6a50c4d10ccdaddc5ba92cabab);
+            
+        
+
+        marker_794a91e7c38c0979a2807b7b5b97f5ca.bindPopup(popup_a3b61060facc95051e9d6141af2336b7)
+        ;
+
+        
+    
+    
+            var circle_b794ae1a6dfe722873d2e03034ea557a = L.circle(
+                [52.43656, 4.83676],
+                {"bubblingMouseEvents": true, "color": "#9cdb00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9cdb00", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_e3d6d5495393ac75db40c45a2e64ba2a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5710f51a2fdafe8dd12b0220e80ce77 = $(`<div id="html_f5710f51a2fdafe8dd12b0220e80ce77" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 25</div>`)[0];
+                popup_e3d6d5495393ac75db40c45a2e64ba2a.setContent(html_f5710f51a2fdafe8dd12b0220e80ce77);
+            
+        
+
+        circle_b794ae1a6dfe722873d2e03034ea557a.bindPopup(popup_e3d6d5495393ac75db40c45a2e64ba2a)
+        ;
+
+        
+    
+    
+            var marker_f7bd6c05ebf785702517e29dd0774334 = L.marker(
+                [52.43656, 4.83676],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_04663273cfccf0b20da228b56e404f4c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a757432732bf90b34886aeef18129fe5 = $(`<div id="html_a757432732bf90b34886aeef18129fe5" style="width: 100.0%; height: 100.0%;"><h4>Stembureau De Paaskerk</h4><p> Totaal geldige uitgebrachte stemmen: 502</p><p><b>SP (Socialistische Partij)</b> 5%</br> (Absoluut aantal stemmen: 25)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (14%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li><li>PVV (Partij voor de Vrijheid) (10%)</li></ol></p></p></div>`)[0];
+                popup_04663273cfccf0b20da228b56e404f4c.setContent(html_a757432732bf90b34886aeef18129fe5);
+            
+        
+
+        marker_f7bd6c05ebf785702517e29dd0774334.bindPopup(popup_04663273cfccf0b20da228b56e404f4c)
+        ;
+
+        
+    
+    
+            var circle_adeed04376b46355efd38f09457b1f0b = L.circle(
+                [52.43558, 4.8336],
+                {"bubblingMouseEvents": true, "color": "#cbed00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cbed00", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 32, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_3c5cbf2ba7bf49ecc8e89b688e5fbae3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2cbef66c95b09aada39989f6ff2cde2c = $(`<div id="html_2cbef66c95b09aada39989f6ff2cde2c" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 16</div>`)[0];
+                popup_3c5cbf2ba7bf49ecc8e89b688e5fbae3.setContent(html_2cbef66c95b09aada39989f6ff2cde2c);
+            
+        
+
+        circle_adeed04376b46355efd38f09457b1f0b.bindPopup(popup_3c5cbf2ba7bf49ecc8e89b688e5fbae3)
+        ;
+
+        
+    
+    
+            var marker_4dc759a03c99ca482b8a39a657c80766 = L.marker(
+                [52.43558, 4.8336],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_94e593f28727bd63b9e392a7d97d0b53 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_084824f3497ed02bc8a62a251ac2e6de = $(`<div id="html_084824f3497ed02bc8a62a251ac2e6de" style="width: 100.0%; height: 100.0%;"><h4>Stembureau CBS Tamarinde,INGANG J.C. VAN WESSEMSTR</h4><p> Totaal geldige uitgebrachte stemmen: 499</p><p><b>SP (Socialistische Partij)</b> 3%</br> (Absoluut aantal stemmen: 16)<p><b>Top drie:</b><ol><li>ROSA (17%)</li><li>Partij voor Ouderen en Veiligheid (15%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li></ol></p></p></div>`)[0];
+                popup_94e593f28727bd63b9e392a7d97d0b53.setContent(html_084824f3497ed02bc8a62a251ac2e6de);
+            
+        
+
+        marker_4dc759a03c99ca482b8a39a657c80766.bindPopup(popup_94e593f28727bd63b9e392a7d97d0b53)
+        ;
+
+        
+    
+    
+            var circle_f40e2079b71aa6b2a96782da9cbcc741 = L.circle(
+                [52.44047, 4.83383],
+                {"bubblingMouseEvents": true, "color": "#9cdb00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9cdb00", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 62, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_8ccc6d1dc7bb601d9edf8a48739f2879 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8be774045e608a6fbc58f33134601ec4 = $(`<div id="html_8be774045e608a6fbc58f33134601ec4" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 31</div>`)[0];
+                popup_8ccc6d1dc7bb601d9edf8a48739f2879.setContent(html_8be774045e608a6fbc58f33134601ec4);
+            
+        
+
+        circle_f40e2079b71aa6b2a96782da9cbcc741.bindPopup(popup_8ccc6d1dc7bb601d9edf8a48739f2879)
+        ;
+
+        
+    
+    
+            var marker_b5d9d0f7db6401686c55dfd666f96efc = L.marker(
+                [52.44047, 4.83383],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_bf5ef68cac10202649de55adeabfdfc3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c605b653ac3bf3fa82c51e97919b75c = $(`<div id="html_8c605b653ac3bf3fa82c51e97919b75c" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Wijkcentrum Dirk Prins</h4><p> Totaal geldige uitgebrachte stemmen: 633</p><p><b>SP (Socialistische Partij)</b> 5%</br> (Absoluut aantal stemmen: 31)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (18%)</li><li>Partij van de Arbeid (P.v.d.A.) (10%)</li><li>PVV (Partij voor de Vrijheid) (10%)</li></ol></p></p></div>`)[0];
+                popup_bf5ef68cac10202649de55adeabfdfc3.setContent(html_8c605b653ac3bf3fa82c51e97919b75c);
+            
+        
+
+        marker_b5d9d0f7db6401686c55dfd666f96efc.bindPopup(popup_bf5ef68cac10202649de55adeabfdfc3)
+        ;
+
+        
+    
+    
+            var circle_76432e3e16ba5c63218aa21bfc244401 = L.circle(
+                [52.44399, 4.82485],
+                {"bubblingMouseEvents": true, "color": "#9cdb00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9cdb00", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 74, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_c7a79a7ef3ebb8d0d21970403f98d9ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_114e0981beb2d69dba3a85d7996aa3f8 = $(`<div id="html_114e0981beb2d69dba3a85d7996aa3f8" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 37</div>`)[0];
+                popup_c7a79a7ef3ebb8d0d21970403f98d9ab.setContent(html_114e0981beb2d69dba3a85d7996aa3f8);
+            
+        
+
+        circle_76432e3e16ba5c63218aa21bfc244401.bindPopup(popup_c7a79a7ef3ebb8d0d21970403f98d9ab)
+        ;
+
+        
+    
+    
+            var marker_eb7534cc72cd1f8bdbf1b75c9ab248c5 = L.marker(
+                [52.44399, 4.82485],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_dafef05859d1c07a84fb863659cab19a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_74b620551a4c419f04a7b5236db05286 = $(`<div id="html_74b620551a4c419f04a7b5236db05286" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurthuis de Kolk</h4><p> Totaal geldige uitgebrachte stemmen: 707</p><p><b>SP (Socialistische Partij)</b> 5%</br> (Absoluut aantal stemmen: 37)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (17%)</li><li>Partij voor Ouderen en Veiligheid (16%)</li><li>Democratisch Zaanstad (DZ) (10%)</li></ol></p></p></div>`)[0];
+                popup_dafef05859d1c07a84fb863659cab19a.setContent(html_74b620551a4c419f04a7b5236db05286);
+            
+        
+
+        marker_eb7534cc72cd1f8bdbf1b75c9ab248c5.bindPopup(popup_dafef05859d1c07a84fb863659cab19a)
+        ;
+
+        
+    
+    
+            var circle_58697e9d3675841b72ac2e16c33ce8fb = L.circle(
+                [52.44805, 4.82367],
+                {"bubblingMouseEvents": true, "color": "#9cdb00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9cdb00", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 48, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_039caa6b1542034b4ce47bbdd68ba6e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b8e2d3c38daf3ce1ae5665e5b5d52198 = $(`<div id="html_b8e2d3c38daf3ce1ae5665e5b5d52198" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 24</div>`)[0];
+                popup_039caa6b1542034b4ce47bbdd68ba6e1.setContent(html_b8e2d3c38daf3ce1ae5665e5b5d52198);
+            
+        
+
+        circle_58697e9d3675841b72ac2e16c33ce8fb.bindPopup(popup_039caa6b1542034b4ce47bbdd68ba6e1)
+        ;
+
+        
+    
+    
+            var marker_25cc4ff51c474d2c22e916655af74ad3 = L.marker(
+                [52.44805, 4.82367],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_1f2a2aba2a6cdfab85423a66249dc140 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ad25e4e0f651fd064ede03de2faf9e1 = $(`<div id="html_9ad25e4e0f651fd064ede03de2faf9e1" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Sporthal de Struijck, INGANG PROF.STRUIJCKENSTRAAT</h4><p> Totaal geldige uitgebrachte stemmen: 498</p><p><b>SP (Socialistische Partij)</b> 5%</br> (Absoluut aantal stemmen: 24)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (15%)</li><li>Partij van de Arbeid (P.v.d.A.) (14%)</li><li>GROENLINKS (9%)</li></ol></p></p></div>`)[0];
+                popup_1f2a2aba2a6cdfab85423a66249dc140.setContent(html_9ad25e4e0f651fd064ede03de2faf9e1);
+            
+        
+
+        marker_25cc4ff51c474d2c22e916655af74ad3.bindPopup(popup_1f2a2aba2a6cdfab85423a66249dc140)
+        ;
+
+        
+    
+    
+            var circle_df8a888c5c8b0ebe006de31b2ac6b798 = L.circle(
+                [52.44981, 4.82664],
+                {"bubblingMouseEvents": true, "color": "#b3e400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b3e400", "fillOpacity": 0.24, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 102, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_a8b06ec495a1d4d59faa9a3b21e4d103 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a100837cfe565f076b8026c24616a1b3 = $(`<div id="html_a100837cfe565f076b8026c24616a1b3" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 51</div>`)[0];
+                popup_a8b06ec495a1d4d59faa9a3b21e4d103.setContent(html_a100837cfe565f076b8026c24616a1b3);
+            
+        
+
+        circle_df8a888c5c8b0ebe006de31b2ac6b798.bindPopup(popup_a8b06ec495a1d4d59faa9a3b21e4d103)
+        ;
+
+        
+    
+    
+            var marker_dfcc4fd616423a56bd97fd6299e3e83f = L.marker(
+                [52.44981, 4.82664],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_6d3c9461f01ab61de7adbaedd50bfb8d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8cb8801b41e01a07e864117c032c62fd = $(`<div id="html_8cb8801b41e01a07e864117c032c62fd" style="width: 100.0%; height: 100.0%;"><h4>Stembureau De Noorderkerk</h4><p> Totaal geldige uitgebrachte stemmen: 1449</p><p><b>SP (Socialistische Partij)</b> 4%</br> (Absoluut aantal stemmen: 51)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (15%)</li><li>Partij voor Ouderen en Veiligheid (12%)</li><li>ROSA (8%)</li></ol></p></p></div>`)[0];
+                popup_6d3c9461f01ab61de7adbaedd50bfb8d.setContent(html_8cb8801b41e01a07e864117c032c62fd);
+            
+        
+
+        marker_dfcc4fd616423a56bd97fd6299e3e83f.bindPopup(popup_6d3c9461f01ab61de7adbaedd50bfb8d)
+        ;
+
+        
+    
+    
+            var circle_ab536cecc3d3f3a7d8cf98a8a5f85ef1 = L.circle(
+                [52.45823, 4.83142],
+                {"bubblingMouseEvents": true, "color": "#9cdb00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9cdb00", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 24, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_49d1a5db024855e6005e5efe2603c723 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb833f0a4e667a92817e61d658e92aca = $(`<div id="html_eb833f0a4e667a92817e61d658e92aca" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 12</div>`)[0];
+                popup_49d1a5db024855e6005e5efe2603c723.setContent(html_eb833f0a4e667a92817e61d658e92aca);
+            
+        
+
+        circle_ab536cecc3d3f3a7d8cf98a8a5f85ef1.bindPopup(popup_49d1a5db024855e6005e5efe2603c723)
+        ;
+
+        
+    
+    
+            var marker_aa411c857da43e0fdfbc888cabddc7cd = L.marker(
+                [52.45823, 4.83142],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_118a00e10edd40f66a75f93f5b4984fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f31b75a99e820a3214c1b50739bcb74 = $(`<div id="html_7f31b75a99e820a3214c1b50739bcb74" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Basisschool Kogerveld</h4><p> Totaal geldige uitgebrachte stemmen: 228</p><p><b>SP (Socialistische Partij)</b> 5%</br> (Absoluut aantal stemmen: 12)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (18%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li><li>D66 (9%)</li></ol></p></p></div>`)[0];
+                popup_118a00e10edd40f66a75f93f5b4984fd.setContent(html_7f31b75a99e820a3214c1b50739bcb74);
+            
+        
+
+        marker_aa411c857da43e0fdfbc888cabddc7cd.bindPopup(popup_118a00e10edd40f66a75f93f5b4984fd)
+        ;
+
+        
+    
+    
+            var circle_e59e04596a834a93d8aae11c57f9dcb6 = L.circle(
+                [52.4582, 4.82359],
+                {"bubblingMouseEvents": true, "color": "#73c900", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#73c900", "fillOpacity": 0.42, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 94, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_7035c5cffd8b644375b1b7d7ffec7cc1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46fd8bae29f00ef8f687e3bef2d4f294 = $(`<div id="html_46fd8bae29f00ef8f687e3bef2d4f294" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 47</div>`)[0];
+                popup_7035c5cffd8b644375b1b7d7ffec7cc1.setContent(html_46fd8bae29f00ef8f687e3bef2d4f294);
+            
+        
+
+        circle_e59e04596a834a93d8aae11c57f9dcb6.bindPopup(popup_7035c5cffd8b644375b1b7d7ffec7cc1)
+        ;
+
+        
+    
+    
+            var marker_1b71ff0ee935d3f743ff4ec0e7d33853 = L.marker(
+                [52.4582, 4.82359],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_0102b54315c0fa7c9c4bda7efa69bbff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7011b6019785f849982ab78f41c013c = $(`<div id="html_e7011b6019785f849982ab78f41c013c" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Veldbloemenweg</h4><p> Totaal geldige uitgebrachte stemmen: 662</p><p><b>SP (Socialistische Partij)</b> 7%</br> (Absoluut aantal stemmen: 47)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (14%)</li><li>ROSA (13%)</li><li>DENK (11%)</li></ol></p></p></div>`)[0];
+                popup_0102b54315c0fa7c9c4bda7efa69bbff.setContent(html_e7011b6019785f849982ab78f41c013c);
+            
+        
+
+        marker_1b71ff0ee935d3f743ff4ec0e7d33853.bindPopup(popup_0102b54315c0fa7c9c4bda7efa69bbff)
+        ;
+
+        
+    
+    
+            var circle_39b077a5dfb3b81d7bfb068c2fecc5e9 = L.circle(
+                [52.4676, 4.8346],
+                {"bubblingMouseEvents": true, "color": "#b3e400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b3e400", "fillOpacity": 0.24, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 136, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_dd09949ce57853851e9e49f2fa8aa478 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08f045149d96e0ff5362614384c28174 = $(`<div id="html_08f045149d96e0ff5362614384c28174" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 68</div>`)[0];
+                popup_dd09949ce57853851e9e49f2fa8aa478.setContent(html_08f045149d96e0ff5362614384c28174);
+            
+        
+
+        circle_39b077a5dfb3b81d7bfb068c2fecc5e9.bindPopup(popup_dd09949ce57853851e9e49f2fa8aa478)
+        ;
+
+        
+    
+    
+            var marker_5a3e46b01ccaed6a509222b3d74a107f = L.marker(
+                [52.4676, 4.8346],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_5462ce09ffa601f36179c290fd3af4a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1cfeb2bf6c3bfc605f1217f1886df89f = $(`<div id="html_1cfeb2bf6c3bfc605f1217f1886df89f" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurtcentrum de Bovenkruier</h4><p> Totaal geldige uitgebrachte stemmen: 1527</p><p><b>SP (Socialistische Partij)</b> 4%</br> (Absoluut aantal stemmen: 68)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (20%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_5462ce09ffa601f36179c290fd3af4a0.setContent(html_1cfeb2bf6c3bfc605f1217f1886df89f);
+            
+        
+
+        marker_5a3e46b01ccaed6a509222b3d74a107f.bindPopup(popup_5462ce09ffa601f36179c290fd3af4a0)
+        ;
+
+        
+    
+    
+            var circle_52f62c7b474e2c5c5c8f5ffeab7779ab = L.circle(
+                [52.46802, 4.8366],
+                {"bubblingMouseEvents": true, "color": "#9cdb00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9cdb00", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 98, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_6b10482aa142c200f13560781896e4f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_17e33195ef6805e4f8cb2bf7b01920e0 = $(`<div id="html_17e33195ef6805e4f8cb2bf7b01920e0" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 49</div>`)[0];
+                popup_6b10482aa142c200f13560781896e4f0.setContent(html_17e33195ef6805e4f8cb2bf7b01920e0);
+            
+        
+
+        circle_52f62c7b474e2c5c5c8f5ffeab7779ab.bindPopup(popup_6b10482aa142c200f13560781896e4f0)
+        ;
+
+        
+    
+    
+            var marker_21f1ac583eabf848022da228cef0bc50 = L.marker(
+                [52.46802, 4.8366],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_d09217d35ab77adbf7c4152e8eea3993 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3af5c98f3bae7bec6e4b7e97166f3b93 = $(`<div id="html_3af5c98f3bae7bec6e4b7e97166f3b93" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Sporthal de Tref</h4><p> Totaal geldige uitgebrachte stemmen: 1035</p><p><b>SP (Socialistische Partij)</b> 5%</br> (Absoluut aantal stemmen: 49)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (15%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li><li>VVD (10%)</li></ol></p></p></div>`)[0];
+                popup_d09217d35ab77adbf7c4152e8eea3993.setContent(html_3af5c98f3bae7bec6e4b7e97166f3b93);
+            
+        
+
+        marker_21f1ac583eabf848022da228cef0bc50.bindPopup(popup_d09217d35ab77adbf7c4152e8eea3993)
+        ;
+
+        
+    
+    
+            var circle_49b8a2386ab294d96b79c2092a229842 = L.circle(
+                [52.42847, 4.83209],
+                {"bubblingMouseEvents": true, "color": "#b3e400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b3e400", "fillOpacity": 0.24, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 52, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_b5a967dd1f6766f159995f2d0b7b2889 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f1e2cea6edafeb46742b786d5c40af8 = $(`<div id="html_2f1e2cea6edafeb46742b786d5c40af8" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 26</div>`)[0];
+                popup_b5a967dd1f6766f159995f2d0b7b2889.setContent(html_2f1e2cea6edafeb46742b786d5c40af8);
+            
+        
+
+        circle_49b8a2386ab294d96b79c2092a229842.bindPopup(popup_b5a967dd1f6766f159995f2d0b7b2889)
+        ;
+
+        
+    
+    
+            var marker_692c42f6f2430b2b50678f3680b9beea = L.marker(
+                [52.42847, 4.83209],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_779f67b424bd033db409c74081cc2a55 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06eb869e122c10cfe3b042fa701f19d9 = $(`<div id="html_06eb869e122c10cfe3b042fa701f19d9" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Speeltuinvereniging "Het Havenkwartier"</h4><p> Totaal geldige uitgebrachte stemmen: 677</p><p><b>SP (Socialistische Partij)</b> 4%</br> (Absoluut aantal stemmen: 26)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (15%)</li><li>Democratisch Zaanstad (DZ) (14%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_779f67b424bd033db409c74081cc2a55.setContent(html_06eb869e122c10cfe3b042fa701f19d9);
+            
+        
+
+        marker_692c42f6f2430b2b50678f3680b9beea.bindPopup(popup_779f67b424bd033db409c74081cc2a55)
+        ;
+
+        
+    
+    
+            var circle_503d56aebc4aafcc2ca67566c0dda76f = L.circle(
+                [52.43837, 4.82545],
+                {"bubblingMouseEvents": true, "color": "#9cdb00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9cdb00", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 80, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_2ded13701d41ad61d8d09c0a94465711 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6be139bb2c5033961572f78e1e3b141c = $(`<div id="html_6be139bb2c5033961572f78e1e3b141c" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 40</div>`)[0];
+                popup_2ded13701d41ad61d8d09c0a94465711.setContent(html_6be139bb2c5033961572f78e1e3b141c);
+            
+        
+
+        circle_503d56aebc4aafcc2ca67566c0dda76f.bindPopup(popup_2ded13701d41ad61d8d09c0a94465711)
+        ;
+
+        
+    
+    
+            var marker_b606eeb2942bcadec50295b8d83d22fe = L.marker(
+                [52.43837, 4.82545],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_d7cfdbd4d825ad22e378c037fa0b6890 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71ba29a16b838c7b56a5d92b98133062 = $(`<div id="html_71ba29a16b838c7b56a5d92b98133062" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Het Zaantheater</h4><p> Totaal geldige uitgebrachte stemmen: 796</p><p><b>SP (Socialistische Partij)</b> 5%</br> (Absoluut aantal stemmen: 40)<p><b>Top drie:</b><ol><li>ROSA (13%)</li><li>Partij van de Arbeid (P.v.d.A.) (12%)</li><li>GROENLINKS (11%)</li></ol></p></p></div>`)[0];
+                popup_d7cfdbd4d825ad22e378c037fa0b6890.setContent(html_71ba29a16b838c7b56a5d92b98133062);
+            
+        
+
+        marker_b606eeb2942bcadec50295b8d83d22fe.bindPopup(popup_d7cfdbd4d825ad22e378c037fa0b6890)
+        ;
+
+        
+    
+    
+            var circle_fe69dc38033fa357ddb8f2235607eaff = L.circle(
+                [52.44797, 4.81985],
+                {"bubblingMouseEvents": true, "color": "#87d200", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#87d200", "fillOpacity": 0.36, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 54, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_88241c99bb9cc3652057c0f23dee859f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_037da84e7678630e819784f4ba2bc6f0 = $(`<div id="html_037da84e7678630e819784f4ba2bc6f0" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 27</div>`)[0];
+                popup_88241c99bb9cc3652057c0f23dee859f.setContent(html_037da84e7678630e819784f4ba2bc6f0);
+            
+        
+
+        circle_fe69dc38033fa357ddb8f2235607eaff.bindPopup(popup_88241c99bb9cc3652057c0f23dee859f)
+        ;
+
+        
+    
+    
+            var marker_3f1f0f55db375f766416ca38185c546c = L.marker(
+                [52.44797, 4.81985],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_df5473913cb93c17075b0542dad55d4b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a9f65030225ad6f78c671f9b9b788a2 = $(`<div id="html_7a9f65030225ad6f78c671f9b9b788a2" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Het Tolhuys aan de Zaan</h4><p> Totaal geldige uitgebrachte stemmen: 454</p><p><b>SP (Socialistische Partij)</b> 6%</br> (Absoluut aantal stemmen: 27)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (15%)</li><li>ROSA (14%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_df5473913cb93c17075b0542dad55d4b.setContent(html_7a9f65030225ad6f78c671f9b9b788a2);
+            
+        
+
+        marker_3f1f0f55db375f766416ca38185c546c.bindPopup(popup_df5473913cb93c17075b0542dad55d4b)
+        ;
+
+        
+    
+    
+            var circle_e3736da5687db019dc8c735aeba45d4d = L.circle(
+                [52.44943, 4.8169],
+                {"bubblingMouseEvents": true, "color": "#e4f600", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e4f600", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 26, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_1f4748470a833b5615f35b54c58bc880 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_757bc71118967baa6d07dff4391c28a5 = $(`<div id="html_757bc71118967baa6d07dff4391c28a5" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 13</div>`)[0];
+                popup_1f4748470a833b5615f35b54c58bc880.setContent(html_757bc71118967baa6d07dff4391c28a5);
+            
+        
+
+        circle_e3736da5687db019dc8c735aeba45d4d.bindPopup(popup_1f4748470a833b5615f35b54c58bc880)
+        ;
+
+        
+    
+    
+            var marker_8cb2c7b74cf45e285b2841dbb0982ab2 = L.marker(
+                [52.44943, 4.8169],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_dbe3aef793d6631df04b1ac95ad79761 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2a553ef63b048a3f38d7221d4cd1b57 = $(`<div id="html_d2a553ef63b048a3f38d7221d4cd1b57" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Atletiekvereniging Zaanland</h4><p> Totaal geldige uitgebrachte stemmen: 590</p><p><b>SP (Socialistische Partij)</b> 2%</br> (Absoluut aantal stemmen: 13)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (16%)</li><li>ROSA (14%)</li><li>GROENLINKS (11%)</li></ol></p></p></div>`)[0];
+                popup_dbe3aef793d6631df04b1ac95ad79761.setContent(html_d2a553ef63b048a3f38d7221d4cd1b57);
+            
+        
+
+        marker_8cb2c7b74cf45e285b2841dbb0982ab2.bindPopup(popup_dbe3aef793d6631df04b1ac95ad79761)
+        ;
+
+        
+    
+    
+            var circle_1664f44296da0e071bd89d77114eb479 = L.circle(
+                [52.43817, 4.8118],
+                {"bubblingMouseEvents": true, "color": "#b3e400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b3e400", "fillOpacity": 0.24, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 18, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_a3551507308d1a6fb95cbbfb16cc5996 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_74ddf6e6170870802a2dd9b13a375a8d = $(`<div id="html_74ddf6e6170870802a2dd9b13a375a8d" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 9</div>`)[0];
+                popup_a3551507308d1a6fb95cbbfb16cc5996.setContent(html_74ddf6e6170870802a2dd9b13a375a8d);
+            
+        
+
+        circle_1664f44296da0e071bd89d77114eb479.bindPopup(popup_a3551507308d1a6fb95cbbfb16cc5996)
+        ;
+
+        
+    
+    
+            var marker_4acc25781bd40b2e8f42436ce2ea5ad0 = L.marker(
+                [52.43817, 4.8118],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_1e59ef618c230cd981a603f605a69403 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_342af99c47408384dc095ff4c22ff6eb = $(`<div id="html_342af99c47408384dc095ff4c22ff6eb" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Zaan Hotel</h4><p> Totaal geldige uitgebrachte stemmen: 249</p><p><b>SP (Socialistische Partij)</b> 4%</br> (Absoluut aantal stemmen: 9)<p><b>Top drie:</b><ol><li>D66 (12%)</li><li>ROSA (12%)</li><li>Democratisch Zaanstad (DZ) (12%)</li></ol></p></p></div>`)[0];
+                popup_1e59ef618c230cd981a603f605a69403.setContent(html_342af99c47408384dc095ff4c22ff6eb);
+            
+        
+
+        marker_4acc25781bd40b2e8f42436ce2ea5ad0.bindPopup(popup_1e59ef618c230cd981a603f605a69403)
+        ;
+
+        
+    
+    
+            var circle_e3cdff178c097ef5029397833ad6ac07 = L.circle(
+                [52.44768, 4.80579],
+                {"bubblingMouseEvents": true, "color": "#cbed00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cbed00", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 34, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_8ba99b9c7e763c3724b9e860723abe71 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_18411825b2f24251421b0632d686abfb = $(`<div id="html_18411825b2f24251421b0632d686abfb" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 17</div>`)[0];
+                popup_8ba99b9c7e763c3724b9e860723abe71.setContent(html_18411825b2f24251421b0632d686abfb);
+            
+        
+
+        circle_e3cdff178c097ef5029397833ad6ac07.bindPopup(popup_8ba99b9c7e763c3724b9e860723abe71)
+        ;
+
+        
+    
+    
+            var marker_c16e06b354e3b09419dd3405cd023b97 = L.marker(
+                [52.44768, 4.80579],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_27c889938cdaf9ee81aa6b4ca7a45732 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3825eddb9b574b99850a98c8a32e64e3 = $(`<div id="html_3825eddb9b574b99850a98c8a32e64e3" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurtcentrum De Zeskanter</h4><p> Totaal geldige uitgebrachte stemmen: 516</p><p><b>SP (Socialistische Partij)</b> 3%</br> (Absoluut aantal stemmen: 17)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (21%)</li><li>Democratisch Zaanstad (DZ) (13%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li></ol></p></p></div>`)[0];
+                popup_27c889938cdaf9ee81aa6b4ca7a45732.setContent(html_3825eddb9b574b99850a98c8a32e64e3);
+            
+        
+
+        marker_c16e06b354e3b09419dd3405cd023b97.bindPopup(popup_27c889938cdaf9ee81aa6b4ca7a45732)
+        ;
+
+        
+    
+    
+            var circle_2f2b46e83db32eef3f02e42883c2f37b = L.circle(
+                [52.44802, 4.8004],
+                {"bubblingMouseEvents": true, "color": "#e4f600", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e4f600", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 34, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_77c8ae260917a382a389b4ac0525563b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a2d37efe2d59afb822df02fc73eb2b0a = $(`<div id="html_a2d37efe2d59afb822df02fc73eb2b0a" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 17</div>`)[0];
+                popup_77c8ae260917a382a389b4ac0525563b.setContent(html_a2d37efe2d59afb822df02fc73eb2b0a);
+            
+        
+
+        circle_2f2b46e83db32eef3f02e42883c2f37b.bindPopup(popup_77c8ae260917a382a389b4ac0525563b)
+        ;
+
+        
+    
+    
+            var marker_83670240d9cc91c9cd6ce4c23d194dc8 = L.marker(
+                [52.44802, 4.8004],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_481d44fd7af702f7dab3e1809bb3411c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_57728f24d2bbcc19397f31fa3d4a0119 = $(`<div id="html_57728f24d2bbcc19397f31fa3d4a0119" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Meverstraat</h4><p> Totaal geldige uitgebrachte stemmen: 872</p><p><b>SP (Socialistische Partij)</b> 2%</br> (Absoluut aantal stemmen: 17)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (15%)</li><li>VVD (14%)</li><li>Partij van de Arbeid (P.v.d.A.) (14%)</li></ol></p></p></div>`)[0];
+                popup_481d44fd7af702f7dab3e1809bb3411c.setContent(html_57728f24d2bbcc19397f31fa3d4a0119);
+            
+        
+
+        marker_83670240d9cc91c9cd6ce4c23d194dc8.bindPopup(popup_481d44fd7af702f7dab3e1809bb3411c)
+        ;
+
+        
+    
+    
+            var circle_3b05b0b1f681814a8f5771f8645e5390 = L.circle(
+                [52.447231, 4.805182],
+                {"bubblingMouseEvents": true, "color": "#e4f600", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e4f600", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 24, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_8f6e97d23bfadb5e3fbab9f0b2ce83e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c0f3d7ec87c1cff5fc0187f9d4e5ae7 = $(`<div id="html_4c0f3d7ec87c1cff5fc0187f9d4e5ae7" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 12</div>`)[0];
+                popup_8f6e97d23bfadb5e3fbab9f0b2ce83e2.setContent(html_4c0f3d7ec87c1cff5fc0187f9d4e5ae7);
+            
+        
+
+        circle_3b05b0b1f681814a8f5771f8645e5390.bindPopup(popup_8f6e97d23bfadb5e3fbab9f0b2ce83e2)
+        ;
+
+        
+    
+    
+            var marker_e31302604efda56b613a697fda1f5299 = L.marker(
+                [52.447231, 4.805182],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_f75873b903405009d7644ebcf576eaf7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e5295f9efcd5b1d246ef729ab391a60d = $(`<div id="html_e5295f9efcd5b1d246ef729ab391a60d" style="width: 100.0%; height: 100.0%;"><h4>Stembureau De Volleyhal</h4><p> Totaal geldige uitgebrachte stemmen: 538</p><p><b>SP (Socialistische Partij)</b> 2%</br> (Absoluut aantal stemmen: 12)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (15%)</li><li>Partij voor Ouderen en Veiligheid (15%)</li><li>VVD (14%)</li></ol></p></p></div>`)[0];
+                popup_f75873b903405009d7644ebcf576eaf7.setContent(html_e5295f9efcd5b1d246ef729ab391a60d);
+            
+        
+
+        marker_e31302604efda56b613a697fda1f5299.bindPopup(popup_f75873b903405009d7644ebcf576eaf7)
+        ;
+
+        
+    
+    
+            var circle_faeb55d2420d70c9ca84e9a4934bce44 = L.circle(
+                [52.43566, 4.81414],
+                {"bubblingMouseEvents": true, "color": "#cbed00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cbed00", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 62, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_aabed3ea077d799c04e87bdb3f1d576e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_774b3a92c2be438e28ce12cd61b559f4 = $(`<div id="html_774b3a92c2be438e28ce12cd61b559f4" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 31</div>`)[0];
+                popup_aabed3ea077d799c04e87bdb3f1d576e.setContent(html_774b3a92c2be438e28ce12cd61b559f4);
+            
+        
+
+        circle_faeb55d2420d70c9ca84e9a4934bce44.bindPopup(popup_aabed3ea077d799c04e87bdb3f1d576e)
+        ;
+
+        
+    
+    
+            var marker_a859078404d17e65b72ac31eac60a220 = L.marker(
+                [52.43566, 4.81414],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_cd7fa93766fe52ddf8afa67244a6f0b8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7579fb82cb058ba0c3f251bbdc65b689 = $(`<div id="html_7579fb82cb058ba0c3f251bbdc65b689" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Brandweerkazerne Houtveldweg</h4><p> Totaal geldige uitgebrachte stemmen: 930</p><p><b>SP (Socialistische Partij)</b> 3%</br> (Absoluut aantal stemmen: 31)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (16%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li><li>Democratisch Zaanstad (DZ) (11%)</li></ol></p></p></div>`)[0];
+                popup_cd7fa93766fe52ddf8afa67244a6f0b8.setContent(html_7579fb82cb058ba0c3f251bbdc65b689);
+            
+        
+
+        marker_a859078404d17e65b72ac31eac60a220.bindPopup(popup_cd7fa93766fe52ddf8afa67244a6f0b8)
+        ;
+
+        
+    
+    
+            var circle_9adef689695c17bcb171b3007bb1dd99 = L.circle(
+                [52.43832, 4.81463],
+                {"bubblingMouseEvents": true, "color": "#b3e400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b3e400", "fillOpacity": 0.24, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_7f9e1555c2b5b5f33c0b6075f80c0b98 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_421c5dff9072ea4e134271690fe9c3c7 = $(`<div id="html_421c5dff9072ea4e134271690fe9c3c7" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 100</div>`)[0];
+                popup_7f9e1555c2b5b5f33c0b6075f80c0b98.setContent(html_421c5dff9072ea4e134271690fe9c3c7);
+            
+        
+
+        circle_9adef689695c17bcb171b3007bb1dd99.bindPopup(popup_7f9e1555c2b5b5f33c0b6075f80c0b98)
+        ;
+
+        
+    
+    
+            var marker_954ca7487bda13ff2c1541a7ce796cb9 = L.marker(
+                [52.43832, 4.81463],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_2163f9a99fcfdfe4479ebc53d16944b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f7d175b4c3b3ad909bc152e98cdd98e = $(`<div id="html_4f7d175b4c3b3ad909bc152e98cdd98e" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stadhuis van Zaanstad</h4><p> Totaal geldige uitgebrachte stemmen: 2420</p><p><b>SP (Socialistische Partij)</b> 4%</br> (Absoluut aantal stemmen: 100)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (14%)</li><li>GROENLINKS (13%)</li><li>ROSA (10%)</li></ol></p></p></div>`)[0];
+                popup_2163f9a99fcfdfe4479ebc53d16944b7.setContent(html_4f7d175b4c3b3ad909bc152e98cdd98e);
+            
+        
+
+        marker_954ca7487bda13ff2c1541a7ce796cb9.bindPopup(popup_2163f9a99fcfdfe4479ebc53d16944b7)
+        ;
+
+        
+    
+    
+            var circle_875f75cda423dc1d58073d7625d236d2 = L.circle(
+                [52.43969, 4.81118],
+                {"bubblingMouseEvents": true, "color": "#e4f600", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e4f600", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 32, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_d432a506d3a7a0c079e8bd6dfbd451ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fdadc50159b51fb2acee681219bfcf21 = $(`<div id="html_fdadc50159b51fb2acee681219bfcf21" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 16</div>`)[0];
+                popup_d432a506d3a7a0c079e8bd6dfbd451ff.setContent(html_fdadc50159b51fb2acee681219bfcf21);
+            
+        
+
+        circle_875f75cda423dc1d58073d7625d236d2.bindPopup(popup_d432a506d3a7a0c079e8bd6dfbd451ff)
+        ;
+
+        
+    
+    
+            var marker_fb5b5ff4f084c9e6e0a4324cc328c560 = L.marker(
+                [52.43969, 4.81118],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_3789473d7a97d73ad27a821bb660dacc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31b7d2934aa129fe29f362a8b3e8d1cb = $(`<div id="html_31b7d2934aa129fe29f362a8b3e8d1cb" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Best Western Zaan Inn</h4><p> Totaal geldige uitgebrachte stemmen: 696</p><p><b>SP (Socialistische Partij)</b> 2%</br> (Absoluut aantal stemmen: 16)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (15%)</li><li>Partij voor Ouderen en Veiligheid (14%)</li><li>VVD (12%)</li></ol></p></p></div>`)[0];
+                popup_3789473d7a97d73ad27a821bb660dacc.setContent(html_31b7d2934aa129fe29f362a8b3e8d1cb);
+            
+        
+
+        marker_fb5b5ff4f084c9e6e0a4324cc328c560.bindPopup(popup_3789473d7a97d73ad27a821bb660dacc)
+        ;
+
+        
+    
+    
+            var circle_be7b3ce9c192bb40d8163268fda8c8c6 = L.circle(
+                [52.44457, 4.81894],
+                {"bubblingMouseEvents": true, "color": "#b3e400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b3e400", "fillOpacity": 0.24, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 88, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_c7c3e642f3b37a29029d3dc998805831 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_22e2c6a00a330c2bc435303a1cecbba9 = $(`<div id="html_22e2c6a00a330c2bc435303a1cecbba9" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 44</div>`)[0];
+                popup_c7c3e642f3b37a29029d3dc998805831.setContent(html_22e2c6a00a330c2bc435303a1cecbba9);
+            
+        
+
+        circle_be7b3ce9c192bb40d8163268fda8c8c6.bindPopup(popup_c7c3e642f3b37a29029d3dc998805831)
+        ;
+
+        
+    
+    
+            var marker_3cafa20bdb392ba175259bce3975d3c7 = L.marker(
+                [52.44457, 4.81894],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_c8a564de8770f68b3e71d014d169ab43 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19ca17a18d367c879cd36f3ee01ce042 = $(`<div id="html_19ca17a18d367c879cd36f3ee01ce042" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Cultureel Centrum Bullekerk</h4><p> Totaal geldige uitgebrachte stemmen: 1066</p><p><b>SP (Socialistische Partij)</b> 4%</br> (Absoluut aantal stemmen: 44)<p><b>Top drie:</b><ol><li>ROSA (14%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li><li>GROENLINKS (12%)</li></ol></p></p></div>`)[0];
+                popup_c8a564de8770f68b3e71d014d169ab43.setContent(html_19ca17a18d367c879cd36f3ee01ce042);
+            
+        
+
+        marker_3cafa20bdb392ba175259bce3975d3c7.bindPopup(popup_c8a564de8770f68b3e71d014d169ab43)
+        ;
+
+        
+    
+    
+            var circle_71b58badf50c9aab0c7783e37b886c20 = L.circle(
+                [52.43955, 4.83068],
+                {"bubblingMouseEvents": true, "color": "#cbed00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cbed00", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 18, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_5e7d5f54dbbaa6f30d962a95d9e36eb5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ad5b4de70a6d03369042ef67e0f619f = $(`<div id="html_9ad5b4de70a6d03369042ef67e0f619f" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 9</div>`)[0];
+                popup_5e7d5f54dbbaa6f30d962a95d9e36eb5.setContent(html_9ad5b4de70a6d03369042ef67e0f619f);
+            
+        
+
+        circle_71b58badf50c9aab0c7783e37b886c20.bindPopup(popup_5e7d5f54dbbaa6f30d962a95d9e36eb5)
+        ;
+
+        
+    
+    
+            var marker_acde5eebf8d26f9a5f139b326bfad991 = L.marker(
+                [52.43955, 4.83068],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_fb0e76da96bd3c9959cb16c786865bdc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08e91b3d9f3d38231940c7444292ab20 = $(`<div id="html_08e91b3d9f3d38231940c7444292ab20" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurthuis De Doorbraak</h4><p> Totaal geldige uitgebrachte stemmen: 308</p><p><b>SP (Socialistische Partij)</b> 3%</br> (Absoluut aantal stemmen: 9)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (15%)</li><li>Partij voor Ouderen en Veiligheid (13%)</li><li>PVV (Partij voor de Vrijheid) (13%)</li></ol></p></p></div>`)[0];
+                popup_fb0e76da96bd3c9959cb16c786865bdc.setContent(html_08e91b3d9f3d38231940c7444292ab20);
+            
+        
+
+        marker_acde5eebf8d26f9a5f139b326bfad991.bindPopup(popup_fb0e76da96bd3c9959cb16c786865bdc)
+        ;
+
+        
+    
+    
+            var circle_cd8acf9ac58e4dea57c03dcf6e460ca0 = L.circle(
+                [52.45633, 4.81124],
+                {"bubblingMouseEvents": true, "color": "#cbed00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cbed00", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 64, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_cdaefac1de2303fdb81237a0312efb0c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e22a21716d49c7614b5b0d4ab9824f5 = $(`<div id="html_1e22a21716d49c7614b5b0d4ab9824f5" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 32</div>`)[0];
+                popup_cdaefac1de2303fdb81237a0312efb0c.setContent(html_1e22a21716d49c7614b5b0d4ab9824f5);
+            
+        
+
+        circle_cd8acf9ac58e4dea57c03dcf6e460ca0.bindPopup(popup_cdaefac1de2303fdb81237a0312efb0c)
+        ;
+
+        
+    
+    
+            var marker_9ee42dbb305213fbf63c0da9ea298d4e = L.marker(
+                [52.45633, 4.81124],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_cff7f8065939a4311b84d0fdc12dea48 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0469cfe8adb7560bf3f56898a198b7fb = $(`<div id="html_0469cfe8adb7560bf3f56898a198b7fb" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Kerk van de Nazarener</h4><p> Totaal geldige uitgebrachte stemmen: 1102</p><p><b>SP (Socialistische Partij)</b> 3%</br> (Absoluut aantal stemmen: 32)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (14%)</li><li>ROSA (13%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li></ol></p></p></div>`)[0];
+                popup_cff7f8065939a4311b84d0fdc12dea48.setContent(html_0469cfe8adb7560bf3f56898a198b7fb);
+            
+        
+
+        marker_9ee42dbb305213fbf63c0da9ea298d4e.bindPopup(popup_cff7f8065939a4311b84d0fdc12dea48)
+        ;
+
+        
+    
+    
+            var circle_e5b5f97dd2eec8f3224439661f95c2e8 = L.circle(
+                [52.46294, 4.80905],
+                {"bubblingMouseEvents": true, "color": "#b3e400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b3e400", "fillOpacity": 0.24, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 72, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_993d8dbd24ad3e44e51504c7f094ab06 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_58971bd5a964dc65aeffd3b0bdb7e712 = $(`<div id="html_58971bd5a964dc65aeffd3b0bdb7e712" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 36</div>`)[0];
+                popup_993d8dbd24ad3e44e51504c7f094ab06.setContent(html_58971bd5a964dc65aeffd3b0bdb7e712);
+            
+        
+
+        circle_e5b5f97dd2eec8f3224439661f95c2e8.bindPopup(popup_993d8dbd24ad3e44e51504c7f094ab06)
+        ;
+
+        
+    
+    
+            var marker_c421b1b77b6850afc26235881d49b229 = L.marker(
+                [52.46294, 4.80905],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_5695ba397274dea2822d783f35945fc0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d95447cff4f97610b1cf258e684126a = $(`<div id="html_7d95447cff4f97610b1cf258e684126a" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurthuis Het BrandtWeer</h4><p> Totaal geldige uitgebrachte stemmen: 910</p><p><b>SP (Socialistische Partij)</b> 4%</br> (Absoluut aantal stemmen: 36)<p><b>Top drie:</b><ol><li>ROSA (14%)</li><li>Partij voor Ouderen en Veiligheid (11%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li></ol></p></p></div>`)[0];
+                popup_5695ba397274dea2822d783f35945fc0.setContent(html_7d95447cff4f97610b1cf258e684126a);
+            
+        
+
+        marker_c421b1b77b6850afc26235881d49b229.bindPopup(popup_5695ba397274dea2822d783f35945fc0)
+        ;
+
+        
+    
+    
+            var circle_e7f18ff0e9ead0b7df648e441707cbe7 = L.circle(
+                [52.4576, 4.79939],
+                {"bubblingMouseEvents": true, "color": "#b3e400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b3e400", "fillOpacity": 0.24, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 268, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_db934469dc4648f6f1efa6fe72305389 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09c7af50355c93daf881857ade95c077 = $(`<div id="html_09c7af50355c93daf881857ade95c077" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 134</div>`)[0];
+                popup_db934469dc4648f6f1efa6fe72305389.setContent(html_09c7af50355c93daf881857ade95c077);
+            
+        
+
+        circle_e7f18ff0e9ead0b7df648e441707cbe7.bindPopup(popup_db934469dc4648f6f1efa6fe72305389)
+        ;
+
+        
+    
+    
+            var marker_a2092a7f91a4e3df2512bb751efb1d02 = L.marker(
+                [52.4576, 4.79939],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_4dc4db060c2106e1fd4f926f751a10a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_deafab91ded7139fc2dfea4df7fcbe0c = $(`<div id="html_deafab91ded7139fc2dfea4df7fcbe0c" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurtcentrum De Vuister</h4><p> Totaal geldige uitgebrachte stemmen: 3294</p><p><b>SP (Socialistische Partij)</b> 4%</br> (Absoluut aantal stemmen: 134)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (14%)</li><li>ROSA (12%)</li><li>Democratisch Zaanstad (DZ) (11%)</li></ol></p></p></div>`)[0];
+                popup_4dc4db060c2106e1fd4f926f751a10a7.setContent(html_deafab91ded7139fc2dfea4df7fcbe0c);
+            
+        
+
+        marker_a2092a7f91a4e3df2512bb751efb1d02.bindPopup(popup_4dc4db060c2106e1fd4f926f751a10a7)
+        ;
+
+        
+    
+    
+            var circle_e75140a9da07ef859ce434b3ab03fb8c = L.circle(
+                [52.45906, 4.79932],
+                {"bubblingMouseEvents": true, "color": "#cbed00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cbed00", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_976ff0f2d6b509a8930307289cff0d2e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8c1664c74ae8294b7335d3e2d13ce36 = $(`<div id="html_d8c1664c74ae8294b7335d3e2d13ce36" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 15</div>`)[0];
+                popup_976ff0f2d6b509a8930307289cff0d2e.setContent(html_d8c1664c74ae8294b7335d3e2d13ce36);
+            
+        
+
+        circle_e75140a9da07ef859ce434b3ab03fb8c.bindPopup(popup_976ff0f2d6b509a8930307289cff0d2e)
+        ;
+
+        
+    
+    
+            var marker_3bfb423ea00929d3c29783334932faac = L.marker(
+                [52.45906, 4.79932],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_4f4c5a5b951cc5b939ffc718af1d74e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_716e8f4ab9fd47ff2ce22d8e6d66b164 = $(`<div id="html_716e8f4ab9fd47ff2ce22d8e6d66b164" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Basisschool de Golfbreker</h4><p> Totaal geldige uitgebrachte stemmen: 460</p><p><b>SP (Socialistische Partij)</b> 3%</br> (Absoluut aantal stemmen: 15)<p><b>Top drie:</b><ol><li>VVD (15%)</li><li>ROSA (13%)</li><li>Partij voor Ouderen en Veiligheid (12%)</li></ol></p></p></div>`)[0];
+                popup_4f4c5a5b951cc5b939ffc718af1d74e2.setContent(html_716e8f4ab9fd47ff2ce22d8e6d66b164);
+            
+        
+
+        marker_3bfb423ea00929d3c29783334932faac.bindPopup(popup_4f4c5a5b951cc5b939ffc718af1d74e2)
+        ;
+
+        
+    
+    
+            var circle_750824e22a82e2d265f03598b1cbb402 = L.circle(
+                [52.4746, 4.81349],
+                {"bubblingMouseEvents": true, "color": "#b3e400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b3e400", "fillOpacity": 0.24, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 104, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_ef65d17661cab2eea7504b952b8d0bec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d46f1c375170cf28f2792e9ed0cdcf25 = $(`<div id="html_d46f1c375170cf28f2792e9ed0cdcf25" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 52</div>`)[0];
+                popup_ef65d17661cab2eea7504b952b8d0bec.setContent(html_d46f1c375170cf28f2792e9ed0cdcf25);
+            
+        
+
+        circle_750824e22a82e2d265f03598b1cbb402.bindPopup(popup_ef65d17661cab2eea7504b952b8d0bec)
+        ;
+
+        
+    
+    
+            var marker_0400ca8c1c5697df009d27505a9d239e = L.marker(
+                [52.4746, 4.81349],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_5eb6cb82b8f1e7e1795000b2fe46cd69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b72d0997e9074170436bb04b814773a = $(`<div id="html_9b72d0997e9074170436bb04b814773a" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Apostolisch Genootschap</h4><p> Totaal geldige uitgebrachte stemmen: 1432</p><p><b>SP (Socialistische Partij)</b> 4%</br> (Absoluut aantal stemmen: 52)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (14%)</li><li>ROSA (13%)</li><li>Partij voor Ouderen en Veiligheid (12%)</li></ol></p></p></div>`)[0];
+                popup_5eb6cb82b8f1e7e1795000b2fe46cd69.setContent(html_9b72d0997e9074170436bb04b814773a);
+            
+        
+
+        marker_0400ca8c1c5697df009d27505a9d239e.bindPopup(popup_5eb6cb82b8f1e7e1795000b2fe46cd69)
+        ;
+
+        
+    
+    
+            var circle_49b7a4009edfb6917109c71c2e8a9f88 = L.circle(
+                [52.47439, 4.79702],
+                {"bubblingMouseEvents": true, "color": "#b3e400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b3e400", "fillOpacity": 0.24, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 98, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_d2846aeb252f1a9cf5b909d1cf819146 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_138d11f8a29fe4c9b8f2c39bbf75dd65 = $(`<div id="html_138d11f8a29fe4c9b8f2c39bbf75dd65" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 49</div>`)[0];
+                popup_d2846aeb252f1a9cf5b909d1cf819146.setContent(html_138d11f8a29fe4c9b8f2c39bbf75dd65);
+            
+        
+
+        circle_49b7a4009edfb6917109c71c2e8a9f88.bindPopup(popup_d2846aeb252f1a9cf5b909d1cf819146)
+        ;
+
+        
+    
+    
+            var marker_1ea91ee4d88a1b205e94845a702a3ef5 = L.marker(
+                [52.47439, 4.79702],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_ed932e1108c009fc3073abec40c94c89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69af47c3fe73483e98efbfb855a4fc57 = $(`<div id="html_69af47c3fe73483e98efbfb855a4fc57" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Fortuinweg</h4><p> Totaal geldige uitgebrachte stemmen: 1177</p><p><b>SP (Socialistische Partij)</b> 4%</br> (Absoluut aantal stemmen: 49)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (13%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li><li>Partij voor Ouderen en Veiligheid (13%)</li></ol></p></p></div>`)[0];
+                popup_ed932e1108c009fc3073abec40c94c89.setContent(html_69af47c3fe73483e98efbfb855a4fc57);
+            
+        
+
+        marker_1ea91ee4d88a1b205e94845a702a3ef5.bindPopup(popup_ed932e1108c009fc3073abec40c94c89)
+        ;
+
+        
+    
+    
+            var circle_92134747a202f9a2e62c66259b3f84e7 = L.circle(
+                [52.47303, 4.80383],
+                {"bubblingMouseEvents": true, "color": "#9cdb00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9cdb00", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 56, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_c8ffb7a2e508eb862e13e15c92f70f87 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e563edb86c338610d356777d90ec1b9b = $(`<div id="html_e563edb86c338610d356777d90ec1b9b" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 28</div>`)[0];
+                popup_c8ffb7a2e508eb862e13e15c92f70f87.setContent(html_e563edb86c338610d356777d90ec1b9b);
+            
+        
+
+        circle_92134747a202f9a2e62c66259b3f84e7.bindPopup(popup_c8ffb7a2e508eb862e13e15c92f70f87)
+        ;
+
+        
+    
+    
+            var marker_19de5c4f6150657df26a91afcd2768d9 = L.marker(
+                [52.47303, 4.80383],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_fac2a3f1919d7fdc91cdc89d390982b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7562efa98b69ab200112a3ab052f3a5a = $(`<div id="html_7562efa98b69ab200112a3ab052f3a5a" style="width: 100.0%; height: 100.0%;"><h4>Stembureau ZFC Orkest & Muziekschool</h4><p> Totaal geldige uitgebrachte stemmen: 549</p><p><b>SP (Socialistische Partij)</b> 5%</br> (Absoluut aantal stemmen: 28)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (17%)</li><li>Partij voor Ouderen en Veiligheid (16%)</li><li>Democratisch Zaanstad (DZ) (10%)</li></ol></p></p></div>`)[0];
+                popup_fac2a3f1919d7fdc91cdc89d390982b7.setContent(html_7562efa98b69ab200112a3ab052f3a5a);
+            
+        
+
+        marker_19de5c4f6150657df26a91afcd2768d9.bindPopup(popup_fac2a3f1919d7fdc91cdc89d390982b7)
+        ;
+
+        
+    
+    
+            var circle_caaa008ca76bd9cfe8d12bbdbc7f511d = L.circle(
+                [52.48903, 4.79962],
+                {"bubblingMouseEvents": true, "color": "#87d200", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#87d200", "fillOpacity": 0.36, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 70, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_bdf7cac1cf8fbd6ec85b16a8c0492353 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09a300fd3421f4c8fe75ec20b13e0d80 = $(`<div id="html_09a300fd3421f4c8fe75ec20b13e0d80" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 35</div>`)[0];
+                popup_bdf7cac1cf8fbd6ec85b16a8c0492353.setContent(html_09a300fd3421f4c8fe75ec20b13e0d80);
+            
+        
+
+        circle_caaa008ca76bd9cfe8d12bbdbc7f511d.bindPopup(popup_bdf7cac1cf8fbd6ec85b16a8c0492353)
+        ;
+
+        
+    
+    
+            var marker_6cd8a2b1a136a8c4c17fe07089c713fd = L.marker(
+                [52.48903, 4.79962],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_9cedb015cc9a73d342ce581af8cc4f33 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb3f267da5df730d0d30e338a40d290d = $(`<div id="html_fb3f267da5df730d0d30e338a40d290d" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Goudastraat</h4><p> Totaal geldige uitgebrachte stemmen: 610</p><p><b>SP (Socialistische Partij)</b> 6%</br> (Absoluut aantal stemmen: 35)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (13%)</li><li>ROSA (12%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_9cedb015cc9a73d342ce581af8cc4f33.setContent(html_fb3f267da5df730d0d30e338a40d290d);
+            
+        
+
+        marker_6cd8a2b1a136a8c4c17fe07089c713fd.bindPopup(popup_9cedb015cc9a73d342ce581af8cc4f33)
+        ;
+
+        
+    
+    
+            var circle_fab7d2fd91c76b2ec8109cbf5d6d0574 = L.circle(
+                [52.49417, 4.7868],
+                {"bubblingMouseEvents": true, "color": "#87d200", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#87d200", "fillOpacity": 0.36, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 270, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_ed3a1974ae41c0f15f110046df8479fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_191d0780265422e6678ba7e076e89ccd = $(`<div id="html_191d0780265422e6678ba7e076e89ccd" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 135</div>`)[0];
+                popup_ed3a1974ae41c0f15f110046df8479fa.setContent(html_191d0780265422e6678ba7e076e89ccd);
+            
+        
+
+        circle_fab7d2fd91c76b2ec8109cbf5d6d0574.bindPopup(popup_ed3a1974ae41c0f15f110046df8479fa)
+        ;
+
+        
+    
+    
+            var marker_41bd9855f7fdd3b9bf6f2a372050bfd0 = L.marker(
+                [52.49417, 4.7868],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_08251935b903b9414603409c3ee91f91 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e97e86ce2f20cbded2176fbeb3ebc8f = $(`<div id="html_8e97e86ce2f20cbded2176fbeb3ebc8f" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurtcentrum De Lorzie</h4><p> Totaal geldige uitgebrachte stemmen: 2293</p><p><b>SP (Socialistische Partij)</b> 6%</br> (Absoluut aantal stemmen: 135)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (21%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li><li>ROSA (10%)</li></ol></p></p></div>`)[0];
+                popup_08251935b903b9414603409c3ee91f91.setContent(html_8e97e86ce2f20cbded2176fbeb3ebc8f);
+            
+        
+
+        marker_41bd9855f7fdd3b9bf6f2a372050bfd0.bindPopup(popup_08251935b903b9414603409c3ee91f91)
+        ;
+
+        
+    
+    
+            var circle_8bee27182214bfafc65f7c88fd0c941d = L.circle(
+                [52.49593, 4.78692],
+                {"bubblingMouseEvents": true, "color": "#87d200", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#87d200", "fillOpacity": 0.36, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 28, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_25f6ec7754f142af9c19a8523ffe907a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81b1460273eff2b5eb99738ea1f54dc6 = $(`<div id="html_81b1460273eff2b5eb99738ea1f54dc6" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 14</div>`)[0];
+                popup_25f6ec7754f142af9c19a8523ffe907a.setContent(html_81b1460273eff2b5eb99738ea1f54dc6);
+            
+        
+
+        circle_8bee27182214bfafc65f7c88fd0c941d.bindPopup(popup_25f6ec7754f142af9c19a8523ffe907a)
+        ;
+
+        
+    
+    
+            var marker_46cb8f9cdf16aca1d123fad1bc59870c = L.marker(
+                [52.49593, 4.78692],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_82ef8a3a76be00662789ce93af233e0a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e3e146b4fa91f9506d5f6708d2b1c4d = $(`<div id="html_6e3e146b4fa91f9506d5f6708d2b1c4d" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Anemoonstraat</h4><p> Totaal geldige uitgebrachte stemmen: 227</p><p><b>SP (Socialistische Partij)</b> 6%</br> (Absoluut aantal stemmen: 14)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (18%)</li><li>Partij voor Ouderen en Veiligheid (16%)</li><li>Partij van de Arbeid (P.v.d.A.) (10%)</li></ol></p></p></div>`)[0];
+                popup_82ef8a3a76be00662789ce93af233e0a.setContent(html_6e3e146b4fa91f9506d5f6708d2b1c4d);
+            
+        
+
+        marker_46cb8f9cdf16aca1d123fad1bc59870c.bindPopup(popup_82ef8a3a76be00662789ce93af233e0a)
+        ;
+
+        
+    
+    
+            var circle_4438313333108a874c0e00fed60ce07f = L.circle(
+                [52.49792, 4.78813],
+                {"bubblingMouseEvents": true, "color": "#60bf00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#60bf00", "fillOpacity": 0.48, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 76, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_44562378a4e8667d3119a04261f8e1ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f9832ff732a71551ede16da6526c3a2 = $(`<div id="html_6f9832ff732a71551ede16da6526c3a2" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 38</div>`)[0];
+                popup_44562378a4e8667d3119a04261f8e1ec.setContent(html_6f9832ff732a71551ede16da6526c3a2);
+            
+        
+
+        circle_4438313333108a874c0e00fed60ce07f.bindPopup(popup_44562378a4e8667d3119a04261f8e1ec)
+        ;
+
+        
+    
+    
+            var marker_927dac1cacfc16a46ce0aa2d15bc2cd5 = L.marker(
+                [52.49792, 4.78813],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_30fe28d20201e84046626dd665c055b4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43d16cd796a69389744a4db3f506f48b = $(`<div id="html_43d16cd796a69389744a4db3f506f48b" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Vereniging de Bloesem, complex de Amandelbloesem</h4><p> Totaal geldige uitgebrachte stemmen: 477</p><p><b>SP (Socialistische Partij)</b> 8%</br> (Absoluut aantal stemmen: 38)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (20%)</li><li>Democratisch Zaanstad (DZ) (12%)</li><li>CDA (9%)</li></ol></p></p></div>`)[0];
+                popup_30fe28d20201e84046626dd665c055b4.setContent(html_43d16cd796a69389744a4db3f506f48b);
+            
+        
+
+        marker_927dac1cacfc16a46ce0aa2d15bc2cd5.bindPopup(popup_30fe28d20201e84046626dd665c055b4)
+        ;
+
+        
+    
+    
+            var circle_0f9ca22da2cde712ffb275cac6729106 = L.circle(
+                [52.51745, 4.78595],
+                {"bubblingMouseEvents": true, "color": "#cbed00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cbed00", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 18, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_90c423489a42d9e6070c2ed8a8a86a74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9fd41f7983f502ee795495a7f767e78a = $(`<div id="html_9fd41f7983f502ee795495a7f767e78a" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 9</div>`)[0];
+                popup_90c423489a42d9e6070c2ed8a8a86a74.setContent(html_9fd41f7983f502ee795495a7f767e78a);
+            
+        
+
+        circle_0f9ca22da2cde712ffb275cac6729106.bindPopup(popup_90c423489a42d9e6070c2ed8a8a86a74)
+        ;
+
+        
+    
+    
+            var marker_4363551ed4171516fdc1b666a68b46f0 = L.marker(
+                [52.51745, 4.78595],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_f7eaf77172787ad124235fc138d35ba0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_39fae4ce24499c3b44306939d1e0bf30 = $(`<div id="html_39fae4ce24499c3b44306939d1e0bf30" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Dorpshuis "De Noorddam"</h4><p> Totaal geldige uitgebrachte stemmen: 296</p><p><b>SP (Socialistische Partij)</b> 3%</br> (Absoluut aantal stemmen: 9)<p><b>Top drie:</b><ol><li>VVD (19%)</li><li>Democratisch Zaanstad (DZ) (15%)</li><li>Partij voor Ouderen en Veiligheid (10%)</li></ol></p></p></div>`)[0];
+                popup_f7eaf77172787ad124235fc138d35ba0.setContent(html_39fae4ce24499c3b44306939d1e0bf30);
+            
+        
+
+        marker_4363551ed4171516fdc1b666a68b46f0.bindPopup(popup_f7eaf77172787ad124235fc138d35ba0)
+        ;
+
+        
+    
+    
+            var circle_b474432ecd674ee0939667119f0743e3 = L.circle(
+                [52.49055, 4.79631],
+                {"bubblingMouseEvents": true, "color": "#cbed00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cbed00", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 22, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_ddfb38148bf30c3dee1df58bbf92b8b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4827c7c9eee97aca29de473156417cfa = $(`<div id="html_4827c7c9eee97aca29de473156417cfa" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 11</div>`)[0];
+                popup_ddfb38148bf30c3dee1df58bbf92b8b1.setContent(html_4827c7c9eee97aca29de473156417cfa);
+            
+        
+
+        circle_b474432ecd674ee0939667119f0743e3.bindPopup(popup_ddfb38148bf30c3dee1df58bbf92b8b1)
+        ;
+
+        
+    
+    
+            var marker_7b0bbf496311e1d82d4444c422679f83 = L.marker(
+                [52.49055, 4.79631],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_aa447663585967d4036325997aaafcb1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d95e79ecc1f586901866a4cf9e04bb4 = $(`<div id="html_1d95e79ecc1f586901866a4cf9e04bb4" style="width: 100.0%; height: 100.0%;"><h4>Stembureau De Wormerveerse Vermaning</h4><p> Totaal geldige uitgebrachte stemmen: 330</p><p><b>SP (Socialistische Partij)</b> 3%</br> (Absoluut aantal stemmen: 11)<p><b>Top drie:</b><ol><li>ROSA (17%)</li><li>VVD (13%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li></ol></p></p></div>`)[0];
+                popup_aa447663585967d4036325997aaafcb1.setContent(html_1d95e79ecc1f586901866a4cf9e04bb4);
+            
+        
+
+        marker_7b0bbf496311e1d82d4444c422679f83.bindPopup(popup_aa447663585967d4036325997aaafcb1)
+        ;
+
+        
+    
+    
+            var circle_463dbb1fe2dc56419727c858c921d746 = L.circle(
+                [52.4979, 4.76625],
+                {"bubblingMouseEvents": true, "color": "#cbed00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cbed00", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 76, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_f515d23ad1263751a243782522d71669 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_17d8dc328123f47c426aac004f50c98a = $(`<div id="html_17d8dc328123f47c426aac004f50c98a" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 38</div>`)[0];
+                popup_f515d23ad1263751a243782522d71669.setContent(html_17d8dc328123f47c426aac004f50c98a);
+            
+        
+
+        circle_463dbb1fe2dc56419727c858c921d746.bindPopup(popup_f515d23ad1263751a243782522d71669)
+        ;
+
+        
+    
+    
+            var marker_511026cec612f5b09a24c03a19e2ed83 = L.marker(
+                [52.4979, 4.76625],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_d2ee8bcdb4ea1e721b44de5799b250db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe642b19af1609dc7cd7b4ba2ce15601 = $(`<div id="html_fe642b19af1609dc7cd7b4ba2ce15601" style="width: 100.0%; height: 100.0%;"><h4>Stembureau St. Petrusparochie, INGANG KERK</h4><p> Totaal geldige uitgebrachte stemmen: 1100</p><p><b>SP (Socialistische Partij)</b> 3%</br> (Absoluut aantal stemmen: 38)<p><b>Top drie:</b><ol><li>ROSA (16%)</li><li>Partij voor Ouderen en Veiligheid (16%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_d2ee8bcdb4ea1e721b44de5799b250db.setContent(html_fe642b19af1609dc7cd7b4ba2ce15601);
+            
+        
+
+        marker_511026cec612f5b09a24c03a19e2ed83.bindPopup(popup_d2ee8bcdb4ea1e721b44de5799b250db)
+        ;
+
+        
+    
+    
+            var circle_9ca4c8daf7525a16e5c40e5d5c78b608 = L.circle(
+                [52.50597, 4.76797],
+                {"bubblingMouseEvents": true, "color": "#cbed00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cbed00", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 64, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_a41afba43add741086947187c5f0a75a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06c141e867c86c120a44556552ade2c6 = $(`<div id="html_06c141e867c86c120a44556552ade2c6" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 32</div>`)[0];
+                popup_a41afba43add741086947187c5f0a75a.setContent(html_06c141e867c86c120a44556552ade2c6);
+            
+        
+
+        circle_9ca4c8daf7525a16e5c40e5d5c78b608.bindPopup(popup_a41afba43add741086947187c5f0a75a)
+        ;
+
+        
+    
+    
+            var marker_1418475afbdd8bf1d825828322da21fc = L.marker(
+                [52.50597, 4.76797],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_9c8e5f7a4d81eef683e26476cc4b8368 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_958fbc4b8f49597492f8cd180604015d = $(`<div id="html_958fbc4b8f49597492f8cd180604015d" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Dependance basisschool de Hoeksteen</h4><p> Totaal geldige uitgebrachte stemmen: 1136</p><p><b>SP (Socialistische Partij)</b> 3%</br> (Absoluut aantal stemmen: 32)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (17%)</li><li>VVD (17%)</li><li>Democratisch Zaanstad (DZ) (14%)</li></ol></p></p></div>`)[0];
+                popup_9c8e5f7a4d81eef683e26476cc4b8368.setContent(html_958fbc4b8f49597492f8cd180604015d);
+            
+        
+
+        marker_1418475afbdd8bf1d825828322da21fc.bindPopup(popup_9c8e5f7a4d81eef683e26476cc4b8368)
+        ;
+
+        
+    
+    
+            var circle_bcbad57df920c5c53a2766a738ad657c = L.circle(
+                [52.49977, 4.75707],
+                {"bubblingMouseEvents": true, "color": "#b3e400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b3e400", "fillOpacity": 0.24, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 42, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_c483c2e1f586ceff0d9f68e551815dec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44b96ef99f71189200fc800772932a16 = $(`<div id="html_44b96ef99f71189200fc800772932a16" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 21</div>`)[0];
+                popup_c483c2e1f586ceff0d9f68e551815dec.setContent(html_44b96ef99f71189200fc800772932a16);
+            
+        
+
+        circle_bcbad57df920c5c53a2766a738ad657c.bindPopup(popup_c483c2e1f586ceff0d9f68e551815dec)
+        ;
+
+        
+    
+    
+            var marker_1a4c159a04f5885363730cfa21573468 = L.marker(
+                [52.49977, 4.75707],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_a6e762d90dfd8faa2726ca66f1c6bb80 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c3fb977e8467154f44432591315bd69b = $(`<div id="html_c3fb977e8467154f44432591315bd69b" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Braillestraat</h4><p> Totaal geldige uitgebrachte stemmen: 527</p><p><b>SP (Socialistische Partij)</b> 4%</br> (Absoluut aantal stemmen: 21)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (18%)</li><li>Democratisch Zaanstad (DZ) (12%)</li><li>ROSA (12%)</li></ol></p></p></div>`)[0];
+                popup_a6e762d90dfd8faa2726ca66f1c6bb80.setContent(html_c3fb977e8467154f44432591315bd69b);
+            
+        
+
+        marker_1a4c159a04f5885363730cfa21573468.bindPopup(popup_a6e762d90dfd8faa2726ca66f1c6bb80)
+        ;
+
+        
+    
+    
+            var circle_aef7747a487e084e26019f3b87324849 = L.circle(
+                [52.50114, 4.76816],
+                {"bubblingMouseEvents": true, "color": "#b3e400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b3e400", "fillOpacity": 0.24, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_e82d758ccd8c872d01883b27dc582ea1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_73ae62fc203712d6bfe030dfda20115d = $(`<div id="html_73ae62fc203712d6bfe030dfda20115d" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 20</div>`)[0];
+                popup_e82d758ccd8c872d01883b27dc582ea1.setContent(html_73ae62fc203712d6bfe030dfda20115d);
+            
+        
+
+        circle_aef7747a487e084e26019f3b87324849.bindPopup(popup_e82d758ccd8c872d01883b27dc582ea1)
+        ;
+
+        
+    
+    
+            var marker_c86c518ae11b8f3cf72b932f34ea05f9 = L.marker(
+                [52.50114, 4.76816],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_b08177648cdcd6c899d7a3427bff082b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cfe9cf8a63e1aaafe3cd7738a19b12b7 = $(`<div id="html_cfe9cf8a63e1aaafe3cd7738a19b12b7" style="width: 100.0%; height: 100.0%;"><h4>Stembureau De Durghorstplantsoen</h4><p> Totaal geldige uitgebrachte stemmen: 519</p><p><b>SP (Socialistische Partij)</b> 4%</br> (Absoluut aantal stemmen: 20)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (29%)</li><li>ROSA (10%)</li><li>Partij van de Arbeid (P.v.d.A.) (10%)</li></ol></p></p></div>`)[0];
+                popup_b08177648cdcd6c899d7a3427bff082b.setContent(html_cfe9cf8a63e1aaafe3cd7738a19b12b7);
+            
+        
+
+        marker_c86c518ae11b8f3cf72b932f34ea05f9.bindPopup(popup_b08177648cdcd6c899d7a3427bff082b)
+        ;
+
+        
+    
+    
+            var circle_e8f5bdb66254eb6196499feccb895447 = L.circle(
+                [52.50135, 4.75089],
+                {"bubblingMouseEvents": true, "color": "#cbed00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cbed00", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_b833ed0a46d64ec9d8cb1979719dafc6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_175606405adbd691972049ff43dc1c02 = $(`<div id="html_175606405adbd691972049ff43dc1c02" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 25</div>`)[0];
+                popup_b833ed0a46d64ec9d8cb1979719dafc6.setContent(html_175606405adbd691972049ff43dc1c02);
+            
+        
+
+        circle_e8f5bdb66254eb6196499feccb895447.bindPopup(popup_b833ed0a46d64ec9d8cb1979719dafc6)
+        ;
+
+        
+    
+    
+            var marker_7e05c638054deb7fc86198932c8a1c0e = L.marker(
+                [52.50135, 4.75089],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_0b9158631b9f92e36bc221b2bed25772 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38ebbc5afcb3a1dfd7277e5c132dd838 = $(`<div id="html_38ebbc5afcb3a1dfd7277e5c132dd838" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Jupiterstraat 139 Evenaar</h4><p> Totaal geldige uitgebrachte stemmen: 863</p><p><b>SP (Socialistische Partij)</b> 3%</br> (Absoluut aantal stemmen: 25)<p><b>Top drie:</b><ol><li>VVD (16%)</li><li>Partij voor Ouderen en Veiligheid (15%)</li><li>Partij van de Arbeid (P.v.d.A.) (12%)</li></ol></p></p></div>`)[0];
+                popup_0b9158631b9f92e36bc221b2bed25772.setContent(html_38ebbc5afcb3a1dfd7277e5c132dd838);
+            
+        
+
+        marker_7e05c638054deb7fc86198932c8a1c0e.bindPopup(popup_0b9158631b9f92e36bc221b2bed25772)
+        ;
+
+        
+    
+    
+            var circle_a77e73953178632241c085f6236d8ae7 = L.circle(
+                [52.50908, 4.75773],
+                {"bubblingMouseEvents": true, "color": "#e4f600", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e4f600", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 18, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_46c7efb7f2e7b33d1f06e1b3efefd173 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2630b3c8e204e75af166bd2488acb43b = $(`<div id="html_2630b3c8e204e75af166bd2488acb43b" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 9</div>`)[0];
+                popup_46c7efb7f2e7b33d1f06e1b3efefd173.setContent(html_2630b3c8e204e75af166bd2488acb43b);
+            
+        
+
+        circle_a77e73953178632241c085f6236d8ae7.bindPopup(popup_46c7efb7f2e7b33d1f06e1b3efefd173)
+        ;
+
+        
+    
+    
+            var marker_0ac9efe8cb931281eb92a036a11c8689 = L.marker(
+                [52.50908, 4.75773],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_83deb592a26f6a6e7a7b5b5ae5100994 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b5664d6199ac29c9855d981927d089e = $(`<div id="html_2b5664d6199ac29c9855d981927d089e" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Odd Fellow Huis</h4><p> Totaal geldige uitgebrachte stemmen: 459</p><p><b>SP (Socialistische Partij)</b> 2%</br> (Absoluut aantal stemmen: 9)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (16%)</li><li>Democratisch Zaanstad (DZ) (14%)</li><li>VVD (13%)</li></ol></p></p></div>`)[0];
+                popup_83deb592a26f6a6e7a7b5b5ae5100994.setContent(html_2b5664d6199ac29c9855d981927d089e);
+            
+        
+
+        marker_0ac9efe8cb931281eb92a036a11c8689.bindPopup(popup_83deb592a26f6a6e7a7b5b5ae5100994)
+        ;
+
+        
+    
+    
+            var circle_5e840f81b39774099908637cc28a9096 = L.circle(
+                [52.50491, 4.76333],
+                {"bubblingMouseEvents": true, "color": "#b3e400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b3e400", "fillOpacity": 0.24, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 24, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_ef4bd4538cc6edb0be02776ca86df546 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_161fc8eb067e587bb7041cbc534a1db0 = $(`<div id="html_161fc8eb067e587bb7041cbc534a1db0" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 12</div>`)[0];
+                popup_ef4bd4538cc6edb0be02776ca86df546.setContent(html_161fc8eb067e587bb7041cbc534a1db0);
+            
+        
+
+        circle_5e840f81b39774099908637cc28a9096.bindPopup(popup_ef4bd4538cc6edb0be02776ca86df546)
+        ;
+
+        
+    
+    
+            var marker_0947b698cafc62b246b63a4acc271aad = L.marker(
+                [52.50491, 4.76333],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_6bb229243042901e4f10a090a047f965 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_216e9d2492e86f3305f4b87a838a6ed2 = $(`<div id="html_216e9d2492e86f3305f4b87a838a6ed2" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Basisschool de Hoeksteen</h4><p> Totaal geldige uitgebrachte stemmen: 316</p><p><b>SP (Socialistische Partij)</b> 4%</br> (Absoluut aantal stemmen: 12)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (20%)</li><li>Democratisch Zaanstad (DZ) (12%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li></ol></p></p></div>`)[0];
+                popup_6bb229243042901e4f10a090a047f965.setContent(html_216e9d2492e86f3305f4b87a838a6ed2);
+            
+        
+
+        marker_0947b698cafc62b246b63a4acc271aad.bindPopup(popup_6bb229243042901e4f10a090a047f965)
+        ;
+
+        
+    
+    
+            var circle_6b331cc1b22f2f59b8ffd023e3d0ef7f = L.circle(
+                [52.50401, 4.75849],
+                {"bubblingMouseEvents": true, "color": "#b3e400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b3e400", "fillOpacity": 0.24, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 144, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_9503c086663fae2a9f238c9c5e7be4f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_32f4710d3bb165e71fcf4d21aeca32c0 = $(`<div id="html_32f4710d3bb165e71fcf4d21aeca32c0" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 72</div>`)[0];
+                popup_9503c086663fae2a9f238c9c5e7be4f4.setContent(html_32f4710d3bb165e71fcf4d21aeca32c0);
+            
+        
+
+        circle_6b331cc1b22f2f59b8ffd023e3d0ef7f.bindPopup(popup_9503c086663fae2a9f238c9c5e7be4f4)
+        ;
+
+        
+    
+    
+            var marker_39bc4043ef41c52147445d3aa8e29481 = L.marker(
+                [52.50401, 4.75849],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_05f6d08d2ddb806391ab35445877004d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f70d301844546f591e81be859f5da9df = $(`<div id="html_f70d301844546f591e81be859f5da9df" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurtcentrum de Pelikaan</h4><p> Totaal geldige uitgebrachte stemmen: 1992</p><p><b>SP (Socialistische Partij)</b> 4%</br> (Absoluut aantal stemmen: 72)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (18%)</li><li>Partij van de Arbeid (P.v.d.A.) (12%)</li><li>VVD (10%)</li></ol></p></p></div>`)[0];
+                popup_05f6d08d2ddb806391ab35445877004d.setContent(html_f70d301844546f591e81be859f5da9df);
+            
+        
+
+        marker_39bc4043ef41c52147445d3aa8e29481.bindPopup(popup_05f6d08d2ddb806391ab35445877004d)
+        ;
+
+        
+    
+    
+            var circle_59d531c4f51f9e3f570fb070e512467b = L.circle(
+                [52.45938, 4.73717],
+                {"bubblingMouseEvents": true, "color": "#e4f600", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e4f600", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 24, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_8284de7ffa02351cca59da1e6d24fa18 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69c0a4308a5fd985c3713c9ff183ff6e = $(`<div id="html_69c0a4308a5fd985c3713c9ff183ff6e" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 12</div>`)[0];
+                popup_8284de7ffa02351cca59da1e6d24fa18.setContent(html_69c0a4308a5fd985c3713c9ff183ff6e);
+            
+        
+
+        circle_59d531c4f51f9e3f570fb070e512467b.bindPopup(popup_8284de7ffa02351cca59da1e6d24fa18)
+        ;
+
+        
+    
+    
+            var marker_78e1b3337370ceeb6a2e9cbffcb40be9 = L.marker(
+                [52.45938, 4.73717],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_41798b9f475092dfbceea552de497298 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_812ac63a9adf06c0c81145d2fa338b12 = $(`<div id="html_812ac63a9adf06c0c81145d2fa338b12" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Kantine vv Assendelft</h4><p> Totaal geldige uitgebrachte stemmen: 614</p><p><b>SP (Socialistische Partij)</b> 2%</br> (Absoluut aantal stemmen: 12)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (20%)</li><li>VVD (17%)</li><li>Partij voor Ouderen en Veiligheid (11%)</li></ol></p></p></div>`)[0];
+                popup_41798b9f475092dfbceea552de497298.setContent(html_812ac63a9adf06c0c81145d2fa338b12);
+            
+        
+
+        marker_78e1b3337370ceeb6a2e9cbffcb40be9.bindPopup(popup_41798b9f475092dfbceea552de497298)
+        ;
+
+        
+    
+    
+            var circle_265b35ccbb86a06df58ddce2d8fee3ba = L.circle(
+                [52.46675, 4.74109],
+                {"bubblingMouseEvents": true, "color": "#b3e400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b3e400", "fillOpacity": 0.24, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 78, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_c78472aa5a0b5fcc0a96bcb964646633 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_caf471151ae1e1a441100c179cec30d6 = $(`<div id="html_caf471151ae1e1a441100c179cec30d6" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 39</div>`)[0];
+                popup_c78472aa5a0b5fcc0a96bcb964646633.setContent(html_caf471151ae1e1a441100c179cec30d6);
+            
+        
+
+        circle_265b35ccbb86a06df58ddce2d8fee3ba.bindPopup(popup_c78472aa5a0b5fcc0a96bcb964646633)
+        ;
+
+        
+    
+    
+            var marker_759f34a1b986a776d4fc77c70327cc74 = L.marker(
+                [52.46675, 4.74109],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_09470f84efbc227c1d368886ca78ba5d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_101912ec50b61f4a8b81a9ec9cbd439a = $(`<div id="html_101912ec50b61f4a8b81a9ec9cbd439a" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Brandweerkazerne Assendelft</h4><p> Totaal geldige uitgebrachte stemmen: 988</p><p><b>SP (Socialistische Partij)</b> 4%</br> (Absoluut aantal stemmen: 39)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (19%)</li><li>Partij voor Ouderen en Veiligheid (17%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_09470f84efbc227c1d368886ca78ba5d.setContent(html_101912ec50b61f4a8b81a9ec9cbd439a);
+            
+        
+
+        marker_759f34a1b986a776d4fc77c70327cc74.bindPopup(popup_09470f84efbc227c1d368886ca78ba5d)
+        ;
+
+        
+    
+    
+            var circle_c5dfee6e0d02ff6f6eca9f6fee1840e8 = L.circle(
+                [52.4742, 4.74845],
+                {"bubblingMouseEvents": true, "color": "#e4f600", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e4f600", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 34, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_4a1a0f94c0470dacc839e6f5a02d0330 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_59fd06eceb4e48b41cbe8a85b075bc68 = $(`<div id="html_59fd06eceb4e48b41cbe8a85b075bc68" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 17</div>`)[0];
+                popup_4a1a0f94c0470dacc839e6f5a02d0330.setContent(html_59fd06eceb4e48b41cbe8a85b075bc68);
+            
+        
+
+        circle_c5dfee6e0d02ff6f6eca9f6fee1840e8.bindPopup(popup_4a1a0f94c0470dacc839e6f5a02d0330)
+        ;
+
+        
+    
+    
+            var marker_6fc831bb3e81d004180f761fe932f63a = L.marker(
+                [52.4742, 4.74845],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_a96865c5a8e4a2251a9eae13c5447bfc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bbe20dd3dee7ecbb55186bc305e5bab5 = $(`<div id="html_bbe20dd3dee7ecbb55186bc305e5bab5" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Tennisvereniging Overdan</h4><p> Totaal geldige uitgebrachte stemmen: 821</p><p><b>SP (Socialistische Partij)</b> 2%</br> (Absoluut aantal stemmen: 17)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (22%)</li><li>VVD (14%)</li><li>Partij voor Ouderen en Veiligheid (13%)</li></ol></p></p></div>`)[0];
+                popup_a96865c5a8e4a2251a9eae13c5447bfc.setContent(html_bbe20dd3dee7ecbb55186bc305e5bab5);
+            
+        
+
+        marker_6fc831bb3e81d004180f761fe932f63a.bindPopup(popup_a96865c5a8e4a2251a9eae13c5447bfc)
+        ;
+
+        
+    
+    
+            var circle_1379b522981785640eaacbfb99be0681 = L.circle(
+                [52.46618, 4.74004],
+                {"bubblingMouseEvents": true, "color": "#b3e400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b3e400", "fillOpacity": 0.24, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 74, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_65952f2d0edb2c4496d962f112dbed3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d97581a4159a17b95535b2f644a29c8e = $(`<div id="html_d97581a4159a17b95535b2f644a29c8e" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 37</div>`)[0];
+                popup_65952f2d0edb2c4496d962f112dbed3d.setContent(html_d97581a4159a17b95535b2f644a29c8e);
+            
+        
+
+        circle_1379b522981785640eaacbfb99be0681.bindPopup(popup_65952f2d0edb2c4496d962f112dbed3d)
+        ;
+
+        
+    
+    
+            var marker_d1af6158de4dc181985ffdb88f35eecb = L.marker(
+                [52.46618, 4.74004],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_9f4b7041886c6ef7697fc5ed03b029b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b10ea060278133b80b607aae693932b7 = $(`<div id="html_b10ea060278133b80b607aae693932b7" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurtcentrum A3</h4><p> Totaal geldige uitgebrachte stemmen: 981</p><p><b>SP (Socialistische Partij)</b> 4%</br> (Absoluut aantal stemmen: 37)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (20%)</li><li>Partij voor Ouderen en Veiligheid (17%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li></ol></p></p></div>`)[0];
+                popup_9f4b7041886c6ef7697fc5ed03b029b9.setContent(html_b10ea060278133b80b607aae693932b7);
+            
+        
+
+        marker_d1af6158de4dc181985ffdb88f35eecb.bindPopup(popup_9f4b7041886c6ef7697fc5ed03b029b9)
+        ;
+
+        
+    
+    
+            var circle_975b736eb6c3e0040b5cd7399933b45e = L.circle(
+                [52.49317, 4.75898],
+                {"bubblingMouseEvents": true, "color": "#cbed00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cbed00", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 28, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_1f43c04c7904021f611ee06644e04c84 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f791adc3a9e9702c28195a361ec67dc = $(`<div id="html_9f791adc3a9e9702c28195a361ec67dc" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 14</div>`)[0];
+                popup_1f43c04c7904021f611ee06644e04c84.setContent(html_9f791adc3a9e9702c28195a361ec67dc);
+            
+        
+
+        circle_975b736eb6c3e0040b5cd7399933b45e.bindPopup(popup_1f43c04c7904021f611ee06644e04c84)
+        ;
+
+        
+    
+    
+            var marker_1259a540bf6ad38eef5c7ef7e92aa508 = L.marker(
+                [52.49317, 4.75898],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_eed115fa9349b23dc3c2c821d0222919 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f4ff1e90fcdf747c5d685cb93ab3cd7 = $(`<div id="html_3f4ff1e90fcdf747c5d685cb93ab3cd7" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal de Springplank</h4><p> Totaal geldige uitgebrachte stemmen: 537</p><p><b>SP (Socialistische Partij)</b> 3%</br> (Absoluut aantal stemmen: 14)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (18%)</li><li>Partij voor Ouderen en Veiligheid (15%)</li><li>VVD (13%)</li></ol></p></p></div>`)[0];
+                popup_eed115fa9349b23dc3c2c821d0222919.setContent(html_3f4ff1e90fcdf747c5d685cb93ab3cd7);
+            
+        
+
+        marker_1259a540bf6ad38eef5c7ef7e92aa508.bindPopup(popup_eed115fa9349b23dc3c2c821d0222919)
+        ;
+
+        
+    
+    
+            var circle_bf7d3ce2d8196245f85bf029cee239d3 = L.circle(
+                [52.48415, 4.76134],
+                {"bubblingMouseEvents": true, "color": "#e4f600", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e4f600", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 42, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_8f684087168240c935ac008d0a28b23a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d88f734db6c4ac60d6bf6b61933b60a = $(`<div id="html_3d88f734db6c4ac60d6bf6b61933b60a" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 21</div>`)[0];
+                popup_8f684087168240c935ac008d0a28b23a.setContent(html_3d88f734db6c4ac60d6bf6b61933b60a);
+            
+        
+
+        circle_bf7d3ce2d8196245f85bf029cee239d3.bindPopup(popup_8f684087168240c935ac008d0a28b23a)
+        ;
+
+        
+    
+    
+            var marker_d617f4b846a8627bdb298a770d6c0c14 = L.marker(
+                [52.48415, 4.76134],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_bfccf39dadcdafad953c1c94ffe6d1ef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1fa2ad4c8a0106eff6c18db1053f57b = $(`<div id="html_b1fa2ad4c8a0106eff6c18db1053f57b" style="width: 100.0%; height: 100.0%;"><h4>Stembureau BUKO</h4><p> Totaal geldige uitgebrachte stemmen: 970</p><p><b>SP (Socialistische Partij)</b> 2%</br> (Absoluut aantal stemmen: 21)<p><b>Top drie:</b><ol><li>VVD (16%)</li><li>Partij voor Ouderen en Veiligheid (13%)</li><li>Partij van de Arbeid (P.v.d.A.) (12%)</li></ol></p></p></div>`)[0];
+                popup_bfccf39dadcdafad953c1c94ffe6d1ef.setContent(html_b1fa2ad4c8a0106eff6c18db1053f57b);
+            
+        
+
+        marker_d617f4b846a8627bdb298a770d6c0c14.bindPopup(popup_bfccf39dadcdafad953c1c94ffe6d1ef)
+        ;
+
+        
+    
+    
+            var circle_bb5e88434251c071fe97593cb2f4b699 = L.circle(
+                [52.48838, 4.75082],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.06, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 28, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_99eaf4ba9c8d8068addd2c3830284b61 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_974e361e21766c4799f10a147382696f = $(`<div id="html_974e361e21766c4799f10a147382696f" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 14</div>`)[0];
+                popup_99eaf4ba9c8d8068addd2c3830284b61.setContent(html_974e361e21766c4799f10a147382696f);
+            
+        
+
+        circle_bb5e88434251c071fe97593cb2f4b699.bindPopup(popup_99eaf4ba9c8d8068addd2c3830284b61)
+        ;
+
+        
+    
+    
+            var marker_2d239c5454984fc2a0181a63736b0b71 = L.marker(
+                [52.48838, 4.75082],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_c9a09ecd642e20e2244d7eb12c1a473d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d0bed4eefacea5c393d99ceba11dcc6b = $(`<div id="html_d0bed4eefacea5c393d99ceba11dcc6b" style="width: 100.0%; height: 100.0%;"><h4>Stembureau JongerenHUB Noord</h4><p> Totaal geldige uitgebrachte stemmen: 959</p><p><b>SP (Socialistische Partij)</b> 1%</br> (Absoluut aantal stemmen: 14)<p><b>Top drie:</b><ol><li>VVD (20%)</li><li>DENK (11%)</li><li>Partij voor Ouderen en Veiligheid (11%)</li></ol></p></p></div>`)[0];
+                popup_c9a09ecd642e20e2244d7eb12c1a473d.setContent(html_d0bed4eefacea5c393d99ceba11dcc6b);
+            
+        
+
+        marker_2d239c5454984fc2a0181a63736b0b71.bindPopup(popup_c9a09ecd642e20e2244d7eb12c1a473d)
+        ;
+
+        
+    
+    
+            var circle_b3a7d3ac8591af4b92c45c4d606379c6 = L.circle(
+                [52.49536, 4.75036],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.06, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_b131e498e9f055d0e6ed0ec562e523a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_363f73d10887b555fe633b597d61500e = $(`<div id="html_363f73d10887b555fe633b597d61500e" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 3</div>`)[0];
+                popup_b131e498e9f055d0e6ed0ec562e523a9.setContent(html_363f73d10887b555fe633b597d61500e);
+            
+        
+
+        circle_b3a7d3ac8591af4b92c45c4d606379c6.bindPopup(popup_b131e498e9f055d0e6ed0ec562e523a9)
+        ;
+
+        
+    
+    
+            var marker_8612da7b13568050aee0781a63c089d0 = L.marker(
+                [52.49536, 4.75036],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_048beaa910d45a4009f10f0fb8ccd88a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d16d28a3661562760ae169ea69e52a90 = $(`<div id="html_d16d28a3661562760ae169ea69e52a90" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Kreekrijklaan 2</h4><p> Totaal geldige uitgebrachte stemmen: 356</p><p><b>SP (Socialistische Partij)</b> 1%</br> (Absoluut aantal stemmen: 3)<p><b>Top drie:</b><ol><li>VVD (20%)</li><li>Partij van de Arbeid (P.v.d.A.) (12%)</li><li>Democratisch Zaanstad (DZ) (12%)</li></ol></p></p></div>`)[0];
+                popup_048beaa910d45a4009f10f0fb8ccd88a.setContent(html_d16d28a3661562760ae169ea69e52a90);
+            
+        
+
+        marker_8612da7b13568050aee0781a63c089d0.bindPopup(popup_048beaa910d45a4009f10f0fb8ccd88a)
+        ;
+
+        
+    
+    
+            var circle_cc28f29a77e73fdf18b2fa0b8ffad8f5 = L.circle(
+                [52.49454, 4.74488],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_fbc9e926ce35603369da6679a81a4a29 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42dcce9ade8913592fc5fc6c3f19007b = $(`<div id="html_42dcce9ade8913592fc5fc6c3f19007b" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 2</div>`)[0];
+                popup_fbc9e926ce35603369da6679a81a4a29.setContent(html_42dcce9ade8913592fc5fc6c3f19007b);
+            
+        
+
+        circle_cc28f29a77e73fdf18b2fa0b8ffad8f5.bindPopup(popup_fbc9e926ce35603369da6679a81a4a29)
+        ;
+
+        
+    
+    
+            var marker_4f167963418e7f7e8a9d53d981cb3dcc = L.marker(
+                [52.49454, 4.74488],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_a2fc3144b95bb68986d958e8ce489383 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4053a901f7198d04495478ff9c6b51d1 = $(`<div id="html_4053a901f7198d04495478ff9c6b51d1" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Beemdgras</h4><p> Totaal geldige uitgebrachte stemmen: 412</p><p><b>SP (Socialistische Partij)</b> 0%</br> (Absoluut aantal stemmen: 2)<p><b>Top drie:</b><ol><li>VVD (23%)</li><li>Democratisch Zaanstad (DZ) (12%)</li><li>Partij van de Arbeid (P.v.d.A.) (10%)</li></ol></p></p></div>`)[0];
+                popup_a2fc3144b95bb68986d958e8ce489383.setContent(html_4053a901f7198d04495478ff9c6b51d1);
+            
+        
+
+        marker_4f167963418e7f7e8a9d53d981cb3dcc.bindPopup(popup_a2fc3144b95bb68986d958e8ce489383)
+        ;
+
+        
+    
+    
+            var circle_99cb1703cc515ef10641a3759f3cd055 = L.circle(
+                [52.48864, 4.75283],
+                {"bubblingMouseEvents": true, "color": "#e4f600", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e4f600", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 88, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_e7dddd4b3db2e036619900326c41e998 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63f0013d95ebbbd2129b385bc0f54473 = $(`<div id="html_63f0013d95ebbbd2129b385bc0f54473" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 44</div>`)[0];
+                popup_e7dddd4b3db2e036619900326c41e998.setContent(html_63f0013d95ebbbd2129b385bc0f54473);
+            
+        
+
+        circle_99cb1703cc515ef10641a3759f3cd055.bindPopup(popup_e7dddd4b3db2e036619900326c41e998)
+        ;
+
+        
+    
+    
+            var marker_c8cc8cf90e9add07c645b0e6bb749c34 = L.marker(
+                [52.48864, 4.75283],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_f4bba07fd0e96bfa9a73ec9446f5f830 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10f6b8f823250da4aa88208705197375 = $(`<div id="html_10f6b8f823250da4aa88208705197375" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Het Sociale Winkeltje</h4><p> Totaal geldige uitgebrachte stemmen: 2001</p><p><b>SP (Socialistische Partij)</b> 2%</br> (Absoluut aantal stemmen: 44)<p><b>Top drie:</b><ol><li>VVD (17%)</li><li>Partij voor Ouderen en Veiligheid (14%)</li><li>Democratisch Zaanstad (DZ) (11%)</li></ol></p></p></div>`)[0];
+                popup_f4bba07fd0e96bfa9a73ec9446f5f830.setContent(html_10f6b8f823250da4aa88208705197375);
+            
+        
+
+        marker_c8cc8cf90e9add07c645b0e6bb749c34.bindPopup(popup_f4bba07fd0e96bfa9a73ec9446f5f830)
+        ;
+
+        
+    
+    
+            var circle_c63bddc6e7c518580a7878cb91b78225 = L.circle(
+                [52.44896, 4.77604],
+                {"bubblingMouseEvents": true, "color": "#e4f600", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e4f600", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 34, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_96c8eb82a4278ccd8a4d89cdc8a74a78 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55a4f002e49093804a84319408ee90a2 = $(`<div id="html_55a4f002e49093804a84319408ee90a2" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 17</div>`)[0];
+                popup_96c8eb82a4278ccd8a4d89cdc8a74a78.setContent(html_55a4f002e49093804a84319408ee90a2);
+            
+        
+
+        circle_c63bddc6e7c518580a7878cb91b78225.bindPopup(popup_96c8eb82a4278ccd8a4d89cdc8a74a78)
+        ;
+
+        
+    
+    
+            var marker_bb340263c0a1eb76f772e3208d8f4507 = L.marker(
+                [52.44896, 4.77604],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_6ca6d489b1803c8a2d6abb874b114af3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_77f7ad1ee13a89822cfab82681355f29 = $(`<div id="html_77f7ad1ee13a89822cfab82681355f29" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Dorpshuis "De Kwaker"</h4><p> Totaal geldige uitgebrachte stemmen: 725</p><p><b>SP (Socialistische Partij)</b> 2%</br> (Absoluut aantal stemmen: 17)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (14%)</li><li>VVD (14%)</li><li>PVV (Partij voor de Vrijheid) (10%)</li></ol></p></p></div>`)[0];
+                popup_6ca6d489b1803c8a2d6abb874b114af3.setContent(html_77f7ad1ee13a89822cfab82681355f29);
+            
+        
+
+        marker_bb340263c0a1eb76f772e3208d8f4507.bindPopup(popup_6ca6d489b1803c8a2d6abb874b114af3)
+        ;
+
+        
+    
+    
+            var circle_58ff3697eec29b62681a824cd25fb1c8 = L.circle(
+                [52.4638, 4.76978],
+                {"bubblingMouseEvents": true, "color": "#b3e400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b3e400", "fillOpacity": 0.24, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 94, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_6c71dc7e3ab500dbee27d71f6c7554f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e511416688b150384cc11454da23a28f = $(`<div id="html_e511416688b150384cc11454da23a28f" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 47</div>`)[0];
+                popup_6c71dc7e3ab500dbee27d71f6c7554f0.setContent(html_e511416688b150384cc11454da23a28f);
+            
+        
+
+        circle_58ff3697eec29b62681a824cd25fb1c8.bindPopup(popup_6c71dc7e3ab500dbee27d71f6c7554f0)
+        ;
+
+        
+    
+    
+            var marker_3c3e48b289548ea5bd1f128f5c17de5c = L.marker(
+                [52.4638, 4.76978],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_4aa9585e2fe9f0a2b889fac1ae287d1f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_732eebe1131b52659ab63e21ebee6523 = $(`<div id="html_732eebe1131b52659ab63e21ebee6523" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Wijksteunpunt Lambert Melisz</h4><p> Totaal geldige uitgebrachte stemmen: 1258</p><p><b>SP (Socialistische Partij)</b> 4%</br> (Absoluut aantal stemmen: 47)<p><b>Top drie:</b><ol><li>VVD (16%)</li><li>Partij voor Ouderen en Veiligheid (13%)</li><li>Partij van de Arbeid (P.v.d.A.) (10%)</li></ol></p></p></div>`)[0];
+                popup_4aa9585e2fe9f0a2b889fac1ae287d1f.setContent(html_732eebe1131b52659ab63e21ebee6523);
+            
+        
+
+        marker_3c3e48b289548ea5bd1f128f5c17de5c.bindPopup(popup_4aa9585e2fe9f0a2b889fac1ae287d1f)
+        ;
+
+        
+    
+    
+            var circle_813cca565dacc99aa47f19e153d20e21 = L.circle(
+                [52.46317, 4.77163],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.06, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_e8b125b502f052b56253a58e36b3c03a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e9e022c5bb39f5484dbc739081b62d3 = $(`<div id="html_5e9e022c5bb39f5484dbc739081b62d3" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 4</div>`)[0];
+                popup_e8b125b502f052b56253a58e36b3c03a.setContent(html_5e9e022c5bb39f5484dbc739081b62d3);
+            
+        
+
+        circle_813cca565dacc99aa47f19e153d20e21.bindPopup(popup_e8b125b502f052b56253a58e36b3c03a)
+        ;
+
+        
+    
+    
+            var marker_da20182e66081a835d3169e7f7fbec94 = L.marker(
+                [52.46317, 4.77163],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_b8c74da018a0295d00e0458cc328670e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bdfef3fce9e440642bd6b064bd1f9fa7 = $(`<div id="html_bdfef3fce9e440642bd6b064bd1f9fa7" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Torenstraat, INGANG KERKBUURT 21</h4><p> Totaal geldige uitgebrachte stemmen: 269</p><p><b>SP (Socialistische Partij)</b> 1%</br> (Absoluut aantal stemmen: 4)<p><b>Top drie:</b><ol><li>VVD (17%)</li><li>ROSA (13%)</li><li>Democratisch Zaanstad (DZ) (11%)</li></ol></p></p></div>`)[0];
+                popup_b8c74da018a0295d00e0458cc328670e.setContent(html_bdfef3fce9e440642bd6b064bd1f9fa7);
+            
+        
+
+        marker_da20182e66081a835d3169e7f7fbec94.bindPopup(popup_b8c74da018a0295d00e0458cc328670e)
+        ;
+
+        
+    
+    
+            var circle_9d9f691d72592cd04951ccfc18002d14 = L.circle(
+                [52.45375, 4.83569],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_5ebd9183684a82f6ddb6ed33384b2654 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_517ce8fac2cf9a6414fa1cfb2d7396d4 = $(`<div id="html_517ce8fac2cf9a6414fa1cfb2d7396d4" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 3</div>`)[0];
+                popup_5ebd9183684a82f6ddb6ed33384b2654.setContent(html_517ce8fac2cf9a6414fa1cfb2d7396d4);
+            
+        
+
+        circle_9d9f691d72592cd04951ccfc18002d14.bindPopup(popup_5ebd9183684a82f6ddb6ed33384b2654)
+        ;
+
+        
+    
+    
+            var marker_d1e2065c147225f6d65f26c831f45777 = L.marker(
+                [52.45375, 4.83569],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_8ed6759dc38feea4406a59c2932bfdc1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6465a41e2c09797f4af9d8e3c4a8fff7 = $(`<div id="html_6465a41e2c09797f4af9d8e3c4a8fff7" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean Oostergouw, HOOFDINGANG</h4><p> Totaal geldige uitgebrachte stemmen: 20</p><p><b>SP (Socialistische Partij)</b> 15%</br> (Absoluut aantal stemmen: 3)<p><b>Top drie:</b><ol><li>SP (Socialistische Partij) (15%)</li><li>VVD (10%)</li><li>Partij van de Arbeid (P.v.d.A.) (10%)</li></ol></p></p></div>`)[0];
+                popup_8ed6759dc38feea4406a59c2932bfdc1.setContent(html_6465a41e2c09797f4af9d8e3c4a8fff7);
+            
+        
+
+        marker_d1e2065c147225f6d65f26c831f45777.bindPopup(popup_8ed6759dc38feea4406a59c2932bfdc1)
+        ;
+
+        
+    
+    
+            var circle_d999aa10ea45799a9b6799ce4d2227d4 = L.circle(
+                [52.44012, 4.84136],
+                {"bubblingMouseEvents": true, "color": "#9cdb00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9cdb00", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_687b20936b216ac4b5c875abb861d18b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08996284fa3d885ca934bb842788949c = $(`<div id="html_08996284fa3d885ca934bb842788949c" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 1</div>`)[0];
+                popup_687b20936b216ac4b5c875abb861d18b.setContent(html_08996284fa3d885ca934bb842788949c);
+            
+        
+
+        circle_d999aa10ea45799a9b6799ce4d2227d4.bindPopup(popup_687b20936b216ac4b5c875abb861d18b)
+        ;
+
+        
+    
+    
+            var marker_988810748610ced4e36d2c2958568714 = L.marker(
+                [52.44012, 4.84136],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_39feda01c9507dbdece9073993805859 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_147be52482c5e323b09e94cb3ec760e9 = $(`<div id="html_147be52482c5e323b09e94cb3ec760e9" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean Het Erasmushuis</h4><p> Totaal geldige uitgebrachte stemmen: 20</p><p><b>SP (Socialistische Partij)</b> 5%</br> (Absoluut aantal stemmen: 1)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (20%)</li><li>Partij voor Ouderen en Veiligheid (15%)</li><li>D66 (15%)</li></ol></p></p></div>`)[0];
+                popup_39feda01c9507dbdece9073993805859.setContent(html_147be52482c5e323b09e94cb3ec760e9);
+            
+        
+
+        marker_988810748610ced4e36d2c2958568714.bindPopup(popup_39feda01c9507dbdece9073993805859)
+        ;
+
+        
+    
+    
+            var circle_1acf3bd467b1ca1ab355ca0d49b71e9a = L.circle(
+                [52.44115, 4.83269],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_4c573185d3666b7eb9cdb7b4c0dc384e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91075f4db45aee0d75650fd5f2ec7ce8 = $(`<div id="html_91075f4db45aee0d75650fd5f2ec7ce8" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 0</div>`)[0];
+                popup_4c573185d3666b7eb9cdb7b4c0dc384e.setContent(html_91075f4db45aee0d75650fd5f2ec7ce8);
+            
+        
+
+        circle_1acf3bd467b1ca1ab355ca0d49b71e9a.bindPopup(popup_4c573185d3666b7eb9cdb7b4c0dc384e)
+        ;
+
+        
+    
+    
+            var marker_edc7ceed31dab4f27bf996f8b4a6e4e8 = L.marker(
+                [52.44115, 4.83269],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_9e1ed496124c32b9c311033af5fafa98 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7af6b94f66755fc4920903880c65727c = $(`<div id="html_7af6b94f66755fc4920903880c65727c" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Zorgcentrum Mennistenerf</h4><p> Totaal geldige uitgebrachte stemmen: 51</p><p><b>SP (Socialistische Partij)</b> 0%</br> (Absoluut aantal stemmen: 0)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (43%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li><li>DENK (11%)</li></ol></p></p></div>`)[0];
+                popup_9e1ed496124c32b9c311033af5fafa98.setContent(html_7af6b94f66755fc4920903880c65727c);
+            
+        
+
+        marker_edc7ceed31dab4f27bf996f8b4a6e4e8.bindPopup(popup_9e1ed496124c32b9c311033af5fafa98)
+        ;
+
+        
+    
+    
+            var circle_5267fc86dd24a5dbd154c3f16f85b7a3 = L.circle(
+                [52.44342, 4.83039],
+                {"bubblingMouseEvents": true, "color": "#e4f600", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e4f600", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_331ce3ab0b35ad3462bf14015aec0185 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_326edd0647b85b2b84765079fd4bd8e5 = $(`<div id="html_326edd0647b85b2b84765079fd4bd8e5" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 1</div>`)[0];
+                popup_331ce3ab0b35ad3462bf14015aec0185.setContent(html_326edd0647b85b2b84765079fd4bd8e5);
+            
+        
+
+        circle_5267fc86dd24a5dbd154c3f16f85b7a3.bindPopup(popup_331ce3ab0b35ad3462bf14015aec0185)
+        ;
+
+        
+    
+    
+            var marker_b7b22f407865cd572edc17640fbddc0e = L.marker(
+                [52.44342, 4.83039],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_85fb47a212726cbd4ef0f1fd2b8e19e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43e733f2a840d675aafa029c41ddb39e = $(`<div id="html_43e733f2a840d675aafa029c41ddb39e" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Hervormd Centrum Pennemes, HOOFDINGANG</h4><p> Totaal geldige uitgebrachte stemmen: 42</p><p><b>SP (Socialistische Partij)</b> 2%</br> (Absoluut aantal stemmen: 1)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (21%)</li><li>ChristenUnie (21%)</li><li>Partij van de Arbeid (P.v.d.A.) (14%)</li></ol></p></p></div>`)[0];
+                popup_85fb47a212726cbd4ef0f1fd2b8e19e5.setContent(html_43e733f2a840d675aafa029c41ddb39e);
+            
+        
+
+        marker_b7b22f407865cd572edc17640fbddc0e.bindPopup(popup_85fb47a212726cbd4ef0f1fd2b8e19e5)
+        ;
+
+        
+    
+    
+            var circle_63251f7bb5f07dd98893f842e4523076 = L.circle(
+                [52.4704, 4.83439],
+                {"bubblingMouseEvents": true, "color": "#87d200", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#87d200", "fillOpacity": 0.36, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_f5ed2a4bafcb7c095caba725603c24a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46548852692b59503aff9f9258bb9834 = $(`<div id="html_46548852692b59503aff9f9258bb9834" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 3</div>`)[0];
+                popup_f5ed2a4bafcb7c095caba725603c24a4.setContent(html_46548852692b59503aff9f9258bb9834);
+            
+        
+
+        circle_63251f7bb5f07dd98893f842e4523076.bindPopup(popup_f5ed2a4bafcb7c095caba725603c24a4)
+        ;
+
+        
+    
+    
+            var marker_9e677f0aae3c4eb49d40a0ab05d10918 = L.marker(
+                [52.4704, 4.83439],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_9280e0cbcebd8a75b5ec2911a782038b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68b5982a8f746d8553fa92c3db91af98 = $(`<div id="html_68b5982a8f746d8553fa92c3db91af98" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Zorgcentrum Nieuw Groenland</h4><p> Totaal geldige uitgebrachte stemmen: 47</p><p><b>SP (Socialistische Partij)</b> 6%</br> (Absoluut aantal stemmen: 3)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (14%)</li><li>CDA (12%)</li><li>Partij voor de Dieren (12%)</li></ol></p></p></div>`)[0];
+                popup_9280e0cbcebd8a75b5ec2911a782038b.setContent(html_68b5982a8f746d8553fa92c3db91af98);
+            
+        
+
+        marker_9e677f0aae3c4eb49d40a0ab05d10918.bindPopup(popup_9280e0cbcebd8a75b5ec2911a782038b)
+        ;
+
+        
+    
+    
+            var circle_841c1c07f0532fe79fd2cd5906701e44 = L.circle(
+                [52.44279, 4.81852],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_8af147a94dec2845ce2fc6ad00d95bdb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31b797cc0bf39ca8147f7e78a8eb5bc1 = $(`<div id="html_31b797cc0bf39ca8147f7e78a8eb5bc1" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 0</div>`)[0];
+                popup_8af147a94dec2845ce2fc6ad00d95bdb.setContent(html_31b797cc0bf39ca8147f7e78a8eb5bc1);
+            
+        
+
+        circle_841c1c07f0532fe79fd2cd5906701e44.bindPopup(popup_8af147a94dec2845ce2fc6ad00d95bdb)
+        ;
+
+        
+    
+    
+            var marker_a6a9400efa33cceea41ef110d999df11 = L.marker(
+                [52.44279, 4.81852],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_acefa64ea5e9c50356fa6c8525038ae9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa4f0677fe235c6d7b61055cd85c06c2 = $(`<div id="html_fa4f0677fe235c6d7b61055cd85c06c2" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Zorgcentrum Saenden</h4><p> Totaal geldige uitgebrachte stemmen: 10</p><p><b>SP (Socialistische Partij)</b> 0%</br> (Absoluut aantal stemmen: 0)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (30%)</li><li>VVD (20%)</li><li>CDA (20%)</li></ol></p></p></div>`)[0];
+                popup_acefa64ea5e9c50356fa6c8525038ae9.setContent(html_fa4f0677fe235c6d7b61055cd85c06c2);
+            
+        
+
+        marker_a6a9400efa33cceea41ef110d999df11.bindPopup(popup_acefa64ea5e9c50356fa6c8525038ae9)
+        ;
+
+        
+    
+    
+            var circle_6819075097dc20849733d0b52f2c016b = L.circle(
+                [52.44905, 4.80177],
+                {"bubblingMouseEvents": true, "color": "#60bf00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#60bf00", "fillOpacity": 0.48, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_1f153fa359add4385f764e4b3e0a6cad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_025f900e314162dc0397ad373c2765d1 = $(`<div id="html_025f900e314162dc0397ad373c2765d1" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 4</div>`)[0];
+                popup_1f153fa359add4385f764e4b3e0a6cad.setContent(html_025f900e314162dc0397ad373c2765d1);
+            
+        
+
+        circle_6819075097dc20849733d0b52f2c016b.bindPopup(popup_1f153fa359add4385f764e4b3e0a6cad)
+        ;
+
+        
+    
+    
+            var marker_c1eadf752bdeffc0e41902b843538107 = L.marker(
+                [52.44905, 4.80177],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_7894219af84043bc93bbb6fa7599d901 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_797816b7c449ab9b0e60e4cf53cc87d9 = $(`<div id="html_797816b7c449ab9b0e60e4cf53cc87d9" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean Westerwatering, HOOFDINGANG</h4><p> Totaal geldige uitgebrachte stemmen: 50</p><p><b>SP (Socialistische Partij)</b> 8%</br> (Absoluut aantal stemmen: 4)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (54%)</li><li>Democratisch Zaanstad (DZ) (10%)</li><li>Partij van de Arbeid (P.v.d.A.) (8%)</li></ol></p></p></div>`)[0];
+                popup_7894219af84043bc93bbb6fa7599d901.setContent(html_797816b7c449ab9b0e60e4cf53cc87d9);
+            
+        
+
+        marker_c1eadf752bdeffc0e41902b843538107.bindPopup(popup_7894219af84043bc93bbb6fa7599d901)
+        ;
+
+        
+    
+    
+            var circle_7b03f3df8013f95b937e87f50cb9d20b = L.circle(
+                [52.46873, 4.81152],
+                {"bubblingMouseEvents": true, "color": "#73c900", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#73c900", "fillOpacity": 0.42, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_50a7182f984ea7a8f8d7372ca7b26a01 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5fe742c44744257f1e6f8852db67a00 = $(`<div id="html_d5fe742c44744257f1e6f8852db67a00" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 3</div>`)[0];
+                popup_50a7182f984ea7a8f8d7372ca7b26a01.setContent(html_d5fe742c44744257f1e6f8852db67a00);
+            
+        
+
+        circle_7b03f3df8013f95b937e87f50cb9d20b.bindPopup(popup_50a7182f984ea7a8f8d7372ca7b26a01)
+        ;
+
+        
+    
+    
+            var marker_398dc4c918371f6de5b198f012671946 = L.marker(
+                [52.46873, 4.81152],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_1ca32fe0e26c8bd6f7e94bf47c3821de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb92212780a30d0a127f48866b84b798 = $(`<div id="html_fb92212780a30d0a127f48866b84b798" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean Parkzicht</h4><p> Totaal geldige uitgebrachte stemmen: 46</p><p><b>SP (Socialistische Partij)</b> 7%</br> (Absoluut aantal stemmen: 3)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (26%)</li><li>Partij van de Arbeid (P.v.d.A.) (15%)</li><li>ROSA (13%)</li></ol></p></p></div>`)[0];
+                popup_1ca32fe0e26c8bd6f7e94bf47c3821de.setContent(html_fb92212780a30d0a127f48866b84b798);
+            
+        
+
+        marker_398dc4c918371f6de5b198f012671946.bindPopup(popup_1ca32fe0e26c8bd6f7e94bf47c3821de)
+        ;
+
+        
+    
+    
+            var circle_6f9701fb1553d694231d8d48d75b907e = L.circle(
+                [52.47728, 4.80156],
+                {"bubblingMouseEvents": true, "color": "#219b00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#219b00", "fillOpacity": 0.72, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_e7950cbc7fd69bd087490fc7819f1d04 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b69243ccccb9e6ca68712053f1f152e7 = $(`<div id="html_b69243ccccb9e6ca68712053f1f152e7" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 1</div>`)[0];
+                popup_e7950cbc7fd69bd087490fc7819f1d04.setContent(html_b69243ccccb9e6ca68712053f1f152e7);
+            
+        
+
+        circle_6f9701fb1553d694231d8d48d75b907e.bindPopup(popup_e7950cbc7fd69bd087490fc7819f1d04)
+        ;
+
+        
+    
+    
+            var marker_ff7b6789b2ec799f15a311bc8d7fd23a = L.marker(
+                [52.47728, 4.80156],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_ba5cf905654e501adf70d108457b99b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e63b6670e9c8f450645f1ac06880ab3a = $(`<div id="html_e63b6670e9c8f450645f1ac06880ab3a" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean Guisveld</h4><p> Totaal geldige uitgebrachte stemmen: 8</p><p><b>SP (Socialistische Partij)</b> 12%</br> (Absoluut aantal stemmen: 1)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (25%)</li><li>ROSA (12%)</li><li>D66 (12%)</li></ol></p></p></div>`)[0];
+                popup_ba5cf905654e501adf70d108457b99b5.setContent(html_e63b6670e9c8f450645f1ac06880ab3a);
+            
+        
+
+        marker_ff7b6789b2ec799f15a311bc8d7fd23a.bindPopup(popup_ba5cf905654e501adf70d108457b99b5)
+        ;
+
+        
+    
+    
+            var circle_0fed8bcf4fdb1072b56569cd5bfb8680 = L.circle(
+                [52.48707, 4.80201],
+                {"bubblingMouseEvents": true, "color": "#2fa400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2fa400", "fillOpacity": 0.66, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_57803cf8b9200b44b71c98ec64e9d0f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3542b97f363bccc86c7039f6b560743d = $(`<div id="html_3542b97f363bccc86c7039f6b560743d" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 2</div>`)[0];
+                popup_57803cf8b9200b44b71c98ec64e9d0f6.setContent(html_3542b97f363bccc86c7039f6b560743d);
+            
+        
+
+        circle_0fed8bcf4fdb1072b56569cd5bfb8680.bindPopup(popup_57803cf8b9200b44b71c98ec64e9d0f6)
+        ;
+
+        
+    
+    
+            var marker_c283b0d14fa8cb663a836b52713fe5b4 = L.marker(
+                [52.48707, 4.80201],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_e1168fb508ccc08cfd577716f4c33c3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_17957d3effa371e701a8b9df5acb5bb9 = $(`<div id="html_17957d3effa371e701a8b9df5acb5bb9" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean Acht Staten</h4><p> Totaal geldige uitgebrachte stemmen: 19</p><p><b>SP (Socialistische Partij)</b> 11%</br> (Absoluut aantal stemmen: 2)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (26%)</li><li>Partij voor Ouderen en Veiligheid (21%)</li><li>PVV (Partij voor de Vrijheid) (10%)</li></ol></p></p></div>`)[0];
+                popup_e1168fb508ccc08cfd577716f4c33c3f.setContent(html_17957d3effa371e701a8b9df5acb5bb9);
+            
+        
+
+        marker_c283b0d14fa8cb663a836b52713fe5b4.bindPopup(popup_e1168fb508ccc08cfd577716f4c33c3f)
+        ;
+
+        
+    
+    
+            var circle_96a73624c3a0b171ca412113affe7b22 = L.circle(
+                [52.50553, 4.7625],
+                {"bubblingMouseEvents": true, "color": "#2fa400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2fa400", "fillOpacity": 0.66, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_3978a1bfb81c6b1aab91298a342903be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11aa75d1befc9f3038c57421ed11d007 = $(`<div id="html_11aa75d1befc9f3038c57421ed11d007" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor SP (Socialistische Partij): 2</div>`)[0];
+                popup_3978a1bfb81c6b1aab91298a342903be.setContent(html_11aa75d1befc9f3038c57421ed11d007);
+            
+        
+
+        circle_96a73624c3a0b171ca412113affe7b22.bindPopup(popup_3978a1bfb81c6b1aab91298a342903be)
+        ;
+
+        
+    
+    
+            var marker_aaa388b285a23535ed3f01f8bc43355f = L.marker(
+                [52.50553, 4.7625],
+                {}
+            ).addTo(map_c83c5169aaebc0a5e4fc04e88ddfda0d);
+        
+    
+        var popup_0299c8e628fb144d8dcd84e4bce05975 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_510eb9e65e973286ff075b71c50c07aa = $(`<div id="html_510eb9e65e973286ff075b71c50c07aa" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean Rosariumhorst</h4><p> Totaal geldige uitgebrachte stemmen: 18</p><p><b>SP (Socialistische Partij)</b> 11%</br> (Absoluut aantal stemmen: 2)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (27%)</li><li>Partij voor Ouderen en Veiligheid (11%)</li><li>D66 (11%)</li></ol></p></p></div>`)[0];
+                popup_0299c8e628fb144d8dcd84e4bce05975.setContent(html_510eb9e65e973286ff075b71c50c07aa);
+            
+        
+
+        marker_aaa388b285a23535ed3f01f8bc43355f.bindPopup(popup_0299c8e628fb144d8dcd84e4bce05975)
+        ;
+
+        
+    
+</script>
+</html>

@@ -1,0 +1,3264 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3308075ca2564275041c930e91b3384a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+             <h3 align="center" style="font-size:16px"><b>Gemeenteraad Zaanstad 2022 - Democratisch Zaanstad (DZ)</b></h3>
+             
+    
+            <div class="folium-map" id="map_3308075ca2564275041c930e91b3384a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3308075ca2564275041c930e91b3384a = L.map(
+                "map_3308075ca2564275041c930e91b3384a",
+                {
+                    center: [52.447962, 4.815532],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9b9571f81c7b417a9234fc78f00319ce = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+            var circle_17f45ea9c34cc2a555bf81e81a60af34 = L.circle(
+                [52.43434, 4.83998],
+                {"bubblingMouseEvents": true, "color": "#afe200", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#afe200", "fillOpacity": 0.23478260869565218, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 74, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_55a44fe9b6cfe7da3890c2a307435720 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf402646a0bf9f68f6963e9edda64bcd = $(`<div id="html_cf402646a0bf9f68f6963e9edda64bcd" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 37</div>`)[0];
+                popup_55a44fe9b6cfe7da3890c2a307435720.setContent(html_cf402646a0bf9f68f6963e9edda64bcd);
+            
+        
+
+        circle_17f45ea9c34cc2a555bf81e81a60af34.bindPopup(popup_55a44fe9b6cfe7da3890c2a307435720)
+        ;
+
+        
+    
+    
+            var marker_dd2b12245ba7d4e987c81a056d6cc388 = L.marker(
+                [52.43434, 4.83998],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_0859e9bd9eb25fd32c3cb1a92b836f68 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_59a715c7125b82653cb897fa7005ee84 = $(`<div id="html_59a715c7125b82653cb897fa7005ee84" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Wibautstraat, INGANG SPARRESTRAAT</h4><p> Totaal geldige uitgebrachte stemmen: 607</p><p><b>Democratisch Zaanstad (DZ)</b> 6%</br> (Absoluut aantal stemmen: 37)<p><b>Top drie:</b><ol><li>DENK (19%)</li><li>Partij van de Arbeid (P.v.d.A.) (16%)</li><li>Partij voor Ouderen en Veiligheid (12%)</li></ol></p></p></div>`)[0];
+                popup_0859e9bd9eb25fd32c3cb1a92b836f68.setContent(html_59a715c7125b82653cb897fa7005ee84);
+            
+        
+
+        marker_dd2b12245ba7d4e987c81a056d6cc388.bindPopup(popup_0859e9bd9eb25fd32c3cb1a92b836f68)
+        ;
+
+        
+    
+    
+            var circle_a3f8f1ce4c5b217e50b699145b8c24ab = L.circle(
+                [52.4297, 4.83851],
+                {"bubblingMouseEvents": true, "color": "#6cc500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#6cc500", "fillOpacity": 0.4304347826086956, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 164, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_b80f4c0843ad74b3bc9d2fb10b45053b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ac111d19fc86fc7dc50fd7eea11ada1 = $(`<div id="html_6ac111d19fc86fc7dc50fd7eea11ada1" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 82</div>`)[0];
+                popup_b80f4c0843ad74b3bc9d2fb10b45053b.setContent(html_6ac111d19fc86fc7dc50fd7eea11ada1);
+            
+        
+
+        circle_a3f8f1ce4c5b217e50b699145b8c24ab.bindPopup(popup_b80f4c0843ad74b3bc9d2fb10b45053b)
+        ;
+
+        
+    
+    
+            var marker_22038afdccd16ad40ba5f090ff323ad0 = L.marker(
+                [52.4297, 4.83851],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_acff896bfa1c351d277e659a9a01d01d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac0227d4a06390e42aa36b112e1a1008 = $(`<div id="html_ac0227d4a06390e42aa36b112e1a1008" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Handboogschutters Czaar Peter</h4><p> Totaal geldige uitgebrachte stemmen: 769</p><p><b>Democratisch Zaanstad (DZ)</b> 11%</br> (Absoluut aantal stemmen: 82)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (15%)</li><li>DENK (12%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li></ol></p></p></div>`)[0];
+                popup_acff896bfa1c351d277e659a9a01d01d.setContent(html_ac0227d4a06390e42aa36b112e1a1008);
+            
+        
+
+        marker_22038afdccd16ad40ba5f090ff323ad0.bindPopup(popup_acff896bfa1c351d277e659a9a01d01d)
+        ;
+
+        
+    
+    
+            var circle_4502cb263a645be5565b950f7398b933 = L.circle(
+                [52.43576, 4.85498],
+                {"bubblingMouseEvents": true, "color": "#bee800", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bee800", "fillOpacity": 0.1956521739130435, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 136, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_b67a7d094676597bf55b4cf414356093 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8150dea1ebba7dba9f6dc732490e0059 = $(`<div id="html_8150dea1ebba7dba9f6dc732490e0059" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 68</div>`)[0];
+                popup_b67a7d094676597bf55b4cf414356093.setContent(html_8150dea1ebba7dba9f6dc732490e0059);
+            
+        
+
+        circle_4502cb263a645be5565b950f7398b933.bindPopup(popup_b67a7d094676597bf55b4cf414356093)
+        ;
+
+        
+    
+    
+            var marker_5281c0393e5b38d06cbf4509023d0f01 = L.marker(
+                [52.43576, 4.85498],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_ef4a45277bdef15c5a617313bcdeb195 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f006170f734e43aa259dce7871a82ce = $(`<div id="html_1f006170f734e43aa259dce7871a82ce" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Wijkcentrum de Poelenburcht</h4><p> Totaal geldige uitgebrachte stemmen: 1350</p><p><b>Democratisch Zaanstad (DZ)</b> 5%</br> (Absoluut aantal stemmen: 68)<p><b>Top drie:</b><ol><li>DENK (33%)</li><li>Partij van de Arbeid (P.v.d.A.) (18%)</li><li>Partij voor Ouderen en Veiligheid (8%)</li></ol></p></p></div>`)[0];
+                popup_ef4a45277bdef15c5a617313bcdeb195.setContent(html_1f006170f734e43aa259dce7871a82ce);
+            
+        
+
+        marker_5281c0393e5b38d06cbf4509023d0f01.bindPopup(popup_ef4a45277bdef15c5a617313bcdeb195)
+        ;
+
+        
+    
+    
+            var circle_f0efd21e12edc2b77ce1a9e59ff6ca8a = L.circle(
+                [52.44074, 4.84661],
+                {"bubblingMouseEvents": true, "color": "#92d700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#92d700", "fillOpacity": 0.3130434782608696, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 98, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_4311cb0ed30901663411084f7366de8c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_833a6e073f81df26283ea1af4d973d41 = $(`<div id="html_833a6e073f81df26283ea1af4d973d41" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 49</div>`)[0];
+                popup_4311cb0ed30901663411084f7366de8c.setContent(html_833a6e073f81df26283ea1af4d973d41);
+            
+        
+
+        circle_f0efd21e12edc2b77ce1a9e59ff6ca8a.bindPopup(popup_4311cb0ed30901663411084f7366de8c)
+        ;
+
+        
+    
+    
+            var marker_0ce51835e87f0aa633871026f8a92b7a = L.marker(
+                [52.44074, 4.84661],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_814234f759c921804bf6f2a4b85d3ac2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa5a84054dcc4326aa71ec9d39ea07cd = $(`<div id="html_aa5a84054dcc4326aa71ec9d39ea07cd" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Zaans Natuur en Milieu Centrum</h4><p> Totaal geldige uitgebrachte stemmen: 615</p><p><b>Democratisch Zaanstad (DZ)</b> 8%</br> (Absoluut aantal stemmen: 49)<p><b>Top drie:</b><ol><li>DENK (24%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li><li>Partij voor Ouderen en Veiligheid (8%)</li></ol></p></p></div>`)[0];
+                popup_814234f759c921804bf6f2a4b85d3ac2.setContent(html_aa5a84054dcc4326aa71ec9d39ea07cd);
+            
+        
+
+        marker_0ce51835e87f0aa633871026f8a92b7a.bindPopup(popup_814234f759c921804bf6f2a4b85d3ac2)
+        ;
+
+        
+    
+    
+            var circle_eb8a7922865df07305cccd99594b3f2d = L.circle(
+                [52.44875, 4.84416],
+                {"bubblingMouseEvents": true, "color": "#afe200", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#afe200", "fillOpacity": 0.23478260869565218, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 88, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_f5d1d2f0d61e74aa7b271f239d21db5d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4bd9839e050e445806f4baadb3eb102d = $(`<div id="html_4bd9839e050e445806f4baadb3eb102d" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 44</div>`)[0];
+                popup_f5d1d2f0d61e74aa7b271f239d21db5d.setContent(html_4bd9839e050e445806f4baadb3eb102d);
+            
+        
+
+        circle_eb8a7922865df07305cccd99594b3f2d.bindPopup(popup_f5d1d2f0d61e74aa7b271f239d21db5d)
+        ;
+
+        
+    
+    
+            var marker_bc9d1268b3d82017a2daa653983c4d41 = L.marker(
+                [52.44875, 4.84416],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_e311a7002f550aab519b244bca97506d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4bc0baa1f3264be3bd72f0457a774f38 = $(`<div id="html_4bc0baa1f3264be3bd72f0457a774f38" style="width: 100.0%; height: 100.0%;"><h4>Stembureau ICBS de Windroos, INGANG PINASSTRAAT 4</h4><p> Totaal geldige uitgebrachte stemmen: 708</p><p><b>Democratisch Zaanstad (DZ)</b> 6%</br> (Absoluut aantal stemmen: 44)<p><b>Top drie:</b><ol><li>DENK (26%)</li><li>Partij van de Arbeid (P.v.d.A.) (17%)</li><li>Partij voor Ouderen en Veiligheid (9%)</li></ol></p></p></div>`)[0];
+                popup_e311a7002f550aab519b244bca97506d.setContent(html_4bc0baa1f3264be3bd72f0457a774f38);
+            
+        
+
+        marker_bc9d1268b3d82017a2daa653983c4d41.bindPopup(popup_e311a7002f550aab519b244bca97506d)
+        ;
+
+        
+    
+    
+            var circle_2d1882630029bbfcfd8f85fb8a45502a = L.circle(
+                [52.45458, 4.83273],
+                {"bubblingMouseEvents": true, "color": "#6cc500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#6cc500", "fillOpacity": 0.4304347826086956, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 124, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_07282791672d7a43c2354b556750b6cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_acb05474d5637ff734fb54acffd8416f = $(`<div id="html_acb05474d5637ff734fb54acffd8416f" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 62</div>`)[0];
+                popup_07282791672d7a43c2354b556750b6cb.setContent(html_acb05474d5637ff734fb54acffd8416f);
+            
+        
+
+        circle_2d1882630029bbfcfd8f85fb8a45502a.bindPopup(popup_07282791672d7a43c2354b556750b6cb)
+        ;
+
+        
+    
+    
+            var marker_8c8a1e278a4de4a91affa2be5032057c = L.marker(
+                [52.45458, 4.83273],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_a6354dd00490bd2bd2f42217222004ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86b38c897ab0eb7f71feb03306dfb028 = $(`<div id="html_86b38c897ab0eb7f71feb03306dfb028" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Blaise Pascal College</h4><p> Totaal geldige uitgebrachte stemmen: 572</p><p><b>Democratisch Zaanstad (DZ)</b> 11%</br> (Absoluut aantal stemmen: 62)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (14%)</li><li>Partij van de Arbeid (P.v.d.A.) (12%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_a6354dd00490bd2bd2f42217222004ae.setContent(html_86b38c897ab0eb7f71feb03306dfb028);
+            
+        
+
+        marker_8c8a1e278a4de4a91affa2be5032057c.bindPopup(popup_a6354dd00490bd2bd2f42217222004ae)
+        ;
+
+        
+    
+    
+            var circle_c26b6ca9f4f51666341c51c8d038b0d8 = L.circle(
+                [52.44644, 4.83914],
+                {"bubblingMouseEvents": true, "color": "#a0dc00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a0dc00", "fillOpacity": 0.27391304347826084, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 148, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_6d213af94f0285bce7712dcf490eb25a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c1006b74857153a40195f43de2ecd51 = $(`<div id="html_7c1006b74857153a40195f43de2ecd51" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 74</div>`)[0];
+                popup_6d213af94f0285bce7712dcf490eb25a.setContent(html_7c1006b74857153a40195f43de2ecd51);
+            
+        
+
+        circle_c26b6ca9f4f51666341c51c8d038b0d8.bindPopup(popup_6d213af94f0285bce7712dcf490eb25a)
+        ;
+
+        
+    
+    
+            var marker_1f075bf5f1a9de5ed7f4137b220c17d6 = L.marker(
+                [52.44644, 4.83914],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_f2d131ebe0881eb74ab0a196e276a930 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dabcc7828dbbe93d62b205cf6ed8ae00 = $(`<div id="html_dabcc7828dbbe93d62b205cf6ed8ae00" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean De Meerpaal, INGANG TJOTTERLAAN 174</h4><p> Totaal geldige uitgebrachte stemmen: 1022</p><p><b>Democratisch Zaanstad (DZ)</b> 7%</br> (Absoluut aantal stemmen: 74)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (15%)</li><li>Partij voor Ouderen en Veiligheid (12%)</li><li>VVD (12%)</li></ol></p></p></div>`)[0];
+                popup_f2d131ebe0881eb74ab0a196e276a930.setContent(html_dabcc7828dbbe93d62b205cf6ed8ae00);
+            
+        
+
+        marker_1f075bf5f1a9de5ed7f4137b220c17d6.bindPopup(popup_f2d131ebe0881eb74ab0a196e276a930)
+        ;
+
+        
+    
+    
+            var circle_3901e27b5613f0008919e4d7e8fc6920 = L.circle(
+                [52.43927208598662, 4.8424228597558585],
+                {"bubblingMouseEvents": true, "color": "#a0dc00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a0dc00", "fillOpacity": 0.27391304347826084, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 86, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_6b421b8d7354280862bb6475b3559a8e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0fd2197196fb3b7acb15e5423b7270c = $(`<div id="html_a0fd2197196fb3b7acb15e5423b7270c" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 43</div>`)[0];
+                popup_6b421b8d7354280862bb6475b3559a8e.setContent(html_a0fd2197196fb3b7acb15e5423b7270c);
+            
+        
+
+        circle_3901e27b5613f0008919e4d7e8fc6920.bindPopup(popup_6b421b8d7354280862bb6475b3559a8e)
+        ;
+
+        
+    
+    
+            var marker_59c052de5885504cd1c98c6914fd1051 = L.marker(
+                [52.43927208598662, 4.8424228597558585],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_57d5296759d5b1c122f4e4afebf03539 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ccf049314498c479179465f8542d244e = $(`<div id="html_ccf049314498c479179465f8542d244e" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Noorderven</h4><p> Totaal geldige uitgebrachte stemmen: 599</p><p><b>Democratisch Zaanstad (DZ)</b> 7%</br> (Absoluut aantal stemmen: 43)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (18%)</li><li>DENK (13%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_57d5296759d5b1c122f4e4afebf03539.setContent(html_ccf049314498c479179465f8542d244e);
+            
+        
+
+        marker_59c052de5885504cd1c98c6914fd1051.bindPopup(popup_57d5296759d5b1c122f4e4afebf03539)
+        ;
+
+        
+    
+    
+            var circle_d0835fc2bc0823d29338fd62ccfcac8d = L.circle(
+                [52.43656, 4.83676],
+                {"bubblingMouseEvents": true, "color": "#92d700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#92d700", "fillOpacity": 0.3130434782608696, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 80, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_1cbdd95bc207b3a1a5362e613bfc0211 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_94039136d05ba0387b06360dd4743805 = $(`<div id="html_94039136d05ba0387b06360dd4743805" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 40</div>`)[0];
+                popup_1cbdd95bc207b3a1a5362e613bfc0211.setContent(html_94039136d05ba0387b06360dd4743805);
+            
+        
+
+        circle_d0835fc2bc0823d29338fd62ccfcac8d.bindPopup(popup_1cbdd95bc207b3a1a5362e613bfc0211)
+        ;
+
+        
+    
+    
+            var marker_18902ee6612fbae9d42b61a56340bd38 = L.marker(
+                [52.43656, 4.83676],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_61bdc1240929dff90216237ce8c6f195 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9e72b3cffcde08967280faf00de5798 = $(`<div id="html_e9e72b3cffcde08967280faf00de5798" style="width: 100.0%; height: 100.0%;"><h4>Stembureau De Paaskerk</h4><p> Totaal geldige uitgebrachte stemmen: 502</p><p><b>Democratisch Zaanstad (DZ)</b> 8%</br> (Absoluut aantal stemmen: 40)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (14%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li><li>PVV (Partij voor de Vrijheid) (10%)</li></ol></p></p></div>`)[0];
+                popup_61bdc1240929dff90216237ce8c6f195.setContent(html_e9e72b3cffcde08967280faf00de5798);
+            
+        
+
+        marker_18902ee6612fbae9d42b61a56340bd38.bindPopup(popup_61bdc1240929dff90216237ce8c6f195)
+        ;
+
+        
+    
+    
+            var circle_b21391eee53c831adc1e0fcc5b77e322 = L.circle(
+                [52.43558, 4.8336],
+                {"bubblingMouseEvents": true, "color": "#a0dc00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a0dc00", "fillOpacity": 0.27391304347826084, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 66, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_8cd981e1fd097dc21b5e1a7dad3972a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7f91fba335c25d99c8a096c76fca0d4 = $(`<div id="html_e7f91fba335c25d99c8a096c76fca0d4" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 33</div>`)[0];
+                popup_8cd981e1fd097dc21b5e1a7dad3972a9.setContent(html_e7f91fba335c25d99c8a096c76fca0d4);
+            
+        
+
+        circle_b21391eee53c831adc1e0fcc5b77e322.bindPopup(popup_8cd981e1fd097dc21b5e1a7dad3972a9)
+        ;
+
+        
+    
+    
+            var marker_5378a6caf2104b78f8438bf368e6f530 = L.marker(
+                [52.43558, 4.8336],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_0690001ce737e2406d87f36670dec57e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd5373f61b1a140fca3e4d5ad7b90a27 = $(`<div id="html_bd5373f61b1a140fca3e4d5ad7b90a27" style="width: 100.0%; height: 100.0%;"><h4>Stembureau CBS Tamarinde,INGANG J.C. VAN WESSEMSTR</h4><p> Totaal geldige uitgebrachte stemmen: 499</p><p><b>Democratisch Zaanstad (DZ)</b> 7%</br> (Absoluut aantal stemmen: 33)<p><b>Top drie:</b><ol><li>ROSA (17%)</li><li>Partij voor Ouderen en Veiligheid (15%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li></ol></p></p></div>`)[0];
+                popup_0690001ce737e2406d87f36670dec57e.setContent(html_bd5373f61b1a140fca3e4d5ad7b90a27);
+            
+        
+
+        marker_5378a6caf2104b78f8438bf368e6f530.bindPopup(popup_0690001ce737e2406d87f36670dec57e)
+        ;
+
+        
+    
+    
+            var circle_6d173c9b3b7c098ad4c8d106a03ed05c = L.circle(
+                [52.44047, 4.83383],
+                {"bubblingMouseEvents": true, "color": "#a0dc00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a0dc00", "fillOpacity": 0.27391304347826084, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 90, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_2d871d544ba6c61c55131d0dee71a8f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_48086c5dec4e657964d7b91f209b98dd = $(`<div id="html_48086c5dec4e657964d7b91f209b98dd" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 45</div>`)[0];
+                popup_2d871d544ba6c61c55131d0dee71a8f6.setContent(html_48086c5dec4e657964d7b91f209b98dd);
+            
+        
+
+        circle_6d173c9b3b7c098ad4c8d106a03ed05c.bindPopup(popup_2d871d544ba6c61c55131d0dee71a8f6)
+        ;
+
+        
+    
+    
+            var marker_18b9b3bef8a5cd93d5033e4fe256fd58 = L.marker(
+                [52.44047, 4.83383],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_149bf5f3566b23084f892dfa3be1bf53 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_337370eab218ff18a1eb7bc19b65f3f2 = $(`<div id="html_337370eab218ff18a1eb7bc19b65f3f2" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Wijkcentrum Dirk Prins</h4><p> Totaal geldige uitgebrachte stemmen: 633</p><p><b>Democratisch Zaanstad (DZ)</b> 7%</br> (Absoluut aantal stemmen: 45)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (18%)</li><li>Partij van de Arbeid (P.v.d.A.) (10%)</li><li>PVV (Partij voor de Vrijheid) (10%)</li></ol></p></p></div>`)[0];
+                popup_149bf5f3566b23084f892dfa3be1bf53.setContent(html_337370eab218ff18a1eb7bc19b65f3f2);
+            
+        
+
+        marker_18b9b3bef8a5cd93d5033e4fe256fd58.bindPopup(popup_149bf5f3566b23084f892dfa3be1bf53)
+        ;
+
+        
+    
+    
+            var circle_a2568bd56d79560464779cea9df91b89 = L.circle(
+                [52.44399, 4.82485],
+                {"bubblingMouseEvents": true, "color": "#78cb00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#78cb00", "fillOpacity": 0.391304347826087, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 144, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_aa2c56b180c218c776ce87f290b645ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d861019bbfd9a7380f9eda99aa06400c = $(`<div id="html_d861019bbfd9a7380f9eda99aa06400c" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 72</div>`)[0];
+                popup_aa2c56b180c218c776ce87f290b645ba.setContent(html_d861019bbfd9a7380f9eda99aa06400c);
+            
+        
+
+        circle_a2568bd56d79560464779cea9df91b89.bindPopup(popup_aa2c56b180c218c776ce87f290b645ba)
+        ;
+
+        
+    
+    
+            var marker_35f602b4d968f392a96638d7e41a4a61 = L.marker(
+                [52.44399, 4.82485],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_f48b15c48d5aee9eaa8c013347b92baa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_363d131a87b1bfe2401e45c65f02bd70 = $(`<div id="html_363d131a87b1bfe2401e45c65f02bd70" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurthuis de Kolk</h4><p> Totaal geldige uitgebrachte stemmen: 707</p><p><b>Democratisch Zaanstad (DZ)</b> 10%</br> (Absoluut aantal stemmen: 72)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (17%)</li><li>Partij voor Ouderen en Veiligheid (16%)</li><li>Democratisch Zaanstad (DZ) (10%)</li></ol></p></p></div>`)[0];
+                popup_f48b15c48d5aee9eaa8c013347b92baa.setContent(html_363d131a87b1bfe2401e45c65f02bd70);
+            
+        
+
+        marker_35f602b4d968f392a96638d7e41a4a61.bindPopup(popup_f48b15c48d5aee9eaa8c013347b92baa)
+        ;
+
+        
+    
+    
+            var circle_eb9cae5a02561984baaf5a1fad4a0e3a = L.circle(
+                [52.44805, 4.82367],
+                {"bubblingMouseEvents": true, "color": "#bee800", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bee800", "fillOpacity": 0.1956521739130435, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_c436921a4a30da09c98e0347b71bcde4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed2e705a44d3c7d2793db0b545c3a679 = $(`<div id="html_ed2e705a44d3c7d2793db0b545c3a679" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 25</div>`)[0];
+                popup_c436921a4a30da09c98e0347b71bcde4.setContent(html_ed2e705a44d3c7d2793db0b545c3a679);
+            
+        
+
+        circle_eb9cae5a02561984baaf5a1fad4a0e3a.bindPopup(popup_c436921a4a30da09c98e0347b71bcde4)
+        ;
+
+        
+    
+    
+            var marker_8ff357031e2a3d552519d04b6fe63725 = L.marker(
+                [52.44805, 4.82367],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_b1a553d4ee238d538a5bc3d3379a92e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e72481b790a7c1ce391f21ed477aeeb = $(`<div id="html_7e72481b790a7c1ce391f21ed477aeeb" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Sporthal de Struijck, INGANG PROF.STRUIJCKENSTRAAT</h4><p> Totaal geldige uitgebrachte stemmen: 498</p><p><b>Democratisch Zaanstad (DZ)</b> 5%</br> (Absoluut aantal stemmen: 25)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (15%)</li><li>Partij van de Arbeid (P.v.d.A.) (14%)</li><li>GROENLINKS (9%)</li></ol></p></p></div>`)[0];
+                popup_b1a553d4ee238d538a5bc3d3379a92e8.setContent(html_7e72481b790a7c1ce391f21ed477aeeb);
+            
+        
+
+        marker_8ff357031e2a3d552519d04b6fe63725.bindPopup(popup_b1a553d4ee238d538a5bc3d3379a92e8)
+        ;
+
+        
+    
+    
+            var circle_a03bcab4c2f7385c65a8cd3f283d5838 = L.circle(
+                [52.44981, 4.82664],
+                {"bubblingMouseEvents": true, "color": "#85d100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#85d100", "fillOpacity": 0.3521739130434783, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 254, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_954b751732926b4b1b3b5524b220c8a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d035494031d64b4ea2cfea0d00a0b08a = $(`<div id="html_d035494031d64b4ea2cfea0d00a0b08a" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 127</div>`)[0];
+                popup_954b751732926b4b1b3b5524b220c8a2.setContent(html_d035494031d64b4ea2cfea0d00a0b08a);
+            
+        
+
+        circle_a03bcab4c2f7385c65a8cd3f283d5838.bindPopup(popup_954b751732926b4b1b3b5524b220c8a2)
+        ;
+
+        
+    
+    
+            var marker_7788aaae43a8d9734b78317882a51fca = L.marker(
+                [52.44981, 4.82664],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_2c62489a2fefd7a661ffe518bf2832e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_727b908361bd760970ecf74e853eb272 = $(`<div id="html_727b908361bd760970ecf74e853eb272" style="width: 100.0%; height: 100.0%;"><h4>Stembureau De Noorderkerk</h4><p> Totaal geldige uitgebrachte stemmen: 1449</p><p><b>Democratisch Zaanstad (DZ)</b> 9%</br> (Absoluut aantal stemmen: 127)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (15%)</li><li>Partij voor Ouderen en Veiligheid (12%)</li><li>ROSA (8%)</li></ol></p></p></div>`)[0];
+                popup_2c62489a2fefd7a661ffe518bf2832e9.setContent(html_727b908361bd760970ecf74e853eb272);
+            
+        
+
+        marker_7788aaae43a8d9734b78317882a51fca.bindPopup(popup_2c62489a2fefd7a661ffe518bf2832e9)
+        ;
+
+        
+    
+    
+            var circle_b5287866773db068501b6d72fef8a7a2 = L.circle(
+                [52.45823, 4.83142],
+                {"bubblingMouseEvents": true, "color": "#a0dc00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a0dc00", "fillOpacity": 0.27391304347826084, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 34, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_89cb9ef654a8070a7a30faca082285dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91e9cdf8de1d6918d1f5f6ab1caf20a1 = $(`<div id="html_91e9cdf8de1d6918d1f5f6ab1caf20a1" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 17</div>`)[0];
+                popup_89cb9ef654a8070a7a30faca082285dd.setContent(html_91e9cdf8de1d6918d1f5f6ab1caf20a1);
+            
+        
+
+        circle_b5287866773db068501b6d72fef8a7a2.bindPopup(popup_89cb9ef654a8070a7a30faca082285dd)
+        ;
+
+        
+    
+    
+            var marker_afd0612061d060beb88ef495b58edeae = L.marker(
+                [52.45823, 4.83142],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_a5e8e49b79df43da0d73658f34586135 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c03eb99cf8deacf8a774a4ccfb013fc = $(`<div id="html_3c03eb99cf8deacf8a774a4ccfb013fc" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Basisschool Kogerveld</h4><p> Totaal geldige uitgebrachte stemmen: 228</p><p><b>Democratisch Zaanstad (DZ)</b> 7%</br> (Absoluut aantal stemmen: 17)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (18%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li><li>D66 (9%)</li></ol></p></p></div>`)[0];
+                popup_a5e8e49b79df43da0d73658f34586135.setContent(html_3c03eb99cf8deacf8a774a4ccfb013fc);
+            
+        
+
+        marker_afd0612061d060beb88ef495b58edeae.bindPopup(popup_a5e8e49b79df43da0d73658f34586135)
+        ;
+
+        
+    
+    
+            var circle_8712281397edae519c7627ab9d057606 = L.circle(
+                [52.4582, 4.82359],
+                {"bubblingMouseEvents": true, "color": "#a0dc00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a0dc00", "fillOpacity": 0.27391304347826084, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 96, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_23d3eff6430ff803d886052fe5f1f71d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e00a71f6400db0579cb9927e4e823a76 = $(`<div id="html_e00a71f6400db0579cb9927e4e823a76" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 48</div>`)[0];
+                popup_23d3eff6430ff803d886052fe5f1f71d.setContent(html_e00a71f6400db0579cb9927e4e823a76);
+            
+        
+
+        circle_8712281397edae519c7627ab9d057606.bindPopup(popup_23d3eff6430ff803d886052fe5f1f71d)
+        ;
+
+        
+    
+    
+            var marker_e01fec8ec50c6364710ab2b9e871b6dc = L.marker(
+                [52.4582, 4.82359],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_aeb5ed5b5aa20b5b148c09f75df725da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dfa062f488f27aa25c34496524f33101 = $(`<div id="html_dfa062f488f27aa25c34496524f33101" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Veldbloemenweg</h4><p> Totaal geldige uitgebrachte stemmen: 662</p><p><b>Democratisch Zaanstad (DZ)</b> 7%</br> (Absoluut aantal stemmen: 48)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (14%)</li><li>ROSA (13%)</li><li>DENK (11%)</li></ol></p></p></div>`)[0];
+                popup_aeb5ed5b5aa20b5b148c09f75df725da.setContent(html_dfa062f488f27aa25c34496524f33101);
+            
+        
+
+        marker_e01fec8ec50c6364710ab2b9e871b6dc.bindPopup(popup_aeb5ed5b5aa20b5b148c09f75df725da)
+        ;
+
+        
+    
+    
+            var circle_7acc5b726035756cb95f080f5c1c9924 = L.circle(
+                [52.4676, 4.8346],
+                {"bubblingMouseEvents": true, "color": "#a0dc00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a0dc00", "fillOpacity": 0.27391304347826084, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 214, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_e1d91f9d0d91204aed3fb7d731019a93 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_60dbbdbdcd9f98eca04ea3f002de569a = $(`<div id="html_60dbbdbdcd9f98eca04ea3f002de569a" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 107</div>`)[0];
+                popup_e1d91f9d0d91204aed3fb7d731019a93.setContent(html_60dbbdbdcd9f98eca04ea3f002de569a);
+            
+        
+
+        circle_7acc5b726035756cb95f080f5c1c9924.bindPopup(popup_e1d91f9d0d91204aed3fb7d731019a93)
+        ;
+
+        
+    
+    
+            var marker_3457ca8bfc504c16924ced517a10ccb8 = L.marker(
+                [52.4676, 4.8346],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_43e2fa6732b404b1bc2ed2c8e891cb1a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_547d8a0c7dc2b2cbd2b3049bb8e86125 = $(`<div id="html_547d8a0c7dc2b2cbd2b3049bb8e86125" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurtcentrum de Bovenkruier</h4><p> Totaal geldige uitgebrachte stemmen: 1527</p><p><b>Democratisch Zaanstad (DZ)</b> 7%</br> (Absoluut aantal stemmen: 107)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (20%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_43e2fa6732b404b1bc2ed2c8e891cb1a.setContent(html_547d8a0c7dc2b2cbd2b3049bb8e86125);
+            
+        
+
+        marker_3457ca8bfc504c16924ced517a10ccb8.bindPopup(popup_43e2fa6732b404b1bc2ed2c8e891cb1a)
+        ;
+
+        
+    
+    
+            var circle_f5f7f9958cffe4ea3f9d9520aacab4f9 = L.circle(
+                [52.46802, 4.8366],
+                {"bubblingMouseEvents": true, "color": "#92d700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#92d700", "fillOpacity": 0.3130434782608696, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 170, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_54f9fd14c79a7f582ebe6b0a70900538 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f862c0e877e84e180d0bedea3959de9 = $(`<div id="html_7f862c0e877e84e180d0bedea3959de9" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 85</div>`)[0];
+                popup_54f9fd14c79a7f582ebe6b0a70900538.setContent(html_7f862c0e877e84e180d0bedea3959de9);
+            
+        
+
+        circle_f5f7f9958cffe4ea3f9d9520aacab4f9.bindPopup(popup_54f9fd14c79a7f582ebe6b0a70900538)
+        ;
+
+        
+    
+    
+            var marker_9f0ea2fff9d863046720359296c2a480 = L.marker(
+                [52.46802, 4.8366],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_2bb2b49e6401dd547babbb3ccc264c3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f49e4db533799a2177258a94a3a959e = $(`<div id="html_2f49e4db533799a2177258a94a3a959e" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Sporthal de Tref</h4><p> Totaal geldige uitgebrachte stemmen: 1035</p><p><b>Democratisch Zaanstad (DZ)</b> 8%</br> (Absoluut aantal stemmen: 85)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (15%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li><li>VVD (10%)</li></ol></p></p></div>`)[0];
+                popup_2bb2b49e6401dd547babbb3ccc264c3d.setContent(html_2f49e4db533799a2177258a94a3a959e);
+            
+        
+
+        marker_9f0ea2fff9d863046720359296c2a480.bindPopup(popup_2bb2b49e6401dd547babbb3ccc264c3d)
+        ;
+
+        
+    
+    
+            var circle_616a3cae428d2b5846d8ef23125c2e1e = L.circle(
+                [52.42847, 4.83209],
+                {"bubblingMouseEvents": true, "color": "#4ab400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4ab400", "fillOpacity": 0.5478260869565217, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 190, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_ee8b0f40e5fe5b3c54e8cc7bb2b185bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6f8a727111ad7679c76a2ab3ddee2d8 = $(`<div id="html_d6f8a727111ad7679c76a2ab3ddee2d8" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 95</div>`)[0];
+                popup_ee8b0f40e5fe5b3c54e8cc7bb2b185bc.setContent(html_d6f8a727111ad7679c76a2ab3ddee2d8);
+            
+        
+
+        circle_616a3cae428d2b5846d8ef23125c2e1e.bindPopup(popup_ee8b0f40e5fe5b3c54e8cc7bb2b185bc)
+        ;
+
+        
+    
+    
+            var marker_8c4aa76b9c58b3b9ad81660f1995a118 = L.marker(
+                [52.42847, 4.83209],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_177797a5e310911c4b324e068de766c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_93d72fdd03ab2b4279b965a242fcae74 = $(`<div id="html_93d72fdd03ab2b4279b965a242fcae74" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Speeltuinvereniging "Het Havenkwartier"</h4><p> Totaal geldige uitgebrachte stemmen: 677</p><p><b>Democratisch Zaanstad (DZ)</b> 14%</br> (Absoluut aantal stemmen: 95)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (15%)</li><li>Democratisch Zaanstad (DZ) (14%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_177797a5e310911c4b324e068de766c5.setContent(html_93d72fdd03ab2b4279b965a242fcae74);
+            
+        
+
+        marker_8c4aa76b9c58b3b9ad81660f1995a118.bindPopup(popup_177797a5e310911c4b324e068de766c5)
+        ;
+
+        
+    
+    
+            var circle_40095c1c7655917538ab5919b5aeeb5c = L.circle(
+                [52.43837, 4.82545],
+                {"bubblingMouseEvents": true, "color": "#6cc500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#6cc500", "fillOpacity": 0.4304347826086956, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 174, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_74f1e4ccd9c4a3b345a9d1c1d7f3fe43 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_211f969aa3afd9ef9293005ac7e44229 = $(`<div id="html_211f969aa3afd9ef9293005ac7e44229" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 87</div>`)[0];
+                popup_74f1e4ccd9c4a3b345a9d1c1d7f3fe43.setContent(html_211f969aa3afd9ef9293005ac7e44229);
+            
+        
+
+        circle_40095c1c7655917538ab5919b5aeeb5c.bindPopup(popup_74f1e4ccd9c4a3b345a9d1c1d7f3fe43)
+        ;
+
+        
+    
+    
+            var marker_d91ea15e4aef1342760ff50e208935e9 = L.marker(
+                [52.43837, 4.82545],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_dcde29ca08f98c7a5220189218cc9db3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d56a9bfc4d3457dcbb77eea95359817 = $(`<div id="html_8d56a9bfc4d3457dcbb77eea95359817" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Het Zaantheater</h4><p> Totaal geldige uitgebrachte stemmen: 796</p><p><b>Democratisch Zaanstad (DZ)</b> 11%</br> (Absoluut aantal stemmen: 87)<p><b>Top drie:</b><ol><li>ROSA (13%)</li><li>Partij van de Arbeid (P.v.d.A.) (12%)</li><li>GROENLINKS (11%)</li></ol></p></p></div>`)[0];
+                popup_dcde29ca08f98c7a5220189218cc9db3.setContent(html_8d56a9bfc4d3457dcbb77eea95359817);
+            
+        
+
+        marker_d91ea15e4aef1342760ff50e208935e9.bindPopup(popup_dcde29ca08f98c7a5220189218cc9db3)
+        ;
+
+        
+    
+    
+            var circle_1ec03671ca81645f3017ed841b403960 = L.circle(
+                [52.44797, 4.81985],
+                {"bubblingMouseEvents": true, "color": "#a0dc00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a0dc00", "fillOpacity": 0.27391304347826084, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 66, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_88cffc53b7bd3da64ec6695e7a0795a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95df5630bb5c904e603f39a53994d422 = $(`<div id="html_95df5630bb5c904e603f39a53994d422" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 33</div>`)[0];
+                popup_88cffc53b7bd3da64ec6695e7a0795a0.setContent(html_95df5630bb5c904e603f39a53994d422);
+            
+        
+
+        circle_1ec03671ca81645f3017ed841b403960.bindPopup(popup_88cffc53b7bd3da64ec6695e7a0795a0)
+        ;
+
+        
+    
+    
+            var marker_242f262098f7658796c4827efef701d0 = L.marker(
+                [52.44797, 4.81985],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_6d135f55d8c4d68d42f750472eee7f8e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fff4b8cc2fe78021ac34d98a1a5a0c0c = $(`<div id="html_fff4b8cc2fe78021ac34d98a1a5a0c0c" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Het Tolhuys aan de Zaan</h4><p> Totaal geldige uitgebrachte stemmen: 454</p><p><b>Democratisch Zaanstad (DZ)</b> 7%</br> (Absoluut aantal stemmen: 33)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (15%)</li><li>ROSA (14%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_6d135f55d8c4d68d42f750472eee7f8e.setContent(html_fff4b8cc2fe78021ac34d98a1a5a0c0c);
+            
+        
+
+        marker_242f262098f7658796c4827efef701d0.bindPopup(popup_6d135f55d8c4d68d42f750472eee7f8e)
+        ;
+
+        
+    
+    
+            var circle_826f09e2ba02c4b81cd1be9118738167 = L.circle(
+                [52.44943, 4.8169],
+                {"bubblingMouseEvents": true, "color": "#85d100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#85d100", "fillOpacity": 0.3521739130434783, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 102, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_98c41827dd73eba8aaafe106a803b261 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_02eb792f2242230bc52be3ef848b29c7 = $(`<div id="html_02eb792f2242230bc52be3ef848b29c7" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 51</div>`)[0];
+                popup_98c41827dd73eba8aaafe106a803b261.setContent(html_02eb792f2242230bc52be3ef848b29c7);
+            
+        
+
+        circle_826f09e2ba02c4b81cd1be9118738167.bindPopup(popup_98c41827dd73eba8aaafe106a803b261)
+        ;
+
+        
+    
+    
+            var marker_31c4796d64fe6eb7486ff8a70fa63971 = L.marker(
+                [52.44943, 4.8169],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_8bcd0c5edfe33fd85e512a18c4f3cdb8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3776c257c98c5d13470dc42a13c43c8a = $(`<div id="html_3776c257c98c5d13470dc42a13c43c8a" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Atletiekvereniging Zaanland</h4><p> Totaal geldige uitgebrachte stemmen: 590</p><p><b>Democratisch Zaanstad (DZ)</b> 9%</br> (Absoluut aantal stemmen: 51)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (16%)</li><li>ROSA (14%)</li><li>GROENLINKS (11%)</li></ol></p></p></div>`)[0];
+                popup_8bcd0c5edfe33fd85e512a18c4f3cdb8.setContent(html_3776c257c98c5d13470dc42a13c43c8a);
+            
+        
+
+        marker_31c4796d64fe6eb7486ff8a70fa63971.bindPopup(popup_8bcd0c5edfe33fd85e512a18c4f3cdb8)
+        ;
+
+        
+    
+    
+            var circle_19022491a14b26a66f27f0592d53c75a = L.circle(
+                [52.43817, 4.8118],
+                {"bubblingMouseEvents": true, "color": "#60bf00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#60bf00", "fillOpacity": 0.46956521739130436, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 60, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_f7639f29f223e96aabdef91777fa842b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f942c9bf89cbdc75c2c839a9f04d9964 = $(`<div id="html_f942c9bf89cbdc75c2c839a9f04d9964" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 30</div>`)[0];
+                popup_f7639f29f223e96aabdef91777fa842b.setContent(html_f942c9bf89cbdc75c2c839a9f04d9964);
+            
+        
+
+        circle_19022491a14b26a66f27f0592d53c75a.bindPopup(popup_f7639f29f223e96aabdef91777fa842b)
+        ;
+
+        
+    
+    
+            var marker_ad6dacbcb7296b5d3db501bd7b517152 = L.marker(
+                [52.43817, 4.8118],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_91a856dfd71aa8b81409cbf34476fd95 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_54bbf8eab384c18099773ff529c7dd4e = $(`<div id="html_54bbf8eab384c18099773ff529c7dd4e" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Zaan Hotel</h4><p> Totaal geldige uitgebrachte stemmen: 249</p><p><b>Democratisch Zaanstad (DZ)</b> 12%</br> (Absoluut aantal stemmen: 30)<p><b>Top drie:</b><ol><li>D66 (12%)</li><li>ROSA (12%)</li><li>Democratisch Zaanstad (DZ) (12%)</li></ol></p></p></div>`)[0];
+                popup_91a856dfd71aa8b81409cbf34476fd95.setContent(html_54bbf8eab384c18099773ff529c7dd4e);
+            
+        
+
+        marker_ad6dacbcb7296b5d3db501bd7b517152.bindPopup(popup_91a856dfd71aa8b81409cbf34476fd95)
+        ;
+
+        
+    
+    
+            var circle_bafe83819d3dfa6feb9f8a8010d2f958 = L.circle(
+                [52.44768, 4.80579],
+                {"bubblingMouseEvents": true, "color": "#4ab400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4ab400", "fillOpacity": 0.5478260869565217, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 144, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_d0bcd02047b7d5bb10ae3f6a2f0ba87a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e055ce7932a4ac77b51571469b9e7d81 = $(`<div id="html_e055ce7932a4ac77b51571469b9e7d81" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 72</div>`)[0];
+                popup_d0bcd02047b7d5bb10ae3f6a2f0ba87a.setContent(html_e055ce7932a4ac77b51571469b9e7d81);
+            
+        
+
+        circle_bafe83819d3dfa6feb9f8a8010d2f958.bindPopup(popup_d0bcd02047b7d5bb10ae3f6a2f0ba87a)
+        ;
+
+        
+    
+    
+            var marker_47dac72e4679c3319a717a283a34a292 = L.marker(
+                [52.44768, 4.80579],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_3df543fa52b44f6c1fa7ba5e8c775338 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_291f6f40f222b1434f5c0c529607438d = $(`<div id="html_291f6f40f222b1434f5c0c529607438d" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurtcentrum De Zeskanter</h4><p> Totaal geldige uitgebrachte stemmen: 516</p><p><b>Democratisch Zaanstad (DZ)</b> 14%</br> (Absoluut aantal stemmen: 72)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (21%)</li><li>Democratisch Zaanstad (DZ) (13%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li></ol></p></p></div>`)[0];
+                popup_3df543fa52b44f6c1fa7ba5e8c775338.setContent(html_291f6f40f222b1434f5c0c529607438d);
+            
+        
+
+        marker_47dac72e4679c3319a717a283a34a292.bindPopup(popup_3df543fa52b44f6c1fa7ba5e8c775338)
+        ;
+
+        
+    
+    
+            var circle_cdab81c863594c43e8e2cfebeae642bb = L.circle(
+                [52.44802, 4.8004],
+                {"bubblingMouseEvents": true, "color": "#36a800", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#36a800", "fillOpacity": 0.6260869565217392, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 274, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_33ca2315618b8f51aecb76b49d301811 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00bc23a203d8c479747dbf9ba2224182 = $(`<div id="html_00bc23a203d8c479747dbf9ba2224182" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 137</div>`)[0];
+                popup_33ca2315618b8f51aecb76b49d301811.setContent(html_00bc23a203d8c479747dbf9ba2224182);
+            
+        
+
+        circle_cdab81c863594c43e8e2cfebeae642bb.bindPopup(popup_33ca2315618b8f51aecb76b49d301811)
+        ;
+
+        
+    
+    
+            var marker_82d0ff926187a3b1bbee76884d8566e9 = L.marker(
+                [52.44802, 4.8004],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_1aaa348c1737ca473c31f5e72f57b15e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7756d58ed2881133edb14561e9a09a1a = $(`<div id="html_7756d58ed2881133edb14561e9a09a1a" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Meverstraat</h4><p> Totaal geldige uitgebrachte stemmen: 872</p><p><b>Democratisch Zaanstad (DZ)</b> 16%</br> (Absoluut aantal stemmen: 137)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (15%)</li><li>VVD (14%)</li><li>Partij van de Arbeid (P.v.d.A.) (14%)</li></ol></p></p></div>`)[0];
+                popup_1aaa348c1737ca473c31f5e72f57b15e.setContent(html_7756d58ed2881133edb14561e9a09a1a);
+            
+        
+
+        marker_82d0ff926187a3b1bbee76884d8566e9.bindPopup(popup_1aaa348c1737ca473c31f5e72f57b15e)
+        ;
+
+        
+    
+    
+            var circle_ec7178234b2dd20baf33fd6fcfcf1191 = L.circle(
+                [52.447231, 4.805182],
+                {"bubblingMouseEvents": true, "color": "#36a800", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#36a800", "fillOpacity": 0.6260869565217392, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 172, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_232be7b19a9fadf1963e75bc1ba37c01 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a6a802ed55473b80f19dc14f983a145b = $(`<div id="html_a6a802ed55473b80f19dc14f983a145b" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 86</div>`)[0];
+                popup_232be7b19a9fadf1963e75bc1ba37c01.setContent(html_a6a802ed55473b80f19dc14f983a145b);
+            
+        
+
+        circle_ec7178234b2dd20baf33fd6fcfcf1191.bindPopup(popup_232be7b19a9fadf1963e75bc1ba37c01)
+        ;
+
+        
+    
+    
+            var marker_ddf55d6fbe1083cf8383780fbfbc3b34 = L.marker(
+                [52.447231, 4.805182],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_40694f1b1b805d3002cb92d0546a5693 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa9493bc313ee8036d3401782c31ba49 = $(`<div id="html_aa9493bc313ee8036d3401782c31ba49" style="width: 100.0%; height: 100.0%;"><h4>Stembureau De Volleyhal</h4><p> Totaal geldige uitgebrachte stemmen: 538</p><p><b>Democratisch Zaanstad (DZ)</b> 16%</br> (Absoluut aantal stemmen: 86)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (15%)</li><li>Partij voor Ouderen en Veiligheid (15%)</li><li>VVD (14%)</li></ol></p></p></div>`)[0];
+                popup_40694f1b1b805d3002cb92d0546a5693.setContent(html_aa9493bc313ee8036d3401782c31ba49);
+            
+        
+
+        marker_ddf55d6fbe1083cf8383780fbfbc3b34.bindPopup(popup_40694f1b1b805d3002cb92d0546a5693)
+        ;
+
+        
+    
+    
+            var circle_f169a46c1535947d775085a4a9dafbab = L.circle(
+                [52.43566, 4.81414],
+                {"bubblingMouseEvents": true, "color": "#60bf00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#60bf00", "fillOpacity": 0.46956521739130436, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 222, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_c7d66104b84c19527238ca71a60df41d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8391e28b1c9cada1524fef9f2bc1524b = $(`<div id="html_8391e28b1c9cada1524fef9f2bc1524b" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 111</div>`)[0];
+                popup_c7d66104b84c19527238ca71a60df41d.setContent(html_8391e28b1c9cada1524fef9f2bc1524b);
+            
+        
+
+        circle_f169a46c1535947d775085a4a9dafbab.bindPopup(popup_c7d66104b84c19527238ca71a60df41d)
+        ;
+
+        
+    
+    
+            var marker_1d7aa0766c18508d7418c6279c5fe92a = L.marker(
+                [52.43566, 4.81414],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_d188d97042e830b1b30ebca9ada8ae80 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_179ae2d82e427ea673f3e06b2cfadfcf = $(`<div id="html_179ae2d82e427ea673f3e06b2cfadfcf" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Brandweerkazerne Houtveldweg</h4><p> Totaal geldige uitgebrachte stemmen: 930</p><p><b>Democratisch Zaanstad (DZ)</b> 12%</br> (Absoluut aantal stemmen: 111)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (16%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li><li>Democratisch Zaanstad (DZ) (11%)</li></ol></p></p></div>`)[0];
+                popup_d188d97042e830b1b30ebca9ada8ae80.setContent(html_179ae2d82e427ea673f3e06b2cfadfcf);
+            
+        
+
+        marker_1d7aa0766c18508d7418c6279c5fe92a.bindPopup(popup_d188d97042e830b1b30ebca9ada8ae80)
+        ;
+
+        
+    
+    
+            var circle_010c2a99f18b29c502c2f50bfcb8afec = L.circle(
+                [52.43832, 4.81463],
+                {"bubblingMouseEvents": true, "color": "#afe200", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#afe200", "fillOpacity": 0.23478260869565218, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 294, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_eb75b055e87a87e0e07872611a362d31 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c11d46984886485e0b128286875576b1 = $(`<div id="html_c11d46984886485e0b128286875576b1" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 147</div>`)[0];
+                popup_eb75b055e87a87e0e07872611a362d31.setContent(html_c11d46984886485e0b128286875576b1);
+            
+        
+
+        circle_010c2a99f18b29c502c2f50bfcb8afec.bindPopup(popup_eb75b055e87a87e0e07872611a362d31)
+        ;
+
+        
+    
+    
+            var marker_028577e3d87f8a089f91104e75d6d376 = L.marker(
+                [52.43832, 4.81463],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_d3fd4f1d1e27c9c5ab38ebc8954d42b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a59c8bcfef35568948912705b6964eb3 = $(`<div id="html_a59c8bcfef35568948912705b6964eb3" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stadhuis van Zaanstad</h4><p> Totaal geldige uitgebrachte stemmen: 2420</p><p><b>Democratisch Zaanstad (DZ)</b> 6%</br> (Absoluut aantal stemmen: 147)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (14%)</li><li>GROENLINKS (13%)</li><li>ROSA (10%)</li></ol></p></p></div>`)[0];
+                popup_d3fd4f1d1e27c9c5ab38ebc8954d42b9.setContent(html_a59c8bcfef35568948912705b6964eb3);
+            
+        
+
+        marker_028577e3d87f8a089f91104e75d6d376.bindPopup(popup_d3fd4f1d1e27c9c5ab38ebc8954d42b9)
+        ;
+
+        
+    
+    
+            var circle_37dd12e965e4195bfa924c9cdc8b02a4 = L.circle(
+                [52.43969, 4.81118],
+                {"bubblingMouseEvents": true, "color": "#92d700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#92d700", "fillOpacity": 0.3130434782608696, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 114, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_18a4457cc1c7ab6873c3728665bef817 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff62e1226871fc0248017d7de04483af = $(`<div id="html_ff62e1226871fc0248017d7de04483af" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 57</div>`)[0];
+                popup_18a4457cc1c7ab6873c3728665bef817.setContent(html_ff62e1226871fc0248017d7de04483af);
+            
+        
+
+        circle_37dd12e965e4195bfa924c9cdc8b02a4.bindPopup(popup_18a4457cc1c7ab6873c3728665bef817)
+        ;
+
+        
+    
+    
+            var marker_33981e0f5f2bdf16ef306ecb8a901446 = L.marker(
+                [52.43969, 4.81118],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_cbc4566866753a146f800ca495179d37 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9e18d945a9b74a82bb387356f16a6f5e = $(`<div id="html_9e18d945a9b74a82bb387356f16a6f5e" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Best Western Zaan Inn</h4><p> Totaal geldige uitgebrachte stemmen: 696</p><p><b>Democratisch Zaanstad (DZ)</b> 8%</br> (Absoluut aantal stemmen: 57)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (15%)</li><li>Partij voor Ouderen en Veiligheid (14%)</li><li>VVD (12%)</li></ol></p></p></div>`)[0];
+                popup_cbc4566866753a146f800ca495179d37.setContent(html_9e18d945a9b74a82bb387356f16a6f5e);
+            
+        
+
+        marker_33981e0f5f2bdf16ef306ecb8a901446.bindPopup(popup_cbc4566866753a146f800ca495179d37)
+        ;
+
+        
+    
+    
+            var circle_5599db07b05d18521ae1510051531ac7 = L.circle(
+                [52.44457, 4.81894],
+                {"bubblingMouseEvents": true, "color": "#afe200", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#afe200", "fillOpacity": 0.23478260869565218, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 138, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_189a7ed53f346ed27596ecf280548da2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d82c1635ac2f394a1037c583d16f8e2 = $(`<div id="html_1d82c1635ac2f394a1037c583d16f8e2" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 69</div>`)[0];
+                popup_189a7ed53f346ed27596ecf280548da2.setContent(html_1d82c1635ac2f394a1037c583d16f8e2);
+            
+        
+
+        circle_5599db07b05d18521ae1510051531ac7.bindPopup(popup_189a7ed53f346ed27596ecf280548da2)
+        ;
+
+        
+    
+    
+            var marker_8335ab2300b969b9acebbc0ead29a04b = L.marker(
+                [52.44457, 4.81894],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_7a3c2904f6a166e9544c86e4958d0a74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_21a2f6e0776d4ae3e139907aaa8a5cc6 = $(`<div id="html_21a2f6e0776d4ae3e139907aaa8a5cc6" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Cultureel Centrum Bullekerk</h4><p> Totaal geldige uitgebrachte stemmen: 1066</p><p><b>Democratisch Zaanstad (DZ)</b> 6%</br> (Absoluut aantal stemmen: 69)<p><b>Top drie:</b><ol><li>ROSA (14%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li><li>GROENLINKS (12%)</li></ol></p></p></div>`)[0];
+                popup_7a3c2904f6a166e9544c86e4958d0a74.setContent(html_21a2f6e0776d4ae3e139907aaa8a5cc6);
+            
+        
+
+        marker_8335ab2300b969b9acebbc0ead29a04b.bindPopup(popup_7a3c2904f6a166e9544c86e4958d0a74)
+        ;
+
+        
+    
+    
+            var circle_883dbf3fa559b4fd21abbcb0b4ae27ba = L.circle(
+                [52.43955, 4.83068],
+                {"bubblingMouseEvents": true, "color": "#a0dc00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a0dc00", "fillOpacity": 0.27391304347826084, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 44, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_46756985af663e325cd4ebd2406365ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f6d7b5a546f756de039d03620736c3cd = $(`<div id="html_f6d7b5a546f756de039d03620736c3cd" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 22</div>`)[0];
+                popup_46756985af663e325cd4ebd2406365ad.setContent(html_f6d7b5a546f756de039d03620736c3cd);
+            
+        
+
+        circle_883dbf3fa559b4fd21abbcb0b4ae27ba.bindPopup(popup_46756985af663e325cd4ebd2406365ad)
+        ;
+
+        
+    
+    
+            var marker_b126836f8ff0ad3003e349d0598c8fd9 = L.marker(
+                [52.43955, 4.83068],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_39d28eda6b8f03fa663edfc87669a493 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab7944aecaba0291f925cd8f9ecfa509 = $(`<div id="html_ab7944aecaba0291f925cd8f9ecfa509" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurthuis De Doorbraak</h4><p> Totaal geldige uitgebrachte stemmen: 308</p><p><b>Democratisch Zaanstad (DZ)</b> 7%</br> (Absoluut aantal stemmen: 22)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (15%)</li><li>Partij voor Ouderen en Veiligheid (13%)</li><li>PVV (Partij voor de Vrijheid) (13%)</li></ol></p></p></div>`)[0];
+                popup_39d28eda6b8f03fa663edfc87669a493.setContent(html_ab7944aecaba0291f925cd8f9ecfa509);
+            
+        
+
+        marker_b126836f8ff0ad3003e349d0598c8fd9.bindPopup(popup_39d28eda6b8f03fa663edfc87669a493)
+        ;
+
+        
+    
+    
+            var circle_f4d5e85979d22aa3a4d08f07360dd80d = L.circle(
+                [52.45633, 4.81124],
+                {"bubblingMouseEvents": true, "color": "#92d700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#92d700", "fillOpacity": 0.3130434782608696, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 180, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_bec8bbfe10b8bf3e61fe559d38f6d8db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_514d5eed6981c4967033af57e09ac437 = $(`<div id="html_514d5eed6981c4967033af57e09ac437" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 90</div>`)[0];
+                popup_bec8bbfe10b8bf3e61fe559d38f6d8db.setContent(html_514d5eed6981c4967033af57e09ac437);
+            
+        
+
+        circle_f4d5e85979d22aa3a4d08f07360dd80d.bindPopup(popup_bec8bbfe10b8bf3e61fe559d38f6d8db)
+        ;
+
+        
+    
+    
+            var marker_deea0f8acc8abade4f17dac7034a748c = L.marker(
+                [52.45633, 4.81124],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_461c5213e2278103161c21af2565836a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c6780471f34404ee881d14e275ca621 = $(`<div id="html_3c6780471f34404ee881d14e275ca621" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Kerk van de Nazarener</h4><p> Totaal geldige uitgebrachte stemmen: 1102</p><p><b>Democratisch Zaanstad (DZ)</b> 8%</br> (Absoluut aantal stemmen: 90)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (14%)</li><li>ROSA (13%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li></ol></p></p></div>`)[0];
+                popup_461c5213e2278103161c21af2565836a.setContent(html_3c6780471f34404ee881d14e275ca621);
+            
+        
+
+        marker_deea0f8acc8abade4f17dac7034a748c.bindPopup(popup_461c5213e2278103161c21af2565836a)
+        ;
+
+        
+    
+    
+            var circle_1554c68a5c3acead5f1e2510e2aa8ddd = L.circle(
+                [52.46294, 4.80905],
+                {"bubblingMouseEvents": true, "color": "#85d100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#85d100", "fillOpacity": 0.3521739130434783, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 168, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_fefab0a19b6e3e124e5c2dda47db6bd3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c1552d8acaa19e72b081ca40bb905b7 = $(`<div id="html_9c1552d8acaa19e72b081ca40bb905b7" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 84</div>`)[0];
+                popup_fefab0a19b6e3e124e5c2dda47db6bd3.setContent(html_9c1552d8acaa19e72b081ca40bb905b7);
+            
+        
+
+        circle_1554c68a5c3acead5f1e2510e2aa8ddd.bindPopup(popup_fefab0a19b6e3e124e5c2dda47db6bd3)
+        ;
+
+        
+    
+    
+            var marker_b7fda0184434f85eb1f194d6384b5af1 = L.marker(
+                [52.46294, 4.80905],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_0afc11798763746bd8f12b039e40fa2c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3405547cc057c851167c9ccc4aae8b29 = $(`<div id="html_3405547cc057c851167c9ccc4aae8b29" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurthuis Het BrandtWeer</h4><p> Totaal geldige uitgebrachte stemmen: 910</p><p><b>Democratisch Zaanstad (DZ)</b> 9%</br> (Absoluut aantal stemmen: 84)<p><b>Top drie:</b><ol><li>ROSA (14%)</li><li>Partij voor Ouderen en Veiligheid (11%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li></ol></p></p></div>`)[0];
+                popup_0afc11798763746bd8f12b039e40fa2c.setContent(html_3405547cc057c851167c9ccc4aae8b29);
+            
+        
+
+        marker_b7fda0184434f85eb1f194d6384b5af1.bindPopup(popup_0afc11798763746bd8f12b039e40fa2c)
+        ;
+
+        
+    
+    
+            var circle_13c8b9ddecc2a88ce447d7e8a69209d6 = L.circle(
+                [52.4576, 4.79939],
+                {"bubblingMouseEvents": true, "color": "#60bf00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#60bf00", "fillOpacity": 0.46956521739130436, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 776, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_ebfe88ce161548024dbcea53e7924fe3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ed33229efb4c93643c4a8c8223be753 = $(`<div id="html_8ed33229efb4c93643c4a8c8223be753" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 388</div>`)[0];
+                popup_ebfe88ce161548024dbcea53e7924fe3.setContent(html_8ed33229efb4c93643c4a8c8223be753);
+            
+        
+
+        circle_13c8b9ddecc2a88ce447d7e8a69209d6.bindPopup(popup_ebfe88ce161548024dbcea53e7924fe3)
+        ;
+
+        
+    
+    
+            var marker_89c04b9c71a4bfad4b8b8af0276aa49b = L.marker(
+                [52.4576, 4.79939],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_79531d10d0cfbc33e1803ed12aba28a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50418bb97b7f5f360c31018bb17dfda6 = $(`<div id="html_50418bb97b7f5f360c31018bb17dfda6" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurtcentrum De Vuister</h4><p> Totaal geldige uitgebrachte stemmen: 3294</p><p><b>Democratisch Zaanstad (DZ)</b> 12%</br> (Absoluut aantal stemmen: 388)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (14%)</li><li>ROSA (12%)</li><li>Democratisch Zaanstad (DZ) (11%)</li></ol></p></p></div>`)[0];
+                popup_79531d10d0cfbc33e1803ed12aba28a2.setContent(html_50418bb97b7f5f360c31018bb17dfda6);
+            
+        
+
+        marker_89c04b9c71a4bfad4b8b8af0276aa49b.bindPopup(popup_79531d10d0cfbc33e1803ed12aba28a2)
+        ;
+
+        
+    
+    
+            var circle_98cd37a5074baab903a98ef16817d0a3 = L.circle(
+                [52.45906, 4.79932],
+                {"bubblingMouseEvents": true, "color": "#78cb00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#78cb00", "fillOpacity": 0.391304347826087, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 92, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_f4b6ceb891125684f7c771d2cf14f0ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92cb04c806bc792d05ebd24c3c662c83 = $(`<div id="html_92cb04c806bc792d05ebd24c3c662c83" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 46</div>`)[0];
+                popup_f4b6ceb891125684f7c771d2cf14f0ae.setContent(html_92cb04c806bc792d05ebd24c3c662c83);
+            
+        
+
+        circle_98cd37a5074baab903a98ef16817d0a3.bindPopup(popup_f4b6ceb891125684f7c771d2cf14f0ae)
+        ;
+
+        
+    
+    
+            var marker_dfbdcdc64aad2f425362bdacd8dfe77d = L.marker(
+                [52.45906, 4.79932],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_a303f3b7e0ef967881d0eca17d2f4b41 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ffce8c29f2fee222b9d98dc3a01d475 = $(`<div id="html_8ffce8c29f2fee222b9d98dc3a01d475" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Basisschool de Golfbreker</h4><p> Totaal geldige uitgebrachte stemmen: 460</p><p><b>Democratisch Zaanstad (DZ)</b> 10%</br> (Absoluut aantal stemmen: 46)<p><b>Top drie:</b><ol><li>VVD (15%)</li><li>ROSA (13%)</li><li>Partij voor Ouderen en Veiligheid (12%)</li></ol></p></p></div>`)[0];
+                popup_a303f3b7e0ef967881d0eca17d2f4b41.setContent(html_8ffce8c29f2fee222b9d98dc3a01d475);
+            
+        
+
+        marker_dfbdcdc64aad2f425362bdacd8dfe77d.bindPopup(popup_a303f3b7e0ef967881d0eca17d2f4b41)
+        ;
+
+        
+    
+    
+            var circle_3fea5163254b255835b7a12637d15b77 = L.circle(
+                [52.4746, 4.81349],
+                {"bubblingMouseEvents": true, "color": "#85d100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#85d100", "fillOpacity": 0.3521739130434783, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 262, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_5326413a0d3b5c4f139970593101f080 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4d5b985bab8a2f4f9705b4eec78d7b5 = $(`<div id="html_b4d5b985bab8a2f4f9705b4eec78d7b5" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 131</div>`)[0];
+                popup_5326413a0d3b5c4f139970593101f080.setContent(html_b4d5b985bab8a2f4f9705b4eec78d7b5);
+            
+        
+
+        circle_3fea5163254b255835b7a12637d15b77.bindPopup(popup_5326413a0d3b5c4f139970593101f080)
+        ;
+
+        
+    
+    
+            var marker_0f7999a9beab43a8aaf548c0275659b4 = L.marker(
+                [52.4746, 4.81349],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_d5d2130990e2a27b50531cd5339eadac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca7559590a222f7607f6eb30752dfde7 = $(`<div id="html_ca7559590a222f7607f6eb30752dfde7" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Apostolisch Genootschap</h4><p> Totaal geldige uitgebrachte stemmen: 1432</p><p><b>Democratisch Zaanstad (DZ)</b> 9%</br> (Absoluut aantal stemmen: 131)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (14%)</li><li>ROSA (13%)</li><li>Partij voor Ouderen en Veiligheid (12%)</li></ol></p></p></div>`)[0];
+                popup_d5d2130990e2a27b50531cd5339eadac.setContent(html_ca7559590a222f7607f6eb30752dfde7);
+            
+        
+
+        marker_0f7999a9beab43a8aaf548c0275659b4.bindPopup(popup_d5d2130990e2a27b50531cd5339eadac)
+        ;
+
+        
+    
+    
+            var circle_d170af5e160a23da9d31b8332b790412 = L.circle(
+                [52.47439, 4.79702],
+                {"bubblingMouseEvents": true, "color": "#4ab400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4ab400", "fillOpacity": 0.5478260869565217, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 328, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_18eebb56e0e9459c7708789c36ccfcba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c7afdb49eb38dd0ce2d04d809944c31 = $(`<div id="html_4c7afdb49eb38dd0ce2d04d809944c31" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 164</div>`)[0];
+                popup_18eebb56e0e9459c7708789c36ccfcba.setContent(html_4c7afdb49eb38dd0ce2d04d809944c31);
+            
+        
+
+        circle_d170af5e160a23da9d31b8332b790412.bindPopup(popup_18eebb56e0e9459c7708789c36ccfcba)
+        ;
+
+        
+    
+    
+            var marker_c67bb160a13e61a6f29a0604dd054d8c = L.marker(
+                [52.47439, 4.79702],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_863b33cb85258c001d11e0802fbf2476 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f474a1e4e344b4fd744bc4ad5b2b44c4 = $(`<div id="html_f474a1e4e344b4fd744bc4ad5b2b44c4" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Fortuinweg</h4><p> Totaal geldige uitgebrachte stemmen: 1177</p><p><b>Democratisch Zaanstad (DZ)</b> 14%</br> (Absoluut aantal stemmen: 164)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (13%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li><li>Partij voor Ouderen en Veiligheid (13%)</li></ol></p></p></div>`)[0];
+                popup_863b33cb85258c001d11e0802fbf2476.setContent(html_f474a1e4e344b4fd744bc4ad5b2b44c4);
+            
+        
+
+        marker_c67bb160a13e61a6f29a0604dd054d8c.bindPopup(popup_863b33cb85258c001d11e0802fbf2476)
+        ;
+
+        
+    
+    
+            var circle_07f8e8879b7aac725e45556d33970ed7 = L.circle(
+                [52.47303, 4.80383],
+                {"bubblingMouseEvents": true, "color": "#78cb00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#78cb00", "fillOpacity": 0.391304347826087, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 110, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_753bb08e5ddaf435f596a1465dea3cf3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_64e6ae7bee9e4a7b315e885369335c3e = $(`<div id="html_64e6ae7bee9e4a7b315e885369335c3e" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 55</div>`)[0];
+                popup_753bb08e5ddaf435f596a1465dea3cf3.setContent(html_64e6ae7bee9e4a7b315e885369335c3e);
+            
+        
+
+        circle_07f8e8879b7aac725e45556d33970ed7.bindPopup(popup_753bb08e5ddaf435f596a1465dea3cf3)
+        ;
+
+        
+    
+    
+            var marker_77e90fc5a0e6eef6eadb329a03255e9e = L.marker(
+                [52.47303, 4.80383],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_51c8a9319f067d7d744fb71781ce0991 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53d2b9ab31d3001cc578edb0b19919cb = $(`<div id="html_53d2b9ab31d3001cc578edb0b19919cb" style="width: 100.0%; height: 100.0%;"><h4>Stembureau ZFC Orkest & Muziekschool</h4><p> Totaal geldige uitgebrachte stemmen: 549</p><p><b>Democratisch Zaanstad (DZ)</b> 10%</br> (Absoluut aantal stemmen: 55)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (17%)</li><li>Partij voor Ouderen en Veiligheid (16%)</li><li>Democratisch Zaanstad (DZ) (10%)</li></ol></p></p></div>`)[0];
+                popup_51c8a9319f067d7d744fb71781ce0991.setContent(html_53d2b9ab31d3001cc578edb0b19919cb);
+            
+        
+
+        marker_77e90fc5a0e6eef6eadb329a03255e9e.bindPopup(popup_51c8a9319f067d7d744fb71781ce0991)
+        ;
+
+        
+    
+    
+            var circle_216d742e262781fcae0e31ee1e6c6c28 = L.circle(
+                [52.48903, 4.79962],
+                {"bubblingMouseEvents": true, "color": "#85d100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#85d100", "fillOpacity": 0.3521739130434783, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 112, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_c98b5183256081afccb356dbd8990ebf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_83d4458d1d2a8aba371811395575b1fc = $(`<div id="html_83d4458d1d2a8aba371811395575b1fc" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 56</div>`)[0];
+                popup_c98b5183256081afccb356dbd8990ebf.setContent(html_83d4458d1d2a8aba371811395575b1fc);
+            
+        
+
+        circle_216d742e262781fcae0e31ee1e6c6c28.bindPopup(popup_c98b5183256081afccb356dbd8990ebf)
+        ;
+
+        
+    
+    
+            var marker_c8cf8f16ef522936f2543ec6d8e0cf9b = L.marker(
+                [52.48903, 4.79962],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_3898a1ba76f84b2ec2f8d6058b6b255e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eabb819a95e6431dcb5ba780405fcebb = $(`<div id="html_eabb819a95e6431dcb5ba780405fcebb" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Goudastraat</h4><p> Totaal geldige uitgebrachte stemmen: 610</p><p><b>Democratisch Zaanstad (DZ)</b> 9%</br> (Absoluut aantal stemmen: 56)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (13%)</li><li>ROSA (12%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_3898a1ba76f84b2ec2f8d6058b6b255e.setContent(html_eabb819a95e6431dcb5ba780405fcebb);
+            
+        
+
+        marker_c8cf8f16ef522936f2543ec6d8e0cf9b.bindPopup(popup_3898a1ba76f84b2ec2f8d6058b6b255e)
+        ;
+
+        
+    
+    
+            var circle_16dcd0a953dd9c0c1512a24a6e00a41b = L.circle(
+                [52.49417, 4.7868],
+                {"bubblingMouseEvents": true, "color": "#6cc500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#6cc500", "fillOpacity": 0.4304347826086956, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 496, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_7fa8a7aa5ecf749b9f30b2d40d38b790 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d223db019e40bd5e8b9fed623039d497 = $(`<div id="html_d223db019e40bd5e8b9fed623039d497" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 248</div>`)[0];
+                popup_7fa8a7aa5ecf749b9f30b2d40d38b790.setContent(html_d223db019e40bd5e8b9fed623039d497);
+            
+        
+
+        circle_16dcd0a953dd9c0c1512a24a6e00a41b.bindPopup(popup_7fa8a7aa5ecf749b9f30b2d40d38b790)
+        ;
+
+        
+    
+    
+            var marker_19fa7d2e06edd8ba5585fdb7943d6fd1 = L.marker(
+                [52.49417, 4.7868],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_82eac192dba1270cf7dc03cc11c076a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be7a5d67787c235fe2a0ff75fdf76954 = $(`<div id="html_be7a5d67787c235fe2a0ff75fdf76954" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurtcentrum De Lorzie</h4><p> Totaal geldige uitgebrachte stemmen: 2293</p><p><b>Democratisch Zaanstad (DZ)</b> 11%</br> (Absoluut aantal stemmen: 248)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (21%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li><li>ROSA (10%)</li></ol></p></p></div>`)[0];
+                popup_82eac192dba1270cf7dc03cc11c076a1.setContent(html_be7a5d67787c235fe2a0ff75fdf76954);
+            
+        
+
+        marker_19fa7d2e06edd8ba5585fdb7943d6fd1.bindPopup(popup_82eac192dba1270cf7dc03cc11c076a1)
+        ;
+
+        
+    
+    
+            var circle_41f8041bf10764c75eaa4ce2c4ce525e = L.circle(
+                [52.49593, 4.78692],
+                {"bubblingMouseEvents": true, "color": "#249d00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#249d00", "fillOpacity": 0.7043478260869566, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 82, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_9f5259c4d1b9937c2e0611428d6bea5b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6825169ade3840f7a9b74e3e6ff86979 = $(`<div id="html_6825169ade3840f7a9b74e3e6ff86979" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 41</div>`)[0];
+                popup_9f5259c4d1b9937c2e0611428d6bea5b.setContent(html_6825169ade3840f7a9b74e3e6ff86979);
+            
+        
+
+        circle_41f8041bf10764c75eaa4ce2c4ce525e.bindPopup(popup_9f5259c4d1b9937c2e0611428d6bea5b)
+        ;
+
+        
+    
+    
+            var marker_080244f0ef1b175bfb2226ccafa52265 = L.marker(
+                [52.49593, 4.78692],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_993acfbdcff258cbc7d49829d2707863 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c23873962d925bb8c5f69c6685b42826 = $(`<div id="html_c23873962d925bb8c5f69c6685b42826" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Anemoonstraat</h4><p> Totaal geldige uitgebrachte stemmen: 227</p><p><b>Democratisch Zaanstad (DZ)</b> 18%</br> (Absoluut aantal stemmen: 41)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (18%)</li><li>Partij voor Ouderen en Veiligheid (16%)</li><li>Partij van de Arbeid (P.v.d.A.) (10%)</li></ol></p></p></div>`)[0];
+                popup_993acfbdcff258cbc7d49829d2707863.setContent(html_c23873962d925bb8c5f69c6685b42826);
+            
+        
+
+        marker_080244f0ef1b175bfb2226ccafa52265.bindPopup(popup_993acfbdcff258cbc7d49829d2707863)
+        ;
+
+        
+    
+    
+            var circle_e79b5e27636cdec1a9c6f1864f2b15f2 = L.circle(
+                [52.49792, 4.78813],
+                {"bubblingMouseEvents": true, "color": "#54ba00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#54ba00", "fillOpacity": 0.508695652173913, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 122, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_2b2a7ba7fed9311b949a5b2a43a0e3e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c341d133ec3c4d6e82beff4fbdb88fdd = $(`<div id="html_c341d133ec3c4d6e82beff4fbdb88fdd" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 61</div>`)[0];
+                popup_2b2a7ba7fed9311b949a5b2a43a0e3e8.setContent(html_c341d133ec3c4d6e82beff4fbdb88fdd);
+            
+        
+
+        circle_e79b5e27636cdec1a9c6f1864f2b15f2.bindPopup(popup_2b2a7ba7fed9311b949a5b2a43a0e3e8)
+        ;
+
+        
+    
+    
+            var marker_778b8c19528c5ee8f7149fc6438d0044 = L.marker(
+                [52.49792, 4.78813],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_831b726ea36e61d51a7884faeb10d9af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3923f83c911522182f8bb4b5513d4407 = $(`<div id="html_3923f83c911522182f8bb4b5513d4407" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Vereniging de Bloesem, complex de Amandelbloesem</h4><p> Totaal geldige uitgebrachte stemmen: 477</p><p><b>Democratisch Zaanstad (DZ)</b> 13%</br> (Absoluut aantal stemmen: 61)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (20%)</li><li>Democratisch Zaanstad (DZ) (12%)</li><li>CDA (9%)</li></ol></p></p></div>`)[0];
+                popup_831b726ea36e61d51a7884faeb10d9af.setContent(html_3923f83c911522182f8bb4b5513d4407);
+            
+        
+
+        marker_778b8c19528c5ee8f7149fc6438d0044.bindPopup(popup_831b726ea36e61d51a7884faeb10d9af)
+        ;
+
+        
+    
+    
+            var circle_d9c4b0860f3bc11c4b847c44e3f4ffc3 = L.circle(
+                [52.51745, 4.78595],
+                {"bubblingMouseEvents": true, "color": "#36a800", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#36a800", "fillOpacity": 0.6260869565217392, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 92, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_8408232bda7bef8048b10d963b4031fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9996bb5a3f21161d75d240228dec57d = $(`<div id="html_f9996bb5a3f21161d75d240228dec57d" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 46</div>`)[0];
+                popup_8408232bda7bef8048b10d963b4031fb.setContent(html_f9996bb5a3f21161d75d240228dec57d);
+            
+        
+
+        circle_d9c4b0860f3bc11c4b847c44e3f4ffc3.bindPopup(popup_8408232bda7bef8048b10d963b4031fb)
+        ;
+
+        
+    
+    
+            var marker_e98ccf02cfc7382e119b1d88995894d7 = L.marker(
+                [52.51745, 4.78595],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_525cf636a45fd2760c85273128480ca2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81d766e54620cbd8bb2676479c7f3f21 = $(`<div id="html_81d766e54620cbd8bb2676479c7f3f21" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Dorpshuis "De Noorddam"</h4><p> Totaal geldige uitgebrachte stemmen: 296</p><p><b>Democratisch Zaanstad (DZ)</b> 16%</br> (Absoluut aantal stemmen: 46)<p><b>Top drie:</b><ol><li>VVD (19%)</li><li>Democratisch Zaanstad (DZ) (15%)</li><li>Partij voor Ouderen en Veiligheid (10%)</li></ol></p></p></div>`)[0];
+                popup_525cf636a45fd2760c85273128480ca2.setContent(html_81d766e54620cbd8bb2676479c7f3f21);
+            
+        
+
+        marker_e98ccf02cfc7382e119b1d88995894d7.bindPopup(popup_525cf636a45fd2760c85273128480ca2)
+        ;
+
+        
+    
+    
+            var circle_ee47dbd8c6335ee19a17348c72ab0b73 = L.circle(
+                [52.49055, 4.79631],
+                {"bubblingMouseEvents": true, "color": "#85d100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#85d100", "fillOpacity": 0.3521739130434783, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 60, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_64fe334848299c2518e79af1b2827dd8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f7d996d28b2cc2f373fc640d2bc619ff = $(`<div id="html_f7d996d28b2cc2f373fc640d2bc619ff" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 30</div>`)[0];
+                popup_64fe334848299c2518e79af1b2827dd8.setContent(html_f7d996d28b2cc2f373fc640d2bc619ff);
+            
+        
+
+        circle_ee47dbd8c6335ee19a17348c72ab0b73.bindPopup(popup_64fe334848299c2518e79af1b2827dd8)
+        ;
+
+        
+    
+    
+            var marker_ed7ee46ea6f724bbdb4afd4f1952856f = L.marker(
+                [52.49055, 4.79631],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_597dd4cc79eafb7e506978594e326b0f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb96feaf33f36c4c89cd99a39c55bb5c = $(`<div id="html_eb96feaf33f36c4c89cd99a39c55bb5c" style="width: 100.0%; height: 100.0%;"><h4>Stembureau De Wormerveerse Vermaning</h4><p> Totaal geldige uitgebrachte stemmen: 330</p><p><b>Democratisch Zaanstad (DZ)</b> 9%</br> (Absoluut aantal stemmen: 30)<p><b>Top drie:</b><ol><li>ROSA (17%)</li><li>VVD (13%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li></ol></p></p></div>`)[0];
+                popup_597dd4cc79eafb7e506978594e326b0f.setContent(html_eb96feaf33f36c4c89cd99a39c55bb5c);
+            
+        
+
+        marker_ed7ee46ea6f724bbdb4afd4f1952856f.bindPopup(popup_597dd4cc79eafb7e506978594e326b0f)
+        ;
+
+        
+    
+    
+            var circle_c2140a8d36c7eeb20fd8db3fde0a66f1 = L.circle(
+                [52.4979, 4.76625],
+                {"bubblingMouseEvents": true, "color": "#78cb00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#78cb00", "fillOpacity": 0.391304347826087, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 212, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_4f3c66db3511b7bd47f5143ec18db90d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f2ab8711d5e95460569088cdf279a635 = $(`<div id="html_f2ab8711d5e95460569088cdf279a635" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 106</div>`)[0];
+                popup_4f3c66db3511b7bd47f5143ec18db90d.setContent(html_f2ab8711d5e95460569088cdf279a635);
+            
+        
+
+        circle_c2140a8d36c7eeb20fd8db3fde0a66f1.bindPopup(popup_4f3c66db3511b7bd47f5143ec18db90d)
+        ;
+
+        
+    
+    
+            var marker_f4e7b0930d2098662c6e88da5d926f29 = L.marker(
+                [52.4979, 4.76625],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_a11d86e7816561d88d2654ad9b6b29b0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_02fab556de76dfe8debd3028f80f767a = $(`<div id="html_02fab556de76dfe8debd3028f80f767a" style="width: 100.0%; height: 100.0%;"><h4>Stembureau St. Petrusparochie, INGANG KERK</h4><p> Totaal geldige uitgebrachte stemmen: 1100</p><p><b>Democratisch Zaanstad (DZ)</b> 10%</br> (Absoluut aantal stemmen: 106)<p><b>Top drie:</b><ol><li>ROSA (16%)</li><li>Partij voor Ouderen en Veiligheid (16%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_a11d86e7816561d88d2654ad9b6b29b0.setContent(html_02fab556de76dfe8debd3028f80f767a);
+            
+        
+
+        marker_f4e7b0930d2098662c6e88da5d926f29.bindPopup(popup_a11d86e7816561d88d2654ad9b6b29b0)
+        ;
+
+        
+    
+    
+            var circle_77f13a5e4a18debce4ec716c6fc50259 = L.circle(
+                [52.50597, 4.76797],
+                {"bubblingMouseEvents": true, "color": "#3fae00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3fae00", "fillOpacity": 0.5869565217391305, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 338, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_4eee76cf7925c86bb928f4cc428c29b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a3bae872e16f7a1d3b45049351b6f0dd = $(`<div id="html_a3bae872e16f7a1d3b45049351b6f0dd" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 169</div>`)[0];
+                popup_4eee76cf7925c86bb928f4cc428c29b3.setContent(html_a3bae872e16f7a1d3b45049351b6f0dd);
+            
+        
+
+        circle_77f13a5e4a18debce4ec716c6fc50259.bindPopup(popup_4eee76cf7925c86bb928f4cc428c29b3)
+        ;
+
+        
+    
+    
+            var marker_8ce485328cd8fc48094af41f20ce1e7e = L.marker(
+                [52.50597, 4.76797],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_a6c9e77f6ba50e6c739d3fa467fe098e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f0eb2e729ece8d1898f07fb78078ab4 = $(`<div id="html_8f0eb2e729ece8d1898f07fb78078ab4" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Dependance basisschool de Hoeksteen</h4><p> Totaal geldige uitgebrachte stemmen: 1136</p><p><b>Democratisch Zaanstad (DZ)</b> 15%</br> (Absoluut aantal stemmen: 169)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (17%)</li><li>VVD (17%)</li><li>Democratisch Zaanstad (DZ) (14%)</li></ol></p></p></div>`)[0];
+                popup_a6c9e77f6ba50e6c739d3fa467fe098e.setContent(html_8f0eb2e729ece8d1898f07fb78078ab4);
+            
+        
+
+        marker_8ce485328cd8fc48094af41f20ce1e7e.bindPopup(popup_a6c9e77f6ba50e6c739d3fa467fe098e)
+        ;
+
+        
+    
+    
+            var circle_64bc75de91614cc70c0a7fa60029e81c = L.circle(
+                [52.49977, 4.75707],
+                {"bubblingMouseEvents": true, "color": "#54ba00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#54ba00", "fillOpacity": 0.508695652173913, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 134, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_96d71cde52b44e2457bd2d4a8a5f3edb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e68da47cbe9d4c516a9ff13122c62e4 = $(`<div id="html_7e68da47cbe9d4c516a9ff13122c62e4" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 67</div>`)[0];
+                popup_96d71cde52b44e2457bd2d4a8a5f3edb.setContent(html_7e68da47cbe9d4c516a9ff13122c62e4);
+            
+        
+
+        circle_64bc75de91614cc70c0a7fa60029e81c.bindPopup(popup_96d71cde52b44e2457bd2d4a8a5f3edb)
+        ;
+
+        
+    
+    
+            var marker_a33eb5f9249a51b1faab93cad4620c4a = L.marker(
+                [52.49977, 4.75707],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_0141055edce67a236f58af651a8eda87 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_594e9e69db440e87b42a61c98ebc88e0 = $(`<div id="html_594e9e69db440e87b42a61c98ebc88e0" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Braillestraat</h4><p> Totaal geldige uitgebrachte stemmen: 527</p><p><b>Democratisch Zaanstad (DZ)</b> 13%</br> (Absoluut aantal stemmen: 67)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (18%)</li><li>Democratisch Zaanstad (DZ) (12%)</li><li>ROSA (12%)</li></ol></p></p></div>`)[0];
+                popup_0141055edce67a236f58af651a8eda87.setContent(html_594e9e69db440e87b42a61c98ebc88e0);
+            
+        
+
+        marker_a33eb5f9249a51b1faab93cad4620c4a.bindPopup(popup_0141055edce67a236f58af651a8eda87)
+        ;
+
+        
+    
+    
+            var circle_e775cac1ae9dfad883f2df69500fd814 = L.circle(
+                [52.50114, 4.76816],
+                {"bubblingMouseEvents": true, "color": "#78cb00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#78cb00", "fillOpacity": 0.391304347826087, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 102, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_665ca7ef866c9e485366fbc681e32372 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f411a6da6eae822dbb6fccd945209603 = $(`<div id="html_f411a6da6eae822dbb6fccd945209603" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 51</div>`)[0];
+                popup_665ca7ef866c9e485366fbc681e32372.setContent(html_f411a6da6eae822dbb6fccd945209603);
+            
+        
+
+        circle_e775cac1ae9dfad883f2df69500fd814.bindPopup(popup_665ca7ef866c9e485366fbc681e32372)
+        ;
+
+        
+    
+    
+            var marker_ec08457f371e180b155fcb049d69c511 = L.marker(
+                [52.50114, 4.76816],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_1788a671d5bb003b0d9496504137275d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4ae289eb95333e5f56ebf0e1219a3c4 = $(`<div id="html_b4ae289eb95333e5f56ebf0e1219a3c4" style="width: 100.0%; height: 100.0%;"><h4>Stembureau De Durghorstplantsoen</h4><p> Totaal geldige uitgebrachte stemmen: 519</p><p><b>Democratisch Zaanstad (DZ)</b> 10%</br> (Absoluut aantal stemmen: 51)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (29%)</li><li>ROSA (10%)</li><li>Partij van de Arbeid (P.v.d.A.) (10%)</li></ol></p></p></div>`)[0];
+                popup_1788a671d5bb003b0d9496504137275d.setContent(html_b4ae289eb95333e5f56ebf0e1219a3c4);
+            
+        
+
+        marker_ec08457f371e180b155fcb049d69c511.bindPopup(popup_1788a671d5bb003b0d9496504137275d)
+        ;
+
+        
+    
+    
+            var circle_843fcecf16c05633dcb64a052cf6400c = L.circle(
+                [52.50135, 4.75089],
+                {"bubblingMouseEvents": true, "color": "#60bf00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#60bf00", "fillOpacity": 0.46956521739130436, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 210, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_695eeb5f19850136040bc6187b5beb3b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_763f0de05404e0f7e1f3c44047651e0e = $(`<div id="html_763f0de05404e0f7e1f3c44047651e0e" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 105</div>`)[0];
+                popup_695eeb5f19850136040bc6187b5beb3b.setContent(html_763f0de05404e0f7e1f3c44047651e0e);
+            
+        
+
+        circle_843fcecf16c05633dcb64a052cf6400c.bindPopup(popup_695eeb5f19850136040bc6187b5beb3b)
+        ;
+
+        
+    
+    
+            var marker_a75ba7066fe9e8251ea53522b811240a = L.marker(
+                [52.50135, 4.75089],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_849cd17e956e0dc00bcb894c9b1d1aa0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2fb48204298f03bd37cd2a8fb4260b90 = $(`<div id="html_2fb48204298f03bd37cd2a8fb4260b90" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Jupiterstraat 139 Evenaar</h4><p> Totaal geldige uitgebrachte stemmen: 863</p><p><b>Democratisch Zaanstad (DZ)</b> 12%</br> (Absoluut aantal stemmen: 105)<p><b>Top drie:</b><ol><li>VVD (16%)</li><li>Partij voor Ouderen en Veiligheid (15%)</li><li>Partij van de Arbeid (P.v.d.A.) (12%)</li></ol></p></p></div>`)[0];
+                popup_849cd17e956e0dc00bcb894c9b1d1aa0.setContent(html_2fb48204298f03bd37cd2a8fb4260b90);
+            
+        
+
+        marker_a75ba7066fe9e8251ea53522b811240a.bindPopup(popup_849cd17e956e0dc00bcb894c9b1d1aa0)
+        ;
+
+        
+    
+    
+            var circle_9de5db03432a508fdaf2f9229b7cffdd = L.circle(
+                [52.50908, 4.75773],
+                {"bubblingMouseEvents": true, "color": "#3fae00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3fae00", "fillOpacity": 0.5869565217391305, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 136, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_be526a704e67ee00769aa6073bc324fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_82254518c159c9919ebd35592ece4023 = $(`<div id="html_82254518c159c9919ebd35592ece4023" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 68</div>`)[0];
+                popup_be526a704e67ee00769aa6073bc324fe.setContent(html_82254518c159c9919ebd35592ece4023);
+            
+        
+
+        circle_9de5db03432a508fdaf2f9229b7cffdd.bindPopup(popup_be526a704e67ee00769aa6073bc324fe)
+        ;
+
+        
+    
+    
+            var marker_3e1f7a58eb99c88d1ee8bb5c1d1f64a7 = L.marker(
+                [52.50908, 4.75773],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_de427280529a2b595777e6230f92893e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4799a581a2887d93c96665058516bffa = $(`<div id="html_4799a581a2887d93c96665058516bffa" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Odd Fellow Huis</h4><p> Totaal geldige uitgebrachte stemmen: 459</p><p><b>Democratisch Zaanstad (DZ)</b> 15%</br> (Absoluut aantal stemmen: 68)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (16%)</li><li>Democratisch Zaanstad (DZ) (14%)</li><li>VVD (13%)</li></ol></p></p></div>`)[0];
+                popup_de427280529a2b595777e6230f92893e.setContent(html_4799a581a2887d93c96665058516bffa);
+            
+        
+
+        marker_3e1f7a58eb99c88d1ee8bb5c1d1f64a7.bindPopup(popup_de427280529a2b595777e6230f92893e)
+        ;
+
+        
+    
+    
+            var circle_787eac09959da35960619971e57f711c = L.circle(
+                [52.50491, 4.76333],
+                {"bubblingMouseEvents": true, "color": "#54ba00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#54ba00", "fillOpacity": 0.508695652173913, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 80, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_5293de738b85f4430ed54731bb7ac0df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41221d9ae0142799ef40a3b8b8fd1aec = $(`<div id="html_41221d9ae0142799ef40a3b8b8fd1aec" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 40</div>`)[0];
+                popup_5293de738b85f4430ed54731bb7ac0df.setContent(html_41221d9ae0142799ef40a3b8b8fd1aec);
+            
+        
+
+        circle_787eac09959da35960619971e57f711c.bindPopup(popup_5293de738b85f4430ed54731bb7ac0df)
+        ;
+
+        
+    
+    
+            var marker_a42ed30a546093702bbff9e49b6d72b8 = L.marker(
+                [52.50491, 4.76333],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_638dfb4b2d091368b393455fd6519e74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a4abef4fcd0148cfd6903065cf0c652 = $(`<div id="html_4a4abef4fcd0148cfd6903065cf0c652" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Basisschool de Hoeksteen</h4><p> Totaal geldige uitgebrachte stemmen: 316</p><p><b>Democratisch Zaanstad (DZ)</b> 13%</br> (Absoluut aantal stemmen: 40)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (20%)</li><li>Democratisch Zaanstad (DZ) (12%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li></ol></p></p></div>`)[0];
+                popup_638dfb4b2d091368b393455fd6519e74.setContent(html_4a4abef4fcd0148cfd6903065cf0c652);
+            
+        
+
+        marker_a42ed30a546093702bbff9e49b6d72b8.bindPopup(popup_638dfb4b2d091368b393455fd6519e74)
+        ;
+
+        
+    
+    
+            var circle_0442e0624320140403821b6f7083b748 = L.circle(
+                [52.50401, 4.75849],
+                {"bubblingMouseEvents": true, "color": "#6cc500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#6cc500", "fillOpacity": 0.4304347826086956, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 436, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_ec23067544f40f3dc14f380caf54494e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5de4af4c3caacf56a9475fdae5b17eb5 = $(`<div id="html_5de4af4c3caacf56a9475fdae5b17eb5" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 218</div>`)[0];
+                popup_ec23067544f40f3dc14f380caf54494e.setContent(html_5de4af4c3caacf56a9475fdae5b17eb5);
+            
+        
+
+        circle_0442e0624320140403821b6f7083b748.bindPopup(popup_ec23067544f40f3dc14f380caf54494e)
+        ;
+
+        
+    
+    
+            var marker_740662059366cd31ba7884b50de1a162 = L.marker(
+                [52.50401, 4.75849],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_0723eb0cea92ba64068bac97efb6776a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d16e06690da24f2f138baccac1cc4a4 = $(`<div id="html_3d16e06690da24f2f138baccac1cc4a4" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurtcentrum de Pelikaan</h4><p> Totaal geldige uitgebrachte stemmen: 1992</p><p><b>Democratisch Zaanstad (DZ)</b> 11%</br> (Absoluut aantal stemmen: 218)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (18%)</li><li>Partij van de Arbeid (P.v.d.A.) (12%)</li><li>VVD (10%)</li></ol></p></p></div>`)[0];
+                popup_0723eb0cea92ba64068bac97efb6776a.setContent(html_3d16e06690da24f2f138baccac1cc4a4);
+            
+        
+
+        marker_740662059366cd31ba7884b50de1a162.bindPopup(popup_0723eb0cea92ba64068bac97efb6776a)
+        ;
+
+        
+    
+    
+            var circle_28ac605dc1e6d3bb8c97243ac99902e6 = L.circle(
+                [52.45938, 4.73717],
+                {"bubblingMouseEvents": true, "color": "#149100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#149100", "fillOpacity": 0.782608695652174, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 248, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_fb63bd7581b416374db2f1101c5fa8f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_261b06eac742ad7e6ba7935bd3b5c0dd = $(`<div id="html_261b06eac742ad7e6ba7935bd3b5c0dd" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 124</div>`)[0];
+                popup_fb63bd7581b416374db2f1101c5fa8f7.setContent(html_261b06eac742ad7e6ba7935bd3b5c0dd);
+            
+        
+
+        circle_28ac605dc1e6d3bb8c97243ac99902e6.bindPopup(popup_fb63bd7581b416374db2f1101c5fa8f7)
+        ;
+
+        
+    
+    
+            var marker_5ae1df3fe5285def636366c60e8c817d = L.marker(
+                [52.45938, 4.73717],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_09f6525a79ecdd851c52bd44b53b5392 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f5e21210260427b6b2c6fb5e3039b3c = $(`<div id="html_5f5e21210260427b6b2c6fb5e3039b3c" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Kantine vv Assendelft</h4><p> Totaal geldige uitgebrachte stemmen: 614</p><p><b>Democratisch Zaanstad (DZ)</b> 20%</br> (Absoluut aantal stemmen: 124)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (20%)</li><li>VVD (17%)</li><li>Partij voor Ouderen en Veiligheid (11%)</li></ol></p></p></div>`)[0];
+                popup_09f6525a79ecdd851c52bd44b53b5392.setContent(html_5f5e21210260427b6b2c6fb5e3039b3c);
+            
+        
+
+        marker_5ae1df3fe5285def636366c60e8c817d.bindPopup(popup_09f6525a79ecdd851c52bd44b53b5392)
+        ;
+
+        
+    
+    
+            var circle_afd2e05a2699a7ccdf4e187c03e56d18 = L.circle(
+                [52.46675, 4.74109],
+                {"bubblingMouseEvents": true, "color": "#1b9700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1b9700", "fillOpacity": 0.7434782608695651, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 378, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_46ae6df084a2b3c11dd9ef02064000e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b3985e389378780567666250aef8eb8 = $(`<div id="html_0b3985e389378780567666250aef8eb8" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 189</div>`)[0];
+                popup_46ae6df084a2b3c11dd9ef02064000e3.setContent(html_0b3985e389378780567666250aef8eb8);
+            
+        
+
+        circle_afd2e05a2699a7ccdf4e187c03e56d18.bindPopup(popup_46ae6df084a2b3c11dd9ef02064000e3)
+        ;
+
+        
+    
+    
+            var marker_c0aa1d3279a8a0ba2217e8c676b65353 = L.marker(
+                [52.46675, 4.74109],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_905f8e71b6fdcdfe6b41be2ab94fdbb1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e637a42b31230f73e110b632781558de = $(`<div id="html_e637a42b31230f73e110b632781558de" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Brandweerkazerne Assendelft</h4><p> Totaal geldige uitgebrachte stemmen: 988</p><p><b>Democratisch Zaanstad (DZ)</b> 19%</br> (Absoluut aantal stemmen: 189)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (19%)</li><li>Partij voor Ouderen en Veiligheid (17%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_905f8e71b6fdcdfe6b41be2ab94fdbb1.setContent(html_e637a42b31230f73e110b632781558de);
+            
+        
+
+        marker_c0aa1d3279a8a0ba2217e8c676b65353.bindPopup(popup_905f8e71b6fdcdfe6b41be2ab94fdbb1)
+        ;
+
+        
+    
+    
+            var circle_2ba1482c6392174e6a88deb932bae704 = L.circle(
+                [52.4742, 4.74845],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 372, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_9027973b0688caf67af1a78f26ca42cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8bef0d7878ecfaa69140f70c6ba040e2 = $(`<div id="html_8bef0d7878ecfaa69140f70c6ba040e2" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 186</div>`)[0];
+                popup_9027973b0688caf67af1a78f26ca42cb.setContent(html_8bef0d7878ecfaa69140f70c6ba040e2);
+            
+        
+
+        circle_2ba1482c6392174e6a88deb932bae704.bindPopup(popup_9027973b0688caf67af1a78f26ca42cb)
+        ;
+
+        
+    
+    
+            var marker_f8af374695b0fdbc488403206a84219e = L.marker(
+                [52.4742, 4.74845],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_9b124f68ec28b959b5c6e5d09f7dd510 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5590df71f02a953163564665890ed9b4 = $(`<div id="html_5590df71f02a953163564665890ed9b4" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Tennisvereniging Overdan</h4><p> Totaal geldige uitgebrachte stemmen: 821</p><p><b>Democratisch Zaanstad (DZ)</b> 23%</br> (Absoluut aantal stemmen: 186)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (22%)</li><li>VVD (14%)</li><li>Partij voor Ouderen en Veiligheid (13%)</li></ol></p></p></div>`)[0];
+                popup_9b124f68ec28b959b5c6e5d09f7dd510.setContent(html_5590df71f02a953163564665890ed9b4);
+            
+        
+
+        marker_f8af374695b0fdbc488403206a84219e.bindPopup(popup_9b124f68ec28b959b5c6e5d09f7dd510)
+        ;
+
+        
+    
+    
+            var circle_b2bec150920eb8e409badd9e0eec9242 = L.circle(
+                [52.46618, 4.74004],
+                {"bubblingMouseEvents": true, "color": "#149100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#149100", "fillOpacity": 0.782608695652174, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 398, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_77b3b2167d9b044206922af327173e80 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1eab608e2eddc0d9959c5e1541567bc4 = $(`<div id="html_1eab608e2eddc0d9959c5e1541567bc4" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 199</div>`)[0];
+                popup_77b3b2167d9b044206922af327173e80.setContent(html_1eab608e2eddc0d9959c5e1541567bc4);
+            
+        
+
+        circle_b2bec150920eb8e409badd9e0eec9242.bindPopup(popup_77b3b2167d9b044206922af327173e80)
+        ;
+
+        
+    
+    
+            var marker_2aac9796c441828a6f8d563f3fd73948 = L.marker(
+                [52.46618, 4.74004],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_4bd7c4150bc5dc304a62aeec604af5c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af23e86cc5beb75c046132a681b02dfe = $(`<div id="html_af23e86cc5beb75c046132a681b02dfe" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurtcentrum A3</h4><p> Totaal geldige uitgebrachte stemmen: 981</p><p><b>Democratisch Zaanstad (DZ)</b> 20%</br> (Absoluut aantal stemmen: 199)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (20%)</li><li>Partij voor Ouderen en Veiligheid (17%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li></ol></p></p></div>`)[0];
+                popup_4bd7c4150bc5dc304a62aeec604af5c8.setContent(html_af23e86cc5beb75c046132a681b02dfe);
+            
+        
+
+        marker_2aac9796c441828a6f8d563f3fd73948.bindPopup(popup_4bd7c4150bc5dc304a62aeec604af5c8)
+        ;
+
+        
+    
+    
+            var circle_59c3713c4c24abfb15fa7949e6c9f724 = L.circle(
+                [52.49317, 4.75898],
+                {"bubblingMouseEvents": true, "color": "#249d00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#249d00", "fillOpacity": 0.7043478260869566, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 198, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_5df132233c47c5bf69e5ad9a7f78c782 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_712fa4b8a011b26b0c65541cdff596cb = $(`<div id="html_712fa4b8a011b26b0c65541cdff596cb" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 99</div>`)[0];
+                popup_5df132233c47c5bf69e5ad9a7f78c782.setContent(html_712fa4b8a011b26b0c65541cdff596cb);
+            
+        
+
+        circle_59c3713c4c24abfb15fa7949e6c9f724.bindPopup(popup_5df132233c47c5bf69e5ad9a7f78c782)
+        ;
+
+        
+    
+    
+            var marker_c87a3b7d09dfb8ec82f5eac2746a56b4 = L.marker(
+                [52.49317, 4.75898],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_bcad7ae932d6c9f7ccd31df5d33a7bf2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1a2c667815179c1bd427a9fcb9abeee = $(`<div id="html_a1a2c667815179c1bd427a9fcb9abeee" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal de Springplank</h4><p> Totaal geldige uitgebrachte stemmen: 537</p><p><b>Democratisch Zaanstad (DZ)</b> 18%</br> (Absoluut aantal stemmen: 99)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (18%)</li><li>Partij voor Ouderen en Veiligheid (15%)</li><li>VVD (13%)</li></ol></p></p></div>`)[0];
+                popup_bcad7ae932d6c9f7ccd31df5d33a7bf2.setContent(html_a1a2c667815179c1bd427a9fcb9abeee);
+            
+        
+
+        marker_c87a3b7d09dfb8ec82f5eac2746a56b4.bindPopup(popup_bcad7ae932d6c9f7ccd31df5d33a7bf2)
+        ;
+
+        
+    
+    
+            var circle_1f9b646142e44da6105fb825f0484d96 = L.circle(
+                [52.48415, 4.76134],
+                {"bubblingMouseEvents": true, "color": "#60bf00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#60bf00", "fillOpacity": 0.46956521739130436, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 228, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_bc1c7ed3dce4b06f33dfe50ebda46377 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b2673b1da34935966cad0454be3648d = $(`<div id="html_0b2673b1da34935966cad0454be3648d" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 114</div>`)[0];
+                popup_bc1c7ed3dce4b06f33dfe50ebda46377.setContent(html_0b2673b1da34935966cad0454be3648d);
+            
+        
+
+        circle_1f9b646142e44da6105fb825f0484d96.bindPopup(popup_bc1c7ed3dce4b06f33dfe50ebda46377)
+        ;
+
+        
+    
+    
+            var marker_9027bd31e75f64a02dd313db9adacbf2 = L.marker(
+                [52.48415, 4.76134],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_0b4f61f2d69da5ef9000b301ac9e9544 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d8f1b2c1bcd47913f1cfc5e77c71410 = $(`<div id="html_5d8f1b2c1bcd47913f1cfc5e77c71410" style="width: 100.0%; height: 100.0%;"><h4>Stembureau BUKO</h4><p> Totaal geldige uitgebrachte stemmen: 970</p><p><b>Democratisch Zaanstad (DZ)</b> 12%</br> (Absoluut aantal stemmen: 114)<p><b>Top drie:</b><ol><li>VVD (16%)</li><li>Partij voor Ouderen en Veiligheid (13%)</li><li>Partij van de Arbeid (P.v.d.A.) (12%)</li></ol></p></p></div>`)[0];
+                popup_0b4f61f2d69da5ef9000b301ac9e9544.setContent(html_5d8f1b2c1bcd47913f1cfc5e77c71410);
+            
+        
+
+        marker_9027bd31e75f64a02dd313db9adacbf2.bindPopup(popup_0b4f61f2d69da5ef9000b301ac9e9544)
+        ;
+
+        
+    
+    
+            var circle_5c51c46098e4777a820803033420bf55 = L.circle(
+                [52.48838, 4.75082],
+                {"bubblingMouseEvents": true, "color": "#92d700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#92d700", "fillOpacity": 0.3130434782608696, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 160, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_21c71e14b87227d37e6e600eaf59ca01 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee7370bdfb0098586d1ae7680b5cb03d = $(`<div id="html_ee7370bdfb0098586d1ae7680b5cb03d" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 80</div>`)[0];
+                popup_21c71e14b87227d37e6e600eaf59ca01.setContent(html_ee7370bdfb0098586d1ae7680b5cb03d);
+            
+        
+
+        circle_5c51c46098e4777a820803033420bf55.bindPopup(popup_21c71e14b87227d37e6e600eaf59ca01)
+        ;
+
+        
+    
+    
+            var marker_c55bcc629df69e6afb247bb2fdcd2ec6 = L.marker(
+                [52.48838, 4.75082],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_b458146bf285463ae2e641e3b1d0d00a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec547ef65e80ca0bccba8e0ad5e4438f = $(`<div id="html_ec547ef65e80ca0bccba8e0ad5e4438f" style="width: 100.0%; height: 100.0%;"><h4>Stembureau JongerenHUB Noord</h4><p> Totaal geldige uitgebrachte stemmen: 959</p><p><b>Democratisch Zaanstad (DZ)</b> 8%</br> (Absoluut aantal stemmen: 80)<p><b>Top drie:</b><ol><li>VVD (20%)</li><li>DENK (11%)</li><li>Partij voor Ouderen en Veiligheid (11%)</li></ol></p></p></div>`)[0];
+                popup_b458146bf285463ae2e641e3b1d0d00a.setContent(html_ec547ef65e80ca0bccba8e0ad5e4438f);
+            
+        
+
+        marker_c55bcc629df69e6afb247bb2fdcd2ec6.bindPopup(popup_b458146bf285463ae2e641e3b1d0d00a)
+        ;
+
+        
+    
+    
+            var circle_1fc7e55b9976008857b7a27adfaf8419 = L.circle(
+                [52.49536, 4.75036],
+                {"bubblingMouseEvents": true, "color": "#54ba00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#54ba00", "fillOpacity": 0.508695652173913, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 90, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_6f64eec124cadb9e7893f1a6e7fc6fe3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce533e6892d119ca447245a91cd26b9a = $(`<div id="html_ce533e6892d119ca447245a91cd26b9a" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 45</div>`)[0];
+                popup_6f64eec124cadb9e7893f1a6e7fc6fe3.setContent(html_ce533e6892d119ca447245a91cd26b9a);
+            
+        
+
+        circle_1fc7e55b9976008857b7a27adfaf8419.bindPopup(popup_6f64eec124cadb9e7893f1a6e7fc6fe3)
+        ;
+
+        
+    
+    
+            var marker_bf37740c83539e236af538276afb900a = L.marker(
+                [52.49536, 4.75036],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_57eb662b25473551b4d34c16982ca94c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa404f02bfdf094e9cd1f4d196fa7985 = $(`<div id="html_fa404f02bfdf094e9cd1f4d196fa7985" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Kreekrijklaan 2</h4><p> Totaal geldige uitgebrachte stemmen: 356</p><p><b>Democratisch Zaanstad (DZ)</b> 13%</br> (Absoluut aantal stemmen: 45)<p><b>Top drie:</b><ol><li>VVD (20%)</li><li>Partij van de Arbeid (P.v.d.A.) (12%)</li><li>Democratisch Zaanstad (DZ) (12%)</li></ol></p></p></div>`)[0];
+                popup_57eb662b25473551b4d34c16982ca94c.setContent(html_fa404f02bfdf094e9cd1f4d196fa7985);
+            
+        
+
+        marker_bf37740c83539e236af538276afb900a.bindPopup(popup_57eb662b25473551b4d34c16982ca94c)
+        ;
+
+        
+    
+    
+            var circle_e7b4b0809c51b5a8ced62541898aa918 = L.circle(
+                [52.49454, 4.74488],
+                {"bubblingMouseEvents": true, "color": "#54ba00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#54ba00", "fillOpacity": 0.508695652173913, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 106, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_ebfb91262118a60af77e458c6755d267 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_201699e234871f0e9abfd6609955a828 = $(`<div id="html_201699e234871f0e9abfd6609955a828" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 53</div>`)[0];
+                popup_ebfb91262118a60af77e458c6755d267.setContent(html_201699e234871f0e9abfd6609955a828);
+            
+        
+
+        circle_e7b4b0809c51b5a8ced62541898aa918.bindPopup(popup_ebfb91262118a60af77e458c6755d267)
+        ;
+
+        
+    
+    
+            var marker_66480476d72ff44b4bd40d80938bff4f = L.marker(
+                [52.49454, 4.74488],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_c925730e9ebb2de06e93161ebb86fa07 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_552af8e6176223b00271ee929d13205a = $(`<div id="html_552af8e6176223b00271ee929d13205a" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Beemdgras</h4><p> Totaal geldige uitgebrachte stemmen: 412</p><p><b>Democratisch Zaanstad (DZ)</b> 13%</br> (Absoluut aantal stemmen: 53)<p><b>Top drie:</b><ol><li>VVD (23%)</li><li>Democratisch Zaanstad (DZ) (12%)</li><li>Partij van de Arbeid (P.v.d.A.) (10%)</li></ol></p></p></div>`)[0];
+                popup_c925730e9ebb2de06e93161ebb86fa07.setContent(html_552af8e6176223b00271ee929d13205a);
+            
+        
+
+        marker_66480476d72ff44b4bd40d80938bff4f.bindPopup(popup_c925730e9ebb2de06e93161ebb86fa07)
+        ;
+
+        
+    
+    
+            var circle_74ec2f86b31e28a1c8f067a646cd58ad = L.circle(
+                [52.48864, 4.75283],
+                {"bubblingMouseEvents": true, "color": "#60bf00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#60bf00", "fillOpacity": 0.46956521739130436, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 466, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_13aa161c937e2f62464592315da0a991 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_259f74988dbb87f7d52d42ddb5ab4e56 = $(`<div id="html_259f74988dbb87f7d52d42ddb5ab4e56" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 233</div>`)[0];
+                popup_13aa161c937e2f62464592315da0a991.setContent(html_259f74988dbb87f7d52d42ddb5ab4e56);
+            
+        
+
+        circle_74ec2f86b31e28a1c8f067a646cd58ad.bindPopup(popup_13aa161c937e2f62464592315da0a991)
+        ;
+
+        
+    
+    
+            var marker_cb4f8170dd32dd96caf8d73be21c26ad = L.marker(
+                [52.48864, 4.75283],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_125315453d40ccb803befe3922ce1100 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ade316ce2a9b00c566b7945384cbf17 = $(`<div id="html_3ade316ce2a9b00c566b7945384cbf17" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Het Sociale Winkeltje</h4><p> Totaal geldige uitgebrachte stemmen: 2001</p><p><b>Democratisch Zaanstad (DZ)</b> 12%</br> (Absoluut aantal stemmen: 233)<p><b>Top drie:</b><ol><li>VVD (17%)</li><li>Partij voor Ouderen en Veiligheid (14%)</li><li>Democratisch Zaanstad (DZ) (11%)</li></ol></p></p></div>`)[0];
+                popup_125315453d40ccb803befe3922ce1100.setContent(html_3ade316ce2a9b00c566b7945384cbf17);
+            
+        
+
+        marker_cb4f8170dd32dd96caf8d73be21c26ad.bindPopup(popup_125315453d40ccb803befe3922ce1100)
+        ;
+
+        
+    
+    
+            var circle_bedcdc064638c2c1e84400eeae0bef04 = L.circle(
+                [52.44896, 4.77604],
+                {"bubblingMouseEvents": true, "color": "#3fae00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3fae00", "fillOpacity": 0.5869565217391305, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 212, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_281eb74d7004714ea0f0d14d927858d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_994e8e0dbf9660e798317ec1ac6835a9 = $(`<div id="html_994e8e0dbf9660e798317ec1ac6835a9" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 106</div>`)[0];
+                popup_281eb74d7004714ea0f0d14d927858d5.setContent(html_994e8e0dbf9660e798317ec1ac6835a9);
+            
+        
+
+        circle_bedcdc064638c2c1e84400eeae0bef04.bindPopup(popup_281eb74d7004714ea0f0d14d927858d5)
+        ;
+
+        
+    
+    
+            var marker_feba928a49472dac0e52934b0ff89869 = L.marker(
+                [52.44896, 4.77604],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_aad66e7ced84679302cba0207232ca80 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3ce40255a68b4a5fed0844ce9387765 = $(`<div id="html_b3ce40255a68b4a5fed0844ce9387765" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Dorpshuis "De Kwaker"</h4><p> Totaal geldige uitgebrachte stemmen: 725</p><p><b>Democratisch Zaanstad (DZ)</b> 15%</br> (Absoluut aantal stemmen: 106)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (14%)</li><li>VVD (14%)</li><li>PVV (Partij voor de Vrijheid) (10%)</li></ol></p></p></div>`)[0];
+                popup_aad66e7ced84679302cba0207232ca80.setContent(html_b3ce40255a68b4a5fed0844ce9387765);
+            
+        
+
+        marker_feba928a49472dac0e52934b0ff89869.bindPopup(popup_aad66e7ced84679302cba0207232ca80)
+        ;
+
+        
+    
+    
+            var circle_41f1f11c9f75a4edd9cf7139d5ac99fd = L.circle(
+                [52.4638, 4.76978],
+                {"bubblingMouseEvents": true, "color": "#78cb00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#78cb00", "fillOpacity": 0.391304347826087, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 258, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_9ddfc79c3da54c74fd110e2f49807370 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f23ea841e22cce8be73fca05d9ac1ab = $(`<div id="html_9f23ea841e22cce8be73fca05d9ac1ab" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 129</div>`)[0];
+                popup_9ddfc79c3da54c74fd110e2f49807370.setContent(html_9f23ea841e22cce8be73fca05d9ac1ab);
+            
+        
+
+        circle_41f1f11c9f75a4edd9cf7139d5ac99fd.bindPopup(popup_9ddfc79c3da54c74fd110e2f49807370)
+        ;
+
+        
+    
+    
+            var marker_bb4f64eb0caca5f6186ad42767166624 = L.marker(
+                [52.4638, 4.76978],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_cf988a95e8faefbd8dac612ef46fe900 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4f87792dcd26ffa148be3405b680cb3 = $(`<div id="html_e4f87792dcd26ffa148be3405b680cb3" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Wijksteunpunt Lambert Melisz</h4><p> Totaal geldige uitgebrachte stemmen: 1258</p><p><b>Democratisch Zaanstad (DZ)</b> 10%</br> (Absoluut aantal stemmen: 129)<p><b>Top drie:</b><ol><li>VVD (16%)</li><li>Partij voor Ouderen en Veiligheid (13%)</li><li>Partij van de Arbeid (P.v.d.A.) (10%)</li></ol></p></p></div>`)[0];
+                popup_cf988a95e8faefbd8dac612ef46fe900.setContent(html_e4f87792dcd26ffa148be3405b680cb3);
+            
+        
+
+        marker_bb4f64eb0caca5f6186ad42767166624.bindPopup(popup_cf988a95e8faefbd8dac612ef46fe900)
+        ;
+
+        
+    
+    
+            var circle_9ce4e9e08f7c3271b72412a8b8eb7934 = L.circle(
+                [52.46317, 4.77163],
+                {"bubblingMouseEvents": true, "color": "#60bf00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#60bf00", "fillOpacity": 0.46956521739130436, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 64, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_355421ff2eedd75341b4b02776608778 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5053a6fac08fcf1355158504ecbb8d5 = $(`<div id="html_f5053a6fac08fcf1355158504ecbb8d5" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 32</div>`)[0];
+                popup_355421ff2eedd75341b4b02776608778.setContent(html_f5053a6fac08fcf1355158504ecbb8d5);
+            
+        
+
+        circle_9ce4e9e08f7c3271b72412a8b8eb7934.bindPopup(popup_355421ff2eedd75341b4b02776608778)
+        ;
+
+        
+    
+    
+            var marker_45757b63ee0b636c6e0af884b6796688 = L.marker(
+                [52.46317, 4.77163],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_2609c246135bae605c41fc2ba8fd9905 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd923e3cc1c2bce26e5e397bd5b210c3 = $(`<div id="html_dd923e3cc1c2bce26e5e397bd5b210c3" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Torenstraat, INGANG KERKBUURT 21</h4><p> Totaal geldige uitgebrachte stemmen: 269</p><p><b>Democratisch Zaanstad (DZ)</b> 12%</br> (Absoluut aantal stemmen: 32)<p><b>Top drie:</b><ol><li>VVD (17%)</li><li>ROSA (13%)</li><li>Democratisch Zaanstad (DZ) (11%)</li></ol></p></p></div>`)[0];
+                popup_2609c246135bae605c41fc2ba8fd9905.setContent(html_dd923e3cc1c2bce26e5e397bd5b210c3);
+            
+        
+
+        marker_45757b63ee0b636c6e0af884b6796688.bindPopup(popup_2609c246135bae605c41fc2ba8fd9905)
+        ;
+
+        
+    
+    
+            var circle_4f8244bb9fed13717500cd5d80bea238 = L.circle(
+                [52.45375, 4.83569],
+                {"bubblingMouseEvents": true, "color": "#78cb00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#78cb00", "fillOpacity": 0.391304347826087, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_ae43602bcc22452c16e9c1bbc51ac733 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68e11fcf42ec3aeb391c24e17a8f19ea = $(`<div id="html_68e11fcf42ec3aeb391c24e17a8f19ea" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 2</div>`)[0];
+                popup_ae43602bcc22452c16e9c1bbc51ac733.setContent(html_68e11fcf42ec3aeb391c24e17a8f19ea);
+            
+        
+
+        circle_4f8244bb9fed13717500cd5d80bea238.bindPopup(popup_ae43602bcc22452c16e9c1bbc51ac733)
+        ;
+
+        
+    
+    
+            var marker_87823019d0ba6cfb39d4046f2caac372 = L.marker(
+                [52.45375, 4.83569],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_a4e87248d90a267c29332a4fcbb47e64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b5b8ce5e14efc8632f54ac33a1e0f472 = $(`<div id="html_b5b8ce5e14efc8632f54ac33a1e0f472" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean Oostergouw, HOOFDINGANG</h4><p> Totaal geldige uitgebrachte stemmen: 20</p><p><b>Democratisch Zaanstad (DZ)</b> 10%</br> (Absoluut aantal stemmen: 2)<p><b>Top drie:</b><ol><li>SP (Socialistische Partij) (15%)</li><li>VVD (10%)</li><li>Partij van de Arbeid (P.v.d.A.) (10%)</li></ol></p></p></div>`)[0];
+                popup_a4e87248d90a267c29332a4fcbb47e64.setContent(html_b5b8ce5e14efc8632f54ac33a1e0f472);
+            
+        
+
+        marker_87823019d0ba6cfb39d4046f2caac372.bindPopup(popup_a4e87248d90a267c29332a4fcbb47e64)
+        ;
+
+        
+    
+    
+            var circle_17c9270e3ed90f577c4530788ed6219c = L.circle(
+                [52.44012, 4.84136],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_09657f5426309ee5501e5cfd1a1e7c0f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a3344e1d28ab490bec82b1b6e34f50e6 = $(`<div id="html_a3344e1d28ab490bec82b1b6e34f50e6" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 0</div>`)[0];
+                popup_09657f5426309ee5501e5cfd1a1e7c0f.setContent(html_a3344e1d28ab490bec82b1b6e34f50e6);
+            
+        
+
+        circle_17c9270e3ed90f577c4530788ed6219c.bindPopup(popup_09657f5426309ee5501e5cfd1a1e7c0f)
+        ;
+
+        
+    
+    
+            var marker_dc71dc74110102ad06d01ea2d562c9dc = L.marker(
+                [52.44012, 4.84136],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_68051a07609aee9afa9e734e729ba57d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cdd40ee0fac2908ddc9af55c6b6ced99 = $(`<div id="html_cdd40ee0fac2908ddc9af55c6b6ced99" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean Het Erasmushuis</h4><p> Totaal geldige uitgebrachte stemmen: 20</p><p><b>Democratisch Zaanstad (DZ)</b> 0%</br> (Absoluut aantal stemmen: 0)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (20%)</li><li>Partij voor Ouderen en Veiligheid (15%)</li><li>D66 (15%)</li></ol></p></p></div>`)[0];
+                popup_68051a07609aee9afa9e734e729ba57d.setContent(html_cdd40ee0fac2908ddc9af55c6b6ced99);
+            
+        
+
+        marker_dc71dc74110102ad06d01ea2d562c9dc.bindPopup(popup_68051a07609aee9afa9e734e729ba57d)
+        ;
+
+        
+    
+    
+            var circle_60f9d94b3afe35e5c7a4bd5b7932dada = L.circle(
+                [52.44115, 4.83269],
+                {"bubblingMouseEvents": true, "color": "#cdee00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cdee00", "fillOpacity": 0.1565217391304348, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_259cf0590c687df5f7109b16d23f0081 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ad9701b4b1b97b7bd3155ccc602d333 = $(`<div id="html_4ad9701b4b1b97b7bd3155ccc602d333" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 2</div>`)[0];
+                popup_259cf0590c687df5f7109b16d23f0081.setContent(html_4ad9701b4b1b97b7bd3155ccc602d333);
+            
+        
+
+        circle_60f9d94b3afe35e5c7a4bd5b7932dada.bindPopup(popup_259cf0590c687df5f7109b16d23f0081)
+        ;
+
+        
+    
+    
+            var marker_c548251ba3105912531cf960dc8e2e77 = L.marker(
+                [52.44115, 4.83269],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_428c202f9586df14d89a9e70dff46693 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba6a2c4b1fea396e3b586d5a8147fdbd = $(`<div id="html_ba6a2c4b1fea396e3b586d5a8147fdbd" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Zorgcentrum Mennistenerf</h4><p> Totaal geldige uitgebrachte stemmen: 51</p><p><b>Democratisch Zaanstad (DZ)</b> 4%</br> (Absoluut aantal stemmen: 2)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (43%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li><li>DENK (11%)</li></ol></p></p></div>`)[0];
+                popup_428c202f9586df14d89a9e70dff46693.setContent(html_ba6a2c4b1fea396e3b586d5a8147fdbd);
+            
+        
+
+        marker_c548251ba3105912531cf960dc8e2e77.bindPopup(popup_428c202f9586df14d89a9e70dff46693)
+        ;
+
+        
+    
+    
+            var circle_fff8fba240a2e1ec45be8dc5f82344bf = L.circle(
+                [52.44342, 4.83039],
+                {"bubblingMouseEvents": true, "color": "#eef900", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#eef900", "fillOpacity": 0.0782608695652174, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_35686bab055b8b3f186ffe2ac66d64a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f6528be1b50eb69156e98b207a8bb52e = $(`<div id="html_f6528be1b50eb69156e98b207a8bb52e" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 1</div>`)[0];
+                popup_35686bab055b8b3f186ffe2ac66d64a7.setContent(html_f6528be1b50eb69156e98b207a8bb52e);
+            
+        
+
+        circle_fff8fba240a2e1ec45be8dc5f82344bf.bindPopup(popup_35686bab055b8b3f186ffe2ac66d64a7)
+        ;
+
+        
+    
+    
+            var marker_f8b93a661ff4c97ede18a35296f7a842 = L.marker(
+                [52.44342, 4.83039],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_59b295b01fb1646e1b42fbf7feb378a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_031c39dbde4341456113ad9a8fd49c0f = $(`<div id="html_031c39dbde4341456113ad9a8fd49c0f" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Hervormd Centrum Pennemes, HOOFDINGANG</h4><p> Totaal geldige uitgebrachte stemmen: 42</p><p><b>Democratisch Zaanstad (DZ)</b> 2%</br> (Absoluut aantal stemmen: 1)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (21%)</li><li>ChristenUnie (21%)</li><li>Partij van de Arbeid (P.v.d.A.) (14%)</li></ol></p></p></div>`)[0];
+                popup_59b295b01fb1646e1b42fbf7feb378a1.setContent(html_031c39dbde4341456113ad9a8fd49c0f);
+            
+        
+
+        marker_f8b93a661ff4c97ede18a35296f7a842.bindPopup(popup_59b295b01fb1646e1b42fbf7feb378a1)
+        ;
+
+        
+    
+    
+            var circle_f60de2dcfd0ad85e971b722141dfa055 = L.circle(
+                [52.4704, 4.83439],
+                {"bubblingMouseEvents": true, "color": "#85d100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#85d100", "fillOpacity": 0.3521739130434783, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_bd79d4a76470074ef60c014591081198 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b195cf65c78c01ffcb89f1e91792d05 = $(`<div id="html_0b195cf65c78c01ffcb89f1e91792d05" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 4</div>`)[0];
+                popup_bd79d4a76470074ef60c014591081198.setContent(html_0b195cf65c78c01ffcb89f1e91792d05);
+            
+        
+
+        circle_f60de2dcfd0ad85e971b722141dfa055.bindPopup(popup_bd79d4a76470074ef60c014591081198)
+        ;
+
+        
+    
+    
+            var marker_861358dcbe43f8f606402a6b914c5df9 = L.marker(
+                [52.4704, 4.83439],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_13e13524edbdd903af17bfd668dfa785 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_48785d0f14d5b3e02983da429883a254 = $(`<div id="html_48785d0f14d5b3e02983da429883a254" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Zorgcentrum Nieuw Groenland</h4><p> Totaal geldige uitgebrachte stemmen: 47</p><p><b>Democratisch Zaanstad (DZ)</b> 9%</br> (Absoluut aantal stemmen: 4)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (14%)</li><li>CDA (12%)</li><li>Partij voor de Dieren (12%)</li></ol></p></p></div>`)[0];
+                popup_13e13524edbdd903af17bfd668dfa785.setContent(html_48785d0f14d5b3e02983da429883a254);
+            
+        
+
+        marker_861358dcbe43f8f606402a6b914c5df9.bindPopup(popup_13e13524edbdd903af17bfd668dfa785)
+        ;
+
+        
+    
+    
+            var circle_ba34e56642f0aca12bcdf6015a111480 = L.circle(
+                [52.44279, 4.81852],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_0a737f85df93ef88367f446aa2fe115e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88dcb355542fccc71cfa4fe2c6a2f99c = $(`<div id="html_88dcb355542fccc71cfa4fe2c6a2f99c" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 0</div>`)[0];
+                popup_0a737f85df93ef88367f446aa2fe115e.setContent(html_88dcb355542fccc71cfa4fe2c6a2f99c);
+            
+        
+
+        circle_ba34e56642f0aca12bcdf6015a111480.bindPopup(popup_0a737f85df93ef88367f446aa2fe115e)
+        ;
+
+        
+    
+    
+            var marker_59a1befc58c44cd6be72a006d09a75bb = L.marker(
+                [52.44279, 4.81852],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_57e988227398d515aaf0c5e1956be673 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e76e8f65046584f8f2bfc88835a7104 = $(`<div id="html_2e76e8f65046584f8f2bfc88835a7104" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Zorgcentrum Saenden</h4><p> Totaal geldige uitgebrachte stemmen: 10</p><p><b>Democratisch Zaanstad (DZ)</b> 0%</br> (Absoluut aantal stemmen: 0)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (30%)</li><li>VVD (20%)</li><li>CDA (20%)</li></ol></p></p></div>`)[0];
+                popup_57e988227398d515aaf0c5e1956be673.setContent(html_2e76e8f65046584f8f2bfc88835a7104);
+            
+        
+
+        marker_59a1befc58c44cd6be72a006d09a75bb.bindPopup(popup_57e988227398d515aaf0c5e1956be673)
+        ;
+
+        
+    
+    
+            var circle_d27c19b5525149b40bb72c65c27b9f48 = L.circle(
+                [52.44905, 4.80177],
+                {"bubblingMouseEvents": true, "color": "#78cb00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#78cb00", "fillOpacity": 0.391304347826087, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_912de2e31fa9f637bb2d573d081d5957 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8e475494746be5318af58d8efdd91f1 = $(`<div id="html_e8e475494746be5318af58d8efdd91f1" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 5</div>`)[0];
+                popup_912de2e31fa9f637bb2d573d081d5957.setContent(html_e8e475494746be5318af58d8efdd91f1);
+            
+        
+
+        circle_d27c19b5525149b40bb72c65c27b9f48.bindPopup(popup_912de2e31fa9f637bb2d573d081d5957)
+        ;
+
+        
+    
+    
+            var marker_844efc8351a7b85265349856415b0086 = L.marker(
+                [52.44905, 4.80177],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_3601278803ebeb0f04c3f76d2823b572 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_83d1d8dbce0e27670a716127b14ecba6 = $(`<div id="html_83d1d8dbce0e27670a716127b14ecba6" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean Westerwatering, HOOFDINGANG</h4><p> Totaal geldige uitgebrachte stemmen: 50</p><p><b>Democratisch Zaanstad (DZ)</b> 10%</br> (Absoluut aantal stemmen: 5)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (54%)</li><li>Democratisch Zaanstad (DZ) (10%)</li><li>Partij van de Arbeid (P.v.d.A.) (8%)</li></ol></p></p></div>`)[0];
+                popup_3601278803ebeb0f04c3f76d2823b572.setContent(html_83d1d8dbce0e27670a716127b14ecba6);
+            
+        
+
+        marker_844efc8351a7b85265349856415b0086.bindPopup(popup_3601278803ebeb0f04c3f76d2823b572)
+        ;
+
+        
+    
+    
+            var circle_cc363a439256887b35fe626e8adc77d4 = L.circle(
+                [52.46873, 4.81152],
+                {"bubblingMouseEvents": true, "color": "#6cc500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#6cc500", "fillOpacity": 0.4304347826086956, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_8fc0b23a839485f1fe658aa1fba1e428 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_878bbb48fe2dce3fbb803ee08fb089f8 = $(`<div id="html_878bbb48fe2dce3fbb803ee08fb089f8" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 5</div>`)[0];
+                popup_8fc0b23a839485f1fe658aa1fba1e428.setContent(html_878bbb48fe2dce3fbb803ee08fb089f8);
+            
+        
+
+        circle_cc363a439256887b35fe626e8adc77d4.bindPopup(popup_8fc0b23a839485f1fe658aa1fba1e428)
+        ;
+
+        
+    
+    
+            var marker_9122a6159f2cc88180b81b8c767d651a = L.marker(
+                [52.46873, 4.81152],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_7d208d625521a06bf8b7c100e8dcc574 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d49341bf4016852df7a452b3696d9bf7 = $(`<div id="html_d49341bf4016852df7a452b3696d9bf7" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean Parkzicht</h4><p> Totaal geldige uitgebrachte stemmen: 46</p><p><b>Democratisch Zaanstad (DZ)</b> 11%</br> (Absoluut aantal stemmen: 5)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (26%)</li><li>Partij van de Arbeid (P.v.d.A.) (15%)</li><li>ROSA (13%)</li></ol></p></p></div>`)[0];
+                popup_7d208d625521a06bf8b7c100e8dcc574.setContent(html_d49341bf4016852df7a452b3696d9bf7);
+            
+        
+
+        marker_9122a6159f2cc88180b81b8c767d651a.bindPopup(popup_7d208d625521a06bf8b7c100e8dcc574)
+        ;
+
+        
+    
+    
+            var circle_06a9157b94f2f1a6c99d3f4c28bc7ed7 = L.circle(
+                [52.47728, 4.80156],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_5d529f8db167539b96c1c7215856d22d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3341649d0f3cf4c9425af32e0a98959c = $(`<div id="html_3341649d0f3cf4c9425af32e0a98959c" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 0</div>`)[0];
+                popup_5d529f8db167539b96c1c7215856d22d.setContent(html_3341649d0f3cf4c9425af32e0a98959c);
+            
+        
+
+        circle_06a9157b94f2f1a6c99d3f4c28bc7ed7.bindPopup(popup_5d529f8db167539b96c1c7215856d22d)
+        ;
+
+        
+    
+    
+            var marker_f75d65f79ac348d16372beb70d6058a5 = L.marker(
+                [52.47728, 4.80156],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_6b1d344fd0b1d2fc79844a6ff8c53ad2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d02886a1da094553c074ee1585e1ef36 = $(`<div id="html_d02886a1da094553c074ee1585e1ef36" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean Guisveld</h4><p> Totaal geldige uitgebrachte stemmen: 8</p><p><b>Democratisch Zaanstad (DZ)</b> 0%</br> (Absoluut aantal stemmen: 0)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (25%)</li><li>ROSA (12%)</li><li>D66 (12%)</li></ol></p></p></div>`)[0];
+                popup_6b1d344fd0b1d2fc79844a6ff8c53ad2.setContent(html_d02886a1da094553c074ee1585e1ef36);
+            
+        
+
+        marker_f75d65f79ac348d16372beb70d6058a5.bindPopup(popup_6b1d344fd0b1d2fc79844a6ff8c53ad2)
+        ;
+
+        
+    
+    
+            var circle_658a1390d6edcb32f2f9ab0671148950 = L.circle(
+                [52.48707, 4.80201],
+                {"bubblingMouseEvents": true, "color": "#bee800", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bee800", "fillOpacity": 0.1956521739130435, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_a93e8c1dfff960039e6e320ebfd42868 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e659451e5e4a907414e28efd19782dac = $(`<div id="html_e659451e5e4a907414e28efd19782dac" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 1</div>`)[0];
+                popup_a93e8c1dfff960039e6e320ebfd42868.setContent(html_e659451e5e4a907414e28efd19782dac);
+            
+        
+
+        circle_658a1390d6edcb32f2f9ab0671148950.bindPopup(popup_a93e8c1dfff960039e6e320ebfd42868)
+        ;
+
+        
+    
+    
+            var marker_cdd007601c3b29a605bde7bf8b42137e = L.marker(
+                [52.48707, 4.80201],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_fd85ec65a0470778f3fe405a5276da74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fcf1a35f0d2c3cc66af93f88bde8dcff = $(`<div id="html_fcf1a35f0d2c3cc66af93f88bde8dcff" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean Acht Staten</h4><p> Totaal geldige uitgebrachte stemmen: 19</p><p><b>Democratisch Zaanstad (DZ)</b> 5%</br> (Absoluut aantal stemmen: 1)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (26%)</li><li>Partij voor Ouderen en Veiligheid (21%)</li><li>PVV (Partij voor de Vrijheid) (10%)</li></ol></p></p></div>`)[0];
+                popup_fd85ec65a0470778f3fe405a5276da74.setContent(html_fcf1a35f0d2c3cc66af93f88bde8dcff);
+            
+        
+
+        marker_cdd007601c3b29a605bde7bf8b42137e.bindPopup(popup_fd85ec65a0470778f3fe405a5276da74)
+        ;
+
+        
+    
+    
+            var circle_97a14b28eba2b61da98b60b46c57bb56 = L.circle(
+                [52.50553, 4.7625],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "stroke": true, "weight": 3}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_897e394d7680a9c11fcc6f15d250d722 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06e703043da62a2479a6c4d9bdd01f5b = $(`<div id="html_06e703043da62a2479a6c4d9bdd01f5b" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Democratisch Zaanstad (DZ): 0</div>`)[0];
+                popup_897e394d7680a9c11fcc6f15d250d722.setContent(html_06e703043da62a2479a6c4d9bdd01f5b);
+            
+        
+
+        circle_97a14b28eba2b61da98b60b46c57bb56.bindPopup(popup_897e394d7680a9c11fcc6f15d250d722)
+        ;
+
+        
+    
+    
+            var marker_3dd1fbf358a4ae77f45a5f8dac943334 = L.marker(
+                [52.50553, 4.7625],
+                {}
+            ).addTo(map_3308075ca2564275041c930e91b3384a);
+        
+    
+        var popup_22e4199d3b649d2471f97fd62ea18f45 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_36263dbff334ff367907a6544d217c88 = $(`<div id="html_36263dbff334ff367907a6544d217c88" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean Rosariumhorst</h4><p> Totaal geldige uitgebrachte stemmen: 18</p><p><b>Democratisch Zaanstad (DZ)</b> 0%</br> (Absoluut aantal stemmen: 0)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (27%)</li><li>Partij voor Ouderen en Veiligheid (11%)</li><li>D66 (11%)</li></ol></p></p></div>`)[0];
+                popup_22e4199d3b649d2471f97fd62ea18f45.setContent(html_36263dbff334ff367907a6544d217c88);
+            
+        
+
+        marker_3dd1fbf358a4ae77f45a5f8dac943334.bindPopup(popup_22e4199d3b649d2471f97fd62ea18f45)
+        ;
+
+        
+    
+</script>
+</html>

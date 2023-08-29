@@ -1,0 +1,3264 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ae8a2bac91b91bf8e5b189b3fed8d93c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+             <h3 align="center" style="font-size:16px"><b>Gemeenteraad Zaanstad 2022 - Belang van Nederland (BVNL)</b></h3>
+             
+    
+            <div class="folium-map" id="map_ae8a2bac91b91bf8e5b189b3fed8d93c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ae8a2bac91b91bf8e5b189b3fed8d93c = L.map(
+                "map_ae8a2bac91b91bf8e5b189b3fed8d93c",
+                {
+                    center: [52.447962, 4.815532],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f1ad253687f6865dafb89dd72914fccf = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+            var circle_b76f91a394ee36ddf2161a5ceee7a0e3 = L.circle(
+                [52.43434, 4.83998],
+                {"bubblingMouseEvents": true, "color": "#d6f100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d6f100", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 22, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_114ac8a6d2a2c7ceca704db2aa6c2894 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a53e3841864c481c294519357d154c2 = $(`<div id="html_7a53e3841864c481c294519357d154c2" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 11</div>`)[0];
+                popup_114ac8a6d2a2c7ceca704db2aa6c2894.setContent(html_7a53e3841864c481c294519357d154c2);
+            
+        
+
+        circle_b76f91a394ee36ddf2161a5ceee7a0e3.bindPopup(popup_114ac8a6d2a2c7ceca704db2aa6c2894)
+        ;
+
+        
+    
+    
+            var marker_43046a98d192716a1e091d116540c2af = L.marker(
+                [52.43434, 4.83998],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_b5824de7eaf69e2c33fb21fa4875cdf8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c67b96d91ac23e510cd2c0e7fc35f25 = $(`<div id="html_5c67b96d91ac23e510cd2c0e7fc35f25" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Wibautstraat, INGANG SPARRESTRAAT</h4><p> Totaal geldige uitgebrachte stemmen: 607</p><p><b>Belang van Nederland (BVNL)</b> 2%</br> (Absoluut aantal stemmen: 11)<p><b>Top drie:</b><ol><li>DENK (19%)</li><li>Partij van de Arbeid (P.v.d.A.) (16%)</li><li>Partij voor Ouderen en Veiligheid (12%)</li></ol></p></p></div>`)[0];
+                popup_b5824de7eaf69e2c33fb21fa4875cdf8.setContent(html_5c67b96d91ac23e510cd2c0e7fc35f25);
+            
+        
+
+        marker_43046a98d192716a1e091d116540c2af.bindPopup(popup_b5824de7eaf69e2c33fb21fa4875cdf8)
+        ;
+
+        
+    
+    
+            var circle_6087923b71037a56c9fd0f2a914d4b41 = L.circle(
+                [52.4297, 4.83851],
+                {"bubblingMouseEvents": true, "color": "#d6f100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d6f100", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 24, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_f3f90a9044f5ee1a342bea3f67c87dfa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cce459edafb3c1273d07470ed3b493b6 = $(`<div id="html_cce459edafb3c1273d07470ed3b493b6" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 12</div>`)[0];
+                popup_f3f90a9044f5ee1a342bea3f67c87dfa.setContent(html_cce459edafb3c1273d07470ed3b493b6);
+            
+        
+
+        circle_6087923b71037a56c9fd0f2a914d4b41.bindPopup(popup_f3f90a9044f5ee1a342bea3f67c87dfa)
+        ;
+
+        
+    
+    
+            var marker_936a2c24f10765028d9a7564fda8ce74 = L.marker(
+                [52.4297, 4.83851],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_4b1751f0f9aeddf4dcc8b4afba4165c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_afe26b143334adc4b7372fce2f4ac16e = $(`<div id="html_afe26b143334adc4b7372fce2f4ac16e" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Handboogschutters Czaar Peter</h4><p> Totaal geldige uitgebrachte stemmen: 769</p><p><b>Belang van Nederland (BVNL)</b> 2%</br> (Absoluut aantal stemmen: 12)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (15%)</li><li>DENK (12%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li></ol></p></p></div>`)[0];
+                popup_4b1751f0f9aeddf4dcc8b4afba4165c1.setContent(html_afe26b143334adc4b7372fce2f4ac16e);
+            
+        
+
+        marker_936a2c24f10765028d9a7564fda8ce74.bindPopup(popup_4b1751f0f9aeddf4dcc8b4afba4165c1)
+        ;
+
+        
+    
+    
+            var circle_d5ef8a686f05b32e71ec8d836fdc55bd = L.circle(
+                [52.43576, 4.85498],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.09, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 26, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_379fd0ec0957370cc9a7c321d54d245d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb381f01869751a7eb247aad9ca153b5 = $(`<div id="html_eb381f01869751a7eb247aad9ca153b5" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 13</div>`)[0];
+                popup_379fd0ec0957370cc9a7c321d54d245d.setContent(html_eb381f01869751a7eb247aad9ca153b5);
+            
+        
+
+        circle_d5ef8a686f05b32e71ec8d836fdc55bd.bindPopup(popup_379fd0ec0957370cc9a7c321d54d245d)
+        ;
+
+        
+    
+    
+            var marker_c51d54c2e1784bd19e86210921a1e824 = L.marker(
+                [52.43576, 4.85498],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_0a0f44ba58f922a041ee81e33dda1915 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15df6ac7cd858b308c06d7c994d4ee27 = $(`<div id="html_15df6ac7cd858b308c06d7c994d4ee27" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Wijkcentrum de Poelenburcht</h4><p> Totaal geldige uitgebrachte stemmen: 1350</p><p><b>Belang van Nederland (BVNL)</b> 1%</br> (Absoluut aantal stemmen: 13)<p><b>Top drie:</b><ol><li>DENK (33%)</li><li>Partij van de Arbeid (P.v.d.A.) (18%)</li><li>Partij voor Ouderen en Veiligheid (8%)</li></ol></p></p></div>`)[0];
+                popup_0a0f44ba58f922a041ee81e33dda1915.setContent(html_15df6ac7cd858b308c06d7c994d4ee27);
+            
+        
+
+        marker_c51d54c2e1784bd19e86210921a1e824.bindPopup(popup_0a0f44ba58f922a041ee81e33dda1915)
+        ;
+
+        
+    
+    
+            var circle_cdb0bf1e6c5f367d9d28fc6151648c60 = L.circle(
+                [52.44074, 4.84661],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.09, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 16, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_e95e193da50a1a122dbd3fbb0846f322 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8aa5636e4d05e9f51135bf5d3a9740f = $(`<div id="html_d8aa5636e4d05e9f51135bf5d3a9740f" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 8</div>`)[0];
+                popup_e95e193da50a1a122dbd3fbb0846f322.setContent(html_d8aa5636e4d05e9f51135bf5d3a9740f);
+            
+        
+
+        circle_cdb0bf1e6c5f367d9d28fc6151648c60.bindPopup(popup_e95e193da50a1a122dbd3fbb0846f322)
+        ;
+
+        
+    
+    
+            var marker_3c7ce1ac27ce13eeca84aeb447155b40 = L.marker(
+                [52.44074, 4.84661],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_48df4f18e939ba8107a0d8e3ea2c0e76 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5827902168c1729644033d0c18904a48 = $(`<div id="html_5827902168c1729644033d0c18904a48" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Zaans Natuur en Milieu Centrum</h4><p> Totaal geldige uitgebrachte stemmen: 615</p><p><b>Belang van Nederland (BVNL)</b> 1%</br> (Absoluut aantal stemmen: 8)<p><b>Top drie:</b><ol><li>DENK (24%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li><li>Partij voor Ouderen en Veiligheid (8%)</li></ol></p></p></div>`)[0];
+                popup_48df4f18e939ba8107a0d8e3ea2c0e76.setContent(html_5827902168c1729644033d0c18904a48);
+            
+        
+
+        marker_3c7ce1ac27ce13eeca84aeb447155b40.bindPopup(popup_48df4f18e939ba8107a0d8e3ea2c0e76)
+        ;
+
+        
+    
+    
+            var circle_1dbd326032e63da212903f031987988c = L.circle(
+                [52.44875, 4.84416],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.09, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_d4b9388172dd7d3e527cbad4c8b23aae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4da1f16094361e18a5d48451cf40348c = $(`<div id="html_4da1f16094361e18a5d48451cf40348c" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 6</div>`)[0];
+                popup_d4b9388172dd7d3e527cbad4c8b23aae.setContent(html_4da1f16094361e18a5d48451cf40348c);
+            
+        
+
+        circle_1dbd326032e63da212903f031987988c.bindPopup(popup_d4b9388172dd7d3e527cbad4c8b23aae)
+        ;
+
+        
+    
+    
+            var marker_d0b22156583e2874b8faa190582acf34 = L.marker(
+                [52.44875, 4.84416],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_b15520a4e403c27717839a6fcfae6414 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad3a74efead595fa057c3e222fabedd6 = $(`<div id="html_ad3a74efead595fa057c3e222fabedd6" style="width: 100.0%; height: 100.0%;"><h4>Stembureau ICBS de Windroos, INGANG PINASSTRAAT 4</h4><p> Totaal geldige uitgebrachte stemmen: 708</p><p><b>Belang van Nederland (BVNL)</b> 1%</br> (Absoluut aantal stemmen: 6)<p><b>Top drie:</b><ol><li>DENK (26%)</li><li>Partij van de Arbeid (P.v.d.A.) (17%)</li><li>Partij voor Ouderen en Veiligheid (9%)</li></ol></p></p></div>`)[0];
+                popup_b15520a4e403c27717839a6fcfae6414.setContent(html_ad3a74efead595fa057c3e222fabedd6);
+            
+        
+
+        marker_d0b22156583e2874b8faa190582acf34.bindPopup(popup_b15520a4e403c27717839a6fcfae6414)
+        ;
+
+        
+    
+    
+            var circle_db392d8be8aa813195f5fe6af91e8de3 = L.circle(
+                [52.45458, 4.83273],
+                {"bubblingMouseEvents": true, "color": "#d6f100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d6f100", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 22, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_e118163ad0244ca5fd1c0e6d2de23e10 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_316950f9a7d14427bdc85dd4320b5946 = $(`<div id="html_316950f9a7d14427bdc85dd4320b5946" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 11</div>`)[0];
+                popup_e118163ad0244ca5fd1c0e6d2de23e10.setContent(html_316950f9a7d14427bdc85dd4320b5946);
+            
+        
+
+        circle_db392d8be8aa813195f5fe6af91e8de3.bindPopup(popup_e118163ad0244ca5fd1c0e6d2de23e10)
+        ;
+
+        
+    
+    
+            var marker_2ecec8487e57dc65ee26926d409137fe = L.marker(
+                [52.45458, 4.83273],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_882d3ce7f7acdd09d9685a24d4d42023 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ccee5410b484008a9c80afaf073f974c = $(`<div id="html_ccee5410b484008a9c80afaf073f974c" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Blaise Pascal College</h4><p> Totaal geldige uitgebrachte stemmen: 572</p><p><b>Belang van Nederland (BVNL)</b> 2%</br> (Absoluut aantal stemmen: 11)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (14%)</li><li>Partij van de Arbeid (P.v.d.A.) (12%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_882d3ce7f7acdd09d9685a24d4d42023.setContent(html_ccee5410b484008a9c80afaf073f974c);
+            
+        
+
+        marker_2ecec8487e57dc65ee26926d409137fe.bindPopup(popup_882d3ce7f7acdd09d9685a24d4d42023)
+        ;
+
+        
+    
+    
+            var circle_225479165b1609bce41f7bd100abde37 = L.circle(
+                [52.44644, 4.83914],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.09, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 22, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_50595833197360f9d94311df16cf3c6d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_66df5ff8b123263d6e1e86626014b30d = $(`<div id="html_66df5ff8b123263d6e1e86626014b30d" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 11</div>`)[0];
+                popup_50595833197360f9d94311df16cf3c6d.setContent(html_66df5ff8b123263d6e1e86626014b30d);
+            
+        
+
+        circle_225479165b1609bce41f7bd100abde37.bindPopup(popup_50595833197360f9d94311df16cf3c6d)
+        ;
+
+        
+    
+    
+            var marker_a00b4317a646de4e32339bccaecf2a93 = L.marker(
+                [52.44644, 4.83914],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_af97fbb7fcbea62aaac08d6d1356692d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61b6c61bf4b7f7d01c9a1af4a654eaa2 = $(`<div id="html_61b6c61bf4b7f7d01c9a1af4a654eaa2" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean De Meerpaal, INGANG TJOTTERLAAN 174</h4><p> Totaal geldige uitgebrachte stemmen: 1022</p><p><b>Belang van Nederland (BVNL)</b> 1%</br> (Absoluut aantal stemmen: 11)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (15%)</li><li>Partij voor Ouderen en Veiligheid (12%)</li><li>VVD (12%)</li></ol></p></p></div>`)[0];
+                popup_af97fbb7fcbea62aaac08d6d1356692d.setContent(html_61b6c61bf4b7f7d01c9a1af4a654eaa2);
+            
+        
+
+        marker_a00b4317a646de4e32339bccaecf2a93.bindPopup(popup_af97fbb7fcbea62aaac08d6d1356692d)
+        ;
+
+        
+    
+    
+            var circle_e6b19a4cb32145484ce7295161990d0c = L.circle(
+                [52.43927208598662, 4.8424228597558585],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.09, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_103aae73d046003b53d1080b6928b33e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b2dae5bb376b35106d45ec4b3328ec28 = $(`<div id="html_b2dae5bb376b35106d45ec4b3328ec28" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 5</div>`)[0];
+                popup_103aae73d046003b53d1080b6928b33e.setContent(html_b2dae5bb376b35106d45ec4b3328ec28);
+            
+        
+
+        circle_e6b19a4cb32145484ce7295161990d0c.bindPopup(popup_103aae73d046003b53d1080b6928b33e)
+        ;
+
+        
+    
+    
+            var marker_9ee3e374aa953c312ee11d55b7b660e0 = L.marker(
+                [52.43927208598662, 4.8424228597558585],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_8f178811e59fa9000a7eb8e632b53973 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c6bb5431612c1cfb3b4ace154b22e0f = $(`<div id="html_5c6bb5431612c1cfb3b4ace154b22e0f" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Noorderven</h4><p> Totaal geldige uitgebrachte stemmen: 599</p><p><b>Belang van Nederland (BVNL)</b> 1%</br> (Absoluut aantal stemmen: 5)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (18%)</li><li>DENK (13%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_8f178811e59fa9000a7eb8e632b53973.setContent(html_5c6bb5431612c1cfb3b4ace154b22e0f);
+            
+        
+
+        marker_9ee3e374aa953c312ee11d55b7b660e0.bindPopup(popup_8f178811e59fa9000a7eb8e632b53973)
+        ;
+
+        
+    
+    
+            var circle_0a422a37a0bb5533923e95056eff25c9 = L.circle(
+                [52.43656, 4.83676],
+                {"bubblingMouseEvents": true, "color": "#d6f100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d6f100", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_f1bd3e70608edb9b10bf254e412c3994 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_527de79d2d7ae240086c782c2292c11f = $(`<div id="html_527de79d2d7ae240086c782c2292c11f" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 10</div>`)[0];
+                popup_f1bd3e70608edb9b10bf254e412c3994.setContent(html_527de79d2d7ae240086c782c2292c11f);
+            
+        
+
+        circle_0a422a37a0bb5533923e95056eff25c9.bindPopup(popup_f1bd3e70608edb9b10bf254e412c3994)
+        ;
+
+        
+    
+    
+            var marker_783a4e387495749431afcdb1f5d67165 = L.marker(
+                [52.43656, 4.83676],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_4190931e4b7483644c722d8ede6a42a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1e49729fd17d1c5dd0ddcaa360595b1 = $(`<div id="html_e1e49729fd17d1c5dd0ddcaa360595b1" style="width: 100.0%; height: 100.0%;"><h4>Stembureau De Paaskerk</h4><p> Totaal geldige uitgebrachte stemmen: 502</p><p><b>Belang van Nederland (BVNL)</b> 2%</br> (Absoluut aantal stemmen: 10)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (14%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li><li>PVV (Partij voor de Vrijheid) (10%)</li></ol></p></p></div>`)[0];
+                popup_4190931e4b7483644c722d8ede6a42a6.setContent(html_e1e49729fd17d1c5dd0ddcaa360595b1);
+            
+        
+
+        marker_783a4e387495749431afcdb1f5d67165.bindPopup(popup_4190931e4b7483644c722d8ede6a42a6)
+        ;
+
+        
+    
+    
+            var circle_f210ba27ac6dfc0ed075a3b86ba0d2cf = L.circle(
+                [52.43558, 4.8336],
+                {"bubblingMouseEvents": true, "color": "#b0e300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b0e300", "fillOpacity": 0.27, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 26, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_3408fe4f0f19086902a9f15676c96c39 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e676075ba7d6400663a88f125d85d28 = $(`<div id="html_6e676075ba7d6400663a88f125d85d28" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 13</div>`)[0];
+                popup_3408fe4f0f19086902a9f15676c96c39.setContent(html_6e676075ba7d6400663a88f125d85d28);
+            
+        
+
+        circle_f210ba27ac6dfc0ed075a3b86ba0d2cf.bindPopup(popup_3408fe4f0f19086902a9f15676c96c39)
+        ;
+
+        
+    
+    
+            var marker_b4e06e0d78f70567228f20f6e640eba7 = L.marker(
+                [52.43558, 4.8336],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_1d24f0c519ec7f452beaa9757d353623 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c304c951c62fcca6ce8f84d3826fcffe = $(`<div id="html_c304c951c62fcca6ce8f84d3826fcffe" style="width: 100.0%; height: 100.0%;"><h4>Stembureau CBS Tamarinde,INGANG J.C. VAN WESSEMSTR</h4><p> Totaal geldige uitgebrachte stemmen: 499</p><p><b>Belang van Nederland (BVNL)</b> 3%</br> (Absoluut aantal stemmen: 13)<p><b>Top drie:</b><ol><li>ROSA (17%)</li><li>Partij voor Ouderen en Veiligheid (15%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li></ol></p></p></div>`)[0];
+                popup_1d24f0c519ec7f452beaa9757d353623.setContent(html_c304c951c62fcca6ce8f84d3826fcffe);
+            
+        
+
+        marker_b4e06e0d78f70567228f20f6e640eba7.bindPopup(popup_1d24f0c519ec7f452beaa9757d353623)
+        ;
+
+        
+    
+    
+            var circle_0f12d3b7eb9961099fc6e5c87e8ec351 = L.circle(
+                [52.44047, 4.83383],
+                {"bubblingMouseEvents": true, "color": "#d6f100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d6f100", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_23db7b54ea1956f3e35821f659c84e06 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e952a316678874c1ac03d53ca0b8ad7 = $(`<div id="html_5e952a316678874c1ac03d53ca0b8ad7" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 10</div>`)[0];
+                popup_23db7b54ea1956f3e35821f659c84e06.setContent(html_5e952a316678874c1ac03d53ca0b8ad7);
+            
+        
+
+        circle_0f12d3b7eb9961099fc6e5c87e8ec351.bindPopup(popup_23db7b54ea1956f3e35821f659c84e06)
+        ;
+
+        
+    
+    
+            var marker_88e9e0299a9c4c4243b08a15c7e7a1d1 = L.marker(
+                [52.44047, 4.83383],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_9e74dabd4495b6ac42f94f7c8871a600 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0b9ee64ab5e2e4c1692eebcbb44661b = $(`<div id="html_f0b9ee64ab5e2e4c1692eebcbb44661b" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Wijkcentrum Dirk Prins</h4><p> Totaal geldige uitgebrachte stemmen: 633</p><p><b>Belang van Nederland (BVNL)</b> 2%</br> (Absoluut aantal stemmen: 10)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (18%)</li><li>Partij van de Arbeid (P.v.d.A.) (10%)</li><li>PVV (Partij voor de Vrijheid) (10%)</li></ol></p></p></div>`)[0];
+                popup_9e74dabd4495b6ac42f94f7c8871a600.setContent(html_f0b9ee64ab5e2e4c1692eebcbb44661b);
+            
+        
+
+        marker_88e9e0299a9c4c4243b08a15c7e7a1d1.bindPopup(popup_9e74dabd4495b6ac42f94f7c8871a600)
+        ;
+
+        
+    
+    
+            var circle_b72c8a7045a632e95e653ffad9ef60c4 = L.circle(
+                [52.44399, 4.82485],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.09, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_b237edce956c5c7a58d329c2c5a539ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eaff3a5350fbce28607b04b57638a4a8 = $(`<div id="html_eaff3a5350fbce28607b04b57638a4a8" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 10</div>`)[0];
+                popup_b237edce956c5c7a58d329c2c5a539ec.setContent(html_eaff3a5350fbce28607b04b57638a4a8);
+            
+        
+
+        circle_b72c8a7045a632e95e653ffad9ef60c4.bindPopup(popup_b237edce956c5c7a58d329c2c5a539ec)
+        ;
+
+        
+    
+    
+            var marker_cf396aad0c8413bff8115861f48d70ae = L.marker(
+                [52.44399, 4.82485],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_1b77bbac610ca0f90dd9f548ba1a5bdd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1391e62c37e2cbf1bac92a8a78ee28fd = $(`<div id="html_1391e62c37e2cbf1bac92a8a78ee28fd" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurthuis de Kolk</h4><p> Totaal geldige uitgebrachte stemmen: 707</p><p><b>Belang van Nederland (BVNL)</b> 1%</br> (Absoluut aantal stemmen: 10)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (17%)</li><li>Partij voor Ouderen en Veiligheid (16%)</li><li>Democratisch Zaanstad (DZ) (10%)</li></ol></p></p></div>`)[0];
+                popup_1b77bbac610ca0f90dd9f548ba1a5bdd.setContent(html_1391e62c37e2cbf1bac92a8a78ee28fd);
+            
+        
+
+        marker_cf396aad0c8413bff8115861f48d70ae.bindPopup(popup_1b77bbac610ca0f90dd9f548ba1a5bdd)
+        ;
+
+        
+    
+    
+            var circle_efb1df85642f5dceffca7e9d0c0a6297 = L.circle(
+                [52.44805, 4.82367],
+                {"bubblingMouseEvents": true, "color": "#b0e300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b0e300", "fillOpacity": 0.27, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 26, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_c519630eae905f83a52492593b31f251 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f0371560474c5f5e41a554fe78dde68 = $(`<div id="html_2f0371560474c5f5e41a554fe78dde68" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 13</div>`)[0];
+                popup_c519630eae905f83a52492593b31f251.setContent(html_2f0371560474c5f5e41a554fe78dde68);
+            
+        
+
+        circle_efb1df85642f5dceffca7e9d0c0a6297.bindPopup(popup_c519630eae905f83a52492593b31f251)
+        ;
+
+        
+    
+    
+            var marker_baf8e442223ca5b168a337dd91094c71 = L.marker(
+                [52.44805, 4.82367],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_a5e1d0783eb36531f50232fdaf522990 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_74a765d5ba10b4c412592a0d5e2f9f46 = $(`<div id="html_74a765d5ba10b4c412592a0d5e2f9f46" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Sporthal de Struijck, INGANG PROF.STRUIJCKENSTRAAT</h4><p> Totaal geldige uitgebrachte stemmen: 498</p><p><b>Belang van Nederland (BVNL)</b> 3%</br> (Absoluut aantal stemmen: 13)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (15%)</li><li>Partij van de Arbeid (P.v.d.A.) (14%)</li><li>GROENLINKS (9%)</li></ol></p></p></div>`)[0];
+                popup_a5e1d0783eb36531f50232fdaf522990.setContent(html_74a765d5ba10b4c412592a0d5e2f9f46);
+            
+        
+
+        marker_baf8e442223ca5b168a337dd91094c71.bindPopup(popup_a5e1d0783eb36531f50232fdaf522990)
+        ;
+
+        
+    
+    
+            var circle_30d5adae3c9a6b198180f6f88496f3e8 = L.circle(
+                [52.44981, 4.82664],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.09, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 34, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_d1ccfe8d8c63577b6c64fb2da120d5ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8e5537f413eb96a3ee467fb634d6719 = $(`<div id="html_e8e5537f413eb96a3ee467fb634d6719" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 17</div>`)[0];
+                popup_d1ccfe8d8c63577b6c64fb2da120d5ec.setContent(html_e8e5537f413eb96a3ee467fb634d6719);
+            
+        
+
+        circle_30d5adae3c9a6b198180f6f88496f3e8.bindPopup(popup_d1ccfe8d8c63577b6c64fb2da120d5ec)
+        ;
+
+        
+    
+    
+            var marker_56a9c38b686914f205b2e2b14c5e3648 = L.marker(
+                [52.44981, 4.82664],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_e6482f7ad93c84936ff0ed6efc89b573 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec4ccb09f9a205ec138523513bafba37 = $(`<div id="html_ec4ccb09f9a205ec138523513bafba37" style="width: 100.0%; height: 100.0%;"><h4>Stembureau De Noorderkerk</h4><p> Totaal geldige uitgebrachte stemmen: 1449</p><p><b>Belang van Nederland (BVNL)</b> 1%</br> (Absoluut aantal stemmen: 17)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (15%)</li><li>Partij voor Ouderen en Veiligheid (12%)</li><li>ROSA (8%)</li></ol></p></p></div>`)[0];
+                popup_e6482f7ad93c84936ff0ed6efc89b573.setContent(html_ec4ccb09f9a205ec138523513bafba37);
+            
+        
+
+        marker_56a9c38b686914f205b2e2b14c5e3648.bindPopup(popup_e6482f7ad93c84936ff0ed6efc89b573)
+        ;
+
+        
+    
+    
+            var circle_062470836924a33f1fb7a10aa27f73c8 = L.circle(
+                [52.45823, 4.83142],
+                {"bubblingMouseEvents": true, "color": "#d6f100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d6f100", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_f513f68a47492d44e450df7df2956b66 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_757e4611b2e9f3edda16af569f7f3e95 = $(`<div id="html_757e4611b2e9f3edda16af569f7f3e95" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 5</div>`)[0];
+                popup_f513f68a47492d44e450df7df2956b66.setContent(html_757e4611b2e9f3edda16af569f7f3e95);
+            
+        
+
+        circle_062470836924a33f1fb7a10aa27f73c8.bindPopup(popup_f513f68a47492d44e450df7df2956b66)
+        ;
+
+        
+    
+    
+            var marker_09abb289e5e90930b0456d131b11a63c = L.marker(
+                [52.45823, 4.83142],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_be9ffe7175d5a71353d3060e90e2599c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd3b3a293115d65a8f14b09d8667a7f5 = $(`<div id="html_fd3b3a293115d65a8f14b09d8667a7f5" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Basisschool Kogerveld</h4><p> Totaal geldige uitgebrachte stemmen: 228</p><p><b>Belang van Nederland (BVNL)</b> 2%</br> (Absoluut aantal stemmen: 5)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (18%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li><li>D66 (9%)</li></ol></p></p></div>`)[0];
+                popup_be9ffe7175d5a71353d3060e90e2599c.setContent(html_fd3b3a293115d65a8f14b09d8667a7f5);
+            
+        
+
+        marker_09abb289e5e90930b0456d131b11a63c.bindPopup(popup_be9ffe7175d5a71353d3060e90e2599c)
+        ;
+
+        
+    
+    
+            var circle_cc81bebd19b9e9588760e6dffed23b23 = L.circle(
+                [52.4582, 4.82359],
+                {"bubblingMouseEvents": true, "color": "#8ed500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8ed500", "fillOpacity": 0.36, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_a02baa19d7a6ff3c2b7fa0c64664d201 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ab6302605c62bff997e7967e77b4d21 = $(`<div id="html_2ab6302605c62bff997e7967e77b4d21" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 25</div>`)[0];
+                popup_a02baa19d7a6ff3c2b7fa0c64664d201.setContent(html_2ab6302605c62bff997e7967e77b4d21);
+            
+        
+
+        circle_cc81bebd19b9e9588760e6dffed23b23.bindPopup(popup_a02baa19d7a6ff3c2b7fa0c64664d201)
+        ;
+
+        
+    
+    
+            var marker_2d21beb5b7e59e7a46748eceac200ade = L.marker(
+                [52.4582, 4.82359],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_c6937574915f4ed7643c626abc1a69e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_077627d885a77d5d62b093a9480c42b2 = $(`<div id="html_077627d885a77d5d62b093a9480c42b2" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Veldbloemenweg</h4><p> Totaal geldige uitgebrachte stemmen: 662</p><p><b>Belang van Nederland (BVNL)</b> 4%</br> (Absoluut aantal stemmen: 25)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (14%)</li><li>ROSA (13%)</li><li>DENK (11%)</li></ol></p></p></div>`)[0];
+                popup_c6937574915f4ed7643c626abc1a69e6.setContent(html_077627d885a77d5d62b093a9480c42b2);
+            
+        
+
+        marker_2d21beb5b7e59e7a46748eceac200ade.bindPopup(popup_c6937574915f4ed7643c626abc1a69e6)
+        ;
+
+        
+    
+    
+            var circle_706b8f914a9372cd1aec35543f2995e6 = L.circle(
+                [52.4676, 4.8346],
+                {"bubblingMouseEvents": true, "color": "#d6f100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d6f100", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_9fea5bd1e197db43f05dd020dd8a73c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4789f6f760f22218f2ce1457c5d223a = $(`<div id="html_f4789f6f760f22218f2ce1457c5d223a" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 25</div>`)[0];
+                popup_9fea5bd1e197db43f05dd020dd8a73c3.setContent(html_f4789f6f760f22218f2ce1457c5d223a);
+            
+        
+
+        circle_706b8f914a9372cd1aec35543f2995e6.bindPopup(popup_9fea5bd1e197db43f05dd020dd8a73c3)
+        ;
+
+        
+    
+    
+            var marker_76858b715a7d7904ea745be30b58b4e0 = L.marker(
+                [52.4676, 4.8346],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_908f144b24b93fd70be355d20d3dc5aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bab704c0c1adbd448248eea7bdce4ba4 = $(`<div id="html_bab704c0c1adbd448248eea7bdce4ba4" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurtcentrum de Bovenkruier</h4><p> Totaal geldige uitgebrachte stemmen: 1527</p><p><b>Belang van Nederland (BVNL)</b> 2%</br> (Absoluut aantal stemmen: 25)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (20%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_908f144b24b93fd70be355d20d3dc5aa.setContent(html_bab704c0c1adbd448248eea7bdce4ba4);
+            
+        
+
+        marker_76858b715a7d7904ea745be30b58b4e0.bindPopup(popup_908f144b24b93fd70be355d20d3dc5aa)
+        ;
+
+        
+    
+    
+            var circle_e420fbff41084b99c5f568fab843a756 = L.circle(
+                [52.46802, 4.8366],
+                {"bubblingMouseEvents": true, "color": "#8ed500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8ed500", "fillOpacity": 0.36, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 80, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_4bf963d6f83b53b158272332d1adb457 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef152017460ba3765683080853d050f2 = $(`<div id="html_ef152017460ba3765683080853d050f2" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 40</div>`)[0];
+                popup_4bf963d6f83b53b158272332d1adb457.setContent(html_ef152017460ba3765683080853d050f2);
+            
+        
+
+        circle_e420fbff41084b99c5f568fab843a756.bindPopup(popup_4bf963d6f83b53b158272332d1adb457)
+        ;
+
+        
+    
+    
+            var marker_b0797da6d13b99241529f80278f4c57a = L.marker(
+                [52.46802, 4.8366],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_715d8c9c3cf0c97872790470ef63e5fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b36220b9398ce8572341aeb300ec8299 = $(`<div id="html_b36220b9398ce8572341aeb300ec8299" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Sporthal de Tref</h4><p> Totaal geldige uitgebrachte stemmen: 1035</p><p><b>Belang van Nederland (BVNL)</b> 4%</br> (Absoluut aantal stemmen: 40)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (15%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li><li>VVD (10%)</li></ol></p></p></div>`)[0];
+                popup_715d8c9c3cf0c97872790470ef63e5fc.setContent(html_b36220b9398ce8572341aeb300ec8299);
+            
+        
+
+        marker_b0797da6d13b99241529f80278f4c57a.bindPopup(popup_715d8c9c3cf0c97872790470ef63e5fc)
+        ;
+
+        
+    
+    
+            var circle_e1cffec8353e3d59f1b6ee2f0ca8f0b2 = L.circle(
+                [52.42847, 4.83209],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.09, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 18, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_3714f4718fb486b3add05d1d8d674839 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ac8534d1af201215743a46761ec3591 = $(`<div id="html_4ac8534d1af201215743a46761ec3591" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 9</div>`)[0];
+                popup_3714f4718fb486b3add05d1d8d674839.setContent(html_4ac8534d1af201215743a46761ec3591);
+            
+        
+
+        circle_e1cffec8353e3d59f1b6ee2f0ca8f0b2.bindPopup(popup_3714f4718fb486b3add05d1d8d674839)
+        ;
+
+        
+    
+    
+            var marker_d68cc1158005f801e70f2c16ee8e9ebd = L.marker(
+                [52.42847, 4.83209],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_6828fd727687dd2792ee1c79ef2149a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04d0514258393312cde57c2bbf12014a = $(`<div id="html_04d0514258393312cde57c2bbf12014a" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Speeltuinvereniging "Het Havenkwartier"</h4><p> Totaal geldige uitgebrachte stemmen: 677</p><p><b>Belang van Nederland (BVNL)</b> 1%</br> (Absoluut aantal stemmen: 9)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (15%)</li><li>Democratisch Zaanstad (DZ) (14%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_6828fd727687dd2792ee1c79ef2149a9.setContent(html_04d0514258393312cde57c2bbf12014a);
+            
+        
+
+        marker_d68cc1158005f801e70f2c16ee8e9ebd.bindPopup(popup_6828fd727687dd2792ee1c79ef2149a9)
+        ;
+
+        
+    
+    
+            var circle_8921df540958474c9cdd451125497762 = L.circle(
+                [52.43837, 4.82545],
+                {"bubblingMouseEvents": true, "color": "#d6f100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d6f100", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 28, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_dea147bbe526d08e5dd97ed67d3dc238 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0b5fd48d53e327141fa4a56a5af6e64 = $(`<div id="html_f0b5fd48d53e327141fa4a56a5af6e64" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 14</div>`)[0];
+                popup_dea147bbe526d08e5dd97ed67d3dc238.setContent(html_f0b5fd48d53e327141fa4a56a5af6e64);
+            
+        
+
+        circle_8921df540958474c9cdd451125497762.bindPopup(popup_dea147bbe526d08e5dd97ed67d3dc238)
+        ;
+
+        
+    
+    
+            var marker_a4a47839f535875b619ac7cc5e5c8bd1 = L.marker(
+                [52.43837, 4.82545],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_ef0701e63923d5944c1c6b7595bcbb58 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_84b3ce274b50baf9ecfd53f56f264dcd = $(`<div id="html_84b3ce274b50baf9ecfd53f56f264dcd" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Het Zaantheater</h4><p> Totaal geldige uitgebrachte stemmen: 796</p><p><b>Belang van Nederland (BVNL)</b> 2%</br> (Absoluut aantal stemmen: 14)<p><b>Top drie:</b><ol><li>ROSA (13%)</li><li>Partij van de Arbeid (P.v.d.A.) (12%)</li><li>GROENLINKS (11%)</li></ol></p></p></div>`)[0];
+                popup_ef0701e63923d5944c1c6b7595bcbb58.setContent(html_84b3ce274b50baf9ecfd53f56f264dcd);
+            
+        
+
+        marker_a4a47839f535875b619ac7cc5e5c8bd1.bindPopup(popup_ef0701e63923d5944c1c6b7595bcbb58)
+        ;
+
+        
+    
+    
+            var circle_d6bd7624ea9a777b4bb3e0458b11e3a9 = L.circle(
+                [52.44797, 4.81985],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.09, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_63a92a5fa90a78ed874a07e3cb004292 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c134295f00b3878840479cbf7066381b = $(`<div id="html_c134295f00b3878840479cbf7066381b" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 6</div>`)[0];
+                popup_63a92a5fa90a78ed874a07e3cb004292.setContent(html_c134295f00b3878840479cbf7066381b);
+            
+        
+
+        circle_d6bd7624ea9a777b4bb3e0458b11e3a9.bindPopup(popup_63a92a5fa90a78ed874a07e3cb004292)
+        ;
+
+        
+    
+    
+            var marker_bc09e0cbfd08566640982607380651ef = L.marker(
+                [52.44797, 4.81985],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_37670bda09ca0332eeaf7944e2dcd9ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd7dabbf741441036c9e740eb168dde7 = $(`<div id="html_fd7dabbf741441036c9e740eb168dde7" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Het Tolhuys aan de Zaan</h4><p> Totaal geldige uitgebrachte stemmen: 454</p><p><b>Belang van Nederland (BVNL)</b> 1%</br> (Absoluut aantal stemmen: 6)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (15%)</li><li>ROSA (14%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_37670bda09ca0332eeaf7944e2dcd9ba.setContent(html_fd7dabbf741441036c9e740eb168dde7);
+            
+        
+
+        marker_bc09e0cbfd08566640982607380651ef.bindPopup(popup_37670bda09ca0332eeaf7944e2dcd9ba)
+        ;
+
+        
+    
+    
+            var circle_67f79a3a9ddb9614396a644580c58c77 = L.circle(
+                [52.44943, 4.8169],
+                {"bubblingMouseEvents": true, "color": "#d6f100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d6f100", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 22, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_cd77274cedeb01a8e3d08a6ee71d2817 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9c4730e4b4a68610dd00000280047c0 = $(`<div id="html_b9c4730e4b4a68610dd00000280047c0" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 11</div>`)[0];
+                popup_cd77274cedeb01a8e3d08a6ee71d2817.setContent(html_b9c4730e4b4a68610dd00000280047c0);
+            
+        
+
+        circle_67f79a3a9ddb9614396a644580c58c77.bindPopup(popup_cd77274cedeb01a8e3d08a6ee71d2817)
+        ;
+
+        
+    
+    
+            var marker_fceba952452f10ab901d79c88618a3bb = L.marker(
+                [52.44943, 4.8169],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_24971e1a79712da4b1daf22f694fedd8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_39fe92771380b95ba5df0d56e7773f39 = $(`<div id="html_39fe92771380b95ba5df0d56e7773f39" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Atletiekvereniging Zaanland</h4><p> Totaal geldige uitgebrachte stemmen: 590</p><p><b>Belang van Nederland (BVNL)</b> 2%</br> (Absoluut aantal stemmen: 11)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (16%)</li><li>ROSA (14%)</li><li>GROENLINKS (11%)</li></ol></p></p></div>`)[0];
+                popup_24971e1a79712da4b1daf22f694fedd8.setContent(html_39fe92771380b95ba5df0d56e7773f39);
+            
+        
+
+        marker_fceba952452f10ab901d79c88618a3bb.bindPopup(popup_24971e1a79712da4b1daf22f694fedd8)
+        ;
+
+        
+    
+    
+            var circle_ab053c2f9549228228d8a86f730cfd2d = L.circle(
+                [52.43817, 4.8118],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.09, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_401af31a325e4763426aacb1651ff9f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10a6bab7a298a1203c1149f3db24fa4a = $(`<div id="html_10a6bab7a298a1203c1149f3db24fa4a" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 3</div>`)[0];
+                popup_401af31a325e4763426aacb1651ff9f3.setContent(html_10a6bab7a298a1203c1149f3db24fa4a);
+            
+        
+
+        circle_ab053c2f9549228228d8a86f730cfd2d.bindPopup(popup_401af31a325e4763426aacb1651ff9f3)
+        ;
+
+        
+    
+    
+            var marker_bc174932480d798c79e310d048bbb941 = L.marker(
+                [52.43817, 4.8118],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_c4dd46de0161ffbef758dc5b866f0aa2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1800435beb01fd96dfcad84d590fceb8 = $(`<div id="html_1800435beb01fd96dfcad84d590fceb8" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Zaan Hotel</h4><p> Totaal geldige uitgebrachte stemmen: 249</p><p><b>Belang van Nederland (BVNL)</b> 1%</br> (Absoluut aantal stemmen: 3)<p><b>Top drie:</b><ol><li>D66 (12%)</li><li>ROSA (12%)</li><li>Democratisch Zaanstad (DZ) (12%)</li></ol></p></p></div>`)[0];
+                popup_c4dd46de0161ffbef758dc5b866f0aa2.setContent(html_1800435beb01fd96dfcad84d590fceb8);
+            
+        
+
+        marker_bc174932480d798c79e310d048bbb941.bindPopup(popup_c4dd46de0161ffbef758dc5b866f0aa2)
+        ;
+
+        
+    
+    
+            var circle_711dd01e7268b3f601128958cc70b666 = L.circle(
+                [52.44768, 4.80579],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.09, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_68164857b3975b40f30451bb76028675 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_85fb46ec8aa63fa0e4c3e4bf0211a7a7 = $(`<div id="html_85fb46ec8aa63fa0e4c3e4bf0211a7a7" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 6</div>`)[0];
+                popup_68164857b3975b40f30451bb76028675.setContent(html_85fb46ec8aa63fa0e4c3e4bf0211a7a7);
+            
+        
+
+        circle_711dd01e7268b3f601128958cc70b666.bindPopup(popup_68164857b3975b40f30451bb76028675)
+        ;
+
+        
+    
+    
+            var marker_af16a97ec094e30c7fbd5c7394fd7e52 = L.marker(
+                [52.44768, 4.80579],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_5b4a4ec85022374907c5a98158157fa5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_347c7ff2f3c7cb0182f6628c2277224f = $(`<div id="html_347c7ff2f3c7cb0182f6628c2277224f" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurtcentrum De Zeskanter</h4><p> Totaal geldige uitgebrachte stemmen: 516</p><p><b>Belang van Nederland (BVNL)</b> 1%</br> (Absoluut aantal stemmen: 6)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (21%)</li><li>Democratisch Zaanstad (DZ) (13%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li></ol></p></p></div>`)[0];
+                popup_5b4a4ec85022374907c5a98158157fa5.setContent(html_347c7ff2f3c7cb0182f6628c2277224f);
+            
+        
+
+        marker_af16a97ec094e30c7fbd5c7394fd7e52.bindPopup(popup_5b4a4ec85022374907c5a98158157fa5)
+        ;
+
+        
+    
+    
+            var circle_1cb81e7c7082af67e9b4f116c8d5939e = L.circle(
+                [52.44802, 4.8004],
+                {"bubblingMouseEvents": true, "color": "#d6f100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d6f100", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_1ea56cc03b278cb369896f29bde8ca99 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bfde9641a7baf7ed818dea26473a30c7 = $(`<div id="html_bfde9641a7baf7ed818dea26473a30c7" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 15</div>`)[0];
+                popup_1ea56cc03b278cb369896f29bde8ca99.setContent(html_bfde9641a7baf7ed818dea26473a30c7);
+            
+        
+
+        circle_1cb81e7c7082af67e9b4f116c8d5939e.bindPopup(popup_1ea56cc03b278cb369896f29bde8ca99)
+        ;
+
+        
+    
+    
+            var marker_f54c32efca18f2f978f71ae72f11d41f = L.marker(
+                [52.44802, 4.8004],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_25c7b87348be5eda406f611f9cbbed08 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d591d3a3ba124368a35bb4a474808b7c = $(`<div id="html_d591d3a3ba124368a35bb4a474808b7c" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Meverstraat</h4><p> Totaal geldige uitgebrachte stemmen: 872</p><p><b>Belang van Nederland (BVNL)</b> 2%</br> (Absoluut aantal stemmen: 15)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (15%)</li><li>VVD (14%)</li><li>Partij van de Arbeid (P.v.d.A.) (14%)</li></ol></p></p></div>`)[0];
+                popup_25c7b87348be5eda406f611f9cbbed08.setContent(html_d591d3a3ba124368a35bb4a474808b7c);
+            
+        
+
+        marker_f54c32efca18f2f978f71ae72f11d41f.bindPopup(popup_25c7b87348be5eda406f611f9cbbed08)
+        ;
+
+        
+    
+    
+            var circle_1c3cb9661290fa9e47522e6d6bf82a6a = L.circle(
+                [52.447231, 4.805182],
+                {"bubblingMouseEvents": true, "color": "#b0e300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b0e300", "fillOpacity": 0.27, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 34, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_a7ad84da41948ecd2b73ee83cd94c8fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_796832ef649aa6705c44872916414c7f = $(`<div id="html_796832ef649aa6705c44872916414c7f" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 17</div>`)[0];
+                popup_a7ad84da41948ecd2b73ee83cd94c8fd.setContent(html_796832ef649aa6705c44872916414c7f);
+            
+        
+
+        circle_1c3cb9661290fa9e47522e6d6bf82a6a.bindPopup(popup_a7ad84da41948ecd2b73ee83cd94c8fd)
+        ;
+
+        
+    
+    
+            var marker_9b6724425b2fbad5241936aedfea0c19 = L.marker(
+                [52.447231, 4.805182],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_c28d39d17a5ad964e8457b2811253238 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd0026d4a6a8d33ba2fa34d9c299d995 = $(`<div id="html_fd0026d4a6a8d33ba2fa34d9c299d995" style="width: 100.0%; height: 100.0%;"><h4>Stembureau De Volleyhal</h4><p> Totaal geldige uitgebrachte stemmen: 538</p><p><b>Belang van Nederland (BVNL)</b> 3%</br> (Absoluut aantal stemmen: 17)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (15%)</li><li>Partij voor Ouderen en Veiligheid (15%)</li><li>VVD (14%)</li></ol></p></p></div>`)[0];
+                popup_c28d39d17a5ad964e8457b2811253238.setContent(html_fd0026d4a6a8d33ba2fa34d9c299d995);
+            
+        
+
+        marker_9b6724425b2fbad5241936aedfea0c19.bindPopup(popup_c28d39d17a5ad964e8457b2811253238)
+        ;
+
+        
+    
+    
+            var circle_e1ac00f689b28d496a6602beae58930a = L.circle(
+                [52.43566, 4.81414],
+                {"bubblingMouseEvents": true, "color": "#d6f100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d6f100", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_c12739e9a84dd817f3805d050e3cc639 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27bfbe0fc486a525d386c88e26bdb5ea = $(`<div id="html_27bfbe0fc486a525d386c88e26bdb5ea" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 15</div>`)[0];
+                popup_c12739e9a84dd817f3805d050e3cc639.setContent(html_27bfbe0fc486a525d386c88e26bdb5ea);
+            
+        
+
+        circle_e1ac00f689b28d496a6602beae58930a.bindPopup(popup_c12739e9a84dd817f3805d050e3cc639)
+        ;
+
+        
+    
+    
+            var marker_a8ed121c04a379b2764baa0d09dbedd7 = L.marker(
+                [52.43566, 4.81414],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_caa99c1cc7a29030efc139de9f12ed24 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d6a7903048f769f76cc3608fb7e92fd = $(`<div id="html_0d6a7903048f769f76cc3608fb7e92fd" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Brandweerkazerne Houtveldweg</h4><p> Totaal geldige uitgebrachte stemmen: 930</p><p><b>Belang van Nederland (BVNL)</b> 2%</br> (Absoluut aantal stemmen: 15)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (16%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li><li>Democratisch Zaanstad (DZ) (11%)</li></ol></p></p></div>`)[0];
+                popup_caa99c1cc7a29030efc139de9f12ed24.setContent(html_0d6a7903048f769f76cc3608fb7e92fd);
+            
+        
+
+        marker_a8ed121c04a379b2764baa0d09dbedd7.bindPopup(popup_caa99c1cc7a29030efc139de9f12ed24)
+        ;
+
+        
+    
+    
+            var circle_0cb216dbee5d1e5d48d358cfe9ae220e = L.circle(
+                [52.43832, 4.81463],
+                {"bubblingMouseEvents": true, "color": "#d6f100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d6f100", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 92, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_0e7fba7cbf628d8865fbda1fd1b64491 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc84a3aff8dac96b13cdeb1384fcc2f2 = $(`<div id="html_fc84a3aff8dac96b13cdeb1384fcc2f2" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 46</div>`)[0];
+                popup_0e7fba7cbf628d8865fbda1fd1b64491.setContent(html_fc84a3aff8dac96b13cdeb1384fcc2f2);
+            
+        
+
+        circle_0cb216dbee5d1e5d48d358cfe9ae220e.bindPopup(popup_0e7fba7cbf628d8865fbda1fd1b64491)
+        ;
+
+        
+    
+    
+            var marker_58bd425caa932e140e22551c66213f5f = L.marker(
+                [52.43832, 4.81463],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_4457e5735012e94ac31c94675e0db28d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80ed308ceb45bbecec9149d15638ebe6 = $(`<div id="html_80ed308ceb45bbecec9149d15638ebe6" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stadhuis van Zaanstad</h4><p> Totaal geldige uitgebrachte stemmen: 2420</p><p><b>Belang van Nederland (BVNL)</b> 2%</br> (Absoluut aantal stemmen: 46)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (14%)</li><li>GROENLINKS (13%)</li><li>ROSA (10%)</li></ol></p></p></div>`)[0];
+                popup_4457e5735012e94ac31c94675e0db28d.setContent(html_80ed308ceb45bbecec9149d15638ebe6);
+            
+        
+
+        marker_58bd425caa932e140e22551c66213f5f.bindPopup(popup_4457e5735012e94ac31c94675e0db28d)
+        ;
+
+        
+    
+    
+            var circle_d70ef5b321fc7ad252ccb93be68ff154 = L.circle(
+                [52.43969, 4.81118],
+                {"bubblingMouseEvents": true, "color": "#d6f100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d6f100", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_a1fbeff626b7117be49e143b34f693bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_824dcdd08fbfeda9b4db61b1008c0603 = $(`<div id="html_824dcdd08fbfeda9b4db61b1008c0603" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 15</div>`)[0];
+                popup_a1fbeff626b7117be49e143b34f693bd.setContent(html_824dcdd08fbfeda9b4db61b1008c0603);
+            
+        
+
+        circle_d70ef5b321fc7ad252ccb93be68ff154.bindPopup(popup_a1fbeff626b7117be49e143b34f693bd)
+        ;
+
+        
+    
+    
+            var marker_63f58e53a8585d37c3b0b0ba3e650182 = L.marker(
+                [52.43969, 4.81118],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_14eda5499e3a42c01188e697a07d1349 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f90c817d3cdc9238c78f3cad32eb0d55 = $(`<div id="html_f90c817d3cdc9238c78f3cad32eb0d55" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Best Western Zaan Inn</h4><p> Totaal geldige uitgebrachte stemmen: 696</p><p><b>Belang van Nederland (BVNL)</b> 2%</br> (Absoluut aantal stemmen: 15)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (15%)</li><li>Partij voor Ouderen en Veiligheid (14%)</li><li>VVD (12%)</li></ol></p></p></div>`)[0];
+                popup_14eda5499e3a42c01188e697a07d1349.setContent(html_f90c817d3cdc9238c78f3cad32eb0d55);
+            
+        
+
+        marker_63f58e53a8585d37c3b0b0ba3e650182.bindPopup(popup_14eda5499e3a42c01188e697a07d1349)
+        ;
+
+        
+    
+    
+            var circle_82d38fb338ab7a0b861f460a378698cb = L.circle(
+                [52.44457, 4.81894],
+                {"bubblingMouseEvents": true, "color": "#d6f100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d6f100", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 36, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_568bfd5bc37efa251b6801c39972636a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5fee27905a0a73a451bda3e643d8ed1 = $(`<div id="html_a5fee27905a0a73a451bda3e643d8ed1" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 18</div>`)[0];
+                popup_568bfd5bc37efa251b6801c39972636a.setContent(html_a5fee27905a0a73a451bda3e643d8ed1);
+            
+        
+
+        circle_82d38fb338ab7a0b861f460a378698cb.bindPopup(popup_568bfd5bc37efa251b6801c39972636a)
+        ;
+
+        
+    
+    
+            var marker_6746287a08565b7b7c681954929b1dea = L.marker(
+                [52.44457, 4.81894],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_6c18ba7f2e2f30aabd2883b8a3e50eee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a2fcb403763dfd6c80422dc4ea3144f0 = $(`<div id="html_a2fcb403763dfd6c80422dc4ea3144f0" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Cultureel Centrum Bullekerk</h4><p> Totaal geldige uitgebrachte stemmen: 1066</p><p><b>Belang van Nederland (BVNL)</b> 2%</br> (Absoluut aantal stemmen: 18)<p><b>Top drie:</b><ol><li>ROSA (14%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li><li>GROENLINKS (12%)</li></ol></p></p></div>`)[0];
+                popup_6c18ba7f2e2f30aabd2883b8a3e50eee.setContent(html_a2fcb403763dfd6c80422dc4ea3144f0);
+            
+        
+
+        marker_6746287a08565b7b7c681954929b1dea.bindPopup(popup_6c18ba7f2e2f30aabd2883b8a3e50eee)
+        ;
+
+        
+    
+    
+            var circle_7f27ee1b679000ee158ccffcbaf614cf = L.circle(
+                [52.43955, 4.83068],
+                {"bubblingMouseEvents": true, "color": "#d6f100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d6f100", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_4b774210779e6ad48ad619230dc9c742 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68e3308a9c49b6e35579a720be738c9c = $(`<div id="html_68e3308a9c49b6e35579a720be738c9c" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 7</div>`)[0];
+                popup_4b774210779e6ad48ad619230dc9c742.setContent(html_68e3308a9c49b6e35579a720be738c9c);
+            
+        
+
+        circle_7f27ee1b679000ee158ccffcbaf614cf.bindPopup(popup_4b774210779e6ad48ad619230dc9c742)
+        ;
+
+        
+    
+    
+            var marker_fcc1607a888b5bc599ec06c396ca4c54 = L.marker(
+                [52.43955, 4.83068],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_3fb731442929d96cc31dc52f487d5f65 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f805b008941511e861ade6597abf5b0 = $(`<div id="html_1f805b008941511e861ade6597abf5b0" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurthuis De Doorbraak</h4><p> Totaal geldige uitgebrachte stemmen: 308</p><p><b>Belang van Nederland (BVNL)</b> 2%</br> (Absoluut aantal stemmen: 7)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (15%)</li><li>Partij voor Ouderen en Veiligheid (13%)</li><li>PVV (Partij voor de Vrijheid) (13%)</li></ol></p></p></div>`)[0];
+                popup_3fb731442929d96cc31dc52f487d5f65.setContent(html_1f805b008941511e861ade6597abf5b0);
+            
+        
+
+        marker_fcc1607a888b5bc599ec06c396ca4c54.bindPopup(popup_3fb731442929d96cc31dc52f487d5f65)
+        ;
+
+        
+    
+    
+            var circle_c901fad70e4cb7de719a557fbfb3d751 = L.circle(
+                [52.45633, 4.81124],
+                {"bubblingMouseEvents": true, "color": "#d6f100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d6f100", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 42, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_392acff1dde8f130002e66acddcaef9a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_adc5028ccdf5f5a255a5ec3ba61d4437 = $(`<div id="html_adc5028ccdf5f5a255a5ec3ba61d4437" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 21</div>`)[0];
+                popup_392acff1dde8f130002e66acddcaef9a.setContent(html_adc5028ccdf5f5a255a5ec3ba61d4437);
+            
+        
+
+        circle_c901fad70e4cb7de719a557fbfb3d751.bindPopup(popup_392acff1dde8f130002e66acddcaef9a)
+        ;
+
+        
+    
+    
+            var marker_8379bdc043b34722bbadbbec93c4288a = L.marker(
+                [52.45633, 4.81124],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_9c340bb00c4dbf44762f02bbf66b43bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8375f5898bf254b46d2e00f7c28de6c5 = $(`<div id="html_8375f5898bf254b46d2e00f7c28de6c5" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Kerk van de Nazarener</h4><p> Totaal geldige uitgebrachte stemmen: 1102</p><p><b>Belang van Nederland (BVNL)</b> 2%</br> (Absoluut aantal stemmen: 21)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (14%)</li><li>ROSA (13%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li></ol></p></p></div>`)[0];
+                popup_9c340bb00c4dbf44762f02bbf66b43bc.setContent(html_8375f5898bf254b46d2e00f7c28de6c5);
+            
+        
+
+        marker_8379bdc043b34722bbadbbec93c4288a.bindPopup(popup_9c340bb00c4dbf44762f02bbf66b43bc)
+        ;
+
+        
+    
+    
+            var circle_2a5c7b28006eb084c7dac4714d2ef7ad = L.circle(
+                [52.46294, 4.80905],
+                {"bubblingMouseEvents": true, "color": "#b0e300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b0e300", "fillOpacity": 0.27, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 62, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_df5c75e9c326f824a0b1c1195fb4b931 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53f4fb891e4e01ead567e8177f421be0 = $(`<div id="html_53f4fb891e4e01ead567e8177f421be0" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 31</div>`)[0];
+                popup_df5c75e9c326f824a0b1c1195fb4b931.setContent(html_53f4fb891e4e01ead567e8177f421be0);
+            
+        
+
+        circle_2a5c7b28006eb084c7dac4714d2ef7ad.bindPopup(popup_df5c75e9c326f824a0b1c1195fb4b931)
+        ;
+
+        
+    
+    
+            var marker_a9f651c6db7db7c852c000c645e09acc = L.marker(
+                [52.46294, 4.80905],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_fa2a1c8fe22dc9d5dc491d82e00b63e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a17ff06d6c7cef91d978d8ad8a15bc05 = $(`<div id="html_a17ff06d6c7cef91d978d8ad8a15bc05" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurthuis Het BrandtWeer</h4><p> Totaal geldige uitgebrachte stemmen: 910</p><p><b>Belang van Nederland (BVNL)</b> 3%</br> (Absoluut aantal stemmen: 31)<p><b>Top drie:</b><ol><li>ROSA (14%)</li><li>Partij voor Ouderen en Veiligheid (11%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li></ol></p></p></div>`)[0];
+                popup_fa2a1c8fe22dc9d5dc491d82e00b63e8.setContent(html_a17ff06d6c7cef91d978d8ad8a15bc05);
+            
+        
+
+        marker_a9f651c6db7db7c852c000c645e09acc.bindPopup(popup_fa2a1c8fe22dc9d5dc491d82e00b63e8)
+        ;
+
+        
+    
+    
+            var circle_7c4cb8972262831e139edfd2f2e0d196 = L.circle(
+                [52.4576, 4.79939],
+                {"bubblingMouseEvents": true, "color": "#b0e300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b0e300", "fillOpacity": 0.27, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 172, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_b6ab211356e13caede07b8567ab79c7a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_39ef475fb0c76d03819b72274be5f998 = $(`<div id="html_39ef475fb0c76d03819b72274be5f998" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 86</div>`)[0];
+                popup_b6ab211356e13caede07b8567ab79c7a.setContent(html_39ef475fb0c76d03819b72274be5f998);
+            
+        
+
+        circle_7c4cb8972262831e139edfd2f2e0d196.bindPopup(popup_b6ab211356e13caede07b8567ab79c7a)
+        ;
+
+        
+    
+    
+            var marker_5a01c252e52f35a6a7addc659bac8923 = L.marker(
+                [52.4576, 4.79939],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_6e5c2c402d74da70e11878b5ea21c5c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_810dfdd5eba9d09ad2ad71123ae2fad3 = $(`<div id="html_810dfdd5eba9d09ad2ad71123ae2fad3" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurtcentrum De Vuister</h4><p> Totaal geldige uitgebrachte stemmen: 3294</p><p><b>Belang van Nederland (BVNL)</b> 3%</br> (Absoluut aantal stemmen: 86)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (14%)</li><li>ROSA (12%)</li><li>Democratisch Zaanstad (DZ) (11%)</li></ol></p></p></div>`)[0];
+                popup_6e5c2c402d74da70e11878b5ea21c5c3.setContent(html_810dfdd5eba9d09ad2ad71123ae2fad3);
+            
+        
+
+        marker_5a01c252e52f35a6a7addc659bac8923.bindPopup(popup_6e5c2c402d74da70e11878b5ea21c5c3)
+        ;
+
+        
+    
+    
+            var circle_e1a168d0e02b83a3150e0a106a3107d2 = L.circle(
+                [52.45906, 4.79932],
+                {"bubblingMouseEvents": true, "color": "#8ed500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8ed500", "fillOpacity": 0.36, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 38, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_f4a67b8c9e706f2070a9f44f45265ba9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_216679159f02b499b10bdf36752a01ac = $(`<div id="html_216679159f02b499b10bdf36752a01ac" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 19</div>`)[0];
+                popup_f4a67b8c9e706f2070a9f44f45265ba9.setContent(html_216679159f02b499b10bdf36752a01ac);
+            
+        
+
+        circle_e1a168d0e02b83a3150e0a106a3107d2.bindPopup(popup_f4a67b8c9e706f2070a9f44f45265ba9)
+        ;
+
+        
+    
+    
+            var marker_6943179b9bf30c348b4731c7d81ab2ed = L.marker(
+                [52.45906, 4.79932],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_74680be7f72ce554a5427c5dd63cd961 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_52c4cd45a257f145fe1638616b3daaa7 = $(`<div id="html_52c4cd45a257f145fe1638616b3daaa7" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Basisschool de Golfbreker</h4><p> Totaal geldige uitgebrachte stemmen: 460</p><p><b>Belang van Nederland (BVNL)</b> 4%</br> (Absoluut aantal stemmen: 19)<p><b>Top drie:</b><ol><li>VVD (15%)</li><li>ROSA (13%)</li><li>Partij voor Ouderen en Veiligheid (12%)</li></ol></p></p></div>`)[0];
+                popup_74680be7f72ce554a5427c5dd63cd961.setContent(html_52c4cd45a257f145fe1638616b3daaa7);
+            
+        
+
+        marker_6943179b9bf30c348b4731c7d81ab2ed.bindPopup(popup_74680be7f72ce554a5427c5dd63cd961)
+        ;
+
+        
+    
+    
+            var circle_68bf6a6ef4304f71a62b9931bd97c999 = L.circle(
+                [52.4746, 4.81349],
+                {"bubblingMouseEvents": true, "color": "#d6f100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d6f100", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 54, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_bf3643c104d65c049014ac810784c428 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4658b74c9a19a3e6307a6ba20865db92 = $(`<div id="html_4658b74c9a19a3e6307a6ba20865db92" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 27</div>`)[0];
+                popup_bf3643c104d65c049014ac810784c428.setContent(html_4658b74c9a19a3e6307a6ba20865db92);
+            
+        
+
+        circle_68bf6a6ef4304f71a62b9931bd97c999.bindPopup(popup_bf3643c104d65c049014ac810784c428)
+        ;
+
+        
+    
+    
+            var marker_848bfb2ecdc320f37606bd533f736d6f = L.marker(
+                [52.4746, 4.81349],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_50843e264459478380031511e2409048 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_973d1ec03d4d5fd93d0f209c02984af9 = $(`<div id="html_973d1ec03d4d5fd93d0f209c02984af9" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Apostolisch Genootschap</h4><p> Totaal geldige uitgebrachte stemmen: 1432</p><p><b>Belang van Nederland (BVNL)</b> 2%</br> (Absoluut aantal stemmen: 27)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (14%)</li><li>ROSA (13%)</li><li>Partij voor Ouderen en Veiligheid (12%)</li></ol></p></p></div>`)[0];
+                popup_50843e264459478380031511e2409048.setContent(html_973d1ec03d4d5fd93d0f209c02984af9);
+            
+        
+
+        marker_848bfb2ecdc320f37606bd533f736d6f.bindPopup(popup_50843e264459478380031511e2409048)
+        ;
+
+        
+    
+    
+            var circle_57aeebc7b814d36a3120603f5fea82ae = L.circle(
+                [52.47439, 4.79702],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.09, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 32, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_c6d5a2f88d1c434622c48d2ce4651028 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e419c5c2f40fbe28c97ba4fc8707bbf8 = $(`<div id="html_e419c5c2f40fbe28c97ba4fc8707bbf8" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 16</div>`)[0];
+                popup_c6d5a2f88d1c434622c48d2ce4651028.setContent(html_e419c5c2f40fbe28c97ba4fc8707bbf8);
+            
+        
+
+        circle_57aeebc7b814d36a3120603f5fea82ae.bindPopup(popup_c6d5a2f88d1c434622c48d2ce4651028)
+        ;
+
+        
+    
+    
+            var marker_0f4f51259f01e8af53d30337d863851a = L.marker(
+                [52.47439, 4.79702],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_a682ced89441a95521b2ca354aee1387 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a184f0e9173e5fbe4bdf5f8c59ef949 = $(`<div id="html_8a184f0e9173e5fbe4bdf5f8c59ef949" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Fortuinweg</h4><p> Totaal geldige uitgebrachte stemmen: 1177</p><p><b>Belang van Nederland (BVNL)</b> 1%</br> (Absoluut aantal stemmen: 16)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (13%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li><li>Partij voor Ouderen en Veiligheid (13%)</li></ol></p></p></div>`)[0];
+                popup_a682ced89441a95521b2ca354aee1387.setContent(html_8a184f0e9173e5fbe4bdf5f8c59ef949);
+            
+        
+
+        marker_0f4f51259f01e8af53d30337d863851a.bindPopup(popup_a682ced89441a95521b2ca354aee1387)
+        ;
+
+        
+    
+    
+            var circle_07847142e1c09e7108c3ab9cbf1ba5c9 = L.circle(
+                [52.47303, 4.80383],
+                {"bubblingMouseEvents": true, "color": "#d6f100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d6f100", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 22, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_cb64cda6686f9e29b4c29372ce49fc62 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8bf35b8545498a61fb65b4d6b7835916 = $(`<div id="html_8bf35b8545498a61fb65b4d6b7835916" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 11</div>`)[0];
+                popup_cb64cda6686f9e29b4c29372ce49fc62.setContent(html_8bf35b8545498a61fb65b4d6b7835916);
+            
+        
+
+        circle_07847142e1c09e7108c3ab9cbf1ba5c9.bindPopup(popup_cb64cda6686f9e29b4c29372ce49fc62)
+        ;
+
+        
+    
+    
+            var marker_70c2498c2b9d65a45bcd105fb4a5acfc = L.marker(
+                [52.47303, 4.80383],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_ed594c525bdd55b43eab01b17a94c7e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d4fe756209e4e2bd453af6c7fdc83ce = $(`<div id="html_4d4fe756209e4e2bd453af6c7fdc83ce" style="width: 100.0%; height: 100.0%;"><h4>Stembureau ZFC Orkest & Muziekschool</h4><p> Totaal geldige uitgebrachte stemmen: 549</p><p><b>Belang van Nederland (BVNL)</b> 2%</br> (Absoluut aantal stemmen: 11)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (17%)</li><li>Partij voor Ouderen en Veiligheid (16%)</li><li>Democratisch Zaanstad (DZ) (10%)</li></ol></p></p></div>`)[0];
+                popup_ed594c525bdd55b43eab01b17a94c7e6.setContent(html_4d4fe756209e4e2bd453af6c7fdc83ce);
+            
+        
+
+        marker_70c2498c2b9d65a45bcd105fb4a5acfc.bindPopup(popup_ed594c525bdd55b43eab01b17a94c7e6)
+        ;
+
+        
+    
+    
+            var circle_443e2dcfcab202bb18e6db0296dbe059 = L.circle(
+                [52.48903, 4.79962],
+                {"bubblingMouseEvents": true, "color": "#b0e300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b0e300", "fillOpacity": 0.27, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 34, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_2d7db04137e35e9c3f3ec7691fa2a145 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b1554684be8b703279dd0f2c3fbbb20 = $(`<div id="html_3b1554684be8b703279dd0f2c3fbbb20" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 17</div>`)[0];
+                popup_2d7db04137e35e9c3f3ec7691fa2a145.setContent(html_3b1554684be8b703279dd0f2c3fbbb20);
+            
+        
+
+        circle_443e2dcfcab202bb18e6db0296dbe059.bindPopup(popup_2d7db04137e35e9c3f3ec7691fa2a145)
+        ;
+
+        
+    
+    
+            var marker_db19e067fa1cfb381a6c09a048f32fed = L.marker(
+                [52.48903, 4.79962],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_3b566e251aa34125222cb5c858056f66 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7d852534183b26f285fbff12c7a0c70 = $(`<div id="html_e7d852534183b26f285fbff12c7a0c70" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Goudastraat</h4><p> Totaal geldige uitgebrachte stemmen: 610</p><p><b>Belang van Nederland (BVNL)</b> 3%</br> (Absoluut aantal stemmen: 17)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (13%)</li><li>ROSA (12%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_3b566e251aa34125222cb5c858056f66.setContent(html_e7d852534183b26f285fbff12c7a0c70);
+            
+        
+
+        marker_db19e067fa1cfb381a6c09a048f32fed.bindPopup(popup_3b566e251aa34125222cb5c858056f66)
+        ;
+
+        
+    
+    
+            var circle_e3c13ab863958a73c37581c0f0e285ea = L.circle(
+                [52.49417, 4.7868],
+                {"bubblingMouseEvents": true, "color": "#d6f100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d6f100", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 80, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_452067dad3f7030c388fccd4283ab03a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_efc2f86b57d85eb5eb6805a13b9f13f0 = $(`<div id="html_efc2f86b57d85eb5eb6805a13b9f13f0" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 40</div>`)[0];
+                popup_452067dad3f7030c388fccd4283ab03a.setContent(html_efc2f86b57d85eb5eb6805a13b9f13f0);
+            
+        
+
+        circle_e3c13ab863958a73c37581c0f0e285ea.bindPopup(popup_452067dad3f7030c388fccd4283ab03a)
+        ;
+
+        
+    
+    
+            var marker_125592f575e2f5c208ee0efc748df78c = L.marker(
+                [52.49417, 4.7868],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_0bbe08bb453a3bab52a25d54b3b9ce95 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6da87e13685cd41cc4f4ce6c9013573e = $(`<div id="html_6da87e13685cd41cc4f4ce6c9013573e" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurtcentrum De Lorzie</h4><p> Totaal geldige uitgebrachte stemmen: 2293</p><p><b>Belang van Nederland (BVNL)</b> 2%</br> (Absoluut aantal stemmen: 40)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (21%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li><li>ROSA (10%)</li></ol></p></p></div>`)[0];
+                popup_0bbe08bb453a3bab52a25d54b3b9ce95.setContent(html_6da87e13685cd41cc4f4ce6c9013573e);
+            
+        
+
+        marker_125592f575e2f5c208ee0efc748df78c.bindPopup(popup_0bbe08bb453a3bab52a25d54b3b9ce95)
+        ;
+
+        
+    
+    
+            var circle_e943dc64c8a06594e554a511db416629 = L.circle(
+                [52.49593, 4.78692],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.09, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_17a73f09c6ad88f53f002352d518d47c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a74bd29b28026131fa12d714417e38a2 = $(`<div id="html_a74bd29b28026131fa12d714417e38a2" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 3</div>`)[0];
+                popup_17a73f09c6ad88f53f002352d518d47c.setContent(html_a74bd29b28026131fa12d714417e38a2);
+            
+        
+
+        circle_e943dc64c8a06594e554a511db416629.bindPopup(popup_17a73f09c6ad88f53f002352d518d47c)
+        ;
+
+        
+    
+    
+            var marker_64bfbc94e927c64324b93455ab0f3b59 = L.marker(
+                [52.49593, 4.78692],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_ca0e3cdabf8a98b28849b24348cfcd42 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e1c28ed00f1a9cd5640682af659e296 = $(`<div id="html_7e1c28ed00f1a9cd5640682af659e296" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Anemoonstraat</h4><p> Totaal geldige uitgebrachte stemmen: 227</p><p><b>Belang van Nederland (BVNL)</b> 1%</br> (Absoluut aantal stemmen: 3)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (18%)</li><li>Partij voor Ouderen en Veiligheid (16%)</li><li>Partij van de Arbeid (P.v.d.A.) (10%)</li></ol></p></p></div>`)[0];
+                popup_ca0e3cdabf8a98b28849b24348cfcd42.setContent(html_7e1c28ed00f1a9cd5640682af659e296);
+            
+        
+
+        marker_64bfbc94e927c64324b93455ab0f3b59.bindPopup(popup_ca0e3cdabf8a98b28849b24348cfcd42)
+        ;
+
+        
+    
+    
+            var circle_1c0190307610455ef4a0579c76b1b4cc = L.circle(
+                [52.49792, 4.78813],
+                {"bubblingMouseEvents": true, "color": "#d6f100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d6f100", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 22, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_d8760e3a66f3f63f83722e8c4df90dc0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe8a2f688a756770991307a4dd4f2241 = $(`<div id="html_fe8a2f688a756770991307a4dd4f2241" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 11</div>`)[0];
+                popup_d8760e3a66f3f63f83722e8c4df90dc0.setContent(html_fe8a2f688a756770991307a4dd4f2241);
+            
+        
+
+        circle_1c0190307610455ef4a0579c76b1b4cc.bindPopup(popup_d8760e3a66f3f63f83722e8c4df90dc0)
+        ;
+
+        
+    
+    
+            var marker_1b8576ada349d68be09c22e3dd169131 = L.marker(
+                [52.49792, 4.78813],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_6690677829fe7bb200016dcfdce2c59c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f2a99aedc0a9e909f1ff0debc686924 = $(`<div id="html_6f2a99aedc0a9e909f1ff0debc686924" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Vereniging de Bloesem, complex de Amandelbloesem</h4><p> Totaal geldige uitgebrachte stemmen: 477</p><p><b>Belang van Nederland (BVNL)</b> 2%</br> (Absoluut aantal stemmen: 11)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (20%)</li><li>Democratisch Zaanstad (DZ) (12%)</li><li>CDA (9%)</li></ol></p></p></div>`)[0];
+                popup_6690677829fe7bb200016dcfdce2c59c.setContent(html_6f2a99aedc0a9e909f1ff0debc686924);
+            
+        
+
+        marker_1b8576ada349d68be09c22e3dd169131.bindPopup(popup_6690677829fe7bb200016dcfdce2c59c)
+        ;
+
+        
+    
+    
+            var circle_6ff631b56b73911b15c0f130176d94ce = L.circle(
+                [52.51745, 4.78595],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.09, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_0837b0d2e16312cc58fa9ed9ecea4c41 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_36941072e87e7750cb41549eb655fe06 = $(`<div id="html_36941072e87e7750cb41549eb655fe06" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 4</div>`)[0];
+                popup_0837b0d2e16312cc58fa9ed9ecea4c41.setContent(html_36941072e87e7750cb41549eb655fe06);
+            
+        
+
+        circle_6ff631b56b73911b15c0f130176d94ce.bindPopup(popup_0837b0d2e16312cc58fa9ed9ecea4c41)
+        ;
+
+        
+    
+    
+            var marker_0c9df64a714b7a126fcf1925ce084fda = L.marker(
+                [52.51745, 4.78595],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_39b89405851ccbf8c9a2f8c6355a9ead = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_782b2aa34edcb25ee09c09a79935f552 = $(`<div id="html_782b2aa34edcb25ee09c09a79935f552" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Dorpshuis "De Noorddam"</h4><p> Totaal geldige uitgebrachte stemmen: 296</p><p><b>Belang van Nederland (BVNL)</b> 1%</br> (Absoluut aantal stemmen: 4)<p><b>Top drie:</b><ol><li>VVD (19%)</li><li>Democratisch Zaanstad (DZ) (15%)</li><li>Partij voor Ouderen en Veiligheid (10%)</li></ol></p></p></div>`)[0];
+                popup_39b89405851ccbf8c9a2f8c6355a9ead.setContent(html_782b2aa34edcb25ee09c09a79935f552);
+            
+        
+
+        marker_0c9df64a714b7a126fcf1925ce084fda.bindPopup(popup_39b89405851ccbf8c9a2f8c6355a9ead)
+        ;
+
+        
+    
+    
+            var circle_0b5631683049f3f38523a780f4ba5c9d = L.circle(
+                [52.49055, 4.79631],
+                {"bubblingMouseEvents": true, "color": "#d6f100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d6f100", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_df44c1ae539774e2ce935cef8fe9251c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca47d8be8b3b7a174ddd5802123586fc = $(`<div id="html_ca47d8be8b3b7a174ddd5802123586fc" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 7</div>`)[0];
+                popup_df44c1ae539774e2ce935cef8fe9251c.setContent(html_ca47d8be8b3b7a174ddd5802123586fc);
+            
+        
+
+        circle_0b5631683049f3f38523a780f4ba5c9d.bindPopup(popup_df44c1ae539774e2ce935cef8fe9251c)
+        ;
+
+        
+    
+    
+            var marker_67968f06ce02552862fd893d1ae10c63 = L.marker(
+                [52.49055, 4.79631],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_65c924db0c9fc34734ba7154e99ca8c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e73aff491e270f63aa621b191c050848 = $(`<div id="html_e73aff491e270f63aa621b191c050848" style="width: 100.0%; height: 100.0%;"><h4>Stembureau De Wormerveerse Vermaning</h4><p> Totaal geldige uitgebrachte stemmen: 330</p><p><b>Belang van Nederland (BVNL)</b> 2%</br> (Absoluut aantal stemmen: 7)<p><b>Top drie:</b><ol><li>ROSA (17%)</li><li>VVD (13%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li></ol></p></p></div>`)[0];
+                popup_65c924db0c9fc34734ba7154e99ca8c9.setContent(html_e73aff491e270f63aa621b191c050848);
+            
+        
+
+        marker_67968f06ce02552862fd893d1ae10c63.bindPopup(popup_65c924db0c9fc34734ba7154e99ca8c9)
+        ;
+
+        
+    
+    
+            var circle_337ef21683d30f2d2fe53c6352d98510 = L.circle(
+                [52.4979, 4.76625],
+                {"bubblingMouseEvents": true, "color": "#d6f100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d6f100", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 46, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_8a547759183551d45bbbaee367850562 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_22cd940ff68fcca103ff45a53a1cda3e = $(`<div id="html_22cd940ff68fcca103ff45a53a1cda3e" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 23</div>`)[0];
+                popup_8a547759183551d45bbbaee367850562.setContent(html_22cd940ff68fcca103ff45a53a1cda3e);
+            
+        
+
+        circle_337ef21683d30f2d2fe53c6352d98510.bindPopup(popup_8a547759183551d45bbbaee367850562)
+        ;
+
+        
+    
+    
+            var marker_41ad5975df7200c64f96c31dce18eb4f = L.marker(
+                [52.4979, 4.76625],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_ac4af5345538da3cd2dbb9a2efd829a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c92802746c490b2135919b3573436ba = $(`<div id="html_5c92802746c490b2135919b3573436ba" style="width: 100.0%; height: 100.0%;"><h4>Stembureau St. Petrusparochie, INGANG KERK</h4><p> Totaal geldige uitgebrachte stemmen: 1100</p><p><b>Belang van Nederland (BVNL)</b> 2%</br> (Absoluut aantal stemmen: 23)<p><b>Top drie:</b><ol><li>ROSA (16%)</li><li>Partij voor Ouderen en Veiligheid (16%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_ac4af5345538da3cd2dbb9a2efd829a9.setContent(html_5c92802746c490b2135919b3573436ba);
+            
+        
+
+        marker_41ad5975df7200c64f96c31dce18eb4f.bindPopup(popup_ac4af5345538da3cd2dbb9a2efd829a9)
+        ;
+
+        
+    
+    
+            var circle_2012be33b25e328ea20a6ff849ffb1d3 = L.circle(
+                [52.50597, 4.76797],
+                {"bubblingMouseEvents": true, "color": "#b0e300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b0e300", "fillOpacity": 0.27, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 60, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_9dd9dbf27613d2e49a2a4528bb36be8f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe1d46c8f9c34092c7a711d7a0425199 = $(`<div id="html_fe1d46c8f9c34092c7a711d7a0425199" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 30</div>`)[0];
+                popup_9dd9dbf27613d2e49a2a4528bb36be8f.setContent(html_fe1d46c8f9c34092c7a711d7a0425199);
+            
+        
+
+        circle_2012be33b25e328ea20a6ff849ffb1d3.bindPopup(popup_9dd9dbf27613d2e49a2a4528bb36be8f)
+        ;
+
+        
+    
+    
+            var marker_f06f71ba91dadf81f630bc42f2127012 = L.marker(
+                [52.50597, 4.76797],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_eead4cff08edcd6121872b31ca41997c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed4c3d71af6ebb3c35342bbcd7a10005 = $(`<div id="html_ed4c3d71af6ebb3c35342bbcd7a10005" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Dependance basisschool de Hoeksteen</h4><p> Totaal geldige uitgebrachte stemmen: 1136</p><p><b>Belang van Nederland (BVNL)</b> 3%</br> (Absoluut aantal stemmen: 30)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (17%)</li><li>VVD (17%)</li><li>Democratisch Zaanstad (DZ) (14%)</li></ol></p></p></div>`)[0];
+                popup_eead4cff08edcd6121872b31ca41997c.setContent(html_ed4c3d71af6ebb3c35342bbcd7a10005);
+            
+        
+
+        marker_f06f71ba91dadf81f630bc42f2127012.bindPopup(popup_eead4cff08edcd6121872b31ca41997c)
+        ;
+
+        
+    
+    
+            var circle_50b52999d3622a1f3ac6e86a31dcc466 = L.circle(
+                [52.49977, 4.75707],
+                {"bubblingMouseEvents": true, "color": "#d6f100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d6f100", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 24, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_a504a82574985c3b6190b2a9eb40a302 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_461468017314c943cf6e1062257d2a34 = $(`<div id="html_461468017314c943cf6e1062257d2a34" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 12</div>`)[0];
+                popup_a504a82574985c3b6190b2a9eb40a302.setContent(html_461468017314c943cf6e1062257d2a34);
+            
+        
+
+        circle_50b52999d3622a1f3ac6e86a31dcc466.bindPopup(popup_a504a82574985c3b6190b2a9eb40a302)
+        ;
+
+        
+    
+    
+            var marker_20667517793b3a4fac0cdf6b3828c8e5 = L.marker(
+                [52.49977, 4.75707],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_aadd9b8ceb7a36837dd84587e22f77cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00636bd78f505c49bfa8dfa84c5ce999 = $(`<div id="html_00636bd78f505c49bfa8dfa84c5ce999" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Braillestraat</h4><p> Totaal geldige uitgebrachte stemmen: 527</p><p><b>Belang van Nederland (BVNL)</b> 2%</br> (Absoluut aantal stemmen: 12)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (18%)</li><li>Democratisch Zaanstad (DZ) (12%)</li><li>ROSA (12%)</li></ol></p></p></div>`)[0];
+                popup_aadd9b8ceb7a36837dd84587e22f77cd.setContent(html_00636bd78f505c49bfa8dfa84c5ce999);
+            
+        
+
+        marker_20667517793b3a4fac0cdf6b3828c8e5.bindPopup(popup_aadd9b8ceb7a36837dd84587e22f77cd)
+        ;
+
+        
+    
+    
+            var circle_7197e41d7543da0e10f726cb16bf9dbe = L.circle(
+                [52.50114, 4.76816],
+                {"bubblingMouseEvents": true, "color": "#d6f100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d6f100", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 22, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_c986dfb97fc04170015f40e3f1f767e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95a2aee183aeeaaaca6c6046db3d79c1 = $(`<div id="html_95a2aee183aeeaaaca6c6046db3d79c1" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 11</div>`)[0];
+                popup_c986dfb97fc04170015f40e3f1f767e1.setContent(html_95a2aee183aeeaaaca6c6046db3d79c1);
+            
+        
+
+        circle_7197e41d7543da0e10f726cb16bf9dbe.bindPopup(popup_c986dfb97fc04170015f40e3f1f767e1)
+        ;
+
+        
+    
+    
+            var marker_e73aa64f52f5e58c740608f69bbde8d8 = L.marker(
+                [52.50114, 4.76816],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_15c8e2f0906621d17ec6b2490063cf0c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92514681c4a691208922a89150394ba7 = $(`<div id="html_92514681c4a691208922a89150394ba7" style="width: 100.0%; height: 100.0%;"><h4>Stembureau De Durghorstplantsoen</h4><p> Totaal geldige uitgebrachte stemmen: 519</p><p><b>Belang van Nederland (BVNL)</b> 2%</br> (Absoluut aantal stemmen: 11)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (29%)</li><li>ROSA (10%)</li><li>Partij van de Arbeid (P.v.d.A.) (10%)</li></ol></p></p></div>`)[0];
+                popup_15c8e2f0906621d17ec6b2490063cf0c.setContent(html_92514681c4a691208922a89150394ba7);
+            
+        
+
+        marker_e73aa64f52f5e58c740608f69bbde8d8.bindPopup(popup_15c8e2f0906621d17ec6b2490063cf0c)
+        ;
+
+        
+    
+    
+            var circle_7b4d4e2720f9a01ea930e4383e1b80ad = L.circle(
+                [52.50135, 4.75089],
+                {"bubblingMouseEvents": true, "color": "#b0e300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b0e300", "fillOpacity": 0.27, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 56, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_924026adef7512413317f016987c8c21 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c4fc5659c7d88f74a3092cb01c713d1 = $(`<div id="html_3c4fc5659c7d88f74a3092cb01c713d1" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 28</div>`)[0];
+                popup_924026adef7512413317f016987c8c21.setContent(html_3c4fc5659c7d88f74a3092cb01c713d1);
+            
+        
+
+        circle_7b4d4e2720f9a01ea930e4383e1b80ad.bindPopup(popup_924026adef7512413317f016987c8c21)
+        ;
+
+        
+    
+    
+            var marker_8648823bfb977c6709ac1a202bfd7bb2 = L.marker(
+                [52.50135, 4.75089],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_24d5b82a17fda3886f9a2cad6aadfca6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28aac7fcaa53c101080f586cccfbbea5 = $(`<div id="html_28aac7fcaa53c101080f586cccfbbea5" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Jupiterstraat 139 Evenaar</h4><p> Totaal geldige uitgebrachte stemmen: 863</p><p><b>Belang van Nederland (BVNL)</b> 3%</br> (Absoluut aantal stemmen: 28)<p><b>Top drie:</b><ol><li>VVD (16%)</li><li>Partij voor Ouderen en Veiligheid (15%)</li><li>Partij van de Arbeid (P.v.d.A.) (12%)</li></ol></p></p></div>`)[0];
+                popup_24d5b82a17fda3886f9a2cad6aadfca6.setContent(html_28aac7fcaa53c101080f586cccfbbea5);
+            
+        
+
+        marker_8648823bfb977c6709ac1a202bfd7bb2.bindPopup(popup_24d5b82a17fda3886f9a2cad6aadfca6)
+        ;
+
+        
+    
+    
+            var circle_a5553bd4032e5322e06ef40d497b96b9 = L.circle(
+                [52.50908, 4.75773],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.09, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_bdc94999fc22e2319a8fbe04bf243547 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d74d0cdc69f8335bebc55799991e127 = $(`<div id="html_7d74d0cdc69f8335bebc55799991e127" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 5</div>`)[0];
+                popup_bdc94999fc22e2319a8fbe04bf243547.setContent(html_7d74d0cdc69f8335bebc55799991e127);
+            
+        
+
+        circle_a5553bd4032e5322e06ef40d497b96b9.bindPopup(popup_bdc94999fc22e2319a8fbe04bf243547)
+        ;
+
+        
+    
+    
+            var marker_5bc83941055511e4a802da733436fe8d = L.marker(
+                [52.50908, 4.75773],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_4ea12dd7fd88ce0731cf0a8aa7e93a90 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e007b59c493ef99e1c3e4290bddf1f3 = $(`<div id="html_8e007b59c493ef99e1c3e4290bddf1f3" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Odd Fellow Huis</h4><p> Totaal geldige uitgebrachte stemmen: 459</p><p><b>Belang van Nederland (BVNL)</b> 1%</br> (Absoluut aantal stemmen: 5)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (16%)</li><li>Democratisch Zaanstad (DZ) (14%)</li><li>VVD (13%)</li></ol></p></p></div>`)[0];
+                popup_4ea12dd7fd88ce0731cf0a8aa7e93a90.setContent(html_8e007b59c493ef99e1c3e4290bddf1f3);
+            
+        
+
+        marker_5bc83941055511e4a802da733436fe8d.bindPopup(popup_4ea12dd7fd88ce0731cf0a8aa7e93a90)
+        ;
+
+        
+    
+    
+            var circle_60df37429d1d2c049134c2098d74d309 = L.circle(
+                [52.50491, 4.76333],
+                {"bubblingMouseEvents": true, "color": "#b0e300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b0e300", "fillOpacity": 0.27, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_a7960ffa9f0b697efb4df60be0869aa3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7149345b8fa66b64bb2e81431c18b301 = $(`<div id="html_7149345b8fa66b64bb2e81431c18b301" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 10</div>`)[0];
+                popup_a7960ffa9f0b697efb4df60be0869aa3.setContent(html_7149345b8fa66b64bb2e81431c18b301);
+            
+        
+
+        circle_60df37429d1d2c049134c2098d74d309.bindPopup(popup_a7960ffa9f0b697efb4df60be0869aa3)
+        ;
+
+        
+    
+    
+            var marker_b1172c38f12dfeaa9727cb069ad53bbb = L.marker(
+                [52.50491, 4.76333],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_ef415698229400f632b818104576a032 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92c8bf1ad35c328104b623fe707e6e6b = $(`<div id="html_92c8bf1ad35c328104b623fe707e6e6b" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Basisschool de Hoeksteen</h4><p> Totaal geldige uitgebrachte stemmen: 316</p><p><b>Belang van Nederland (BVNL)</b> 3%</br> (Absoluut aantal stemmen: 10)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (20%)</li><li>Democratisch Zaanstad (DZ) (12%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li></ol></p></p></div>`)[0];
+                popup_ef415698229400f632b818104576a032.setContent(html_92c8bf1ad35c328104b623fe707e6e6b);
+            
+        
+
+        marker_b1172c38f12dfeaa9727cb069ad53bbb.bindPopup(popup_ef415698229400f632b818104576a032)
+        ;
+
+        
+    
+    
+            var circle_5f9e6ddbb2dc084abe80e6a746854454 = L.circle(
+                [52.50401, 4.75849],
+                {"bubblingMouseEvents": true, "color": "#d6f100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d6f100", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 62, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_29bb4c5fdaf75e5240d03586c5dfcda5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53d4971122ad69c9cb219b87ba20b4dc = $(`<div id="html_53d4971122ad69c9cb219b87ba20b4dc" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 31</div>`)[0];
+                popup_29bb4c5fdaf75e5240d03586c5dfcda5.setContent(html_53d4971122ad69c9cb219b87ba20b4dc);
+            
+        
+
+        circle_5f9e6ddbb2dc084abe80e6a746854454.bindPopup(popup_29bb4c5fdaf75e5240d03586c5dfcda5)
+        ;
+
+        
+    
+    
+            var marker_955586b8c688229c4d945e659df8eb9a = L.marker(
+                [52.50401, 4.75849],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_092c2ef9167005c70cf1edaad330fb4f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d371c5f3d59118087d3f6950b2af5f46 = $(`<div id="html_d371c5f3d59118087d3f6950b2af5f46" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurtcentrum de Pelikaan</h4><p> Totaal geldige uitgebrachte stemmen: 1992</p><p><b>Belang van Nederland (BVNL)</b> 2%</br> (Absoluut aantal stemmen: 31)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (18%)</li><li>Partij van de Arbeid (P.v.d.A.) (12%)</li><li>VVD (10%)</li></ol></p></p></div>`)[0];
+                popup_092c2ef9167005c70cf1edaad330fb4f.setContent(html_d371c5f3d59118087d3f6950b2af5f46);
+            
+        
+
+        marker_955586b8c688229c4d945e659df8eb9a.bindPopup(popup_092c2ef9167005c70cf1edaad330fb4f)
+        ;
+
+        
+    
+    
+            var circle_7a056afeefa456a44d272ae66819cf6b = L.circle(
+                [52.45938, 4.73717],
+                {"bubblingMouseEvents": true, "color": "#b0e300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b0e300", "fillOpacity": 0.27, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_546fe0ef7d28e6958560868dea5ff4f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27bede516383929f94c40b1915aa6baf = $(`<div id="html_27bede516383929f94c40b1915aa6baf" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 20</div>`)[0];
+                popup_546fe0ef7d28e6958560868dea5ff4f8.setContent(html_27bede516383929f94c40b1915aa6baf);
+            
+        
+
+        circle_7a056afeefa456a44d272ae66819cf6b.bindPopup(popup_546fe0ef7d28e6958560868dea5ff4f8)
+        ;
+
+        
+    
+    
+            var marker_3cafcee71237cc9100214877981640a6 = L.marker(
+                [52.45938, 4.73717],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_4356419a50220e4257ea2c86ca7af428 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f1303939e2f422df02312ebe1e2d46f = $(`<div id="html_3f1303939e2f422df02312ebe1e2d46f" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Kantine vv Assendelft</h4><p> Totaal geldige uitgebrachte stemmen: 614</p><p><b>Belang van Nederland (BVNL)</b> 3%</br> (Absoluut aantal stemmen: 20)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (20%)</li><li>VVD (17%)</li><li>Partij voor Ouderen en Veiligheid (11%)</li></ol></p></p></div>`)[0];
+                popup_4356419a50220e4257ea2c86ca7af428.setContent(html_3f1303939e2f422df02312ebe1e2d46f);
+            
+        
+
+        marker_3cafcee71237cc9100214877981640a6.bindPopup(popup_4356419a50220e4257ea2c86ca7af428)
+        ;
+
+        
+    
+    
+            var circle_ef26cd8a08f8cf16bd773c42926043ea = L.circle(
+                [52.46675, 4.74109],
+                {"bubblingMouseEvents": true, "color": "#d6f100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d6f100", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 48, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_202342e0947438b7d9ba7e0011bf886c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_929943c20ff6ae7b25c7f1100e760f3f = $(`<div id="html_929943c20ff6ae7b25c7f1100e760f3f" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 24</div>`)[0];
+                popup_202342e0947438b7d9ba7e0011bf886c.setContent(html_929943c20ff6ae7b25c7f1100e760f3f);
+            
+        
+
+        circle_ef26cd8a08f8cf16bd773c42926043ea.bindPopup(popup_202342e0947438b7d9ba7e0011bf886c)
+        ;
+
+        
+    
+    
+            var marker_8214e797d7dc176708570a12c06c4fea = L.marker(
+                [52.46675, 4.74109],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_b5fab414155fb96b34729859f962a801 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95abb37ee900bf467615a99f4c3b8e0e = $(`<div id="html_95abb37ee900bf467615a99f4c3b8e0e" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Brandweerkazerne Assendelft</h4><p> Totaal geldige uitgebrachte stemmen: 988</p><p><b>Belang van Nederland (BVNL)</b> 2%</br> (Absoluut aantal stemmen: 24)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (19%)</li><li>Partij voor Ouderen en Veiligheid (17%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_b5fab414155fb96b34729859f962a801.setContent(html_95abb37ee900bf467615a99f4c3b8e0e);
+            
+        
+
+        marker_8214e797d7dc176708570a12c06c4fea.bindPopup(popup_b5fab414155fb96b34729859f962a801)
+        ;
+
+        
+    
+    
+            var circle_280497b78ce6272aa5a3538df420fefd = L.circle(
+                [52.4742, 4.74845],
+                {"bubblingMouseEvents": true, "color": "#b0e300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b0e300", "fillOpacity": 0.27, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 42, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_e482e31bab0b8f60b111e9841e8baed0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f7ce11b07c7ceb605ac1d60aac19297 = $(`<div id="html_3f7ce11b07c7ceb605ac1d60aac19297" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 21</div>`)[0];
+                popup_e482e31bab0b8f60b111e9841e8baed0.setContent(html_3f7ce11b07c7ceb605ac1d60aac19297);
+            
+        
+
+        circle_280497b78ce6272aa5a3538df420fefd.bindPopup(popup_e482e31bab0b8f60b111e9841e8baed0)
+        ;
+
+        
+    
+    
+            var marker_e585936e0891c4167a814974426465a6 = L.marker(
+                [52.4742, 4.74845],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_fd31cb67b3cd4ec34a6b246b00186281 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_149c7c58c87b292a5e6184957d05db6a = $(`<div id="html_149c7c58c87b292a5e6184957d05db6a" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Tennisvereniging Overdan</h4><p> Totaal geldige uitgebrachte stemmen: 821</p><p><b>Belang van Nederland (BVNL)</b> 3%</br> (Absoluut aantal stemmen: 21)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (22%)</li><li>VVD (14%)</li><li>Partij voor Ouderen en Veiligheid (13%)</li></ol></p></p></div>`)[0];
+                popup_fd31cb67b3cd4ec34a6b246b00186281.setContent(html_149c7c58c87b292a5e6184957d05db6a);
+            
+        
+
+        marker_e585936e0891c4167a814974426465a6.bindPopup(popup_fd31cb67b3cd4ec34a6b246b00186281)
+        ;
+
+        
+    
+    
+            var circle_3e01664032bbc5aab3e794df7b79233d = L.circle(
+                [52.46618, 4.74004],
+                {"bubblingMouseEvents": true, "color": "#d6f100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d6f100", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 38, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_e4ff5b58a5e976c11ea23fe9bc681ebc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd775f14c5aadcc7d3f9af0fc7a7fc5b = $(`<div id="html_dd775f14c5aadcc7d3f9af0fc7a7fc5b" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 19</div>`)[0];
+                popup_e4ff5b58a5e976c11ea23fe9bc681ebc.setContent(html_dd775f14c5aadcc7d3f9af0fc7a7fc5b);
+            
+        
+
+        circle_3e01664032bbc5aab3e794df7b79233d.bindPopup(popup_e4ff5b58a5e976c11ea23fe9bc681ebc)
+        ;
+
+        
+    
+    
+            var marker_52f7a208ec0ab8a6a2c5e82db0e986f1 = L.marker(
+                [52.46618, 4.74004],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_ee3d64d981f215de62f62c335ae638ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce66b1506a6109ef3a8bbe066e524e6c = $(`<div id="html_ce66b1506a6109ef3a8bbe066e524e6c" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurtcentrum A3</h4><p> Totaal geldige uitgebrachte stemmen: 981</p><p><b>Belang van Nederland (BVNL)</b> 2%</br> (Absoluut aantal stemmen: 19)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (20%)</li><li>Partij voor Ouderen en Veiligheid (17%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li></ol></p></p></div>`)[0];
+                popup_ee3d64d981f215de62f62c335ae638ca.setContent(html_ce66b1506a6109ef3a8bbe066e524e6c);
+            
+        
+
+        marker_52f7a208ec0ab8a6a2c5e82db0e986f1.bindPopup(popup_ee3d64d981f215de62f62c335ae638ca)
+        ;
+
+        
+    
+    
+            var circle_48f4f3180cf72d0055c21aca7f10f689 = L.circle(
+                [52.49317, 4.75898],
+                {"bubblingMouseEvents": true, "color": "#b0e300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b0e300", "fillOpacity": 0.27, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 28, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_9618dd28b86bdadb3f77e5aa7ff6f50d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3d6fe879137f82e7f3bec196d2d1559 = $(`<div id="html_b3d6fe879137f82e7f3bec196d2d1559" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 14</div>`)[0];
+                popup_9618dd28b86bdadb3f77e5aa7ff6f50d.setContent(html_b3d6fe879137f82e7f3bec196d2d1559);
+            
+        
+
+        circle_48f4f3180cf72d0055c21aca7f10f689.bindPopup(popup_9618dd28b86bdadb3f77e5aa7ff6f50d)
+        ;
+
+        
+    
+    
+            var marker_f0c33731ec9b5e2a307be21f06f13392 = L.marker(
+                [52.49317, 4.75898],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_d3809f30d68bae9dbb10a7dbbd8821cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f461fd473fa0c0e642f6d9aa4e771460 = $(`<div id="html_f461fd473fa0c0e642f6d9aa4e771460" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal de Springplank</h4><p> Totaal geldige uitgebrachte stemmen: 537</p><p><b>Belang van Nederland (BVNL)</b> 3%</br> (Absoluut aantal stemmen: 14)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (18%)</li><li>Partij voor Ouderen en Veiligheid (15%)</li><li>VVD (13%)</li></ol></p></p></div>`)[0];
+                popup_d3809f30d68bae9dbb10a7dbbd8821cb.setContent(html_f461fd473fa0c0e642f6d9aa4e771460);
+            
+        
+
+        marker_f0c33731ec9b5e2a307be21f06f13392.bindPopup(popup_d3809f30d68bae9dbb10a7dbbd8821cb)
+        ;
+
+        
+    
+    
+            var circle_e3c72688f17b8938ddc93e95f59bdc2e = L.circle(
+                [52.48415, 4.76134],
+                {"bubblingMouseEvents": true, "color": "#d6f100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d6f100", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 48, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_c68a16593cde12018c0255a6d1952d17 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df30d759a6780bf4cb47cf2e51d519c6 = $(`<div id="html_df30d759a6780bf4cb47cf2e51d519c6" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 24</div>`)[0];
+                popup_c68a16593cde12018c0255a6d1952d17.setContent(html_df30d759a6780bf4cb47cf2e51d519c6);
+            
+        
+
+        circle_e3c72688f17b8938ddc93e95f59bdc2e.bindPopup(popup_c68a16593cde12018c0255a6d1952d17)
+        ;
+
+        
+    
+    
+            var marker_d908f27fb2cd9cf360f7e71e92fc48b1 = L.marker(
+                [52.48415, 4.76134],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_513a65aa13943bb5255b661a28d9c07a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7ef2dd21d0aaf5e01cb29137ee9090f = $(`<div id="html_e7ef2dd21d0aaf5e01cb29137ee9090f" style="width: 100.0%; height: 100.0%;"><h4>Stembureau BUKO</h4><p> Totaal geldige uitgebrachte stemmen: 970</p><p><b>Belang van Nederland (BVNL)</b> 2%</br> (Absoluut aantal stemmen: 24)<p><b>Top drie:</b><ol><li>VVD (16%)</li><li>Partij voor Ouderen en Veiligheid (13%)</li><li>Partij van de Arbeid (P.v.d.A.) (12%)</li></ol></p></p></div>`)[0];
+                popup_513a65aa13943bb5255b661a28d9c07a.setContent(html_e7ef2dd21d0aaf5e01cb29137ee9090f);
+            
+        
+
+        marker_d908f27fb2cd9cf360f7e71e92fc48b1.bindPopup(popup_513a65aa13943bb5255b661a28d9c07a)
+        ;
+
+        
+    
+    
+            var circle_dad997629d60540f6d613b8a0773ac11 = L.circle(
+                [52.48838, 4.75082],
+                {"bubblingMouseEvents": true, "color": "#b0e300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b0e300", "fillOpacity": 0.27, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 58, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_1215226b6e134b88110c78bf964fa21a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_736fba83e9f7eac3925927a8446b3ba5 = $(`<div id="html_736fba83e9f7eac3925927a8446b3ba5" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 29</div>`)[0];
+                popup_1215226b6e134b88110c78bf964fa21a.setContent(html_736fba83e9f7eac3925927a8446b3ba5);
+            
+        
+
+        circle_dad997629d60540f6d613b8a0773ac11.bindPopup(popup_1215226b6e134b88110c78bf964fa21a)
+        ;
+
+        
+    
+    
+            var marker_fbc43602e9f4ffa609c88494036d7d1f = L.marker(
+                [52.48838, 4.75082],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_b0658c9469502821603d177e0db12595 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f2db314156bb3d15819f61cbba838586 = $(`<div id="html_f2db314156bb3d15819f61cbba838586" style="width: 100.0%; height: 100.0%;"><h4>Stembureau JongerenHUB Noord</h4><p> Totaal geldige uitgebrachte stemmen: 959</p><p><b>Belang van Nederland (BVNL)</b> 3%</br> (Absoluut aantal stemmen: 29)<p><b>Top drie:</b><ol><li>VVD (20%)</li><li>DENK (11%)</li><li>Partij voor Ouderen en Veiligheid (11%)</li></ol></p></p></div>`)[0];
+                popup_b0658c9469502821603d177e0db12595.setContent(html_f2db314156bb3d15819f61cbba838586);
+            
+        
+
+        marker_fbc43602e9f4ffa609c88494036d7d1f.bindPopup(popup_b0658c9469502821603d177e0db12595)
+        ;
+
+        
+    
+    
+            var circle_78773dae646ce1d10746f89de238edc4 = L.circle(
+                [52.49536, 4.75036],
+                {"bubblingMouseEvents": true, "color": "#6ec700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#6ec700", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 38, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_32980ca12ac1809f55e26c277e225e70 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_75b478caf51af609bd4e7fed51f5f63b = $(`<div id="html_75b478caf51af609bd4e7fed51f5f63b" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 19</div>`)[0];
+                popup_32980ca12ac1809f55e26c277e225e70.setContent(html_75b478caf51af609bd4e7fed51f5f63b);
+            
+        
+
+        circle_78773dae646ce1d10746f89de238edc4.bindPopup(popup_32980ca12ac1809f55e26c277e225e70)
+        ;
+
+        
+    
+    
+            var marker_34e50cb568c86f2dd119abdea8b538a2 = L.marker(
+                [52.49536, 4.75036],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_39cda78484fc10bdbcdaeae6344bdd8e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c467fe347764dd16e56b8b805be2ec09 = $(`<div id="html_c467fe347764dd16e56b8b805be2ec09" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Kreekrijklaan 2</h4><p> Totaal geldige uitgebrachte stemmen: 356</p><p><b>Belang van Nederland (BVNL)</b> 5%</br> (Absoluut aantal stemmen: 19)<p><b>Top drie:</b><ol><li>VVD (20%)</li><li>Partij van de Arbeid (P.v.d.A.) (12%)</li><li>Democratisch Zaanstad (DZ) (12%)</li></ol></p></p></div>`)[0];
+                popup_39cda78484fc10bdbcdaeae6344bdd8e.setContent(html_c467fe347764dd16e56b8b805be2ec09);
+            
+        
+
+        marker_34e50cb568c86f2dd119abdea8b538a2.bindPopup(popup_39cda78484fc10bdbcdaeae6344bdd8e)
+        ;
+
+        
+    
+    
+            var circle_5ce05a9630903cbc0ca89e9d9f4bd5f9 = L.circle(
+                [52.49454, 4.74488],
+                {"bubblingMouseEvents": true, "color": "#8ed500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8ed500", "fillOpacity": 0.36, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 36, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_13d94b812b62c30e9ed5b29490b2c7e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_296fa3efea800d05e5f52a72530ae31d = $(`<div id="html_296fa3efea800d05e5f52a72530ae31d" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 18</div>`)[0];
+                popup_13d94b812b62c30e9ed5b29490b2c7e4.setContent(html_296fa3efea800d05e5f52a72530ae31d);
+            
+        
+
+        circle_5ce05a9630903cbc0ca89e9d9f4bd5f9.bindPopup(popup_13d94b812b62c30e9ed5b29490b2c7e4)
+        ;
+
+        
+    
+    
+            var marker_3b297b46f97216709317580d9641ff41 = L.marker(
+                [52.49454, 4.74488],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_db910a094e05abbb262f67823458352d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30fc459b7ed52906c6795dfcede2905b = $(`<div id="html_30fc459b7ed52906c6795dfcede2905b" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Beemdgras</h4><p> Totaal geldige uitgebrachte stemmen: 412</p><p><b>Belang van Nederland (BVNL)</b> 4%</br> (Absoluut aantal stemmen: 18)<p><b>Top drie:</b><ol><li>VVD (23%)</li><li>Democratisch Zaanstad (DZ) (12%)</li><li>Partij van de Arbeid (P.v.d.A.) (10%)</li></ol></p></p></div>`)[0];
+                popup_db910a094e05abbb262f67823458352d.setContent(html_30fc459b7ed52906c6795dfcede2905b);
+            
+        
+
+        marker_3b297b46f97216709317580d9641ff41.bindPopup(popup_db910a094e05abbb262f67823458352d)
+        ;
+
+        
+    
+    
+            var circle_fa83e2045ba20db2914d84debde49e74 = L.circle(
+                [52.48864, 4.75283],
+                {"bubblingMouseEvents": true, "color": "#b0e300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b0e300", "fillOpacity": 0.27, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 134, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_c16e3049d91ed9246a2f956c662452aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8fdcb0b426ad1aaa2c471435968f0264 = $(`<div id="html_8fdcb0b426ad1aaa2c471435968f0264" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 67</div>`)[0];
+                popup_c16e3049d91ed9246a2f956c662452aa.setContent(html_8fdcb0b426ad1aaa2c471435968f0264);
+            
+        
+
+        circle_fa83e2045ba20db2914d84debde49e74.bindPopup(popup_c16e3049d91ed9246a2f956c662452aa)
+        ;
+
+        
+    
+    
+            var marker_80b9fa5cab6e491981f5082ca9055722 = L.marker(
+                [52.48864, 4.75283],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_da1f6e985c9c741d6c5a61abf6ddfe72 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba8d488ed2a798ef9b96c33885be862c = $(`<div id="html_ba8d488ed2a798ef9b96c33885be862c" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Het Sociale Winkeltje</h4><p> Totaal geldige uitgebrachte stemmen: 2001</p><p><b>Belang van Nederland (BVNL)</b> 3%</br> (Absoluut aantal stemmen: 67)<p><b>Top drie:</b><ol><li>VVD (17%)</li><li>Partij voor Ouderen en Veiligheid (14%)</li><li>Democratisch Zaanstad (DZ) (11%)</li></ol></p></p></div>`)[0];
+                popup_da1f6e985c9c741d6c5a61abf6ddfe72.setContent(html_ba8d488ed2a798ef9b96c33885be862c);
+            
+        
+
+        marker_80b9fa5cab6e491981f5082ca9055722.bindPopup(popup_da1f6e985c9c741d6c5a61abf6ddfe72)
+        ;
+
+        
+    
+    
+            var circle_89bc71db7a3ef9b692226117d856c042 = L.circle(
+                [52.44896, 4.77604],
+                {"bubblingMouseEvents": true, "color": "#b0e300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b0e300", "fillOpacity": 0.27, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_962fc5ef76d60c3f3a852c3d804daf0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b48d81a2d6a6026bac9df4218cb41ea1 = $(`<div id="html_b48d81a2d6a6026bac9df4218cb41ea1" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 25</div>`)[0];
+                popup_962fc5ef76d60c3f3a852c3d804daf0e.setContent(html_b48d81a2d6a6026bac9df4218cb41ea1);
+            
+        
+
+        circle_89bc71db7a3ef9b692226117d856c042.bindPopup(popup_962fc5ef76d60c3f3a852c3d804daf0e)
+        ;
+
+        
+    
+    
+            var marker_93b07a3a8009cb15ad924dc813829034 = L.marker(
+                [52.44896, 4.77604],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_d8133f5d363f93a266725c1c546e18d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a66dd191bd28ad600995073769cf41d = $(`<div id="html_2a66dd191bd28ad600995073769cf41d" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Dorpshuis "De Kwaker"</h4><p> Totaal geldige uitgebrachte stemmen: 725</p><p><b>Belang van Nederland (BVNL)</b> 3%</br> (Absoluut aantal stemmen: 25)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (14%)</li><li>VVD (14%)</li><li>PVV (Partij voor de Vrijheid) (10%)</li></ol></p></p></div>`)[0];
+                popup_d8133f5d363f93a266725c1c546e18d8.setContent(html_2a66dd191bd28ad600995073769cf41d);
+            
+        
+
+        marker_93b07a3a8009cb15ad924dc813829034.bindPopup(popup_d8133f5d363f93a266725c1c546e18d8)
+        ;
+
+        
+    
+    
+            var circle_010ba5f6eff5eabac4cc5d40a8fa4aec = L.circle(
+                [52.4638, 4.76978],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.09, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 34, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_681436310025e8aada822fda7378baa0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_584e6e21e586e76133400a4570ac98f3 = $(`<div id="html_584e6e21e586e76133400a4570ac98f3" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 17</div>`)[0];
+                popup_681436310025e8aada822fda7378baa0.setContent(html_584e6e21e586e76133400a4570ac98f3);
+            
+        
+
+        circle_010ba5f6eff5eabac4cc5d40a8fa4aec.bindPopup(popup_681436310025e8aada822fda7378baa0)
+        ;
+
+        
+    
+    
+            var marker_49b233829321225c1ea8c9e475c83a5b = L.marker(
+                [52.4638, 4.76978],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_046ac428d9148c5f1b2b7cad7de2bbe6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d655fcc35dd895bad83348d3f8d6aed = $(`<div id="html_9d655fcc35dd895bad83348d3f8d6aed" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Wijksteunpunt Lambert Melisz</h4><p> Totaal geldige uitgebrachte stemmen: 1258</p><p><b>Belang van Nederland (BVNL)</b> 1%</br> (Absoluut aantal stemmen: 17)<p><b>Top drie:</b><ol><li>VVD (16%)</li><li>Partij voor Ouderen en Veiligheid (13%)</li><li>Partij van de Arbeid (P.v.d.A.) (10%)</li></ol></p></p></div>`)[0];
+                popup_046ac428d9148c5f1b2b7cad7de2bbe6.setContent(html_9d655fcc35dd895bad83348d3f8d6aed);
+            
+        
+
+        marker_49b233829321225c1ea8c9e475c83a5b.bindPopup(popup_046ac428d9148c5f1b2b7cad7de2bbe6)
+        ;
+
+        
+    
+    
+            var circle_73d71090a8ce9ee9e340fc69abfcb9f2 = L.circle(
+                [52.46317, 4.77163],
+                {"bubblingMouseEvents": true, "color": "#b0e300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b0e300", "fillOpacity": 0.27, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 16, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_a2f0812531cb3943e496c2c11285f6db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3cecd0fdbb99cae77002c7862a40e98d = $(`<div id="html_3cecd0fdbb99cae77002c7862a40e98d" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 8</div>`)[0];
+                popup_a2f0812531cb3943e496c2c11285f6db.setContent(html_3cecd0fdbb99cae77002c7862a40e98d);
+            
+        
+
+        circle_73d71090a8ce9ee9e340fc69abfcb9f2.bindPopup(popup_a2f0812531cb3943e496c2c11285f6db)
+        ;
+
+        
+    
+    
+            var marker_ea8c2c17df8f4bba1442e4b6a3cd0bdc = L.marker(
+                [52.46317, 4.77163],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_a3f7a9f9c2053c382bda90313c877011 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bbf16c37d6d53ce8ade0aa22eb9dc926 = $(`<div id="html_bbf16c37d6d53ce8ade0aa22eb9dc926" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Torenstraat, INGANG KERKBUURT 21</h4><p> Totaal geldige uitgebrachte stemmen: 269</p><p><b>Belang van Nederland (BVNL)</b> 3%</br> (Absoluut aantal stemmen: 8)<p><b>Top drie:</b><ol><li>VVD (17%)</li><li>ROSA (13%)</li><li>Democratisch Zaanstad (DZ) (11%)</li></ol></p></p></div>`)[0];
+                popup_a3f7a9f9c2053c382bda90313c877011.setContent(html_bbf16c37d6d53ce8ade0aa22eb9dc926);
+            
+        
+
+        marker_ea8c2c17df8f4bba1442e4b6a3cd0bdc.bindPopup(popup_a3f7a9f9c2053c382bda90313c877011)
+        ;
+
+        
+    
+    
+            var circle_fae7322f1bac966142a2c36516422c7a = L.circle(
+                [52.45375, 4.83569],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_3c7eec4495c81b5100405a4ec54a9ce0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee892fb05fbf19d3d77e7ea4e971073b = $(`<div id="html_ee892fb05fbf19d3d77e7ea4e971073b" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 2</div>`)[0];
+                popup_3c7eec4495c81b5100405a4ec54a9ce0.setContent(html_ee892fb05fbf19d3d77e7ea4e971073b);
+            
+        
+
+        circle_fae7322f1bac966142a2c36516422c7a.bindPopup(popup_3c7eec4495c81b5100405a4ec54a9ce0)
+        ;
+
+        
+    
+    
+            var marker_be1f1ed4b607e992c9636c887df7fc90 = L.marker(
+                [52.45375, 4.83569],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_fc93f8e90cae6c10100901a07e89c4f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_70d689e11aef43b4f0e4d7f362f12b52 = $(`<div id="html_70d689e11aef43b4f0e4d7f362f12b52" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean Oostergouw, HOOFDINGANG</h4><p> Totaal geldige uitgebrachte stemmen: 20</p><p><b>Belang van Nederland (BVNL)</b> 10%</br> (Absoluut aantal stemmen: 2)<p><b>Top drie:</b><ol><li>SP (Socialistische Partij) (15%)</li><li>VVD (10%)</li><li>Partij van de Arbeid (P.v.d.A.) (10%)</li></ol></p></p></div>`)[0];
+                popup_fc93f8e90cae6c10100901a07e89c4f5.setContent(html_70d689e11aef43b4f0e4d7f362f12b52);
+            
+        
+
+        marker_be1f1ed4b607e992c9636c887df7fc90.bindPopup(popup_fc93f8e90cae6c10100901a07e89c4f5)
+        ;
+
+        
+    
+    
+            var circle_14049ec96b1e8b0f0fac90a681b7d586 = L.circle(
+                [52.44012, 4.84136],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_727dea14d9dcfa6757c44ba6490d8978 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35ae4c58940bb1bd2d782c38e19f52bd = $(`<div id="html_35ae4c58940bb1bd2d782c38e19f52bd" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 0</div>`)[0];
+                popup_727dea14d9dcfa6757c44ba6490d8978.setContent(html_35ae4c58940bb1bd2d782c38e19f52bd);
+            
+        
+
+        circle_14049ec96b1e8b0f0fac90a681b7d586.bindPopup(popup_727dea14d9dcfa6757c44ba6490d8978)
+        ;
+
+        
+    
+    
+            var marker_7abcb012464a58dae12366f3646d9c83 = L.marker(
+                [52.44012, 4.84136],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_025fd5d2263431c3e0bf73dadbe0faaa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae3a3c73255a95e64d4eaa1859662fe8 = $(`<div id="html_ae3a3c73255a95e64d4eaa1859662fe8" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean Het Erasmushuis</h4><p> Totaal geldige uitgebrachte stemmen: 20</p><p><b>Belang van Nederland (BVNL)</b> 0%</br> (Absoluut aantal stemmen: 0)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (20%)</li><li>Partij voor Ouderen en Veiligheid (15%)</li><li>D66 (15%)</li></ol></p></p></div>`)[0];
+                popup_025fd5d2263431c3e0bf73dadbe0faaa.setContent(html_ae3a3c73255a95e64d4eaa1859662fe8);
+            
+        
+
+        marker_7abcb012464a58dae12366f3646d9c83.bindPopup(popup_025fd5d2263431c3e0bf73dadbe0faaa)
+        ;
+
+        
+    
+    
+            var circle_f8c048d8b28a87d8e10642b3e694bd80 = L.circle(
+                [52.44115, 4.83269],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_e297b7e007bd8f07d5ef6c7343fca9bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1755fc8fffe8991defa49512255db4be = $(`<div id="html_1755fc8fffe8991defa49512255db4be" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 0</div>`)[0];
+                popup_e297b7e007bd8f07d5ef6c7343fca9bc.setContent(html_1755fc8fffe8991defa49512255db4be);
+            
+        
+
+        circle_f8c048d8b28a87d8e10642b3e694bd80.bindPopup(popup_e297b7e007bd8f07d5ef6c7343fca9bc)
+        ;
+
+        
+    
+    
+            var marker_fe72c06e8f9b46c405e9f3d02ebaba59 = L.marker(
+                [52.44115, 4.83269],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_a84222aa793de4699f2ab0a7a917260f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2cc0bf69a6465bd8de0fae15665360fa = $(`<div id="html_2cc0bf69a6465bd8de0fae15665360fa" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Zorgcentrum Mennistenerf</h4><p> Totaal geldige uitgebrachte stemmen: 51</p><p><b>Belang van Nederland (BVNL)</b> 0%</br> (Absoluut aantal stemmen: 0)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (43%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li><li>DENK (11%)</li></ol></p></p></div>`)[0];
+                popup_a84222aa793de4699f2ab0a7a917260f.setContent(html_2cc0bf69a6465bd8de0fae15665360fa);
+            
+        
+
+        marker_fe72c06e8f9b46c405e9f3d02ebaba59.bindPopup(popup_a84222aa793de4699f2ab0a7a917260f)
+        ;
+
+        
+    
+    
+            var circle_e5198b370afe906ae42888f36bd5e8b6 = L.circle(
+                [52.44342, 4.83039],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_ac9f183a1f21eaf3a6e3b05631e10c0a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b69628196ddb7ed60c2477178b42e947 = $(`<div id="html_b69628196ddb7ed60c2477178b42e947" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 0</div>`)[0];
+                popup_ac9f183a1f21eaf3a6e3b05631e10c0a.setContent(html_b69628196ddb7ed60c2477178b42e947);
+            
+        
+
+        circle_e5198b370afe906ae42888f36bd5e8b6.bindPopup(popup_ac9f183a1f21eaf3a6e3b05631e10c0a)
+        ;
+
+        
+    
+    
+            var marker_84321a8c7f3f30a6a2fedcf98d634598 = L.marker(
+                [52.44342, 4.83039],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_d428602129220a31ff9ec313fe2ae3a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6c26d1de237d7479211c6f6c0018403a = $(`<div id="html_6c26d1de237d7479211c6f6c0018403a" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Hervormd Centrum Pennemes, HOOFDINGANG</h4><p> Totaal geldige uitgebrachte stemmen: 42</p><p><b>Belang van Nederland (BVNL)</b> 0%</br> (Absoluut aantal stemmen: 0)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (21%)</li><li>ChristenUnie (21%)</li><li>Partij van de Arbeid (P.v.d.A.) (14%)</li></ol></p></p></div>`)[0];
+                popup_d428602129220a31ff9ec313fe2ae3a6.setContent(html_6c26d1de237d7479211c6f6c0018403a);
+            
+        
+
+        marker_84321a8c7f3f30a6a2fedcf98d634598.bindPopup(popup_d428602129220a31ff9ec313fe2ae3a6)
+        ;
+
+        
+    
+    
+            var circle_8989a4a0e2e0943ccc63d4a81ef9d826 = L.circle(
+                [52.4704, 4.83439],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_854d5f133f26500c231444b831fd9691 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3204e4b569d7c0ce4353173ddc53673 = $(`<div id="html_b3204e4b569d7c0ce4353173ddc53673" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 0</div>`)[0];
+                popup_854d5f133f26500c231444b831fd9691.setContent(html_b3204e4b569d7c0ce4353173ddc53673);
+            
+        
+
+        circle_8989a4a0e2e0943ccc63d4a81ef9d826.bindPopup(popup_854d5f133f26500c231444b831fd9691)
+        ;
+
+        
+    
+    
+            var marker_546fe9ab53bc8d46d8f6d88c3eec4cc9 = L.marker(
+                [52.4704, 4.83439],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_1619e081f1a9755cd99a7667a4c90fdb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71fc0c11e0d8fa652337e8df68aa8369 = $(`<div id="html_71fc0c11e0d8fa652337e8df68aa8369" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Zorgcentrum Nieuw Groenland</h4><p> Totaal geldige uitgebrachte stemmen: 47</p><p><b>Belang van Nederland (BVNL)</b> 0%</br> (Absoluut aantal stemmen: 0)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (14%)</li><li>CDA (12%)</li><li>Partij voor de Dieren (12%)</li></ol></p></p></div>`)[0];
+                popup_1619e081f1a9755cd99a7667a4c90fdb.setContent(html_71fc0c11e0d8fa652337e8df68aa8369);
+            
+        
+
+        marker_546fe9ab53bc8d46d8f6d88c3eec4cc9.bindPopup(popup_1619e081f1a9755cd99a7667a4c90fdb)
+        ;
+
+        
+    
+    
+            var circle_523b4f71b3cff4ddf51d37daf951d2fb = L.circle(
+                [52.44279, 4.81852],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_d00cd50cad10a13ff8f233e4c0a14f87 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af9e7ecd2565da4fa0c3b1409ae923c1 = $(`<div id="html_af9e7ecd2565da4fa0c3b1409ae923c1" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 1</div>`)[0];
+                popup_d00cd50cad10a13ff8f233e4c0a14f87.setContent(html_af9e7ecd2565da4fa0c3b1409ae923c1);
+            
+        
+
+        circle_523b4f71b3cff4ddf51d37daf951d2fb.bindPopup(popup_d00cd50cad10a13ff8f233e4c0a14f87)
+        ;
+
+        
+    
+    
+            var marker_2df3dcdc3f29059f661e75e7f2d1d091 = L.marker(
+                [52.44279, 4.81852],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_2993aadbeb10822870d478bb6f508eca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d28a740ef4bccca14dc5ed5fb41c50b = $(`<div id="html_7d28a740ef4bccca14dc5ed5fb41c50b" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Zorgcentrum Saenden</h4><p> Totaal geldige uitgebrachte stemmen: 10</p><p><b>Belang van Nederland (BVNL)</b> 10%</br> (Absoluut aantal stemmen: 1)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (30%)</li><li>VVD (20%)</li><li>CDA (20%)</li></ol></p></p></div>`)[0];
+                popup_2993aadbeb10822870d478bb6f508eca.setContent(html_7d28a740ef4bccca14dc5ed5fb41c50b);
+            
+        
+
+        marker_2df3dcdc3f29059f661e75e7f2d1d091.bindPopup(popup_2993aadbeb10822870d478bb6f508eca)
+        ;
+
+        
+    
+    
+            var circle_7eac7bf04587cb2dd15295443095c65b = L.circle(
+                [52.44905, 4.80177],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_9929fa9a0a1d0594f9bb8ee4c8765984 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_07f57a89bbe964d9c40033946582f464 = $(`<div id="html_07f57a89bbe964d9c40033946582f464" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 0</div>`)[0];
+                popup_9929fa9a0a1d0594f9bb8ee4c8765984.setContent(html_07f57a89bbe964d9c40033946582f464);
+            
+        
+
+        circle_7eac7bf04587cb2dd15295443095c65b.bindPopup(popup_9929fa9a0a1d0594f9bb8ee4c8765984)
+        ;
+
+        
+    
+    
+            var marker_d39ac8e4761d9c26b7172d71b2adb23b = L.marker(
+                [52.44905, 4.80177],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_295df8c58b1880c367ac1edcea68f5c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55755c461c39c733618b047b108832a2 = $(`<div id="html_55755c461c39c733618b047b108832a2" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean Westerwatering, HOOFDINGANG</h4><p> Totaal geldige uitgebrachte stemmen: 50</p><p><b>Belang van Nederland (BVNL)</b> 0%</br> (Absoluut aantal stemmen: 0)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (54%)</li><li>Democratisch Zaanstad (DZ) (10%)</li><li>Partij van de Arbeid (P.v.d.A.) (8%)</li></ol></p></p></div>`)[0];
+                popup_295df8c58b1880c367ac1edcea68f5c9.setContent(html_55755c461c39c733618b047b108832a2);
+            
+        
+
+        marker_d39ac8e4761d9c26b7172d71b2adb23b.bindPopup(popup_295df8c58b1880c367ac1edcea68f5c9)
+        ;
+
+        
+    
+    
+            var circle_8fb504e87ead5cb0111bc8c986aea5f5 = L.circle(
+                [52.46873, 4.81152],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_47943842afb033b1939a237eb0b328b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f35334b7dd8310a398ed02af884b51ce = $(`<div id="html_f35334b7dd8310a398ed02af884b51ce" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 0</div>`)[0];
+                popup_47943842afb033b1939a237eb0b328b3.setContent(html_f35334b7dd8310a398ed02af884b51ce);
+            
+        
+
+        circle_8fb504e87ead5cb0111bc8c986aea5f5.bindPopup(popup_47943842afb033b1939a237eb0b328b3)
+        ;
+
+        
+    
+    
+            var marker_f13d091153fd2d5cf357a37e799b0fa6 = L.marker(
+                [52.46873, 4.81152],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_1bda9a16e64426793f99c8eea87ed774 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ee8daff680b9e038eea77ca26b1af03 = $(`<div id="html_0ee8daff680b9e038eea77ca26b1af03" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean Parkzicht</h4><p> Totaal geldige uitgebrachte stemmen: 46</p><p><b>Belang van Nederland (BVNL)</b> 0%</br> (Absoluut aantal stemmen: 0)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (26%)</li><li>Partij van de Arbeid (P.v.d.A.) (15%)</li><li>ROSA (13%)</li></ol></p></p></div>`)[0];
+                popup_1bda9a16e64426793f99c8eea87ed774.setContent(html_0ee8daff680b9e038eea77ca26b1af03);
+            
+        
+
+        marker_f13d091153fd2d5cf357a37e799b0fa6.bindPopup(popup_1bda9a16e64426793f99c8eea87ed774)
+        ;
+
+        
+    
+    
+            var circle_a988aea529a76c34fd4243ff428031e7 = L.circle(
+                [52.47728, 4.80156],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_06dc6e242d52fab0cce826944746d5ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45d8c9f6ff03b520666398a5ae687841 = $(`<div id="html_45d8c9f6ff03b520666398a5ae687841" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 0</div>`)[0];
+                popup_06dc6e242d52fab0cce826944746d5ea.setContent(html_45d8c9f6ff03b520666398a5ae687841);
+            
+        
+
+        circle_a988aea529a76c34fd4243ff428031e7.bindPopup(popup_06dc6e242d52fab0cce826944746d5ea)
+        ;
+
+        
+    
+    
+            var marker_1b68ee3042eea474c14dac9cfab9492b = L.marker(
+                [52.47728, 4.80156],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_4e6b5ebe2b86c3605a4ec307658c59cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62cf19c39255038a699a2020c4fe9152 = $(`<div id="html_62cf19c39255038a699a2020c4fe9152" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean Guisveld</h4><p> Totaal geldige uitgebrachte stemmen: 8</p><p><b>Belang van Nederland (BVNL)</b> 0%</br> (Absoluut aantal stemmen: 0)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (25%)</li><li>ROSA (12%)</li><li>D66 (12%)</li></ol></p></p></div>`)[0];
+                popup_4e6b5ebe2b86c3605a4ec307658c59cc.setContent(html_62cf19c39255038a699a2020c4fe9152);
+            
+        
+
+        marker_1b68ee3042eea474c14dac9cfab9492b.bindPopup(popup_4e6b5ebe2b86c3605a4ec307658c59cc)
+        ;
+
+        
+    
+    
+            var circle_dda7e7a882696e0e04c32d86f6a770cb = L.circle(
+                [52.48707, 4.80201],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_c429b104615b26d2a6a3013ff9bee718 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c59ea8a99fc236ecceb14da21026f378 = $(`<div id="html_c59ea8a99fc236ecceb14da21026f378" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 0</div>`)[0];
+                popup_c429b104615b26d2a6a3013ff9bee718.setContent(html_c59ea8a99fc236ecceb14da21026f378);
+            
+        
+
+        circle_dda7e7a882696e0e04c32d86f6a770cb.bindPopup(popup_c429b104615b26d2a6a3013ff9bee718)
+        ;
+
+        
+    
+    
+            var marker_10b6a4135be8269ab54fad9fce331f0d = L.marker(
+                [52.48707, 4.80201],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_6605e9525f77516442e79bde8eab8a93 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb817ebd5cde110d08376dcde99af3be = $(`<div id="html_eb817ebd5cde110d08376dcde99af3be" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean Acht Staten</h4><p> Totaal geldige uitgebrachte stemmen: 19</p><p><b>Belang van Nederland (BVNL)</b> 0%</br> (Absoluut aantal stemmen: 0)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (26%)</li><li>Partij voor Ouderen en Veiligheid (21%)</li><li>PVV (Partij voor de Vrijheid) (10%)</li></ol></p></p></div>`)[0];
+                popup_6605e9525f77516442e79bde8eab8a93.setContent(html_eb817ebd5cde110d08376dcde99af3be);
+            
+        
+
+        marker_10b6a4135be8269ab54fad9fce331f0d.bindPopup(popup_6605e9525f77516442e79bde8eab8a93)
+        ;
+
+        
+    
+    
+            var circle_d355a74f70eca43477033410eb42f9f2 = L.circle(
+                [52.50553, 4.7625],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "stroke": true, "weight": 3}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_b01f91b4a5024a42afae242555973f50 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e11e039bfc895a87f49628ea8f853dd0 = $(`<div id="html_e11e039bfc895a87f49628ea8f853dd0" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor Belang van Nederland (BVNL): 0</div>`)[0];
+                popup_b01f91b4a5024a42afae242555973f50.setContent(html_e11e039bfc895a87f49628ea8f853dd0);
+            
+        
+
+        circle_d355a74f70eca43477033410eb42f9f2.bindPopup(popup_b01f91b4a5024a42afae242555973f50)
+        ;
+
+        
+    
+    
+            var marker_3eef45bed4e655332427a2d2ccf39dc0 = L.marker(
+                [52.50553, 4.7625],
+                {}
+            ).addTo(map_ae8a2bac91b91bf8e5b189b3fed8d93c);
+        
+    
+        var popup_2fd12420da36aa9032c39ab5323b63e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_971d2417b18169effa4a0f67a64f34bf = $(`<div id="html_971d2417b18169effa4a0f67a64f34bf" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean Rosariumhorst</h4><p> Totaal geldige uitgebrachte stemmen: 18</p><p><b>Belang van Nederland (BVNL)</b> 0%</br> (Absoluut aantal stemmen: 0)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (27%)</li><li>Partij voor Ouderen en Veiligheid (11%)</li><li>D66 (11%)</li></ol></p></p></div>`)[0];
+                popup_2fd12420da36aa9032c39ab5323b63e6.setContent(html_971d2417b18169effa4a0f67a64f34bf);
+            
+        
+
+        marker_3eef45bed4e655332427a2d2ccf39dc0.bindPopup(popup_2fd12420da36aa9032c39ab5323b63e6)
+        ;
+
+        
+    
+</script>
+</html>

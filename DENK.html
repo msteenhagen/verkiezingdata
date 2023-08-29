@@ -1,0 +1,3264 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c067d3b7cc6208e3dd160da1fd0198bf {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+             <h3 align="center" style="font-size:16px"><b>Gemeenteraad Zaanstad 2022 - DENK</b></h3>
+             
+    
+            <div class="folium-map" id="map_c067d3b7cc6208e3dd160da1fd0198bf" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c067d3b7cc6208e3dd160da1fd0198bf = L.map(
+                "map_c067d3b7cc6208e3dd160da1fd0198bf",
+                {
+                    center: [52.447962, 4.815532],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_be449698bc1897ade294da6edc07acc2 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+            var circle_eedbe028e6802976a44d9fd911376bb3 = L.circle(
+                [52.43434, 4.83998],
+                {"bubblingMouseEvents": true, "color": "#49b400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#49b400", "fillOpacity": 0.5454545454545454, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 240, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_310bf01cfa79af4b5dd79bfa054a7fc1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c5c897f110d83e9132c69cbfca5ada8 = $(`<div id="html_2c5c897f110d83e9132c69cbfca5ada8" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 120</div>`)[0];
+                popup_310bf01cfa79af4b5dd79bfa054a7fc1.setContent(html_2c5c897f110d83e9132c69cbfca5ada8);
+            
+        
+
+        circle_eedbe028e6802976a44d9fd911376bb3.bindPopup(popup_310bf01cfa79af4b5dd79bfa054a7fc1)
+        ;
+
+        
+    
+    
+            var marker_cae477a531e2cd1a7a3b96067e783e52 = L.marker(
+                [52.43434, 4.83998],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_57ce0962a039ab5acfb8b20363ef4b8a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bff3bcce92b1d2f8bc164e6fb5fb72f8 = $(`<div id="html_bff3bcce92b1d2f8bc164e6fb5fb72f8" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Wibautstraat, INGANG SPARRESTRAAT</h4><p> Totaal geldige uitgebrachte stemmen: 607</p><p><b>DENK</b> 20%</br> (Absoluut aantal stemmen: 120)<p><b>Top drie:</b><ol><li>DENK (19%)</li><li>Partij van de Arbeid (P.v.d.A.) (16%)</li><li>Partij voor Ouderen en Veiligheid (12%)</li></ol></p></p></div>`)[0];
+                popup_57ce0962a039ab5acfb8b20363ef4b8a.setContent(html_bff3bcce92b1d2f8bc164e6fb5fb72f8);
+            
+        
+
+        marker_cae477a531e2cd1a7a3b96067e783e52.bindPopup(popup_57ce0962a039ab5acfb8b20363ef4b8a)
+        ;
+
+        
+    
+    
+            var circle_786e925a711691ec93c1473aa8a978bf = L.circle(
+                [52.4297, 4.83851],
+                {"bubblingMouseEvents": true, "color": "#82cf00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#82cf00", "fillOpacity": 0.35454545454545455, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 196, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_89f705e33b8170ccf201164f478022ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6de7277e91d4897cf1adeb92e348d194 = $(`<div id="html_6de7277e91d4897cf1adeb92e348d194" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 98</div>`)[0];
+                popup_89f705e33b8170ccf201164f478022ab.setContent(html_6de7277e91d4897cf1adeb92e348d194);
+            
+        
+
+        circle_786e925a711691ec93c1473aa8a978bf.bindPopup(popup_89f705e33b8170ccf201164f478022ab)
+        ;
+
+        
+    
+    
+            var marker_d3ec561269abac9dfa69ba32f08abd5e = L.marker(
+                [52.4297, 4.83851],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_90167d83f182d7be1002e9c8e0933796 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_223206928e9a8bb7c2ebbe18e56ffc82 = $(`<div id="html_223206928e9a8bb7c2ebbe18e56ffc82" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Handboogschutters Czaar Peter</h4><p> Totaal geldige uitgebrachte stemmen: 769</p><p><b>DENK</b> 13%</br> (Absoluut aantal stemmen: 98)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (15%)</li><li>DENK (12%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li></ol></p></p></div>`)[0];
+                popup_90167d83f182d7be1002e9c8e0933796.setContent(html_223206928e9a8bb7c2ebbe18e56ffc82);
+            
+        
+
+        marker_d3ec561269abac9dfa69ba32f08abd5e.bindPopup(popup_90167d83f182d7be1002e9c8e0933796)
+        ;
+
+        
+    
+    
+            var circle_ef3ded3ac16f26b7ad4fd7ef189d0b07 = L.circle(
+                [52.43576, 4.85498],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 894, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_e00f168912549951eda097d992be204f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f09d94854446dc988ad1ba94603235e7 = $(`<div id="html_f09d94854446dc988ad1ba94603235e7" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 447</div>`)[0];
+                popup_e00f168912549951eda097d992be204f.setContent(html_f09d94854446dc988ad1ba94603235e7);
+            
+        
+
+        circle_ef3ded3ac16f26b7ad4fd7ef189d0b07.bindPopup(popup_e00f168912549951eda097d992be204f)
+        ;
+
+        
+    
+    
+            var marker_55e54a4b0bb705cb5cf1a82f0c9d1f3c = L.marker(
+                [52.43576, 4.85498],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_8f41f7899a3b349c92b6097adff46ad6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a681651614d7210813233d46033fbcc = $(`<div id="html_3a681651614d7210813233d46033fbcc" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Wijkcentrum de Poelenburcht</h4><p> Totaal geldige uitgebrachte stemmen: 1350</p><p><b>DENK</b> 33%</br> (Absoluut aantal stemmen: 447)<p><b>Top drie:</b><ol><li>DENK (33%)</li><li>Partij van de Arbeid (P.v.d.A.) (18%)</li><li>Partij voor Ouderen en Veiligheid (8%)</li></ol></p></p></div>`)[0];
+                popup_8f41f7899a3b349c92b6097adff46ad6.setContent(html_3a681651614d7210813233d46033fbcc);
+            
+        
+
+        marker_55e54a4b0bb705cb5cf1a82f0c9d1f3c.bindPopup(popup_8f41f7899a3b349c92b6097adff46ad6)
+        ;
+
+        
+    
+    
+            var circle_0892de23778a38516d33a4287126d79c = L.circle(
+                [52.44074, 4.84661],
+                {"bubblingMouseEvents": true, "color": "#2ea400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ea400", "fillOpacity": 0.6545454545454545, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 296, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_28167369dd7ba56bc40a98649909d085 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9fc18a02646446684ee335a0a1f676fa = $(`<div id="html_9fc18a02646446684ee335a0a1f676fa" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 148</div>`)[0];
+                popup_28167369dd7ba56bc40a98649909d085.setContent(html_9fc18a02646446684ee335a0a1f676fa);
+            
+        
+
+        circle_0892de23778a38516d33a4287126d79c.bindPopup(popup_28167369dd7ba56bc40a98649909d085)
+        ;
+
+        
+    
+    
+            var marker_721dcccd86324275838a2194a5a9c708 = L.marker(
+                [52.44074, 4.84661],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_4ba7a0bc19b16c5c3a3fa68b9d8c2468 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9e253bf4e68f9241f645a073fad61c93 = $(`<div id="html_9e253bf4e68f9241f645a073fad61c93" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Zaans Natuur en Milieu Centrum</h4><p> Totaal geldige uitgebrachte stemmen: 615</p><p><b>DENK</b> 24%</br> (Absoluut aantal stemmen: 148)<p><b>Top drie:</b><ol><li>DENK (24%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li><li>Partij voor Ouderen en Veiligheid (8%)</li></ol></p></p></div>`)[0];
+                popup_4ba7a0bc19b16c5c3a3fa68b9d8c2468.setContent(html_9e253bf4e68f9241f645a073fad61c93);
+            
+        
+
+        marker_721dcccd86324275838a2194a5a9c708.bindPopup(popup_4ba7a0bc19b16c5c3a3fa68b9d8c2468)
+        ;
+
+        
+    
+    
+            var circle_16564c1aac425650bbfaa4afa51f7f58 = L.circle(
+                [52.44875, 4.84416],
+                {"bubblingMouseEvents": true, "color": "#229c00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#229c00", "fillOpacity": 0.7090909090909091, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 372, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_354f4d98e666d273e638d5b2693cc0e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed452547f872f28d24f081fc00d52b18 = $(`<div id="html_ed452547f872f28d24f081fc00d52b18" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 186</div>`)[0];
+                popup_354f4d98e666d273e638d5b2693cc0e5.setContent(html_ed452547f872f28d24f081fc00d52b18);
+            
+        
+
+        circle_16564c1aac425650bbfaa4afa51f7f58.bindPopup(popup_354f4d98e666d273e638d5b2693cc0e5)
+        ;
+
+        
+    
+    
+            var marker_a998700eac56992c2b368996b9b517c6 = L.marker(
+                [52.44875, 4.84416],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_5695a375b3b024132a830ffeab97ca65 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_baf0c67212672e7db28c405ccdecbd36 = $(`<div id="html_baf0c67212672e7db28c405ccdecbd36" style="width: 100.0%; height: 100.0%;"><h4>Stembureau ICBS de Windroos, INGANG PINASSTRAAT 4</h4><p> Totaal geldige uitgebrachte stemmen: 708</p><p><b>DENK</b> 26%</br> (Absoluut aantal stemmen: 186)<p><b>Top drie:</b><ol><li>DENK (26%)</li><li>Partij van de Arbeid (P.v.d.A.) (17%)</li><li>Partij voor Ouderen en Veiligheid (9%)</li></ol></p></p></div>`)[0];
+                popup_5695a375b3b024132a830ffeab97ca65.setContent(html_baf0c67212672e7db28c405ccdecbd36);
+            
+        
+
+        marker_a998700eac56992c2b368996b9b517c6.bindPopup(popup_5695a375b3b024132a830ffeab97ca65)
+        ;
+
+        
+    
+    
+            var circle_5a77b02f740742e68bf6513e9445ab2f = L.circle(
+                [52.45458, 4.83273],
+                {"bubblingMouseEvents": true, "color": "#c6eb00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c6eb00", "fillOpacity": 0.16363636363636364, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 66, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_da799b43444c766cafec04ab3337789c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5cb1165223b769da42842d78f12138e5 = $(`<div id="html_5cb1165223b769da42842d78f12138e5" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 33</div>`)[0];
+                popup_da799b43444c766cafec04ab3337789c.setContent(html_5cb1165223b769da42842d78f12138e5);
+            
+        
+
+        circle_5a77b02f740742e68bf6513e9445ab2f.bindPopup(popup_da799b43444c766cafec04ab3337789c)
+        ;
+
+        
+    
+    
+            var marker_fac9d5236e109956683a6c69b8c17f9c = L.marker(
+                [52.45458, 4.83273],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_9e2819120f2c019ecf88dd71682bf4fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1ec51498a8e4f00acdf21f0f14504f2 = $(`<div id="html_a1ec51498a8e4f00acdf21f0f14504f2" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Blaise Pascal College</h4><p> Totaal geldige uitgebrachte stemmen: 572</p><p><b>DENK</b> 6%</br> (Absoluut aantal stemmen: 33)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (14%)</li><li>Partij van de Arbeid (P.v.d.A.) (12%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_9e2819120f2c019ecf88dd71682bf4fb.setContent(html_a1ec51498a8e4f00acdf21f0f14504f2);
+            
+        
+
+        marker_fac9d5236e109956683a6c69b8c17f9c.bindPopup(popup_9e2819120f2c019ecf88dd71682bf4fb)
+        ;
+
+        
+    
+    
+            var circle_1e2012b4114d39193cfcc640d08e2742 = L.circle(
+                [52.44644, 4.83914],
+                {"bubblingMouseEvents": true, "color": "#a7df00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a7df00", "fillOpacity": 0.24545454545454543, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 174, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_7147599fa2b8a1ff6bb55971977336bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6bb26a04405376f2011b56a868cf646b = $(`<div id="html_6bb26a04405376f2011b56a868cf646b" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 87</div>`)[0];
+                popup_7147599fa2b8a1ff6bb55971977336bf.setContent(html_6bb26a04405376f2011b56a868cf646b);
+            
+        
+
+        circle_1e2012b4114d39193cfcc640d08e2742.bindPopup(popup_7147599fa2b8a1ff6bb55971977336bf)
+        ;
+
+        
+    
+    
+            var marker_064a9ad89c8e9cdb25ee99d20c658002 = L.marker(
+                [52.44644, 4.83914],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_3c66cbc24c826da2dc436bab22ba1bde = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_36cff51844c0669c3a4ff4e2852e1adb = $(`<div id="html_36cff51844c0669c3a4ff4e2852e1adb" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean De Meerpaal, INGANG TJOTTERLAAN 174</h4><p> Totaal geldige uitgebrachte stemmen: 1022</p><p><b>DENK</b> 9%</br> (Absoluut aantal stemmen: 87)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (15%)</li><li>Partij voor Ouderen en Veiligheid (12%)</li><li>VVD (12%)</li></ol></p></p></div>`)[0];
+                popup_3c66cbc24c826da2dc436bab22ba1bde.setContent(html_36cff51844c0669c3a4ff4e2852e1adb);
+            
+        
+
+        marker_064a9ad89c8e9cdb25ee99d20c658002.bindPopup(popup_3c66cbc24c826da2dc436bab22ba1bde)
+        ;
+
+        
+    
+    
+            var circle_3ff61233af62d54d32570ea7a9f5a836 = L.circle(
+                [52.43927208598662, 4.8424228597558585],
+                {"bubblingMouseEvents": true, "color": "#82cf00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#82cf00", "fillOpacity": 0.35454545454545455, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 158, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_5172b6a6925d306581ba00cda7ef84df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33c5e0ed544199a2d06820410affe83d = $(`<div id="html_33c5e0ed544199a2d06820410affe83d" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 79</div>`)[0];
+                popup_5172b6a6925d306581ba00cda7ef84df.setContent(html_33c5e0ed544199a2d06820410affe83d);
+            
+        
+
+        circle_3ff61233af62d54d32570ea7a9f5a836.bindPopup(popup_5172b6a6925d306581ba00cda7ef84df)
+        ;
+
+        
+    
+    
+            var marker_2786945706c509259ab68818f5a1a828 = L.marker(
+                [52.43927208598662, 4.8424228597558585],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_ba25bda531dcecfef34b0c0605de73ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76e9b3f3a72ba2572d2258caa3304ebb = $(`<div id="html_76e9b3f3a72ba2572d2258caa3304ebb" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Noorderven</h4><p> Totaal geldige uitgebrachte stemmen: 599</p><p><b>DENK</b> 13%</br> (Absoluut aantal stemmen: 79)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (18%)</li><li>DENK (13%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_ba25bda531dcecfef34b0c0605de73ca.setContent(html_76e9b3f3a72ba2572d2258caa3304ebb);
+            
+        
+
+        marker_2786945706c509259ab68818f5a1a828.bindPopup(popup_ba25bda531dcecfef34b0c0605de73ca)
+        ;
+
+        
+    
+    
+            var circle_a13d949bcaa27384bf99eca2c821869b = L.circle(
+                [52.43656, 4.83676],
+                {"bubblingMouseEvents": true, "color": "#c6eb00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c6eb00", "fillOpacity": 0.16363636363636364, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 62, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_4d339000e4bd2237214c057b68913338 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a7953dc6423721963b2ef3dd43a6e61 = $(`<div id="html_3a7953dc6423721963b2ef3dd43a6e61" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 31</div>`)[0];
+                popup_4d339000e4bd2237214c057b68913338.setContent(html_3a7953dc6423721963b2ef3dd43a6e61);
+            
+        
+
+        circle_a13d949bcaa27384bf99eca2c821869b.bindPopup(popup_4d339000e4bd2237214c057b68913338)
+        ;
+
+        
+    
+    
+            var marker_b1be0555ded6ddca63f9b38e312b17bc = L.marker(
+                [52.43656, 4.83676],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_c8fccd1524d3a001b0ba52a07bf9444b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e734a0510be9fe1d89c2e5eb22b005bf = $(`<div id="html_e734a0510be9fe1d89c2e5eb22b005bf" style="width: 100.0%; height: 100.0%;"><h4>Stembureau De Paaskerk</h4><p> Totaal geldige uitgebrachte stemmen: 502</p><p><b>DENK</b> 6%</br> (Absoluut aantal stemmen: 31)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (14%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li><li>PVV (Partij voor de Vrijheid) (10%)</li></ol></p></p></div>`)[0];
+                popup_c8fccd1524d3a001b0ba52a07bf9444b.setContent(html_e734a0510be9fe1d89c2e5eb22b005bf);
+            
+        
+
+        marker_b1be0555ded6ddca63f9b38e312b17bc.bindPopup(popup_c8fccd1524d3a001b0ba52a07bf9444b)
+        ;
+
+        
+    
+    
+            var circle_a570f353544368f6b3c7721f32279584 = L.circle(
+                [52.43558, 4.8336],
+                {"bubblingMouseEvents": true, "color": "#e8f700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e8f700", "fillOpacity": 0.08181818181818182, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 26, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_32c7822129e33d8d69db8bb2f825e75c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44364849ca9ef7da0d101c56950338cc = $(`<div id="html_44364849ca9ef7da0d101c56950338cc" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 13</div>`)[0];
+                popup_32c7822129e33d8d69db8bb2f825e75c.setContent(html_44364849ca9ef7da0d101c56950338cc);
+            
+        
+
+        circle_a570f353544368f6b3c7721f32279584.bindPopup(popup_32c7822129e33d8d69db8bb2f825e75c)
+        ;
+
+        
+    
+    
+            var marker_c2fc2e954ccacaeda44ade6e4063275f = L.marker(
+                [52.43558, 4.8336],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_dfc9e03eff2b258153ecac43ded1c365 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1cd1e7422c43ba150fb766961fcc52bd = $(`<div id="html_1cd1e7422c43ba150fb766961fcc52bd" style="width: 100.0%; height: 100.0%;"><h4>Stembureau CBS Tamarinde,INGANG J.C. VAN WESSEMSTR</h4><p> Totaal geldige uitgebrachte stemmen: 499</p><p><b>DENK</b> 3%</br> (Absoluut aantal stemmen: 13)<p><b>Top drie:</b><ol><li>ROSA (17%)</li><li>Partij voor Ouderen en Veiligheid (15%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li></ol></p></p></div>`)[0];
+                popup_dfc9e03eff2b258153ecac43ded1c365.setContent(html_1cd1e7422c43ba150fb766961fcc52bd);
+            
+        
+
+        marker_c2fc2e954ccacaeda44ade6e4063275f.bindPopup(popup_dfc9e03eff2b258153ecac43ded1c365)
+        ;
+
+        
+    
+    
+            var circle_702b47c8ac78f3f666909f93ea29aa5a = L.circle(
+                [52.44047, 4.83383],
+                {"bubblingMouseEvents": true, "color": "#dcf300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#dcf300", "fillOpacity": 0.10909090909090909, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 48, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_715a5f292b75de9b785452ed7e932387 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47a62a90197c1cf773cdb9c792f2f9d0 = $(`<div id="html_47a62a90197c1cf773cdb9c792f2f9d0" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 24</div>`)[0];
+                popup_715a5f292b75de9b785452ed7e932387.setContent(html_47a62a90197c1cf773cdb9c792f2f9d0);
+            
+        
+
+        circle_702b47c8ac78f3f666909f93ea29aa5a.bindPopup(popup_715a5f292b75de9b785452ed7e932387)
+        ;
+
+        
+    
+    
+            var marker_9acf1b0c69d62ce145cd1209027fe5e6 = L.marker(
+                [52.44047, 4.83383],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_61b61784b0e22f72bd9e4e76057d8af8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16b67f44867f7e272f6953b3dac231fc = $(`<div id="html_16b67f44867f7e272f6953b3dac231fc" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Wijkcentrum Dirk Prins</h4><p> Totaal geldige uitgebrachte stemmen: 633</p><p><b>DENK</b> 4%</br> (Absoluut aantal stemmen: 24)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (18%)</li><li>Partij van de Arbeid (P.v.d.A.) (10%)</li><li>PVV (Partij voor de Vrijheid) (10%)</li></ol></p></p></div>`)[0];
+                popup_61b61784b0e22f72bd9e4e76057d8af8.setContent(html_16b67f44867f7e272f6953b3dac231fc);
+            
+        
+
+        marker_9acf1b0c69d62ce145cd1209027fe5e6.bindPopup(popup_61b61784b0e22f72bd9e4e76057d8af8)
+        ;
+
+        
+    
+    
+            var circle_732b7b1fabfd72c69c85047fe56c06af = L.circle(
+                [52.44399, 4.82485],
+                {"bubblingMouseEvents": true, "color": "#e8f700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e8f700", "fillOpacity": 0.08181818181818182, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 46, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_d0fde409b0867d5fb67f3e5fc4c262d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a584f6602ce77794446f1470c06d446 = $(`<div id="html_4a584f6602ce77794446f1470c06d446" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 23</div>`)[0];
+                popup_d0fde409b0867d5fb67f3e5fc4c262d5.setContent(html_4a584f6602ce77794446f1470c06d446);
+            
+        
+
+        circle_732b7b1fabfd72c69c85047fe56c06af.bindPopup(popup_d0fde409b0867d5fb67f3e5fc4c262d5)
+        ;
+
+        
+    
+    
+            var marker_d93aad34a9baec0b8a52cdaa36be5d95 = L.marker(
+                [52.44399, 4.82485],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_f8b1ec46314eaf2cf079c745d220c5a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa410a26657f2aeb69b1735862910043 = $(`<div id="html_fa410a26657f2aeb69b1735862910043" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurthuis de Kolk</h4><p> Totaal geldige uitgebrachte stemmen: 707</p><p><b>DENK</b> 3%</br> (Absoluut aantal stemmen: 23)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (17%)</li><li>Partij voor Ouderen en Veiligheid (16%)</li><li>Democratisch Zaanstad (DZ) (10%)</li></ol></p></p></div>`)[0];
+                popup_f8b1ec46314eaf2cf079c745d220c5a5.setContent(html_fa410a26657f2aeb69b1735862910043);
+            
+        
+
+        marker_d93aad34a9baec0b8a52cdaa36be5d95.bindPopup(popup_f8b1ec46314eaf2cf079c745d220c5a5)
+        ;
+
+        
+    
+    
+            var circle_b1b4a9d12584a5ea0cd928a4fc672f5b = L.circle(
+                [52.44805, 4.82367],
+                {"bubblingMouseEvents": true, "color": "#d1ef00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d1ef00", "fillOpacity": 0.13636363636363635, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 46, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_7b18358318d01fe640f74133f6ab5765 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d4990946639e855a7895a214384d922 = $(`<div id="html_5d4990946639e855a7895a214384d922" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 23</div>`)[0];
+                popup_7b18358318d01fe640f74133f6ab5765.setContent(html_5d4990946639e855a7895a214384d922);
+            
+        
+
+        circle_b1b4a9d12584a5ea0cd928a4fc672f5b.bindPopup(popup_7b18358318d01fe640f74133f6ab5765)
+        ;
+
+        
+    
+    
+            var marker_8d744b334409f7f075d98effb513b4d8 = L.marker(
+                [52.44805, 4.82367],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_3f3446f6192051d9b36cf9647f7f95b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_204364d7c461748f80270ace34361d94 = $(`<div id="html_204364d7c461748f80270ace34361d94" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Sporthal de Struijck, INGANG PROF.STRUIJCKENSTRAAT</h4><p> Totaal geldige uitgebrachte stemmen: 498</p><p><b>DENK</b> 5%</br> (Absoluut aantal stemmen: 23)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (15%)</li><li>Partij van de Arbeid (P.v.d.A.) (14%)</li><li>GROENLINKS (9%)</li></ol></p></p></div>`)[0];
+                popup_3f3446f6192051d9b36cf9647f7f95b7.setContent(html_204364d7c461748f80270ace34361d94);
+            
+        
+
+        marker_8d744b334409f7f075d98effb513b4d8.bindPopup(popup_3f3446f6192051d9b36cf9647f7f95b7)
+        ;
+
+        
+    
+    
+            var circle_21ce2b1ee6f6209cbdb7a7e3c0374bc9 = L.circle(
+                [52.44981, 4.82664],
+                {"bubblingMouseEvents": true, "color": "#c6eb00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c6eb00", "fillOpacity": 0.16363636363636364, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 164, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_d3edfa41fdd1217c30923627f4c0e40c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ffe6d01185d3ba962f6fae00948ca59b = $(`<div id="html_ffe6d01185d3ba962f6fae00948ca59b" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 82</div>`)[0];
+                popup_d3edfa41fdd1217c30923627f4c0e40c.setContent(html_ffe6d01185d3ba962f6fae00948ca59b);
+            
+        
+
+        circle_21ce2b1ee6f6209cbdb7a7e3c0374bc9.bindPopup(popup_d3edfa41fdd1217c30923627f4c0e40c)
+        ;
+
+        
+    
+    
+            var marker_36640290c45f9fccf120e70d9b2e9ce9 = L.marker(
+                [52.44981, 4.82664],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_cf01217942dc4473eeb331e3a7fdb0ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_54218ba2c251386854e813ea43021f05 = $(`<div id="html_54218ba2c251386854e813ea43021f05" style="width: 100.0%; height: 100.0%;"><h4>Stembureau De Noorderkerk</h4><p> Totaal geldige uitgebrachte stemmen: 1449</p><p><b>DENK</b> 6%</br> (Absoluut aantal stemmen: 82)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (15%)</li><li>Partij voor Ouderen en Veiligheid (12%)</li><li>ROSA (8%)</li></ol></p></p></div>`)[0];
+                popup_cf01217942dc4473eeb331e3a7fdb0ba.setContent(html_54218ba2c251386854e813ea43021f05);
+            
+        
+
+        marker_36640290c45f9fccf120e70d9b2e9ce9.bindPopup(popup_cf01217942dc4473eeb331e3a7fdb0ba)
+        ;
+
+        
+    
+    
+            var circle_379282dd23dd1696b2e5ce2c268d8959 = L.circle(
+                [52.45823, 4.83142],
+                {"bubblingMouseEvents": true, "color": "#bce700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bce700", "fillOpacity": 0.1909090909090909, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 34, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_2129046a16568bb16ad61a24356005e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87bc012eb8faadb19e34902d5b1ca246 = $(`<div id="html_87bc012eb8faadb19e34902d5b1ca246" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 17</div>`)[0];
+                popup_2129046a16568bb16ad61a24356005e4.setContent(html_87bc012eb8faadb19e34902d5b1ca246);
+            
+        
+
+        circle_379282dd23dd1696b2e5ce2c268d8959.bindPopup(popup_2129046a16568bb16ad61a24356005e4)
+        ;
+
+        
+    
+    
+            var marker_47fa88c02406fa7ee6ac1e49d569a8ee = L.marker(
+                [52.45823, 4.83142],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_9e078f8e28b56e74b5df6b0be4a43743 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e51df177abfc0573b33a090a91378611 = $(`<div id="html_e51df177abfc0573b33a090a91378611" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Basisschool Kogerveld</h4><p> Totaal geldige uitgebrachte stemmen: 228</p><p><b>DENK</b> 7%</br> (Absoluut aantal stemmen: 17)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (18%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li><li>D66 (9%)</li></ol></p></p></div>`)[0];
+                popup_9e078f8e28b56e74b5df6b0be4a43743.setContent(html_e51df177abfc0573b33a090a91378611);
+            
+        
+
+        marker_47fa88c02406fa7ee6ac1e49d569a8ee.bindPopup(popup_9e078f8e28b56e74b5df6b0be4a43743)
+        ;
+
+        
+    
+    
+            var circle_510b347da353dd43ebbbaa206a2f6ff4 = L.circle(
+                [52.4582, 4.82359],
+                {"bubblingMouseEvents": true, "color": "#8bd300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8bd300", "fillOpacity": 0.32727272727272727, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 158, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_4dcde65b02a1afca5f9fc67da9b928d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a41d0fcc89af14fbc3651c68396073bb = $(`<div id="html_a41d0fcc89af14fbc3651c68396073bb" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 79</div>`)[0];
+                popup_4dcde65b02a1afca5f9fc67da9b928d1.setContent(html_a41d0fcc89af14fbc3651c68396073bb);
+            
+        
+
+        circle_510b347da353dd43ebbbaa206a2f6ff4.bindPopup(popup_4dcde65b02a1afca5f9fc67da9b928d1)
+        ;
+
+        
+    
+    
+            var marker_5421215e1d06f5f4b4da3a027b5c8b55 = L.marker(
+                [52.4582, 4.82359],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_2f5efdfa4421b066a83d7b23a48b0e42 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86f2a779c6532c5ea225ca25045277b6 = $(`<div id="html_86f2a779c6532c5ea225ca25045277b6" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Veldbloemenweg</h4><p> Totaal geldige uitgebrachte stemmen: 662</p><p><b>DENK</b> 12%</br> (Absoluut aantal stemmen: 79)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (14%)</li><li>ROSA (13%)</li><li>DENK (11%)</li></ol></p></p></div>`)[0];
+                popup_2f5efdfa4421b066a83d7b23a48b0e42.setContent(html_86f2a779c6532c5ea225ca25045277b6);
+            
+        
+
+        marker_5421215e1d06f5f4b4da3a027b5c8b55.bindPopup(popup_2f5efdfa4421b066a83d7b23a48b0e42)
+        ;
+
+        
+    
+    
+            var circle_bcce866b2a9d2f95f676a4215a9c8a91 = L.circle(
+                [52.4676, 4.8346],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.02727272727272727, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 34, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_37023694bd3aa356c2fbc33f60312315 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b43f0f6b9437f40ad0ad733262310cd = $(`<div id="html_6b43f0f6b9437f40ad0ad733262310cd" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 17</div>`)[0];
+                popup_37023694bd3aa356c2fbc33f60312315.setContent(html_6b43f0f6b9437f40ad0ad733262310cd);
+            
+        
+
+        circle_bcce866b2a9d2f95f676a4215a9c8a91.bindPopup(popup_37023694bd3aa356c2fbc33f60312315)
+        ;
+
+        
+    
+    
+            var marker_d9e6133b8e677b417f7093c59411e4d4 = L.marker(
+                [52.4676, 4.8346],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_8d5fc99a9b3ea03ea014a27d06b0c8b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79bd9d99f69a2a75131223ea78a0d36b = $(`<div id="html_79bd9d99f69a2a75131223ea78a0d36b" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurtcentrum de Bovenkruier</h4><p> Totaal geldige uitgebrachte stemmen: 1527</p><p><b>DENK</b> 1%</br> (Absoluut aantal stemmen: 17)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (20%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_8d5fc99a9b3ea03ea014a27d06b0c8b3.setContent(html_79bd9d99f69a2a75131223ea78a0d36b);
+            
+        
+
+        marker_d9e6133b8e677b417f7093c59411e4d4.bindPopup(popup_8d5fc99a9b3ea03ea014a27d06b0c8b3)
+        ;
+
+        
+    
+    
+            var circle_ebc1414960bc31b2b536a28fba29cd8f = L.circle(
+                [52.46802, 4.8366],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.02727272727272727, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_a3ed968106ede9d04988ada70d13c0d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_433c22cb79cea01652272b34fcab4bf2 = $(`<div id="html_433c22cb79cea01652272b34fcab4bf2" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 15</div>`)[0];
+                popup_a3ed968106ede9d04988ada70d13c0d7.setContent(html_433c22cb79cea01652272b34fcab4bf2);
+            
+        
+
+        circle_ebc1414960bc31b2b536a28fba29cd8f.bindPopup(popup_a3ed968106ede9d04988ada70d13c0d7)
+        ;
+
+        
+    
+    
+            var marker_ab6af91e8fe3f35bdb40e138bb53330b = L.marker(
+                [52.46802, 4.8366],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_3c7c8c582863d38306bc11d2dd4bdd39 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8da03061cb01696aba2707f66e9c400f = $(`<div id="html_8da03061cb01696aba2707f66e9c400f" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Sporthal de Tref</h4><p> Totaal geldige uitgebrachte stemmen: 1035</p><p><b>DENK</b> 1%</br> (Absoluut aantal stemmen: 15)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (15%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li><li>VVD (10%)</li></ol></p></p></div>`)[0];
+                popup_3c7c8c582863d38306bc11d2dd4bdd39.setContent(html_8da03061cb01696aba2707f66e9c400f);
+            
+        
+
+        marker_ab6af91e8fe3f35bdb40e138bb53330b.bindPopup(popup_3c7c8c582863d38306bc11d2dd4bdd39)
+        ;
+
+        
+    
+    
+            var circle_a6c7d7772108cab5966ea58449d0b4a4 = L.circle(
+                [52.42847, 4.83209],
+                {"bubblingMouseEvents": true, "color": "#f3fb00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f3fb00", "fillOpacity": 0.05454545454545454, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 26, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_a0df1b7b422980b60e5e6a7075fb21fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6c2c4db3887cb25b6ab6c3482c2f88c = $(`<div id="html_b6c2c4db3887cb25b6ab6c3482c2f88c" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 13</div>`)[0];
+                popup_a0df1b7b422980b60e5e6a7075fb21fe.setContent(html_b6c2c4db3887cb25b6ab6c3482c2f88c);
+            
+        
+
+        circle_a6c7d7772108cab5966ea58449d0b4a4.bindPopup(popup_a0df1b7b422980b60e5e6a7075fb21fe)
+        ;
+
+        
+    
+    
+            var marker_78e1462ad6d8a19fb7132abc2315b939 = L.marker(
+                [52.42847, 4.83209],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_1aed3b82e49735aa02e7d135f3401107 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06456d3592da8ef6d15fbf569cbd2248 = $(`<div id="html_06456d3592da8ef6d15fbf569cbd2248" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Speeltuinvereniging "Het Havenkwartier"</h4><p> Totaal geldige uitgebrachte stemmen: 677</p><p><b>DENK</b> 2%</br> (Absoluut aantal stemmen: 13)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (15%)</li><li>Democratisch Zaanstad (DZ) (14%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_1aed3b82e49735aa02e7d135f3401107.setContent(html_06456d3592da8ef6d15fbf569cbd2248);
+            
+        
+
+        marker_78e1462ad6d8a19fb7132abc2315b939.bindPopup(popup_1aed3b82e49735aa02e7d135f3401107)
+        ;
+
+        
+    
+    
+            var circle_4949bf016470badcc9c77da8e627828f = L.circle(
+                [52.43837, 4.82545],
+                {"bubblingMouseEvents": true, "color": "#f3fb00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f3fb00", "fillOpacity": 0.05454545454545454, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 38, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_288e1462382bd09cc3438f2f05390596 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53432022565bf436d752145d75c9b510 = $(`<div id="html_53432022565bf436d752145d75c9b510" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 19</div>`)[0];
+                popup_288e1462382bd09cc3438f2f05390596.setContent(html_53432022565bf436d752145d75c9b510);
+            
+        
+
+        circle_4949bf016470badcc9c77da8e627828f.bindPopup(popup_288e1462382bd09cc3438f2f05390596)
+        ;
+
+        
+    
+    
+            var marker_ddaa55aabfacfa9b32968f6d69bd31f8 = L.marker(
+                [52.43837, 4.82545],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_21a58a1d815386fe5b2cbdf964ccaf88 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b9bf8502f5700a75fec58874d5d0447 = $(`<div id="html_6b9bf8502f5700a75fec58874d5d0447" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Het Zaantheater</h4><p> Totaal geldige uitgebrachte stemmen: 796</p><p><b>DENK</b> 2%</br> (Absoluut aantal stemmen: 19)<p><b>Top drie:</b><ol><li>ROSA (13%)</li><li>Partij van de Arbeid (P.v.d.A.) (12%)</li><li>GROENLINKS (11%)</li></ol></p></p></div>`)[0];
+                popup_21a58a1d815386fe5b2cbdf964ccaf88.setContent(html_6b9bf8502f5700a75fec58874d5d0447);
+            
+        
+
+        marker_ddaa55aabfacfa9b32968f6d69bd31f8.bindPopup(popup_21a58a1d815386fe5b2cbdf964ccaf88)
+        ;
+
+        
+    
+    
+            var circle_a44d960c256253d83b3805b529810dde = L.circle(
+                [52.44797, 4.81985],
+                {"bubblingMouseEvents": true, "color": "#f3fb00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f3fb00", "fillOpacity": 0.05454545454545454, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_9986f3597f0fba46416227cc25c3df5b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1c0c277122a6de841ee2d196121e807 = $(`<div id="html_e1c0c277122a6de841ee2d196121e807" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 7</div>`)[0];
+                popup_9986f3597f0fba46416227cc25c3df5b.setContent(html_e1c0c277122a6de841ee2d196121e807);
+            
+        
+
+        circle_a44d960c256253d83b3805b529810dde.bindPopup(popup_9986f3597f0fba46416227cc25c3df5b)
+        ;
+
+        
+    
+    
+            var marker_d93300591cb47b8e4ffa7c3daf6406eb = L.marker(
+                [52.44797, 4.81985],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_6f866f83c2eaf37cf0443d6c9b44a816 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c740c7a383ad9ad46a601f66a9b3d38 = $(`<div id="html_5c740c7a383ad9ad46a601f66a9b3d38" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Het Tolhuys aan de Zaan</h4><p> Totaal geldige uitgebrachte stemmen: 454</p><p><b>DENK</b> 2%</br> (Absoluut aantal stemmen: 7)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (15%)</li><li>ROSA (14%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_6f866f83c2eaf37cf0443d6c9b44a816.setContent(html_5c740c7a383ad9ad46a601f66a9b3d38);
+            
+        
+
+        marker_d93300591cb47b8e4ffa7c3daf6406eb.bindPopup(popup_6f866f83c2eaf37cf0443d6c9b44a816)
+        ;
+
+        
+    
+    
+            var circle_17e711671803ea742ffdf3801061251b = L.circle(
+                [52.44943, 4.8169],
+                {"bubblingMouseEvents": true, "color": "#e8f700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e8f700", "fillOpacity": 0.08181818181818182, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 36, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_89403ebef17233d2aadb5a52fd3186f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b39845b4857827428546b7088b0ab583 = $(`<div id="html_b39845b4857827428546b7088b0ab583" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 18</div>`)[0];
+                popup_89403ebef17233d2aadb5a52fd3186f7.setContent(html_b39845b4857827428546b7088b0ab583);
+            
+        
+
+        circle_17e711671803ea742ffdf3801061251b.bindPopup(popup_89403ebef17233d2aadb5a52fd3186f7)
+        ;
+
+        
+    
+    
+            var marker_3bff1a71a615a77af790f76f16d88124 = L.marker(
+                [52.44943, 4.8169],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_816bb9f2e38cb07ea15a459551b3e64a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c051112e969fa2184fa2e0bc0c3f7949 = $(`<div id="html_c051112e969fa2184fa2e0bc0c3f7949" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Atletiekvereniging Zaanland</h4><p> Totaal geldige uitgebrachte stemmen: 590</p><p><b>DENK</b> 3%</br> (Absoluut aantal stemmen: 18)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (16%)</li><li>ROSA (14%)</li><li>GROENLINKS (11%)</li></ol></p></p></div>`)[0];
+                popup_816bb9f2e38cb07ea15a459551b3e64a.setContent(html_c051112e969fa2184fa2e0bc0c3f7949);
+            
+        
+
+        marker_3bff1a71a615a77af790f76f16d88124.bindPopup(popup_816bb9f2e38cb07ea15a459551b3e64a)
+        ;
+
+        
+    
+    
+            var circle_adc04930f3ff0874eb7e99842c826f91 = L.circle(
+                [52.43817, 4.8118],
+                {"bubblingMouseEvents": true, "color": "#b2e300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b2e300", "fillOpacity": 0.21818181818181817, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_08d3650a41a4cbcda239c4f4dc652299 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab3aa62fd7f0c3d46a5a0362dcd27473 = $(`<div id="html_ab3aa62fd7f0c3d46a5a0362dcd27473" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 20</div>`)[0];
+                popup_08d3650a41a4cbcda239c4f4dc652299.setContent(html_ab3aa62fd7f0c3d46a5a0362dcd27473);
+            
+        
+
+        circle_adc04930f3ff0874eb7e99842c826f91.bindPopup(popup_08d3650a41a4cbcda239c4f4dc652299)
+        ;
+
+        
+    
+    
+            var marker_b150d05b22ec693cc13f07b84a788d53 = L.marker(
+                [52.43817, 4.8118],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_cbcada4f5bf70d9003c8627fec0861a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_929815a49393aae0f31d3766403960f3 = $(`<div id="html_929815a49393aae0f31d3766403960f3" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Zaan Hotel</h4><p> Totaal geldige uitgebrachte stemmen: 249</p><p><b>DENK</b> 8%</br> (Absoluut aantal stemmen: 20)<p><b>Top drie:</b><ol><li>D66 (12%)</li><li>ROSA (12%)</li><li>Democratisch Zaanstad (DZ) (12%)</li></ol></p></p></div>`)[0];
+                popup_cbcada4f5bf70d9003c8627fec0861a8.setContent(html_929815a49393aae0f31d3766403960f3);
+            
+        
+
+        marker_b150d05b22ec693cc13f07b84a788d53.bindPopup(popup_cbcada4f5bf70d9003c8627fec0861a8)
+        ;
+
+        
+    
+    
+            var circle_5512599e333a3c4dfedc931abbe071f4 = L.circle(
+                [52.44768, 4.80579],
+                {"bubblingMouseEvents": true, "color": "#e8f700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e8f700", "fillOpacity": 0.08181818181818182, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 26, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_9ec7b78c83de40e1d072ea56022f0f97 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc2a6485202e9cf9327b8146f5bf5fc0 = $(`<div id="html_cc2a6485202e9cf9327b8146f5bf5fc0" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 13</div>`)[0];
+                popup_9ec7b78c83de40e1d072ea56022f0f97.setContent(html_cc2a6485202e9cf9327b8146f5bf5fc0);
+            
+        
+
+        circle_5512599e333a3c4dfedc931abbe071f4.bindPopup(popup_9ec7b78c83de40e1d072ea56022f0f97)
+        ;
+
+        
+    
+    
+            var marker_fea148f2251f83bd9334bba10d2a344b = L.marker(
+                [52.44768, 4.80579],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_427227524b8af33d23016dddd0451736 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9e6d0bb5cafb3d1fbd4f5f57f65c409c = $(`<div id="html_9e6d0bb5cafb3d1fbd4f5f57f65c409c" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurtcentrum De Zeskanter</h4><p> Totaal geldige uitgebrachte stemmen: 516</p><p><b>DENK</b> 3%</br> (Absoluut aantal stemmen: 13)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (21%)</li><li>Democratisch Zaanstad (DZ) (13%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li></ol></p></p></div>`)[0];
+                popup_427227524b8af33d23016dddd0451736.setContent(html_9e6d0bb5cafb3d1fbd4f5f57f65c409c);
+            
+        
+
+        marker_fea148f2251f83bd9334bba10d2a344b.bindPopup(popup_427227524b8af33d23016dddd0451736)
+        ;
+
+        
+    
+    
+            var circle_3e3f9b8ade3bbe2f1b9c164946e0c5f9 = L.circle(
+                [52.44802, 4.8004],
+                {"bubblingMouseEvents": true, "color": "#e8f700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e8f700", "fillOpacity": 0.08181818181818182, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 44, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_56fdfeb155aeba6482271dd5b29d0c5f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9d699aea90c67d7d8fc872e1c88ed0b = $(`<div id="html_e9d699aea90c67d7d8fc872e1c88ed0b" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 22</div>`)[0];
+                popup_56fdfeb155aeba6482271dd5b29d0c5f.setContent(html_e9d699aea90c67d7d8fc872e1c88ed0b);
+            
+        
+
+        circle_3e3f9b8ade3bbe2f1b9c164946e0c5f9.bindPopup(popup_56fdfeb155aeba6482271dd5b29d0c5f)
+        ;
+
+        
+    
+    
+            var marker_b382b954827fc6cf7906e453918dcd6f = L.marker(
+                [52.44802, 4.8004],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_17e5c1bef1fd4cbab9a0bb783654605b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_98cf890fc6ecbd9c221e714b103b6fc8 = $(`<div id="html_98cf890fc6ecbd9c221e714b103b6fc8" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Meverstraat</h4><p> Totaal geldige uitgebrachte stemmen: 872</p><p><b>DENK</b> 3%</br> (Absoluut aantal stemmen: 22)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (15%)</li><li>VVD (14%)</li><li>Partij van de Arbeid (P.v.d.A.) (14%)</li></ol></p></p></div>`)[0];
+                popup_17e5c1bef1fd4cbab9a0bb783654605b.setContent(html_98cf890fc6ecbd9c221e714b103b6fc8);
+            
+        
+
+        marker_b382b954827fc6cf7906e453918dcd6f.bindPopup(popup_17e5c1bef1fd4cbab9a0bb783654605b)
+        ;
+
+        
+    
+    
+            var circle_e0c1ce2da6a358e704414adb5afe5e99 = L.circle(
+                [52.447231, 4.805182],
+                {"bubblingMouseEvents": true, "color": "#f3fb00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f3fb00", "fillOpacity": 0.05454545454545454, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 26, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_dff922f4d2a2e723ba77035b964b3e87 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6cf5484d8d5b2be8300d23c04988d055 = $(`<div id="html_6cf5484d8d5b2be8300d23c04988d055" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 13</div>`)[0];
+                popup_dff922f4d2a2e723ba77035b964b3e87.setContent(html_6cf5484d8d5b2be8300d23c04988d055);
+            
+        
+
+        circle_e0c1ce2da6a358e704414adb5afe5e99.bindPopup(popup_dff922f4d2a2e723ba77035b964b3e87)
+        ;
+
+        
+    
+    
+            var marker_3668648661b9b732ef06a576b141f472 = L.marker(
+                [52.447231, 4.805182],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_c5fa69a0559cf810ec053073838f3b51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4af9fce6905535860722a8f475201bc8 = $(`<div id="html_4af9fce6905535860722a8f475201bc8" style="width: 100.0%; height: 100.0%;"><h4>Stembureau De Volleyhal</h4><p> Totaal geldige uitgebrachte stemmen: 538</p><p><b>DENK</b> 2%</br> (Absoluut aantal stemmen: 13)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (15%)</li><li>Partij voor Ouderen en Veiligheid (15%)</li><li>VVD (14%)</li></ol></p></p></div>`)[0];
+                popup_c5fa69a0559cf810ec053073838f3b51.setContent(html_4af9fce6905535860722a8f475201bc8);
+            
+        
+
+        marker_3668648661b9b732ef06a576b141f472.bindPopup(popup_c5fa69a0559cf810ec053073838f3b51)
+        ;
+
+        
+    
+    
+            var circle_185f547459ac3914698df77189180d60 = L.circle(
+                [52.43566, 4.81414],
+                {"bubblingMouseEvents": true, "color": "#e8f700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e8f700", "fillOpacity": 0.08181818181818182, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_117d995b14ff26ec6bb5650831450f5e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5bc134f456ab9e00918d705df0fc1efb = $(`<div id="html_5bc134f456ab9e00918d705df0fc1efb" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 25</div>`)[0];
+                popup_117d995b14ff26ec6bb5650831450f5e.setContent(html_5bc134f456ab9e00918d705df0fc1efb);
+            
+        
+
+        circle_185f547459ac3914698df77189180d60.bindPopup(popup_117d995b14ff26ec6bb5650831450f5e)
+        ;
+
+        
+    
+    
+            var marker_af5544972def61d5bbc25831b4fcd705 = L.marker(
+                [52.43566, 4.81414],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_9b4f3f80ac0341bec2035496c9905eb6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e835f925aa8d2b3e9e5d7411e7ff861 = $(`<div id="html_1e835f925aa8d2b3e9e5d7411e7ff861" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Brandweerkazerne Houtveldweg</h4><p> Totaal geldige uitgebrachte stemmen: 930</p><p><b>DENK</b> 3%</br> (Absoluut aantal stemmen: 25)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (16%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li><li>Democratisch Zaanstad (DZ) (11%)</li></ol></p></p></div>`)[0];
+                popup_9b4f3f80ac0341bec2035496c9905eb6.setContent(html_1e835f925aa8d2b3e9e5d7411e7ff861);
+            
+        
+
+        marker_af5544972def61d5bbc25831b4fcd705.bindPopup(popup_9b4f3f80ac0341bec2035496c9905eb6)
+        ;
+
+        
+    
+    
+            var circle_acc7b6fe920f3615ccdb1d8e30097794 = L.circle(
+                [52.43832, 4.81463],
+                {"bubblingMouseEvents": true, "color": "#d1ef00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d1ef00", "fillOpacity": 0.13636363636363635, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 248, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_eb2b7c841f6fdccd7aaf8b6056655b9f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_02c867ab755f42976bc68c94f445d04e = $(`<div id="html_02c867ab755f42976bc68c94f445d04e" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 124</div>`)[0];
+                popup_eb2b7c841f6fdccd7aaf8b6056655b9f.setContent(html_02c867ab755f42976bc68c94f445d04e);
+            
+        
+
+        circle_acc7b6fe920f3615ccdb1d8e30097794.bindPopup(popup_eb2b7c841f6fdccd7aaf8b6056655b9f)
+        ;
+
+        
+    
+    
+            var marker_948fdfb75f0f7a65810e5aeec80a37da = L.marker(
+                [52.43832, 4.81463],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_8f89cffe2a8bb754e66f3ee8536428b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0609080058fdbb684d8a7d02180b220a = $(`<div id="html_0609080058fdbb684d8a7d02180b220a" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stadhuis van Zaanstad</h4><p> Totaal geldige uitgebrachte stemmen: 2420</p><p><b>DENK</b> 5%</br> (Absoluut aantal stemmen: 124)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (14%)</li><li>GROENLINKS (13%)</li><li>ROSA (10%)</li></ol></p></p></div>`)[0];
+                popup_8f89cffe2a8bb754e66f3ee8536428b2.setContent(html_0609080058fdbb684d8a7d02180b220a);
+            
+        
+
+        marker_948fdfb75f0f7a65810e5aeec80a37da.bindPopup(popup_8f89cffe2a8bb754e66f3ee8536428b2)
+        ;
+
+        
+    
+    
+            var circle_321cd87f5ab24ab5f2c1585668f3366c = L.circle(
+                [52.43969, 4.81118],
+                {"bubblingMouseEvents": true, "color": "#c6eb00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c6eb00", "fillOpacity": 0.16363636363636364, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 84, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_6d9233b23632c854416f5adfab33478e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb514584ba6a84f642656826aa8455a3 = $(`<div id="html_bb514584ba6a84f642656826aa8455a3" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 42</div>`)[0];
+                popup_6d9233b23632c854416f5adfab33478e.setContent(html_bb514584ba6a84f642656826aa8455a3);
+            
+        
+
+        circle_321cd87f5ab24ab5f2c1585668f3366c.bindPopup(popup_6d9233b23632c854416f5adfab33478e)
+        ;
+
+        
+    
+    
+            var marker_227d122fa1adc1f9be0bc0a586a5018d = L.marker(
+                [52.43969, 4.81118],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_e65127c7b853bec98048e2d4e19b8172 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4f7d6729f0304e8c23a6d979fd647aa = $(`<div id="html_d4f7d6729f0304e8c23a6d979fd647aa" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Best Western Zaan Inn</h4><p> Totaal geldige uitgebrachte stemmen: 696</p><p><b>DENK</b> 6%</br> (Absoluut aantal stemmen: 42)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (15%)</li><li>Partij voor Ouderen en Veiligheid (14%)</li><li>VVD (12%)</li></ol></p></p></div>`)[0];
+                popup_e65127c7b853bec98048e2d4e19b8172.setContent(html_d4f7d6729f0304e8c23a6d979fd647aa);
+            
+        
+
+        marker_227d122fa1adc1f9be0bc0a586a5018d.bindPopup(popup_e65127c7b853bec98048e2d4e19b8172)
+        ;
+
+        
+    
+    
+            var circle_bbb91a59739e20d0f65754223fc794e3 = L.circle(
+                [52.44457, 4.81894],
+                {"bubblingMouseEvents": true, "color": "#f3fb00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f3fb00", "fillOpacity": 0.05454545454545454, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 46, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_c8ab02807f47e5da843aa7c9b08fadb0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ac5eccdeacc6f010219cf5808980b50 = $(`<div id="html_7ac5eccdeacc6f010219cf5808980b50" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 23</div>`)[0];
+                popup_c8ab02807f47e5da843aa7c9b08fadb0.setContent(html_7ac5eccdeacc6f010219cf5808980b50);
+            
+        
+
+        circle_bbb91a59739e20d0f65754223fc794e3.bindPopup(popup_c8ab02807f47e5da843aa7c9b08fadb0)
+        ;
+
+        
+    
+    
+            var marker_a4a276db24c8e48154081833d4d38972 = L.marker(
+                [52.44457, 4.81894],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_91d1dc3d065b751faee1613ec1d70e0a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4548703ec89e83929fe06453eb684b2d = $(`<div id="html_4548703ec89e83929fe06453eb684b2d" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Cultureel Centrum Bullekerk</h4><p> Totaal geldige uitgebrachte stemmen: 1066</p><p><b>DENK</b> 2%</br> (Absoluut aantal stemmen: 23)<p><b>Top drie:</b><ol><li>ROSA (14%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li><li>GROENLINKS (12%)</li></ol></p></p></div>`)[0];
+                popup_91d1dc3d065b751faee1613ec1d70e0a.setContent(html_4548703ec89e83929fe06453eb684b2d);
+            
+        
+
+        marker_a4a276db24c8e48154081833d4d38972.bindPopup(popup_91d1dc3d065b751faee1613ec1d70e0a)
+        ;
+
+        
+    
+    
+            var circle_cab06d561805003c1bda3d8fbf8e9a81 = L.circle(
+                [52.43955, 4.83068],
+                {"bubblingMouseEvents": true, "color": "#c6eb00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c6eb00", "fillOpacity": 0.16363636363636364, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_7061f8150165a28e83e47bb097ee2826 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f2117b049097b28984b48788557df24 = $(`<div id="html_3f2117b049097b28984b48788557df24" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 20</div>`)[0];
+                popup_7061f8150165a28e83e47bb097ee2826.setContent(html_3f2117b049097b28984b48788557df24);
+            
+        
+
+        circle_cab06d561805003c1bda3d8fbf8e9a81.bindPopup(popup_7061f8150165a28e83e47bb097ee2826)
+        ;
+
+        
+    
+    
+            var marker_c4b405e560338018854111ba949cbead = L.marker(
+                [52.43955, 4.83068],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_d857c554f12f2d2d0b66423f2ae36e71 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76d171a7d899c4bb77014d46b166018e = $(`<div id="html_76d171a7d899c4bb77014d46b166018e" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurthuis De Doorbraak</h4><p> Totaal geldige uitgebrachte stemmen: 308</p><p><b>DENK</b> 6%</br> (Absoluut aantal stemmen: 20)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (15%)</li><li>Partij voor Ouderen en Veiligheid (13%)</li><li>PVV (Partij voor de Vrijheid) (13%)</li></ol></p></p></div>`)[0];
+                popup_d857c554f12f2d2d0b66423f2ae36e71.setContent(html_76d171a7d899c4bb77014d46b166018e);
+            
+        
+
+        marker_c4b405e560338018854111ba949cbead.bindPopup(popup_d857c554f12f2d2d0b66423f2ae36e71)
+        ;
+
+        
+    
+    
+            var circle_4b9d8db7f6891d152071749d4633e730 = L.circle(
+                [52.45633, 4.81124],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.02727272727272727, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 28, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_d68cc5f5f45fa4e2b38b5837c8c53e23 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_98ecdd44ab3d6643cb3b872cc6903be5 = $(`<div id="html_98ecdd44ab3d6643cb3b872cc6903be5" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 14</div>`)[0];
+                popup_d68cc5f5f45fa4e2b38b5837c8c53e23.setContent(html_98ecdd44ab3d6643cb3b872cc6903be5);
+            
+        
+
+        circle_4b9d8db7f6891d152071749d4633e730.bindPopup(popup_d68cc5f5f45fa4e2b38b5837c8c53e23)
+        ;
+
+        
+    
+    
+            var marker_0b90ef9c1768317a8c2aec2ef129cccd = L.marker(
+                [52.45633, 4.81124],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_5ad75ccb2e62ace4af0445b234e2ff9f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10c56dbfb6bb386e0505d7affd4ad981 = $(`<div id="html_10c56dbfb6bb386e0505d7affd4ad981" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Kerk van de Nazarener</h4><p> Totaal geldige uitgebrachte stemmen: 1102</p><p><b>DENK</b> 1%</br> (Absoluut aantal stemmen: 14)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (14%)</li><li>ROSA (13%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li></ol></p></p></div>`)[0];
+                popup_5ad75ccb2e62ace4af0445b234e2ff9f.setContent(html_10c56dbfb6bb386e0505d7affd4ad981);
+            
+        
+
+        marker_0b90ef9c1768317a8c2aec2ef129cccd.bindPopup(popup_5ad75ccb2e62ace4af0445b234e2ff9f)
+        ;
+
+        
+    
+    
+            var circle_8eebc701f9733954f5f3e3c09d797e5a = L.circle(
+                [52.46294, 4.80905],
+                {"bubblingMouseEvents": true, "color": "#f3fb00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f3fb00", "fillOpacity": 0.05454545454545454, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 28, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_32eec6c27368bc781d8ac389c8ca8058 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ecc293819f1b106a3dff5ac5eb18b197 = $(`<div id="html_ecc293819f1b106a3dff5ac5eb18b197" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 14</div>`)[0];
+                popup_32eec6c27368bc781d8ac389c8ca8058.setContent(html_ecc293819f1b106a3dff5ac5eb18b197);
+            
+        
+
+        circle_8eebc701f9733954f5f3e3c09d797e5a.bindPopup(popup_32eec6c27368bc781d8ac389c8ca8058)
+        ;
+
+        
+    
+    
+            var marker_52f494593e77ee8eea460ad0d84e2d71 = L.marker(
+                [52.46294, 4.80905],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_86cb0fe9794f31a959c44d8a4e9b7858 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ac71d6851d9be3b733940c104758dab = $(`<div id="html_9ac71d6851d9be3b733940c104758dab" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurthuis Het BrandtWeer</h4><p> Totaal geldige uitgebrachte stemmen: 910</p><p><b>DENK</b> 2%</br> (Absoluut aantal stemmen: 14)<p><b>Top drie:</b><ol><li>ROSA (14%)</li><li>Partij voor Ouderen en Veiligheid (11%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li></ol></p></p></div>`)[0];
+                popup_86cb0fe9794f31a959c44d8a4e9b7858.setContent(html_9ac71d6851d9be3b733940c104758dab);
+            
+        
+
+        marker_52f494593e77ee8eea460ad0d84e2d71.bindPopup(popup_86cb0fe9794f31a959c44d8a4e9b7858)
+        ;
+
+        
+    
+    
+            var circle_c8f9b8a87047daa827a50f825823a478 = L.circle(
+                [52.4576, 4.79939],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.02727272727272727, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 88, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_ae55a701dece1ffaf57ca082c95769b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dffbf6da5c890f223bfed5a0e70a8a1a = $(`<div id="html_dffbf6da5c890f223bfed5a0e70a8a1a" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 44</div>`)[0];
+                popup_ae55a701dece1ffaf57ca082c95769b5.setContent(html_dffbf6da5c890f223bfed5a0e70a8a1a);
+            
+        
+
+        circle_c8f9b8a87047daa827a50f825823a478.bindPopup(popup_ae55a701dece1ffaf57ca082c95769b5)
+        ;
+
+        
+    
+    
+            var marker_e2d8ab68318eb3336b98507b8fa27117 = L.marker(
+                [52.4576, 4.79939],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_03e72acdf3d054e94ecc06dce8acd03f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_59446b693594647d1b59127cc707bc42 = $(`<div id="html_59446b693594647d1b59127cc707bc42" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurtcentrum De Vuister</h4><p> Totaal geldige uitgebrachte stemmen: 3294</p><p><b>DENK</b> 1%</br> (Absoluut aantal stemmen: 44)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (14%)</li><li>ROSA (12%)</li><li>Democratisch Zaanstad (DZ) (11%)</li></ol></p></p></div>`)[0];
+                popup_03e72acdf3d054e94ecc06dce8acd03f.setContent(html_59446b693594647d1b59127cc707bc42);
+            
+        
+
+        marker_e2d8ab68318eb3336b98507b8fa27117.bindPopup(popup_03e72acdf3d054e94ecc06dce8acd03f)
+        ;
+
+        
+    
+    
+            var circle_132bdfbb8a09f1ab40e359d7597f63d8 = L.circle(
+                [52.45906, 4.79932],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_9710c19fd365ae60b713e0436ca7875e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be54eb1d03a27283c48325026b9fe53e = $(`<div id="html_be54eb1d03a27283c48325026b9fe53e" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 2</div>`)[0];
+                popup_9710c19fd365ae60b713e0436ca7875e.setContent(html_be54eb1d03a27283c48325026b9fe53e);
+            
+        
+
+        circle_132bdfbb8a09f1ab40e359d7597f63d8.bindPopup(popup_9710c19fd365ae60b713e0436ca7875e)
+        ;
+
+        
+    
+    
+            var marker_ed1d56f56f19b16db69dbe6194ecf57a = L.marker(
+                [52.45906, 4.79932],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_22529ed49d1f98cf3adf68cebf4952a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86bda8028a725f5015daa66a4eba23a6 = $(`<div id="html_86bda8028a725f5015daa66a4eba23a6" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Basisschool de Golfbreker</h4><p> Totaal geldige uitgebrachte stemmen: 460</p><p><b>DENK</b> 0%</br> (Absoluut aantal stemmen: 2)<p><b>Top drie:</b><ol><li>VVD (15%)</li><li>ROSA (13%)</li><li>Partij voor Ouderen en Veiligheid (12%)</li></ol></p></p></div>`)[0];
+                popup_22529ed49d1f98cf3adf68cebf4952a0.setContent(html_86bda8028a725f5015daa66a4eba23a6);
+            
+        
+
+        marker_ed1d56f56f19b16db69dbe6194ecf57a.bindPopup(popup_22529ed49d1f98cf3adf68cebf4952a0)
+        ;
+
+        
+    
+    
+            var circle_4e6f019a09f6bb68bfee30f1a2392355 = L.circle(
+                [52.4746, 4.81349],
+                {"bubblingMouseEvents": true, "color": "#f3fb00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f3fb00", "fillOpacity": 0.05454545454545454, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 44, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_28c19cea618ef31c8fb87d5af2e371ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce796255719e24f6a984a2a9e197bbd8 = $(`<div id="html_ce796255719e24f6a984a2a9e197bbd8" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 22</div>`)[0];
+                popup_28c19cea618ef31c8fb87d5af2e371ff.setContent(html_ce796255719e24f6a984a2a9e197bbd8);
+            
+        
+
+        circle_4e6f019a09f6bb68bfee30f1a2392355.bindPopup(popup_28c19cea618ef31c8fb87d5af2e371ff)
+        ;
+
+        
+    
+    
+            var marker_03d7f4c7b1641eb811f360b5913cc769 = L.marker(
+                [52.4746, 4.81349],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_b9da59cfcd7872c346ec26d9c1651ee3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f704f3a9919782912e18075ca23c6e59 = $(`<div id="html_f704f3a9919782912e18075ca23c6e59" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Apostolisch Genootschap</h4><p> Totaal geldige uitgebrachte stemmen: 1432</p><p><b>DENK</b> 2%</br> (Absoluut aantal stemmen: 22)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (14%)</li><li>ROSA (13%)</li><li>Partij voor Ouderen en Veiligheid (12%)</li></ol></p></p></div>`)[0];
+                popup_b9da59cfcd7872c346ec26d9c1651ee3.setContent(html_f704f3a9919782912e18075ca23c6e59);
+            
+        
+
+        marker_03d7f4c7b1641eb811f360b5913cc769.bindPopup(popup_b9da59cfcd7872c346ec26d9c1651ee3)
+        ;
+
+        
+    
+    
+            var circle_14d3be945bdc0dbd0858a610e693d00b = L.circle(
+                [52.47439, 4.79702],
+                {"bubblingMouseEvents": true, "color": "#e8f700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e8f700", "fillOpacity": 0.08181818181818182, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 60, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_4d8222c5b1d6e9ec3a133d2735ffe73e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49e94d3799ed3e77877173630ca2d3d1 = $(`<div id="html_49e94d3799ed3e77877173630ca2d3d1" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 30</div>`)[0];
+                popup_4d8222c5b1d6e9ec3a133d2735ffe73e.setContent(html_49e94d3799ed3e77877173630ca2d3d1);
+            
+        
+
+        circle_14d3be945bdc0dbd0858a610e693d00b.bindPopup(popup_4d8222c5b1d6e9ec3a133d2735ffe73e)
+        ;
+
+        
+    
+    
+            var marker_422f4da0ae6c9b4cda50604b153b9c2e = L.marker(
+                [52.47439, 4.79702],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_d85ced73e147ad35806035d478b2e34c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a2753fba1b74c0668ce1ca0d28ddabd = $(`<div id="html_5a2753fba1b74c0668ce1ca0d28ddabd" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Fortuinweg</h4><p> Totaal geldige uitgebrachte stemmen: 1177</p><p><b>DENK</b> 3%</br> (Absoluut aantal stemmen: 30)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (13%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li><li>Partij voor Ouderen en Veiligheid (13%)</li></ol></p></p></div>`)[0];
+                popup_d85ced73e147ad35806035d478b2e34c.setContent(html_5a2753fba1b74c0668ce1ca0d28ddabd);
+            
+        
+
+        marker_422f4da0ae6c9b4cda50604b153b9c2e.bindPopup(popup_d85ced73e147ad35806035d478b2e34c)
+        ;
+
+        
+    
+    
+            var circle_dc0694f812fc7935ada0eb9866c16094 = L.circle(
+                [52.47303, 4.80383],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.02727272727272727, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_555e632ed59a57505e42ec3d200ec58f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12db36c61ac8973db1512879ae19a700 = $(`<div id="html_12db36c61ac8973db1512879ae19a700" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 6</div>`)[0];
+                popup_555e632ed59a57505e42ec3d200ec58f.setContent(html_12db36c61ac8973db1512879ae19a700);
+            
+        
+
+        circle_dc0694f812fc7935ada0eb9866c16094.bindPopup(popup_555e632ed59a57505e42ec3d200ec58f)
+        ;
+
+        
+    
+    
+            var marker_6b9588b96f57c22b5c0f0665c6599162 = L.marker(
+                [52.47303, 4.80383],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_85ecc9e8af21b6658a0c0272e5c2a77c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0bc7ff1ca04307362967e991dadf8d65 = $(`<div id="html_0bc7ff1ca04307362967e991dadf8d65" style="width: 100.0%; height: 100.0%;"><h4>Stembureau ZFC Orkest & Muziekschool</h4><p> Totaal geldige uitgebrachte stemmen: 549</p><p><b>DENK</b> 1%</br> (Absoluut aantal stemmen: 6)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (17%)</li><li>Partij voor Ouderen en Veiligheid (16%)</li><li>Democratisch Zaanstad (DZ) (10%)</li></ol></p></p></div>`)[0];
+                popup_85ecc9e8af21b6658a0c0272e5c2a77c.setContent(html_0bc7ff1ca04307362967e991dadf8d65);
+            
+        
+
+        marker_6b9588b96f57c22b5c0f0665c6599162.bindPopup(popup_85ecc9e8af21b6658a0c0272e5c2a77c)
+        ;
+
+        
+    
+    
+            var circle_f1dcddeed6366778466f44a3e2fb4afa = L.circle(
+                [52.48903, 4.79962],
+                {"bubblingMouseEvents": true, "color": "#f3fb00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f3fb00", "fillOpacity": 0.05454545454545454, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 22, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_8358d57ebcca6f840ac903e6c7406723 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7fa0398c8bf04317941facdcff898e51 = $(`<div id="html_7fa0398c8bf04317941facdcff898e51" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 11</div>`)[0];
+                popup_8358d57ebcca6f840ac903e6c7406723.setContent(html_7fa0398c8bf04317941facdcff898e51);
+            
+        
+
+        circle_f1dcddeed6366778466f44a3e2fb4afa.bindPopup(popup_8358d57ebcca6f840ac903e6c7406723)
+        ;
+
+        
+    
+    
+            var marker_e740aa16c2278fb6cc8c5d141c1de08b = L.marker(
+                [52.48903, 4.79962],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_d8ebd4cf6deb7328ffe2e4a4750c791a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ba7637426f0b8f8b5f7111ea8897ee1 = $(`<div id="html_8ba7637426f0b8f8b5f7111ea8897ee1" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Goudastraat</h4><p> Totaal geldige uitgebrachte stemmen: 610</p><p><b>DENK</b> 2%</br> (Absoluut aantal stemmen: 11)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (13%)</li><li>ROSA (12%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_d8ebd4cf6deb7328ffe2e4a4750c791a.setContent(html_8ba7637426f0b8f8b5f7111ea8897ee1);
+            
+        
+
+        marker_e740aa16c2278fb6cc8c5d141c1de08b.bindPopup(popup_d8ebd4cf6deb7328ffe2e4a4750c791a)
+        ;
+
+        
+    
+    
+            var circle_92f008f4c1e9ace75a092d40afe74d7f = L.circle(
+                [52.49417, 4.7868],
+                {"bubblingMouseEvents": true, "color": "#f3fb00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f3fb00", "fillOpacity": 0.05454545454545454, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 78, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_b84440cb2b8f7112ede2830aee1e7477 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42eb4efb85f842b74ca73d40d1963c2d = $(`<div id="html_42eb4efb85f842b74ca73d40d1963c2d" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 39</div>`)[0];
+                popup_b84440cb2b8f7112ede2830aee1e7477.setContent(html_42eb4efb85f842b74ca73d40d1963c2d);
+            
+        
+
+        circle_92f008f4c1e9ace75a092d40afe74d7f.bindPopup(popup_b84440cb2b8f7112ede2830aee1e7477)
+        ;
+
+        
+    
+    
+            var marker_f91f5d5a9ddd49b7cc4e53f2f6614fd4 = L.marker(
+                [52.49417, 4.7868],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_e5c7dd50c3694427be6e38bdb0b0faab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_933d698eebb40797737e57ec8d5c50bd = $(`<div id="html_933d698eebb40797737e57ec8d5c50bd" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurtcentrum De Lorzie</h4><p> Totaal geldige uitgebrachte stemmen: 2293</p><p><b>DENK</b> 2%</br> (Absoluut aantal stemmen: 39)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (21%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li><li>ROSA (10%)</li></ol></p></p></div>`)[0];
+                popup_e5c7dd50c3694427be6e38bdb0b0faab.setContent(html_933d698eebb40797737e57ec8d5c50bd);
+            
+        
+
+        marker_f91f5d5a9ddd49b7cc4e53f2f6614fd4.bindPopup(popup_e5c7dd50c3694427be6e38bdb0b0faab)
+        ;
+
+        
+    
+    
+            var circle_ac0aa5e1f8a678d211f8e5de391a3392 = L.circle(
+                [52.49593, 4.78692],
+                {"bubblingMouseEvents": true, "color": "#bce700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bce700", "fillOpacity": 0.1909090909090909, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_0935ac28231c3f2284abf0dff83ec58e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad5948353418c9f5a9844531f4c3da55 = $(`<div id="html_ad5948353418c9f5a9844531f4c3da55" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 15</div>`)[0];
+                popup_0935ac28231c3f2284abf0dff83ec58e.setContent(html_ad5948353418c9f5a9844531f4c3da55);
+            
+        
+
+        circle_ac0aa5e1f8a678d211f8e5de391a3392.bindPopup(popup_0935ac28231c3f2284abf0dff83ec58e)
+        ;
+
+        
+    
+    
+            var marker_f15712a034f764ca404ee2352deba616 = L.marker(
+                [52.49593, 4.78692],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_9c6f0a9b6f9465fff983d02547884849 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bbbc78fe6dc0e54b8e78eab16c76b013 = $(`<div id="html_bbbc78fe6dc0e54b8e78eab16c76b013" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Anemoonstraat</h4><p> Totaal geldige uitgebrachte stemmen: 227</p><p><b>DENK</b> 7%</br> (Absoluut aantal stemmen: 15)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (18%)</li><li>Partij voor Ouderen en Veiligheid (16%)</li><li>Partij van de Arbeid (P.v.d.A.) (10%)</li></ol></p></p></div>`)[0];
+                popup_9c6f0a9b6f9465fff983d02547884849.setContent(html_bbbc78fe6dc0e54b8e78eab16c76b013);
+            
+        
+
+        marker_f15712a034f764ca404ee2352deba616.bindPopup(popup_9c6f0a9b6f9465fff983d02547884849)
+        ;
+
+        
+    
+    
+            var circle_62bc44a544e70f4765992c3d0991614d = L.circle(
+                [52.49792, 4.78813],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.02727272727272727, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_2e8e3edfcda85cec08116b645b718b74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_087d174181df5b75f8a3c74a71290f05 = $(`<div id="html_087d174181df5b75f8a3c74a71290f05" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 6</div>`)[0];
+                popup_2e8e3edfcda85cec08116b645b718b74.setContent(html_087d174181df5b75f8a3c74a71290f05);
+            
+        
+
+        circle_62bc44a544e70f4765992c3d0991614d.bindPopup(popup_2e8e3edfcda85cec08116b645b718b74)
+        ;
+
+        
+    
+    
+            var marker_f2e66aa89778f6b82ab58216417b9847 = L.marker(
+                [52.49792, 4.78813],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_4d979f552772e8b5f4d70457e761784f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55457168cf98ef638ea035691ce9f9ae = $(`<div id="html_55457168cf98ef638ea035691ce9f9ae" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Vereniging de Bloesem, complex de Amandelbloesem</h4><p> Totaal geldige uitgebrachte stemmen: 477</p><p><b>DENK</b> 1%</br> (Absoluut aantal stemmen: 6)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (20%)</li><li>Democratisch Zaanstad (DZ) (12%)</li><li>CDA (9%)</li></ol></p></p></div>`)[0];
+                popup_4d979f552772e8b5f4d70457e761784f.setContent(html_55457168cf98ef638ea035691ce9f9ae);
+            
+        
+
+        marker_f2e66aa89778f6b82ab58216417b9847.bindPopup(popup_4d979f552772e8b5f4d70457e761784f)
+        ;
+
+        
+    
+    
+            var circle_681d44595819575dba4189304d5e4ba6 = L.circle(
+                [52.51745, 4.78595],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_447f77f2ddf922260f36e2e31b9150ef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dff6065dad102669d1fc8e628298d9d7 = $(`<div id="html_dff6065dad102669d1fc8e628298d9d7" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 0</div>`)[0];
+                popup_447f77f2ddf922260f36e2e31b9150ef.setContent(html_dff6065dad102669d1fc8e628298d9d7);
+            
+        
+
+        circle_681d44595819575dba4189304d5e4ba6.bindPopup(popup_447f77f2ddf922260f36e2e31b9150ef)
+        ;
+
+        
+    
+    
+            var marker_39c33f494deffb2aab42e81b650f99d9 = L.marker(
+                [52.51745, 4.78595],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_912b8ace6ee543878019831b9d2f3905 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b02199ee94b76c639c765f6cad7e9b1b = $(`<div id="html_b02199ee94b76c639c765f6cad7e9b1b" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Dorpshuis "De Noorddam"</h4><p> Totaal geldige uitgebrachte stemmen: 296</p><p><b>DENK</b> 0%</br> (Absoluut aantal stemmen: 0)<p><b>Top drie:</b><ol><li>VVD (19%)</li><li>Democratisch Zaanstad (DZ) (15%)</li><li>Partij voor Ouderen en Veiligheid (10%)</li></ol></p></p></div>`)[0];
+                popup_912b8ace6ee543878019831b9d2f3905.setContent(html_b02199ee94b76c639c765f6cad7e9b1b);
+            
+        
+
+        marker_39c33f494deffb2aab42e81b650f99d9.bindPopup(popup_912b8ace6ee543878019831b9d2f3905)
+        ;
+
+        
+    
+    
+            var circle_6bfaef06f5d0ed7882c51688195bddf3 = L.circle(
+                [52.49055, 4.79631],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.02727272727272727, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_304fe77ded4f8473e03e776c30161cf1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a55ef31c6b72fc7c6e3fa0a4b487967c = $(`<div id="html_a55ef31c6b72fc7c6e3fa0a4b487967c" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 4</div>`)[0];
+                popup_304fe77ded4f8473e03e776c30161cf1.setContent(html_a55ef31c6b72fc7c6e3fa0a4b487967c);
+            
+        
+
+        circle_6bfaef06f5d0ed7882c51688195bddf3.bindPopup(popup_304fe77ded4f8473e03e776c30161cf1)
+        ;
+
+        
+    
+    
+            var marker_134af75b1faac21f9ab0f0ddabdeee3b = L.marker(
+                [52.49055, 4.79631],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_6ad49355e29760dacd9e464c97dc4495 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6c44a9fad27129fca543bcbc9bfae7c3 = $(`<div id="html_6c44a9fad27129fca543bcbc9bfae7c3" style="width: 100.0%; height: 100.0%;"><h4>Stembureau De Wormerveerse Vermaning</h4><p> Totaal geldige uitgebrachte stemmen: 330</p><p><b>DENK</b> 1%</br> (Absoluut aantal stemmen: 4)<p><b>Top drie:</b><ol><li>ROSA (17%)</li><li>VVD (13%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li></ol></p></p></div>`)[0];
+                popup_6ad49355e29760dacd9e464c97dc4495.setContent(html_6c44a9fad27129fca543bcbc9bfae7c3);
+            
+        
+
+        marker_134af75b1faac21f9ab0f0ddabdeee3b.bindPopup(popup_6ad49355e29760dacd9e464c97dc4495)
+        ;
+
+        
+    
+    
+            var circle_86cd35fd2cfd17ae25c0ada617c58944 = L.circle(
+                [52.4979, 4.76625],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.02727272727272727, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 22, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_d21bcd54a7ac68531fdce0d69b08d221 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1778a6d1b996ec18d515a91895a1de97 = $(`<div id="html_1778a6d1b996ec18d515a91895a1de97" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 11</div>`)[0];
+                popup_d21bcd54a7ac68531fdce0d69b08d221.setContent(html_1778a6d1b996ec18d515a91895a1de97);
+            
+        
+
+        circle_86cd35fd2cfd17ae25c0ada617c58944.bindPopup(popup_d21bcd54a7ac68531fdce0d69b08d221)
+        ;
+
+        
+    
+    
+            var marker_5abf2917c11e57c04acf1855b949fa1c = L.marker(
+                [52.4979, 4.76625],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_3ee5579dc786a10952cb82a2f45622f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e857ee49402edaccd16a4e53f2b0c2e = $(`<div id="html_3e857ee49402edaccd16a4e53f2b0c2e" style="width: 100.0%; height: 100.0%;"><h4>Stembureau St. Petrusparochie, INGANG KERK</h4><p> Totaal geldige uitgebrachte stemmen: 1100</p><p><b>DENK</b> 1%</br> (Absoluut aantal stemmen: 11)<p><b>Top drie:</b><ol><li>ROSA (16%)</li><li>Partij voor Ouderen en Veiligheid (16%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_3ee5579dc786a10952cb82a2f45622f9.setContent(html_3e857ee49402edaccd16a4e53f2b0c2e);
+            
+        
+
+        marker_5abf2917c11e57c04acf1855b949fa1c.bindPopup(popup_3ee5579dc786a10952cb82a2f45622f9)
+        ;
+
+        
+    
+    
+            var circle_461f042143384c2ad7cf364a4261e4c7 = L.circle(
+                [52.50597, 4.76797],
+                {"bubblingMouseEvents": true, "color": "#f3fb00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f3fb00", "fillOpacity": 0.05454545454545454, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_37dd9083ad3f8767853f4d50d67d204c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9299e4f81edb74165349e883f13045cb = $(`<div id="html_9299e4f81edb74165349e883f13045cb" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 20</div>`)[0];
+                popup_37dd9083ad3f8767853f4d50d67d204c.setContent(html_9299e4f81edb74165349e883f13045cb);
+            
+        
+
+        circle_461f042143384c2ad7cf364a4261e4c7.bindPopup(popup_37dd9083ad3f8767853f4d50d67d204c)
+        ;
+
+        
+    
+    
+            var marker_83fe28bb7b35a4e26b53536f70e10d7f = L.marker(
+                [52.50597, 4.76797],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_9cd29ccadafe93f2c02302359c908d17 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a33733ee31a3328b7df5775f59082c3c = $(`<div id="html_a33733ee31a3328b7df5775f59082c3c" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Dependance basisschool de Hoeksteen</h4><p> Totaal geldige uitgebrachte stemmen: 1136</p><p><b>DENK</b> 2%</br> (Absoluut aantal stemmen: 20)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (17%)</li><li>VVD (17%)</li><li>Democratisch Zaanstad (DZ) (14%)</li></ol></p></p></div>`)[0];
+                popup_9cd29ccadafe93f2c02302359c908d17.setContent(html_a33733ee31a3328b7df5775f59082c3c);
+            
+        
+
+        marker_83fe28bb7b35a4e26b53536f70e10d7f.bindPopup(popup_9cd29ccadafe93f2c02302359c908d17)
+        ;
+
+        
+    
+    
+            var circle_54ac942868ca3e9afc63bdcbbea1e7f5 = L.circle(
+                [52.49977, 4.75707],
+                {"bubblingMouseEvents": true, "color": "#f3fb00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f3fb00", "fillOpacity": 0.05454545454545454, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 18, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_38f1fdbc20a7fedae0b08b5510b0c396 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_423ad2fd8ef54561b84c72fcfb47e4ae = $(`<div id="html_423ad2fd8ef54561b84c72fcfb47e4ae" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 9</div>`)[0];
+                popup_38f1fdbc20a7fedae0b08b5510b0c396.setContent(html_423ad2fd8ef54561b84c72fcfb47e4ae);
+            
+        
+
+        circle_54ac942868ca3e9afc63bdcbbea1e7f5.bindPopup(popup_38f1fdbc20a7fedae0b08b5510b0c396)
+        ;
+
+        
+    
+    
+            var marker_e72ce55cfae6819d6ac47185c552b15c = L.marker(
+                [52.49977, 4.75707],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_de339acd4bee9f792b0eb7d0563f7b46 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dce50a668ce2421b41ace443b3545b3a = $(`<div id="html_dce50a668ce2421b41ace443b3545b3a" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Braillestraat</h4><p> Totaal geldige uitgebrachte stemmen: 527</p><p><b>DENK</b> 2%</br> (Absoluut aantal stemmen: 9)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (18%)</li><li>Democratisch Zaanstad (DZ) (12%)</li><li>ROSA (12%)</li></ol></p></p></div>`)[0];
+                popup_de339acd4bee9f792b0eb7d0563f7b46.setContent(html_dce50a668ce2421b41ace443b3545b3a);
+            
+        
+
+        marker_e72ce55cfae6819d6ac47185c552b15c.bindPopup(popup_de339acd4bee9f792b0eb7d0563f7b46)
+        ;
+
+        
+    
+    
+            var circle_ba4e48e027b0b8564c574f034b35bb53 = L.circle(
+                [52.50114, 4.76816],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_6eed7036eb329d3ee06a0eddc5610471 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_70558b41bb8d529d03fbe62c718d1b14 = $(`<div id="html_70558b41bb8d529d03fbe62c718d1b14" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 0</div>`)[0];
+                popup_6eed7036eb329d3ee06a0eddc5610471.setContent(html_70558b41bb8d529d03fbe62c718d1b14);
+            
+        
+
+        circle_ba4e48e027b0b8564c574f034b35bb53.bindPopup(popup_6eed7036eb329d3ee06a0eddc5610471)
+        ;
+
+        
+    
+    
+            var marker_6aa0cb1725b2844f287a79ad59f0649e = L.marker(
+                [52.50114, 4.76816],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_a4dcbc941a65387c528cf0a1f6c62cef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e9d752f14b8ffe536b3646c18a0b2b5 = $(`<div id="html_7e9d752f14b8ffe536b3646c18a0b2b5" style="width: 100.0%; height: 100.0%;"><h4>Stembureau De Durghorstplantsoen</h4><p> Totaal geldige uitgebrachte stemmen: 519</p><p><b>DENK</b> 0%</br> (Absoluut aantal stemmen: 0)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (29%)</li><li>ROSA (10%)</li><li>Partij van de Arbeid (P.v.d.A.) (10%)</li></ol></p></p></div>`)[0];
+                popup_a4dcbc941a65387c528cf0a1f6c62cef.setContent(html_7e9d752f14b8ffe536b3646c18a0b2b5);
+            
+        
+
+        marker_6aa0cb1725b2844f287a79ad59f0649e.bindPopup(popup_a4dcbc941a65387c528cf0a1f6c62cef)
+        ;
+
+        
+    
+    
+            var circle_0cb4df6b5ab7a98e4a70f3f32982ae48 = L.circle(
+                [52.50135, 4.75089],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.02727272727272727, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 22, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_d354a77459fd68958bab8c99844a7f17 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e085c75d501da0af607e144514e90962 = $(`<div id="html_e085c75d501da0af607e144514e90962" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 11</div>`)[0];
+                popup_d354a77459fd68958bab8c99844a7f17.setContent(html_e085c75d501da0af607e144514e90962);
+            
+        
+
+        circle_0cb4df6b5ab7a98e4a70f3f32982ae48.bindPopup(popup_d354a77459fd68958bab8c99844a7f17)
+        ;
+
+        
+    
+    
+            var marker_bd3756a4852c5bac35d6a56b0cf963ee = L.marker(
+                [52.50135, 4.75089],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_8bbeba3b40004927fbd0bcaae68733ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_191d0e547db64c328e8452e320474ba6 = $(`<div id="html_191d0e547db64c328e8452e320474ba6" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Jupiterstraat 139 Evenaar</h4><p> Totaal geldige uitgebrachte stemmen: 863</p><p><b>DENK</b> 1%</br> (Absoluut aantal stemmen: 11)<p><b>Top drie:</b><ol><li>VVD (16%)</li><li>Partij voor Ouderen en Veiligheid (15%)</li><li>Partij van de Arbeid (P.v.d.A.) (12%)</li></ol></p></p></div>`)[0];
+                popup_8bbeba3b40004927fbd0bcaae68733ea.setContent(html_191d0e547db64c328e8452e320474ba6);
+            
+        
+
+        marker_bd3756a4852c5bac35d6a56b0cf963ee.bindPopup(popup_8bbeba3b40004927fbd0bcaae68733ea)
+        ;
+
+        
+    
+    
+            var circle_ac19f79a0821bad8bb9a71fe7f9b45e3 = L.circle(
+                [52.50908, 4.75773],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_c1b371f55e1779ef02581e5970009663 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b510b58468fa6c1cdce8b06bc282e29 = $(`<div id="html_7b510b58468fa6c1cdce8b06bc282e29" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 1</div>`)[0];
+                popup_c1b371f55e1779ef02581e5970009663.setContent(html_7b510b58468fa6c1cdce8b06bc282e29);
+            
+        
+
+        circle_ac19f79a0821bad8bb9a71fe7f9b45e3.bindPopup(popup_c1b371f55e1779ef02581e5970009663)
+        ;
+
+        
+    
+    
+            var marker_4c8140075b8a371dd782001e8a6c651c = L.marker(
+                [52.50908, 4.75773],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_b8aa1d0fd22fa157138d7e448387c1d9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dfb5bfd77bcfe27766c1fa1b62bda7cc = $(`<div id="html_dfb5bfd77bcfe27766c1fa1b62bda7cc" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Odd Fellow Huis</h4><p> Totaal geldige uitgebrachte stemmen: 459</p><p><b>DENK</b> 0%</br> (Absoluut aantal stemmen: 1)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (16%)</li><li>Democratisch Zaanstad (DZ) (14%)</li><li>VVD (13%)</li></ol></p></p></div>`)[0];
+                popup_b8aa1d0fd22fa157138d7e448387c1d9.setContent(html_dfb5bfd77bcfe27766c1fa1b62bda7cc);
+            
+        
+
+        marker_4c8140075b8a371dd782001e8a6c651c.bindPopup(popup_b8aa1d0fd22fa157138d7e448387c1d9)
+        ;
+
+        
+    
+    
+            var circle_12e3326066a62e7b6e6dd4c2e3738e85 = L.circle(
+                [52.50491, 4.76333],
+                {"bubblingMouseEvents": true, "color": "#d1ef00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d1ef00", "fillOpacity": 0.13636363636363635, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 32, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_45b2171ec60e09c3b840d0289422b279 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ca2cdfcf3239c252f2385bf74209203 = $(`<div id="html_9ca2cdfcf3239c252f2385bf74209203" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 16</div>`)[0];
+                popup_45b2171ec60e09c3b840d0289422b279.setContent(html_9ca2cdfcf3239c252f2385bf74209203);
+            
+        
+
+        circle_12e3326066a62e7b6e6dd4c2e3738e85.bindPopup(popup_45b2171ec60e09c3b840d0289422b279)
+        ;
+
+        
+    
+    
+            var marker_80a5039c473eebe0ba5b13e952d376d9 = L.marker(
+                [52.50491, 4.76333],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_9b88fedb3939179f017c5b40a17ee04c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8596adf15ed8d4c1a6b9f1a006eee66 = $(`<div id="html_f8596adf15ed8d4c1a6b9f1a006eee66" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Basisschool de Hoeksteen</h4><p> Totaal geldige uitgebrachte stemmen: 316</p><p><b>DENK</b> 5%</br> (Absoluut aantal stemmen: 16)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (20%)</li><li>Democratisch Zaanstad (DZ) (12%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li></ol></p></p></div>`)[0];
+                popup_9b88fedb3939179f017c5b40a17ee04c.setContent(html_f8596adf15ed8d4c1a6b9f1a006eee66);
+            
+        
+
+        marker_80a5039c473eebe0ba5b13e952d376d9.bindPopup(popup_9b88fedb3939179f017c5b40a17ee04c)
+        ;
+
+        
+    
+    
+            var circle_71e7b48cdc87a438e49c003b138ca982 = L.circle(
+                [52.50401, 4.75849],
+                {"bubblingMouseEvents": true, "color": "#f3fb00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f3fb00", "fillOpacity": 0.05454545454545454, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 66, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_1408872f46ba25961fd5f1474598a2be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5bec070ef604546e45555103989a9465 = $(`<div id="html_5bec070ef604546e45555103989a9465" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 33</div>`)[0];
+                popup_1408872f46ba25961fd5f1474598a2be.setContent(html_5bec070ef604546e45555103989a9465);
+            
+        
+
+        circle_71e7b48cdc87a438e49c003b138ca982.bindPopup(popup_1408872f46ba25961fd5f1474598a2be)
+        ;
+
+        
+    
+    
+            var marker_04b5e3b534d088fed5a972b629164096 = L.marker(
+                [52.50401, 4.75849],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_2adbda2b120a8b94bf94aeb462d6a469 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5372e6ba6e0e6a8e7080cf3aa04687a7 = $(`<div id="html_5372e6ba6e0e6a8e7080cf3aa04687a7" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurtcentrum de Pelikaan</h4><p> Totaal geldige uitgebrachte stemmen: 1992</p><p><b>DENK</b> 2%</br> (Absoluut aantal stemmen: 33)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (18%)</li><li>Partij van de Arbeid (P.v.d.A.) (12%)</li><li>VVD (10%)</li></ol></p></p></div>`)[0];
+                popup_2adbda2b120a8b94bf94aeb462d6a469.setContent(html_5372e6ba6e0e6a8e7080cf3aa04687a7);
+            
+        
+
+        marker_04b5e3b534d088fed5a972b629164096.bindPopup(popup_2adbda2b120a8b94bf94aeb462d6a469)
+        ;
+
+        
+    
+    
+            var circle_27c054a8de1327bc3a952a4938207ee5 = L.circle(
+                [52.45938, 4.73717],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_f83b95083122e7c3ed4c3fe6a1691f53 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f27924126462b137a8d836f16707a6f = $(`<div id="html_2f27924126462b137a8d836f16707a6f" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 1</div>`)[0];
+                popup_f83b95083122e7c3ed4c3fe6a1691f53.setContent(html_2f27924126462b137a8d836f16707a6f);
+            
+        
+
+        circle_27c054a8de1327bc3a952a4938207ee5.bindPopup(popup_f83b95083122e7c3ed4c3fe6a1691f53)
+        ;
+
+        
+    
+    
+            var marker_f01ea2fe9e1c353fdf48c1bf04abc982 = L.marker(
+                [52.45938, 4.73717],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_47c6344a5a174e3fbfb7e414758c50eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b00464239f2a6c74497367aeac964d9d = $(`<div id="html_b00464239f2a6c74497367aeac964d9d" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Kantine vv Assendelft</h4><p> Totaal geldige uitgebrachte stemmen: 614</p><p><b>DENK</b> 0%</br> (Absoluut aantal stemmen: 1)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (20%)</li><li>VVD (17%)</li><li>Partij voor Ouderen en Veiligheid (11%)</li></ol></p></p></div>`)[0];
+                popup_47c6344a5a174e3fbfb7e414758c50eb.setContent(html_b00464239f2a6c74497367aeac964d9d);
+            
+        
+
+        marker_f01ea2fe9e1c353fdf48c1bf04abc982.bindPopup(popup_47c6344a5a174e3fbfb7e414758c50eb)
+        ;
+
+        
+    
+    
+            var circle_f15f59f66b696b7491f762074f5f1a7f = L.circle(
+                [52.46675, 4.74109],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.02727272727272727, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_21fdb1a18c6613b78fbefffe8389a4b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01bb9704bc09c118616662dcf2c307fd = $(`<div id="html_01bb9704bc09c118616662dcf2c307fd" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 5</div>`)[0];
+                popup_21fdb1a18c6613b78fbefffe8389a4b2.setContent(html_01bb9704bc09c118616662dcf2c307fd);
+            
+        
+
+        circle_f15f59f66b696b7491f762074f5f1a7f.bindPopup(popup_21fdb1a18c6613b78fbefffe8389a4b2)
+        ;
+
+        
+    
+    
+            var marker_c870579ffeca096a0167eb4ff23791fc = L.marker(
+                [52.46675, 4.74109],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_490f09d69629e69c04b9a19a048a6d57 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f64783cddb8c43bf3dce377c43578c3 = $(`<div id="html_9f64783cddb8c43bf3dce377c43578c3" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Brandweerkazerne Assendelft</h4><p> Totaal geldige uitgebrachte stemmen: 988</p><p><b>DENK</b> 1%</br> (Absoluut aantal stemmen: 5)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (19%)</li><li>Partij voor Ouderen en Veiligheid (17%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_490f09d69629e69c04b9a19a048a6d57.setContent(html_9f64783cddb8c43bf3dce377c43578c3);
+            
+        
+
+        marker_c870579ffeca096a0167eb4ff23791fc.bindPopup(popup_490f09d69629e69c04b9a19a048a6d57)
+        ;
+
+        
+    
+    
+            var circle_4516edf8e56527eb83def4ce648c1503 = L.circle(
+                [52.4742, 4.74845],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_10032d791ec649b6e7e3c4f83d685119 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a7c61b69ce0a412a010239b64dc94d1 = $(`<div id="html_6a7c61b69ce0a412a010239b64dc94d1" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 1</div>`)[0];
+                popup_10032d791ec649b6e7e3c4f83d685119.setContent(html_6a7c61b69ce0a412a010239b64dc94d1);
+            
+        
+
+        circle_4516edf8e56527eb83def4ce648c1503.bindPopup(popup_10032d791ec649b6e7e3c4f83d685119)
+        ;
+
+        
+    
+    
+            var marker_acdfab62410c7b31e68a107cf88e33dd = L.marker(
+                [52.4742, 4.74845],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_5ae4d80891eacb076d1d70c38ca021d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_070127259d59d66337d9ab3146da69da = $(`<div id="html_070127259d59d66337d9ab3146da69da" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Tennisvereniging Overdan</h4><p> Totaal geldige uitgebrachte stemmen: 821</p><p><b>DENK</b> 0%</br> (Absoluut aantal stemmen: 1)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (22%)</li><li>VVD (14%)</li><li>Partij voor Ouderen en Veiligheid (13%)</li></ol></p></p></div>`)[0];
+                popup_5ae4d80891eacb076d1d70c38ca021d5.setContent(html_070127259d59d66337d9ab3146da69da);
+            
+        
+
+        marker_acdfab62410c7b31e68a107cf88e33dd.bindPopup(popup_5ae4d80891eacb076d1d70c38ca021d5)
+        ;
+
+        
+    
+    
+            var circle_64cd1281ba2072a273ddcc32b8aa5aee = L.circle(
+                [52.46618, 4.74004],
+                {"bubblingMouseEvents": true, "color": "#f3fb00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f3fb00", "fillOpacity": 0.05454545454545454, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 36, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_2f9b7c7085023320afa5cd2dee866e89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81b4b33298404da3384406a7e17368d2 = $(`<div id="html_81b4b33298404da3384406a7e17368d2" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 18</div>`)[0];
+                popup_2f9b7c7085023320afa5cd2dee866e89.setContent(html_81b4b33298404da3384406a7e17368d2);
+            
+        
+
+        circle_64cd1281ba2072a273ddcc32b8aa5aee.bindPopup(popup_2f9b7c7085023320afa5cd2dee866e89)
+        ;
+
+        
+    
+    
+            var marker_991df64c5546bf51477db9cb7def2fe1 = L.marker(
+                [52.46618, 4.74004],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_7669555775010734692f36c9d37c91b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4234beb56343f0bc4b6c49d2a5166975 = $(`<div id="html_4234beb56343f0bc4b6c49d2a5166975" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurtcentrum A3</h4><p> Totaal geldige uitgebrachte stemmen: 981</p><p><b>DENK</b> 2%</br> (Absoluut aantal stemmen: 18)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (20%)</li><li>Partij voor Ouderen en Veiligheid (17%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li></ol></p></p></div>`)[0];
+                popup_7669555775010734692f36c9d37c91b5.setContent(html_4234beb56343f0bc4b6c49d2a5166975);
+            
+        
+
+        marker_991df64c5546bf51477db9cb7def2fe1.bindPopup(popup_7669555775010734692f36c9d37c91b5)
+        ;
+
+        
+    
+    
+            var circle_29e25459bd20100565993071175234ec = L.circle(
+                [52.49317, 4.75898],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.02727272727272727, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_a9cfcd89a7cebaef487fd467664ff28a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1ff51a058a9b5606732d01cdf51a787 = $(`<div id="html_a1ff51a058a9b5606732d01cdf51a787" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 6</div>`)[0];
+                popup_a9cfcd89a7cebaef487fd467664ff28a.setContent(html_a1ff51a058a9b5606732d01cdf51a787);
+            
+        
+
+        circle_29e25459bd20100565993071175234ec.bindPopup(popup_a9cfcd89a7cebaef487fd467664ff28a)
+        ;
+
+        
+    
+    
+            var marker_f5fb75029d6064a8963d55bd4197e1b7 = L.marker(
+                [52.49317, 4.75898],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_e8de1c97731a3d9ec6c3125483bfd502 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_590cc66180090e84a20e0a71df5e3002 = $(`<div id="html_590cc66180090e84a20e0a71df5e3002" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal de Springplank</h4><p> Totaal geldige uitgebrachte stemmen: 537</p><p><b>DENK</b> 1%</br> (Absoluut aantal stemmen: 6)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (18%)</li><li>Partij voor Ouderen en Veiligheid (15%)</li><li>VVD (13%)</li></ol></p></p></div>`)[0];
+                popup_e8de1c97731a3d9ec6c3125483bfd502.setContent(html_590cc66180090e84a20e0a71df5e3002);
+            
+        
+
+        marker_f5fb75029d6064a8963d55bd4197e1b7.bindPopup(popup_e8de1c97731a3d9ec6c3125483bfd502)
+        ;
+
+        
+    
+    
+            var circle_32befad7c5fda99254f8779956f3589a = L.circle(
+                [52.48415, 4.76134],
+                {"bubblingMouseEvents": true, "color": "#c6eb00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c6eb00", "fillOpacity": 0.16363636363636364, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 114, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_24cf54cee95294a529208d5c3385b2ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a832af9b83bfd84f3d2f0e04275dd2d4 = $(`<div id="html_a832af9b83bfd84f3d2f0e04275dd2d4" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 57</div>`)[0];
+                popup_24cf54cee95294a529208d5c3385b2ff.setContent(html_a832af9b83bfd84f3d2f0e04275dd2d4);
+            
+        
+
+        circle_32befad7c5fda99254f8779956f3589a.bindPopup(popup_24cf54cee95294a529208d5c3385b2ff)
+        ;
+
+        
+    
+    
+            var marker_6de10d4f4cac2135520d9b55f0ad345b = L.marker(
+                [52.48415, 4.76134],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_8249b0eb503bbadee64fe74a8aed1464 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_74922c6c31b012cddf8623a7c32899af = $(`<div id="html_74922c6c31b012cddf8623a7c32899af" style="width: 100.0%; height: 100.0%;"><h4>Stembureau BUKO</h4><p> Totaal geldige uitgebrachte stemmen: 970</p><p><b>DENK</b> 6%</br> (Absoluut aantal stemmen: 57)<p><b>Top drie:</b><ol><li>VVD (16%)</li><li>Partij voor Ouderen en Veiligheid (13%)</li><li>Partij van de Arbeid (P.v.d.A.) (12%)</li></ol></p></p></div>`)[0];
+                popup_8249b0eb503bbadee64fe74a8aed1464.setContent(html_74922c6c31b012cddf8623a7c32899af);
+            
+        
+
+        marker_6de10d4f4cac2135520d9b55f0ad345b.bindPopup(popup_8249b0eb503bbadee64fe74a8aed1464)
+        ;
+
+        
+    
+    
+            var circle_c1f677c2e6268c465ab6b10901f54d5e = L.circle(
+                [52.48838, 4.75082],
+                {"bubblingMouseEvents": true, "color": "#94d700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94d700", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 218, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_53177adb4af7916d0b87574f1ae18988 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_73d1f1a7ac8ad233a8e9009e1fecd5c1 = $(`<div id="html_73d1f1a7ac8ad233a8e9009e1fecd5c1" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 109</div>`)[0];
+                popup_53177adb4af7916d0b87574f1ae18988.setContent(html_73d1f1a7ac8ad233a8e9009e1fecd5c1);
+            
+        
+
+        circle_c1f677c2e6268c465ab6b10901f54d5e.bindPopup(popup_53177adb4af7916d0b87574f1ae18988)
+        ;
+
+        
+    
+    
+            var marker_63b88f43de80eeb842c8f1d9fdc28835 = L.marker(
+                [52.48838, 4.75082],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_61019e30236b5c0db3e67d10e1706320 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_958659b775c582b7133ffcc7b7b308b6 = $(`<div id="html_958659b775c582b7133ffcc7b7b308b6" style="width: 100.0%; height: 100.0%;"><h4>Stembureau JongerenHUB Noord</h4><p> Totaal geldige uitgebrachte stemmen: 959</p><p><b>DENK</b> 11%</br> (Absoluut aantal stemmen: 109)<p><b>Top drie:</b><ol><li>VVD (20%)</li><li>DENK (11%)</li><li>Partij voor Ouderen en Veiligheid (11%)</li></ol></p></p></div>`)[0];
+                popup_61019e30236b5c0db3e67d10e1706320.setContent(html_958659b775c582b7133ffcc7b7b308b6);
+            
+        
+
+        marker_63b88f43de80eeb842c8f1d9fdc28835.bindPopup(popup_61019e30236b5c0db3e67d10e1706320)
+        ;
+
+        
+    
+    
+            var circle_36bb0c96254fb3e714ccf68ada2e0942 = L.circle(
+                [52.49536, 4.75036],
+                {"bubblingMouseEvents": true, "color": "#c6eb00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c6eb00", "fillOpacity": 0.16363636363636364, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_cb84715c802ecde3743943673e993912 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc7fd92710137e0f2f80e4b5524de49b = $(`<div id="html_bc7fd92710137e0f2f80e4b5524de49b" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 20</div>`)[0];
+                popup_cb84715c802ecde3743943673e993912.setContent(html_bc7fd92710137e0f2f80e4b5524de49b);
+            
+        
+
+        circle_36bb0c96254fb3e714ccf68ada2e0942.bindPopup(popup_cb84715c802ecde3743943673e993912)
+        ;
+
+        
+    
+    
+            var marker_050a986a79304bc44e85093115d88171 = L.marker(
+                [52.49536, 4.75036],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_78e6e20edbc857c34f25b0ff6de3c6d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b6f8e9b26878c1692af5b11fd307d0a = $(`<div id="html_2b6f8e9b26878c1692af5b11fd307d0a" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Kreekrijklaan 2</h4><p> Totaal geldige uitgebrachte stemmen: 356</p><p><b>DENK</b> 6%</br> (Absoluut aantal stemmen: 20)<p><b>Top drie:</b><ol><li>VVD (20%)</li><li>Partij van de Arbeid (P.v.d.A.) (12%)</li><li>Democratisch Zaanstad (DZ) (12%)</li></ol></p></p></div>`)[0];
+                popup_78e6e20edbc857c34f25b0ff6de3c6d2.setContent(html_2b6f8e9b26878c1692af5b11fd307d0a);
+            
+        
+
+        marker_050a986a79304bc44e85093115d88171.bindPopup(popup_78e6e20edbc857c34f25b0ff6de3c6d2)
+        ;
+
+        
+    
+    
+            var circle_eb11735638cb9c642a57b81d5bd4ed13 = L.circle(
+                [52.49454, 4.74488],
+                {"bubblingMouseEvents": true, "color": "#e8f700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e8f700", "fillOpacity": 0.08181818181818182, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 24, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_21a1b807ec4c3a829b909b4898468d59 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71f6730bb38200555afdfc45cf9404ca = $(`<div id="html_71f6730bb38200555afdfc45cf9404ca" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 12</div>`)[0];
+                popup_21a1b807ec4c3a829b909b4898468d59.setContent(html_71f6730bb38200555afdfc45cf9404ca);
+            
+        
+
+        circle_eb11735638cb9c642a57b81d5bd4ed13.bindPopup(popup_21a1b807ec4c3a829b909b4898468d59)
+        ;
+
+        
+    
+    
+            var marker_78c3d1e07209d1d64062cfd8110e41e7 = L.marker(
+                [52.49454, 4.74488],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_fd8e26f0909d8246f90a45e0ef1ee5d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26f410f519f0d9e84c76e5a0a690bb24 = $(`<div id="html_26f410f519f0d9e84c76e5a0a690bb24" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Beemdgras</h4><p> Totaal geldige uitgebrachte stemmen: 412</p><p><b>DENK</b> 3%</br> (Absoluut aantal stemmen: 12)<p><b>Top drie:</b><ol><li>VVD (23%)</li><li>Democratisch Zaanstad (DZ) (12%)</li><li>Partij van de Arbeid (P.v.d.A.) (10%)</li></ol></p></p></div>`)[0];
+                popup_fd8e26f0909d8246f90a45e0ef1ee5d7.setContent(html_26f410f519f0d9e84c76e5a0a690bb24);
+            
+        
+
+        marker_78c3d1e07209d1d64062cfd8110e41e7.bindPopup(popup_fd8e26f0909d8246f90a45e0ef1ee5d7)
+        ;
+
+        
+    
+    
+            var circle_733e27db807cea5e6b1b48f28391f6cb = L.circle(
+                [52.48864, 4.75283],
+                {"bubblingMouseEvents": true, "color": "#d1ef00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d1ef00", "fillOpacity": 0.13636363636363635, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 202, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_34cc97fcf0ca64614259d32be043aa8e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_673b19776c2e9102e02a90f6db68e25a = $(`<div id="html_673b19776c2e9102e02a90f6db68e25a" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 101</div>`)[0];
+                popup_34cc97fcf0ca64614259d32be043aa8e.setContent(html_673b19776c2e9102e02a90f6db68e25a);
+            
+        
+
+        circle_733e27db807cea5e6b1b48f28391f6cb.bindPopup(popup_34cc97fcf0ca64614259d32be043aa8e)
+        ;
+
+        
+    
+    
+            var marker_77a821e3263daec732fdabdcef662013 = L.marker(
+                [52.48864, 4.75283],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_b07113afaf830bca92249ea46cdeb741 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_285757c210f85598031a85817547f2fd = $(`<div id="html_285757c210f85598031a85817547f2fd" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Het Sociale Winkeltje</h4><p> Totaal geldige uitgebrachte stemmen: 2001</p><p><b>DENK</b> 5%</br> (Absoluut aantal stemmen: 101)<p><b>Top drie:</b><ol><li>VVD (17%)</li><li>Partij voor Ouderen en Veiligheid (14%)</li><li>Democratisch Zaanstad (DZ) (11%)</li></ol></p></p></div>`)[0];
+                popup_b07113afaf830bca92249ea46cdeb741.setContent(html_285757c210f85598031a85817547f2fd);
+            
+        
+
+        marker_77a821e3263daec732fdabdcef662013.bindPopup(popup_b07113afaf830bca92249ea46cdeb741)
+        ;
+
+        
+    
+    
+            var circle_49368e13d4cdaab9943463e818f8249c = L.circle(
+                [52.44896, 4.77604],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_29aaae5d9922f7ec4cb1759d86068e5e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44ee15d0060732737ae949b92bb65d41 = $(`<div id="html_44ee15d0060732737ae949b92bb65d41" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 2</div>`)[0];
+                popup_29aaae5d9922f7ec4cb1759d86068e5e.setContent(html_44ee15d0060732737ae949b92bb65d41);
+            
+        
+
+        circle_49368e13d4cdaab9943463e818f8249c.bindPopup(popup_29aaae5d9922f7ec4cb1759d86068e5e)
+        ;
+
+        
+    
+    
+            var marker_e9c7b49f1acd0314458d01631687abdc = L.marker(
+                [52.44896, 4.77604],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_e3038ec562354080ecea4896d75b1ad9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d95d599ffb95a4e740018e44998dfb82 = $(`<div id="html_d95d599ffb95a4e740018e44998dfb82" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Dorpshuis "De Kwaker"</h4><p> Totaal geldige uitgebrachte stemmen: 725</p><p><b>DENK</b> 0%</br> (Absoluut aantal stemmen: 2)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (14%)</li><li>VVD (14%)</li><li>PVV (Partij voor de Vrijheid) (10%)</li></ol></p></p></div>`)[0];
+                popup_e3038ec562354080ecea4896d75b1ad9.setContent(html_d95d599ffb95a4e740018e44998dfb82);
+            
+        
+
+        marker_e9c7b49f1acd0314458d01631687abdc.bindPopup(popup_e3038ec562354080ecea4896d75b1ad9)
+        ;
+
+        
+    
+    
+            var circle_afa9dcc6af978d1c49c6c407cbfda786 = L.circle(
+                [52.4638, 4.76978],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_f6a9a0bf5ab76178840c11b12ccd48d6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_920184ef1306dd833cce691cfe2405f3 = $(`<div id="html_920184ef1306dd833cce691cfe2405f3" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 6</div>`)[0];
+                popup_f6a9a0bf5ab76178840c11b12ccd48d6.setContent(html_920184ef1306dd833cce691cfe2405f3);
+            
+        
+
+        circle_afa9dcc6af978d1c49c6c407cbfda786.bindPopup(popup_f6a9a0bf5ab76178840c11b12ccd48d6)
+        ;
+
+        
+    
+    
+            var marker_a55474b4fd370fa820583d539167e2fa = L.marker(
+                [52.4638, 4.76978],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_66be9ee7e0e9493563224292c4d5c3d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc3e636d301880858be48c2ad22dc469 = $(`<div id="html_cc3e636d301880858be48c2ad22dc469" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Wijksteunpunt Lambert Melisz</h4><p> Totaal geldige uitgebrachte stemmen: 1258</p><p><b>DENK</b> 0%</br> (Absoluut aantal stemmen: 6)<p><b>Top drie:</b><ol><li>VVD (16%)</li><li>Partij voor Ouderen en Veiligheid (13%)</li><li>Partij van de Arbeid (P.v.d.A.) (10%)</li></ol></p></p></div>`)[0];
+                popup_66be9ee7e0e9493563224292c4d5c3d8.setContent(html_cc3e636d301880858be48c2ad22dc469);
+            
+        
+
+        marker_a55474b4fd370fa820583d539167e2fa.bindPopup(popup_66be9ee7e0e9493563224292c4d5c3d8)
+        ;
+
+        
+    
+    
+            var circle_91b155a8e6bdf531c0447f0664bf8e8d = L.circle(
+                [52.46317, 4.77163],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_359d4db5963cc68a487103d5b17a7893 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_25e092146b8d1089de5cb6d67e26976e = $(`<div id="html_25e092146b8d1089de5cb6d67e26976e" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 1</div>`)[0];
+                popup_359d4db5963cc68a487103d5b17a7893.setContent(html_25e092146b8d1089de5cb6d67e26976e);
+            
+        
+
+        circle_91b155a8e6bdf531c0447f0664bf8e8d.bindPopup(popup_359d4db5963cc68a487103d5b17a7893)
+        ;
+
+        
+    
+    
+            var marker_3ca17c51d3711a656a375997e2c62a64 = L.marker(
+                [52.46317, 4.77163],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_a8c86ebe33dd29493ea3c154ce6a71be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f813f1dc9dc8a0a2e223fb20c1cd6b8b = $(`<div id="html_f813f1dc9dc8a0a2e223fb20c1cd6b8b" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Torenstraat, INGANG KERKBUURT 21</h4><p> Totaal geldige uitgebrachte stemmen: 269</p><p><b>DENK</b> 0%</br> (Absoluut aantal stemmen: 1)<p><b>Top drie:</b><ol><li>VVD (17%)</li><li>ROSA (13%)</li><li>Democratisch Zaanstad (DZ) (11%)</li></ol></p></p></div>`)[0];
+                popup_a8c86ebe33dd29493ea3c154ce6a71be.setContent(html_f813f1dc9dc8a0a2e223fb20c1cd6b8b);
+            
+        
+
+        marker_3ca17c51d3711a656a375997e2c62a64.bindPopup(popup_a8c86ebe33dd29493ea3c154ce6a71be)
+        ;
+
+        
+    
+    
+            var circle_d8e27c7d9fbb36639ee811f9dd7c5c93 = L.circle(
+                [52.45375, 4.83569],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_30e25c4b381f1391cd48c2f11e29a6f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc2d11bd70f4e169068bbb352e14f2c5 = $(`<div id="html_bc2d11bd70f4e169068bbb352e14f2c5" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 0</div>`)[0];
+                popup_30e25c4b381f1391cd48c2f11e29a6f7.setContent(html_bc2d11bd70f4e169068bbb352e14f2c5);
+            
+        
+
+        circle_d8e27c7d9fbb36639ee811f9dd7c5c93.bindPopup(popup_30e25c4b381f1391cd48c2f11e29a6f7)
+        ;
+
+        
+    
+    
+            var marker_4cbb56a35bed5c49f5669dfbbc17713b = L.marker(
+                [52.45375, 4.83569],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_983e830431bc5f16375ec8fc35a53404 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9e8cfa0eea68153e33da23ada5d0a632 = $(`<div id="html_9e8cfa0eea68153e33da23ada5d0a632" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean Oostergouw, HOOFDINGANG</h4><p> Totaal geldige uitgebrachte stemmen: 20</p><p><b>DENK</b> 0%</br> (Absoluut aantal stemmen: 0)<p><b>Top drie:</b><ol><li>SP (Socialistische Partij) (15%)</li><li>VVD (10%)</li><li>Partij van de Arbeid (P.v.d.A.) (10%)</li></ol></p></p></div>`)[0];
+                popup_983e830431bc5f16375ec8fc35a53404.setContent(html_9e8cfa0eea68153e33da23ada5d0a632);
+            
+        
+
+        marker_4cbb56a35bed5c49f5669dfbbc17713b.bindPopup(popup_983e830431bc5f16375ec8fc35a53404)
+        ;
+
+        
+    
+    
+            var circle_676365fe08e53d857cd57c51ece84817 = L.circle(
+                [52.44012, 4.84136],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_5d785072c40a4fa4c76a97d317808917 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a959f6bee9b4a6cca060a020ca7a6518 = $(`<div id="html_a959f6bee9b4a6cca060a020ca7a6518" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 0</div>`)[0];
+                popup_5d785072c40a4fa4c76a97d317808917.setContent(html_a959f6bee9b4a6cca060a020ca7a6518);
+            
+        
+
+        circle_676365fe08e53d857cd57c51ece84817.bindPopup(popup_5d785072c40a4fa4c76a97d317808917)
+        ;
+
+        
+    
+    
+            var marker_d9512dde4f378e6f1d909f8d50377d78 = L.marker(
+                [52.44012, 4.84136],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_b2d0aa7857c363d52537ee7388b02115 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14083426af998045b1091c7892e164bd = $(`<div id="html_14083426af998045b1091c7892e164bd" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean Het Erasmushuis</h4><p> Totaal geldige uitgebrachte stemmen: 20</p><p><b>DENK</b> 0%</br> (Absoluut aantal stemmen: 0)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (20%)</li><li>Partij voor Ouderen en Veiligheid (15%)</li><li>D66 (15%)</li></ol></p></p></div>`)[0];
+                popup_b2d0aa7857c363d52537ee7388b02115.setContent(html_14083426af998045b1091c7892e164bd);
+            
+        
+
+        marker_d9512dde4f378e6f1d909f8d50377d78.bindPopup(popup_b2d0aa7857c363d52537ee7388b02115)
+        ;
+
+        
+    
+    
+            var circle_187dd23180b76847833cfd8d8299b912 = L.circle(
+                [52.44115, 4.83269],
+                {"bubblingMouseEvents": true, "color": "#8bd300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8bd300", "fillOpacity": 0.32727272727272727, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_b1a3fe785f895a5a6750f70de57127e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b1c1c36d994c7fa63bb1efe6d1c1455 = $(`<div id="html_2b1c1c36d994c7fa63bb1efe6d1c1455" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 6</div>`)[0];
+                popup_b1a3fe785f895a5a6750f70de57127e7.setContent(html_2b1c1c36d994c7fa63bb1efe6d1c1455);
+            
+        
+
+        circle_187dd23180b76847833cfd8d8299b912.bindPopup(popup_b1a3fe785f895a5a6750f70de57127e7)
+        ;
+
+        
+    
+    
+            var marker_01a59a0f8c231c2b0e873fecc5139aaa = L.marker(
+                [52.44115, 4.83269],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_264e72bcfb1cc8e3b95a2a73d2a0c2f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_346bb8301022b6a556c43eec3640130d = $(`<div id="html_346bb8301022b6a556c43eec3640130d" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Zorgcentrum Mennistenerf</h4><p> Totaal geldige uitgebrachte stemmen: 51</p><p><b>DENK</b> 12%</br> (Absoluut aantal stemmen: 6)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (43%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li><li>DENK (11%)</li></ol></p></p></div>`)[0];
+                popup_264e72bcfb1cc8e3b95a2a73d2a0c2f2.setContent(html_346bb8301022b6a556c43eec3640130d);
+            
+        
+
+        marker_01a59a0f8c231c2b0e873fecc5139aaa.bindPopup(popup_264e72bcfb1cc8e3b95a2a73d2a0c2f2)
+        ;
+
+        
+    
+    
+            var circle_41886762ca267ff00d5e4cce82c5207c = L.circle(
+                [52.44342, 4.83039],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_d162e6fe21209e19f8c84c38cf534982 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5477e39e4b6fd25364036600b9dd5dd6 = $(`<div id="html_5477e39e4b6fd25364036600b9dd5dd6" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 0</div>`)[0];
+                popup_d162e6fe21209e19f8c84c38cf534982.setContent(html_5477e39e4b6fd25364036600b9dd5dd6);
+            
+        
+
+        circle_41886762ca267ff00d5e4cce82c5207c.bindPopup(popup_d162e6fe21209e19f8c84c38cf534982)
+        ;
+
+        
+    
+    
+            var marker_f454ad5f54b9c40475d28e5def042f36 = L.marker(
+                [52.44342, 4.83039],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_104d494b27d27b3f88990deb4663ceac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4fba032db063c847abc848d12cff7c3 = $(`<div id="html_d4fba032db063c847abc848d12cff7c3" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Hervormd Centrum Pennemes, HOOFDINGANG</h4><p> Totaal geldige uitgebrachte stemmen: 42</p><p><b>DENK</b> 0%</br> (Absoluut aantal stemmen: 0)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (21%)</li><li>ChristenUnie (21%)</li><li>Partij van de Arbeid (P.v.d.A.) (14%)</li></ol></p></p></div>`)[0];
+                popup_104d494b27d27b3f88990deb4663ceac.setContent(html_d4fba032db063c847abc848d12cff7c3);
+            
+        
+
+        marker_f454ad5f54b9c40475d28e5def042f36.bindPopup(popup_104d494b27d27b3f88990deb4663ceac)
+        ;
+
+        
+    
+    
+            var circle_70ef87941b8f4f6a46293e1ff149efed = L.circle(
+                [52.4704, 4.83439],
+                {"bubblingMouseEvents": true, "color": "#dcf300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#dcf300", "fillOpacity": 0.10909090909090909, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_c24f0cf9c8965503ff773b5250e7921a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b116f38f173d7951265b57758c4a12a = $(`<div id="html_0b116f38f173d7951265b57758c4a12a" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 2</div>`)[0];
+                popup_c24f0cf9c8965503ff773b5250e7921a.setContent(html_0b116f38f173d7951265b57758c4a12a);
+            
+        
+
+        circle_70ef87941b8f4f6a46293e1ff149efed.bindPopup(popup_c24f0cf9c8965503ff773b5250e7921a)
+        ;
+
+        
+    
+    
+            var marker_4aa4a0a207b624f5d79689a59316f8f3 = L.marker(
+                [52.4704, 4.83439],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_c40b73ccd4de4f0a90c4a115644f6e66 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b27eaf878819e51b86bcecaa4ec8f03 = $(`<div id="html_3b27eaf878819e51b86bcecaa4ec8f03" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Zorgcentrum Nieuw Groenland</h4><p> Totaal geldige uitgebrachte stemmen: 47</p><p><b>DENK</b> 4%</br> (Absoluut aantal stemmen: 2)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (14%)</li><li>CDA (12%)</li><li>Partij voor de Dieren (12%)</li></ol></p></p></div>`)[0];
+                popup_c40b73ccd4de4f0a90c4a115644f6e66.setContent(html_3b27eaf878819e51b86bcecaa4ec8f03);
+            
+        
+
+        marker_4aa4a0a207b624f5d79689a59316f8f3.bindPopup(popup_c40b73ccd4de4f0a90c4a115644f6e66)
+        ;
+
+        
+    
+    
+            var circle_7fa342e99717edaa12143ef2267016fe = L.circle(
+                [52.44279, 4.81852],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_26f5669ed973068b2f0056ed4a8d30ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dec2fa323cffd22843586930efeb5e2c = $(`<div id="html_dec2fa323cffd22843586930efeb5e2c" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 0</div>`)[0];
+                popup_26f5669ed973068b2f0056ed4a8d30ba.setContent(html_dec2fa323cffd22843586930efeb5e2c);
+            
+        
+
+        circle_7fa342e99717edaa12143ef2267016fe.bindPopup(popup_26f5669ed973068b2f0056ed4a8d30ba)
+        ;
+
+        
+    
+    
+            var marker_b930b09375f4860e279e2a1fbc5fb937 = L.marker(
+                [52.44279, 4.81852],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_7b034204b26dc28c1d77e5ae42b40d87 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8eb164a142d98a96f43c3f7d9695d57 = $(`<div id="html_e8eb164a142d98a96f43c3f7d9695d57" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Zorgcentrum Saenden</h4><p> Totaal geldige uitgebrachte stemmen: 10</p><p><b>DENK</b> 0%</br> (Absoluut aantal stemmen: 0)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (30%)</li><li>VVD (20%)</li><li>CDA (20%)</li></ol></p></p></div>`)[0];
+                popup_7b034204b26dc28c1d77e5ae42b40d87.setContent(html_e8eb164a142d98a96f43c3f7d9695d57);
+            
+        
+
+        marker_b930b09375f4860e279e2a1fbc5fb937.bindPopup(popup_7b034204b26dc28c1d77e5ae42b40d87)
+        ;
+
+        
+    
+    
+            var circle_b04eb91afcafd5303b8cb911d9d5a66a = L.circle(
+                [52.44905, 4.80177],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_2b953d63e524ad892038116c2b374d22 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c44424c44bc0b2cd5cd9917dd5da3f0 = $(`<div id="html_2c44424c44bc0b2cd5cd9917dd5da3f0" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 0</div>`)[0];
+                popup_2b953d63e524ad892038116c2b374d22.setContent(html_2c44424c44bc0b2cd5cd9917dd5da3f0);
+            
+        
+
+        circle_b04eb91afcafd5303b8cb911d9d5a66a.bindPopup(popup_2b953d63e524ad892038116c2b374d22)
+        ;
+
+        
+    
+    
+            var marker_bca1546119bf880581f1cd37bbfa0f03 = L.marker(
+                [52.44905, 4.80177],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_640898276400f4e6ce492a8e3675e02b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f4dc2eae72129c89e972a3909dc99ea = $(`<div id="html_4f4dc2eae72129c89e972a3909dc99ea" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean Westerwatering, HOOFDINGANG</h4><p> Totaal geldige uitgebrachte stemmen: 50</p><p><b>DENK</b> 0%</br> (Absoluut aantal stemmen: 0)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (54%)</li><li>Democratisch Zaanstad (DZ) (10%)</li><li>Partij van de Arbeid (P.v.d.A.) (8%)</li></ol></p></p></div>`)[0];
+                popup_640898276400f4e6ce492a8e3675e02b.setContent(html_4f4dc2eae72129c89e972a3909dc99ea);
+            
+        
+
+        marker_bca1546119bf880581f1cd37bbfa0f03.bindPopup(popup_640898276400f4e6ce492a8e3675e02b)
+        ;
+
+        
+    
+    
+            var circle_f5b4900aec4a153d9e081bf48ea40471 = L.circle(
+                [52.46873, 4.81152],
+                {"bubblingMouseEvents": true, "color": "#a7df00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a7df00", "fillOpacity": 0.24545454545454543, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_49b278b2d852630cc41618cfc62d2d12 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba1ccd4aa8a1b793248ed396504c32e9 = $(`<div id="html_ba1ccd4aa8a1b793248ed396504c32e9" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 4</div>`)[0];
+                popup_49b278b2d852630cc41618cfc62d2d12.setContent(html_ba1ccd4aa8a1b793248ed396504c32e9);
+            
+        
+
+        circle_f5b4900aec4a153d9e081bf48ea40471.bindPopup(popup_49b278b2d852630cc41618cfc62d2d12)
+        ;
+
+        
+    
+    
+            var marker_b1e97e260e34f7dc98caeb0be155273f = L.marker(
+                [52.46873, 4.81152],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_97856ef79c65933d9f752a3711cd8bd0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c0f20cd34bc57cc9f0076ae3a915852 = $(`<div id="html_3c0f20cd34bc57cc9f0076ae3a915852" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean Parkzicht</h4><p> Totaal geldige uitgebrachte stemmen: 46</p><p><b>DENK</b> 9%</br> (Absoluut aantal stemmen: 4)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (26%)</li><li>Partij van de Arbeid (P.v.d.A.) (15%)</li><li>ROSA (13%)</li></ol></p></p></div>`)[0];
+                popup_97856ef79c65933d9f752a3711cd8bd0.setContent(html_3c0f20cd34bc57cc9f0076ae3a915852);
+            
+        
+
+        marker_b1e97e260e34f7dc98caeb0be155273f.bindPopup(popup_97856ef79c65933d9f752a3711cd8bd0)
+        ;
+
+        
+    
+    
+            var circle_bf1c70f01cc1564a334a3ed23a639b3b = L.circle(
+                [52.47728, 4.80156],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_38489708f12ebc4a825d5c00e432e910 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a77cf878486f991a2778e371f074fc2 = $(`<div id="html_1a77cf878486f991a2778e371f074fc2" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 0</div>`)[0];
+                popup_38489708f12ebc4a825d5c00e432e910.setContent(html_1a77cf878486f991a2778e371f074fc2);
+            
+        
+
+        circle_bf1c70f01cc1564a334a3ed23a639b3b.bindPopup(popup_38489708f12ebc4a825d5c00e432e910)
+        ;
+
+        
+    
+    
+            var marker_6b71782e5e1db84ab42ccb3cdeb2baf6 = L.marker(
+                [52.47728, 4.80156],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_e0de90d1b9f1616556453793dd04d229 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb7bb3f106dbea3b85ccf519919388a0 = $(`<div id="html_bb7bb3f106dbea3b85ccf519919388a0" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean Guisveld</h4><p> Totaal geldige uitgebrachte stemmen: 8</p><p><b>DENK</b> 0%</br> (Absoluut aantal stemmen: 0)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (25%)</li><li>ROSA (12%)</li><li>D66 (12%)</li></ol></p></p></div>`)[0];
+                popup_e0de90d1b9f1616556453793dd04d229.setContent(html_bb7bb3f106dbea3b85ccf519919388a0);
+            
+        
+
+        marker_6b71782e5e1db84ab42ccb3cdeb2baf6.bindPopup(popup_e0de90d1b9f1616556453793dd04d229)
+        ;
+
+        
+    
+    
+            var circle_d553e944b250a3f431713dc5e8fd562b = L.circle(
+                [52.48707, 4.80201],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_f1aec5596e10597507772152a5f9b98b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41b16457455f8e9547fc7ac83e3f03e2 = $(`<div id="html_41b16457455f8e9547fc7ac83e3f03e2" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 0</div>`)[0];
+                popup_f1aec5596e10597507772152a5f9b98b.setContent(html_41b16457455f8e9547fc7ac83e3f03e2);
+            
+        
+
+        circle_d553e944b250a3f431713dc5e8fd562b.bindPopup(popup_f1aec5596e10597507772152a5f9b98b)
+        ;
+
+        
+    
+    
+            var marker_1999463049a15c1033a18cb19ccdff33 = L.marker(
+                [52.48707, 4.80201],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_82a135033027ba396590855dc42cec64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f2109fc379e1743ea7a521e4c8887d7 = $(`<div id="html_6f2109fc379e1743ea7a521e4c8887d7" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean Acht Staten</h4><p> Totaal geldige uitgebrachte stemmen: 19</p><p><b>DENK</b> 0%</br> (Absoluut aantal stemmen: 0)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (26%)</li><li>Partij voor Ouderen en Veiligheid (21%)</li><li>PVV (Partij voor de Vrijheid) (10%)</li></ol></p></p></div>`)[0];
+                popup_82a135033027ba396590855dc42cec64.setContent(html_6f2109fc379e1743ea7a521e4c8887d7);
+            
+        
+
+        marker_1999463049a15c1033a18cb19ccdff33.bindPopup(popup_82a135033027ba396590855dc42cec64)
+        ;
+
+        
+    
+    
+            var circle_c3e0c7cdbf5464544f992bbc8ef3ed15 = L.circle(
+                [52.50553, 4.7625],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "stroke": true, "weight": 3}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_bbf9b52d8ce809ad84eba8fe90314eb7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a49877f271a54b2d359680a14153a436 = $(`<div id="html_a49877f271a54b2d359680a14153a436" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor DENK: 0</div>`)[0];
+                popup_bbf9b52d8ce809ad84eba8fe90314eb7.setContent(html_a49877f271a54b2d359680a14153a436);
+            
+        
+
+        circle_c3e0c7cdbf5464544f992bbc8ef3ed15.bindPopup(popup_bbf9b52d8ce809ad84eba8fe90314eb7)
+        ;
+
+        
+    
+    
+            var marker_7c7a47e3446b5353fa649e110cdc682b = L.marker(
+                [52.50553, 4.7625],
+                {}
+            ).addTo(map_c067d3b7cc6208e3dd160da1fd0198bf);
+        
+    
+        var popup_13d38de60567e87d7f15a00ec563445a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc3a53449eddbab041868ee8cab5ba68 = $(`<div id="html_dc3a53449eddbab041868ee8cab5ba68" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean Rosariumhorst</h4><p> Totaal geldige uitgebrachte stemmen: 18</p><p><b>DENK</b> 0%</br> (Absoluut aantal stemmen: 0)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (27%)</li><li>Partij voor Ouderen en Veiligheid (11%)</li><li>D66 (11%)</li></ol></p></p></div>`)[0];
+                popup_13d38de60567e87d7f15a00ec563445a.setContent(html_dc3a53449eddbab041868ee8cab5ba68);
+            
+        
+
+        marker_7c7a47e3446b5353fa649e110cdc682b.bindPopup(popup_13d38de60567e87d7f15a00ec563445a)
+        ;
+
+        
+    
+</script>
+</html>

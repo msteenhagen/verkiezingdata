@@ -1,0 +1,3264 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_57a537ab4359d699659a7445b9231a8b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+             <h3 align="center" style="font-size:16px"><b>Gemeenteraad Zaanstad 2022 - ROSA</b></h3>
+             
+    
+            <div class="folium-map" id="map_57a537ab4359d699659a7445b9231a8b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_57a537ab4359d699659a7445b9231a8b = L.map(
+                "map_57a537ab4359d699659a7445b9231a8b",
+                {
+                    center: [52.447962, 4.815532],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8117ba619acbedcf9e732d26168ee497 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+            var circle_d88b2f54f8c0fd9f01b18990e30ef368 = L.circle(
+                [52.43434, 4.83998],
+                {"bubblingMouseEvents": true, "color": "#ace100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ace100", "fillOpacity": 0.25, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 66, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_ab3c716e7d2cde123243ddd0636789c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c6a7062b3c2c2a9088d43fa0f888ea76 = $(`<div id="html_c6a7062b3c2c2a9088d43fa0f888ea76" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 33</div>`)[0];
+                popup_ab3c716e7d2cde123243ddd0636789c4.setContent(html_c6a7062b3c2c2a9088d43fa0f888ea76);
+            
+        
+
+        circle_d88b2f54f8c0fd9f01b18990e30ef368.bindPopup(popup_ab3c716e7d2cde123243ddd0636789c4)
+        ;
+
+        
+    
+    
+            var marker_61669900d98813bfdbf4c018e2cc80c9 = L.marker(
+                [52.43434, 4.83998],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_37f988dd461be9a30821ae766e577d3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3f88fa7a4534614b2ec9b771d6fbc14 = $(`<div id="html_b3f88fa7a4534614b2ec9b771d6fbc14" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Wibautstraat, INGANG SPARRESTRAAT</h4><p> Totaal geldige uitgebrachte stemmen: 607</p><p><b>ROSA</b> 5%</br> (Absoluut aantal stemmen: 33)<p><b>Top drie:</b><ol><li>DENK (19%)</li><li>Partij van de Arbeid (P.v.d.A.) (16%)</li><li>Partij voor Ouderen en Veiligheid (12%)</li></ol></p></p></div>`)[0];
+                popup_37f988dd461be9a30821ae766e577d3e.setContent(html_b3f88fa7a4534614b2ec9b771d6fbc14);
+            
+        
+
+        marker_61669900d98813bfdbf4c018e2cc80c9.bindPopup(popup_37f988dd461be9a30821ae766e577d3e)
+        ;
+
+        
+    
+    
+            var circle_ec5f768fa65cbc5ade53ee9adff524ed = L.circle(
+                [52.4297, 4.83851],
+                {"bubblingMouseEvents": true, "color": "#88d200", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#88d200", "fillOpacity": 0.35, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 114, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_8a9f0b426601b58cd00b479ef788068d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e660a3e70f3258ce3ed19874f3655ec = $(`<div id="html_7e660a3e70f3258ce3ed19874f3655ec" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 57</div>`)[0];
+                popup_8a9f0b426601b58cd00b479ef788068d.setContent(html_7e660a3e70f3258ce3ed19874f3655ec);
+            
+        
+
+        circle_ec5f768fa65cbc5ade53ee9adff524ed.bindPopup(popup_8a9f0b426601b58cd00b479ef788068d)
+        ;
+
+        
+    
+    
+            var marker_d1188cee94039643236958ebfa961dd5 = L.marker(
+                [52.4297, 4.83851],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_76033f1ff6e71943806fdc4a9c6e0a8b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d4a3521845b94af8b0e0ba75a0b7941 = $(`<div id="html_2d4a3521845b94af8b0e0ba75a0b7941" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Handboogschutters Czaar Peter</h4><p> Totaal geldige uitgebrachte stemmen: 769</p><p><b>ROSA</b> 7%</br> (Absoluut aantal stemmen: 57)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (15%)</li><li>DENK (12%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li></ol></p></p></div>`)[0];
+                popup_76033f1ff6e71943806fdc4a9c6e0a8b.setContent(html_2d4a3521845b94af8b0e0ba75a0b7941);
+            
+        
+
+        marker_d1188cee94039643236958ebfa961dd5.bindPopup(popup_76033f1ff6e71943806fdc4a9c6e0a8b)
+        ;
+
+        
+    
+    
+            var circle_1a8a0991cd062208b463395ba357c0e5 = L.circle(
+                [52.43576, 4.85498],
+                {"bubblingMouseEvents": true, "color": "#ace100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ace100", "fillOpacity": 0.25, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 132, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_e666f5e0defdde91e86449311c3edff9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d60e0fa23506edb273a4496498e6218 = $(`<div id="html_2d60e0fa23506edb273a4496498e6218" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 66</div>`)[0];
+                popup_e666f5e0defdde91e86449311c3edff9.setContent(html_2d60e0fa23506edb273a4496498e6218);
+            
+        
+
+        circle_1a8a0991cd062208b463395ba357c0e5.bindPopup(popup_e666f5e0defdde91e86449311c3edff9)
+        ;
+
+        
+    
+    
+            var marker_b3d0b6cb2ec2042706957b8d40c704b3 = L.marker(
+                [52.43576, 4.85498],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_ab1b7711fe7279f2b8982594888b1e4b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d61ef5a1961a7fd9b7697c7ec95a5f8d = $(`<div id="html_d61ef5a1961a7fd9b7697c7ec95a5f8d" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Wijkcentrum de Poelenburcht</h4><p> Totaal geldige uitgebrachte stemmen: 1350</p><p><b>ROSA</b> 5%</br> (Absoluut aantal stemmen: 66)<p><b>Top drie:</b><ol><li>DENK (33%)</li><li>Partij van de Arbeid (P.v.d.A.) (18%)</li><li>Partij voor Ouderen en Veiligheid (8%)</li></ol></p></p></div>`)[0];
+                popup_ab1b7711fe7279f2b8982594888b1e4b.setContent(html_d61ef5a1961a7fd9b7697c7ec95a5f8d);
+            
+        
+
+        marker_b3d0b6cb2ec2042706957b8d40c704b3.bindPopup(popup_ab1b7711fe7279f2b8982594888b1e4b)
+        ;
+
+        
+    
+    
+            var circle_4e5b3e994bcdd0d31c4bfc447ceca2b3 = L.circle(
+                [52.44074, 4.84661],
+                {"bubblingMouseEvents": true, "color": "#88d200", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#88d200", "fillOpacity": 0.35, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 88, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_2896778d2d090d20ea6f4355da388431 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b643cca799d9c291ed523e78b437763a = $(`<div id="html_b643cca799d9c291ed523e78b437763a" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 44</div>`)[0];
+                popup_2896778d2d090d20ea6f4355da388431.setContent(html_b643cca799d9c291ed523e78b437763a);
+            
+        
+
+        circle_4e5b3e994bcdd0d31c4bfc447ceca2b3.bindPopup(popup_2896778d2d090d20ea6f4355da388431)
+        ;
+
+        
+    
+    
+            var marker_0ee35ba3a3ddde3183f40f5d1e85e415 = L.marker(
+                [52.44074, 4.84661],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_e0954ad6b261df902addc6b666730a1a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_360615b80040447363065cd97f8d4ab0 = $(`<div id="html_360615b80040447363065cd97f8d4ab0" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Zaans Natuur en Milieu Centrum</h4><p> Totaal geldige uitgebrachte stemmen: 615</p><p><b>ROSA</b> 7%</br> (Absoluut aantal stemmen: 44)<p><b>Top drie:</b><ol><li>DENK (24%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li><li>Partij voor Ouderen en Veiligheid (8%)</li></ol></p></p></div>`)[0];
+                popup_e0954ad6b261df902addc6b666730a1a.setContent(html_360615b80040447363065cd97f8d4ab0);
+            
+        
+
+        marker_0ee35ba3a3ddde3183f40f5d1e85e415.bindPopup(popup_e0954ad6b261df902addc6b666730a1a)
+        ;
+
+        
+    
+    
+            var circle_5e2916a4fc072cff95c2cb2c8f6c649e = L.circle(
+                [52.44875, 4.84416],
+                {"bubblingMouseEvents": true, "color": "#ace100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ace100", "fillOpacity": 0.25, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 70, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_146d014035e06aeded423a73870f68a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2579f402aef11a1289c7d3fca573e5e9 = $(`<div id="html_2579f402aef11a1289c7d3fca573e5e9" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 35</div>`)[0];
+                popup_146d014035e06aeded423a73870f68a5.setContent(html_2579f402aef11a1289c7d3fca573e5e9);
+            
+        
+
+        circle_5e2916a4fc072cff95c2cb2c8f6c649e.bindPopup(popup_146d014035e06aeded423a73870f68a5)
+        ;
+
+        
+    
+    
+            var marker_f5b6fefca8ecb3010f5e16d733bf0fc4 = L.marker(
+                [52.44875, 4.84416],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_313e7921946e89f35fb9d217adcb7722 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_612c0bcedc7708a0a655b7032b6cf991 = $(`<div id="html_612c0bcedc7708a0a655b7032b6cf991" style="width: 100.0%; height: 100.0%;"><h4>Stembureau ICBS de Windroos, INGANG PINASSTRAAT 4</h4><p> Totaal geldige uitgebrachte stemmen: 708</p><p><b>ROSA</b> 5%</br> (Absoluut aantal stemmen: 35)<p><b>Top drie:</b><ol><li>DENK (26%)</li><li>Partij van de Arbeid (P.v.d.A.) (17%)</li><li>Partij voor Ouderen en Veiligheid (9%)</li></ol></p></p></div>`)[0];
+                popup_313e7921946e89f35fb9d217adcb7722.setContent(html_612c0bcedc7708a0a655b7032b6cf991);
+            
+        
+
+        marker_f5b6fefca8ecb3010f5e16d733bf0fc4.bindPopup(popup_313e7921946e89f35fb9d217adcb7722)
+        ;
+
+        
+    
+    
+            var circle_376d444f517632768074bb09c19e6465 = L.circle(
+                [52.45458, 4.83273],
+                {"bubblingMouseEvents": true, "color": "#77cb00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77cb00", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 86, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_63e0e5dca9e3754c959731725697f033 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9acb3cd494ba95643a2955244e0ff622 = $(`<div id="html_9acb3cd494ba95643a2955244e0ff622" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 43</div>`)[0];
+                popup_63e0e5dca9e3754c959731725697f033.setContent(html_9acb3cd494ba95643a2955244e0ff622);
+            
+        
+
+        circle_376d444f517632768074bb09c19e6465.bindPopup(popup_63e0e5dca9e3754c959731725697f033)
+        ;
+
+        
+    
+    
+            var marker_42bf774a25f72432f23b7059b29f6591 = L.marker(
+                [52.45458, 4.83273],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_2e3e6be4ea1dff17ca129f816a5f9252 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4ce466b1db8ebaa1a612927f1955b92 = $(`<div id="html_c4ce466b1db8ebaa1a612927f1955b92" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Blaise Pascal College</h4><p> Totaal geldige uitgebrachte stemmen: 572</p><p><b>ROSA</b> 8%</br> (Absoluut aantal stemmen: 43)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (14%)</li><li>Partij van de Arbeid (P.v.d.A.) (12%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_2e3e6be4ea1dff17ca129f816a5f9252.setContent(html_c4ce466b1db8ebaa1a612927f1955b92);
+            
+        
+
+        marker_42bf774a25f72432f23b7059b29f6591.bindPopup(popup_2e3e6be4ea1dff17ca129f816a5f9252)
+        ;
+
+        
+    
+    
+            var circle_e79c5d80a7c7f9b69a6c2f907c1cb9c3 = L.circle(
+                [52.44644, 4.83914],
+                {"bubblingMouseEvents": true, "color": "#ace100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ace100", "fillOpacity": 0.25, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 106, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_4990a8fe447d5afd928dc6911814dda3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa2cdd9fb0531338371a6f4eda142da6 = $(`<div id="html_fa2cdd9fb0531338371a6f4eda142da6" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 53</div>`)[0];
+                popup_4990a8fe447d5afd928dc6911814dda3.setContent(html_fa2cdd9fb0531338371a6f4eda142da6);
+            
+        
+
+        circle_e79c5d80a7c7f9b69a6c2f907c1cb9c3.bindPopup(popup_4990a8fe447d5afd928dc6911814dda3)
+        ;
+
+        
+    
+    
+            var marker_46cd26043755a14ceecdf2a0f308036f = L.marker(
+                [52.44644, 4.83914],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_ff4c3104aa97a55c3043003d36d727d6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a11b2455626b5dd88e3d8cdf827bffc = $(`<div id="html_9a11b2455626b5dd88e3d8cdf827bffc" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean De Meerpaal, INGANG TJOTTERLAAN 174</h4><p> Totaal geldige uitgebrachte stemmen: 1022</p><p><b>ROSA</b> 5%</br> (Absoluut aantal stemmen: 53)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (15%)</li><li>Partij voor Ouderen en Veiligheid (12%)</li><li>VVD (12%)</li></ol></p></p></div>`)[0];
+                popup_ff4c3104aa97a55c3043003d36d727d6.setContent(html_9a11b2455626b5dd88e3d8cdf827bffc);
+            
+        
+
+        marker_46cd26043755a14ceecdf2a0f308036f.bindPopup(popup_ff4c3104aa97a55c3043003d36d727d6)
+        ;
+
+        
+    
+    
+            var circle_aa41c66808527a52c08344f6e1fe885b = L.circle(
+                [52.43927208598662, 4.8424228597558585],
+                {"bubblingMouseEvents": true, "color": "#9ada00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9ada00", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 70, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_c6a9eed9070fb92bd2fd93c17e1a63ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14b9a7a8377df9868b5603577fc21dda = $(`<div id="html_14b9a7a8377df9868b5603577fc21dda" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 35</div>`)[0];
+                popup_c6a9eed9070fb92bd2fd93c17e1a63ed.setContent(html_14b9a7a8377df9868b5603577fc21dda);
+            
+        
+
+        circle_aa41c66808527a52c08344f6e1fe885b.bindPopup(popup_c6a9eed9070fb92bd2fd93c17e1a63ed)
+        ;
+
+        
+    
+    
+            var marker_b7c89f4c698ae89c4db289cd5fd17f1b = L.marker(
+                [52.43927208598662, 4.8424228597558585],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_422bbdc51467f40d80587aeb54ca7da8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f37a8d0d41486876a6fe0a29a1878145 = $(`<div id="html_f37a8d0d41486876a6fe0a29a1878145" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Noorderven</h4><p> Totaal geldige uitgebrachte stemmen: 599</p><p><b>ROSA</b> 6%</br> (Absoluut aantal stemmen: 35)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (18%)</li><li>DENK (13%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_422bbdc51467f40d80587aeb54ca7da8.setContent(html_f37a8d0d41486876a6fe0a29a1878145);
+            
+        
+
+        marker_b7c89f4c698ae89c4db289cd5fd17f1b.bindPopup(popup_422bbdc51467f40d80587aeb54ca7da8)
+        ;
+
+        
+    
+    
+            var circle_cd58aab43e91ec6ef80bfea2991ad744 = L.circle(
+                [52.43656, 4.83676],
+                {"bubblingMouseEvents": true, "color": "#58bc00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#58bc00", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 102, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_205ff921c8608cf98b1f89ec33fd9913 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d07c84e17c544b111788bbd04a33bd31 = $(`<div id="html_d07c84e17c544b111788bbd04a33bd31" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 51</div>`)[0];
+                popup_205ff921c8608cf98b1f89ec33fd9913.setContent(html_d07c84e17c544b111788bbd04a33bd31);
+            
+        
+
+        circle_cd58aab43e91ec6ef80bfea2991ad744.bindPopup(popup_205ff921c8608cf98b1f89ec33fd9913)
+        ;
+
+        
+    
+    
+            var marker_4050c8cd1d58b41b4f19885daf1ad116 = L.marker(
+                [52.43656, 4.83676],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_785072a06835128baeba7a932734f335 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab7476a13f390b690fff36511eacb0fb = $(`<div id="html_ab7476a13f390b690fff36511eacb0fb" style="width: 100.0%; height: 100.0%;"><h4>Stembureau De Paaskerk</h4><p> Totaal geldige uitgebrachte stemmen: 502</p><p><b>ROSA</b> 10%</br> (Absoluut aantal stemmen: 51)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (14%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li><li>PVV (Partij voor de Vrijheid) (10%)</li></ol></p></p></div>`)[0];
+                popup_785072a06835128baeba7a932734f335.setContent(html_ab7476a13f390b690fff36511eacb0fb);
+            
+        
+
+        marker_4050c8cd1d58b41b4f19885daf1ad116.bindPopup(popup_785072a06835128baeba7a932734f335)
+        ;
+
+        
+    
+    
+            var circle_2a7964514eae66b283c1866ba416db15 = L.circle(
+                [52.43558, 4.8336],
+                {"bubblingMouseEvents": true, "color": "#088700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#088700", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 170, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_b5054164f3beb572e1db46d50a91c645 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be23c46cf77a63bb531753655b40bf6f = $(`<div id="html_be23c46cf77a63bb531753655b40bf6f" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 85</div>`)[0];
+                popup_b5054164f3beb572e1db46d50a91c645.setContent(html_be23c46cf77a63bb531753655b40bf6f);
+            
+        
+
+        circle_2a7964514eae66b283c1866ba416db15.bindPopup(popup_b5054164f3beb572e1db46d50a91c645)
+        ;
+
+        
+    
+    
+            var marker_343557665a27a09ee8e79005f5724efe = L.marker(
+                [52.43558, 4.8336],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_5cadac01726705c0bc7d53a54500d045 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d7bd3c42ad5777a84d2be567a18a873 = $(`<div id="html_6d7bd3c42ad5777a84d2be567a18a873" style="width: 100.0%; height: 100.0%;"><h4>Stembureau CBS Tamarinde,INGANG J.C. VAN WESSEMSTR</h4><p> Totaal geldige uitgebrachte stemmen: 499</p><p><b>ROSA</b> 17%</br> (Absoluut aantal stemmen: 85)<p><b>Top drie:</b><ol><li>ROSA (17%)</li><li>Partij voor Ouderen en Veiligheid (15%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li></ol></p></p></div>`)[0];
+                popup_5cadac01726705c0bc7d53a54500d045.setContent(html_6d7bd3c42ad5777a84d2be567a18a873);
+            
+        
+
+        marker_343557665a27a09ee8e79005f5724efe.bindPopup(popup_5cadac01726705c0bc7d53a54500d045)
+        ;
+
+        
+    
+    
+            var circle_f38bee9fbbcb32407567a27390ff4062 = L.circle(
+                [52.44047, 4.83383],
+                {"bubblingMouseEvents": true, "color": "#77cb00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77cb00", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_25616db74a29acb83982e9c48249979a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e0940d6f9b2087145cd31db98cacbec3 = $(`<div id="html_e0940d6f9b2087145cd31db98cacbec3" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 50</div>`)[0];
+                popup_25616db74a29acb83982e9c48249979a.setContent(html_e0940d6f9b2087145cd31db98cacbec3);
+            
+        
+
+        circle_f38bee9fbbcb32407567a27390ff4062.bindPopup(popup_25616db74a29acb83982e9c48249979a)
+        ;
+
+        
+    
+    
+            var marker_dc1e2fcea11771f121205a35f3c601c6 = L.marker(
+                [52.44047, 4.83383],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_9d2ee1d1cfa5bf98e5660210acb7e8de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1bcc46ee0f9df96c8303c1596918422b = $(`<div id="html_1bcc46ee0f9df96c8303c1596918422b" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Wijkcentrum Dirk Prins</h4><p> Totaal geldige uitgebrachte stemmen: 633</p><p><b>ROSA</b> 8%</br> (Absoluut aantal stemmen: 50)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (18%)</li><li>Partij van de Arbeid (P.v.d.A.) (10%)</li><li>PVV (Partij voor de Vrijheid) (10%)</li></ol></p></p></div>`)[0];
+                popup_9d2ee1d1cfa5bf98e5660210acb7e8de.setContent(html_1bcc46ee0f9df96c8303c1596918422b);
+            
+        
+
+        marker_dc1e2fcea11771f121205a35f3c601c6.bindPopup(popup_9d2ee1d1cfa5bf98e5660210acb7e8de)
+        ;
+
+        
+    
+    
+            var circle_1c898cfbba7ba17e09e5d729243306fa = L.circle(
+                [52.44399, 4.82485],
+                {"bubblingMouseEvents": true, "color": "#67c300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#67c300", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 130, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_820de4e967bc49f8e9aa1a5efb3fc9ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af13bdb303f37f320f452b3e8240d756 = $(`<div id="html_af13bdb303f37f320f452b3e8240d756" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 65</div>`)[0];
+                popup_820de4e967bc49f8e9aa1a5efb3fc9ff.setContent(html_af13bdb303f37f320f452b3e8240d756);
+            
+        
+
+        circle_1c898cfbba7ba17e09e5d729243306fa.bindPopup(popup_820de4e967bc49f8e9aa1a5efb3fc9ff)
+        ;
+
+        
+    
+    
+            var marker_e568c3054e88aeea79769fc81886416b = L.marker(
+                [52.44399, 4.82485],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_09f18b013fd5102390fd0d2c49911785 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_83970acd04a743933b2e863193b60bd8 = $(`<div id="html_83970acd04a743933b2e863193b60bd8" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurthuis de Kolk</h4><p> Totaal geldige uitgebrachte stemmen: 707</p><p><b>ROSA</b> 9%</br> (Absoluut aantal stemmen: 65)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (17%)</li><li>Partij voor Ouderen en Veiligheid (16%)</li><li>Democratisch Zaanstad (DZ) (10%)</li></ol></p></p></div>`)[0];
+                popup_09f18b013fd5102390fd0d2c49911785.setContent(html_83970acd04a743933b2e863193b60bd8);
+            
+        
+
+        marker_e568c3054e88aeea79769fc81886416b.bindPopup(popup_09f18b013fd5102390fd0d2c49911785)
+        ;
+
+        
+    
+    
+            var circle_07f16c08b80e63c2af183d1ac78cc356 = L.circle(
+                [52.44805, 4.82367],
+                {"bubblingMouseEvents": true, "color": "#67c300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#67c300", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 90, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_5137e49023df975ed8ef173c1fb7c6e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43944233a434f4cd4ceeb7dd49d88378 = $(`<div id="html_43944233a434f4cd4ceeb7dd49d88378" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 45</div>`)[0];
+                popup_5137e49023df975ed8ef173c1fb7c6e8.setContent(html_43944233a434f4cd4ceeb7dd49d88378);
+            
+        
+
+        circle_07f16c08b80e63c2af183d1ac78cc356.bindPopup(popup_5137e49023df975ed8ef173c1fb7c6e8)
+        ;
+
+        
+    
+    
+            var marker_5096e1160205f8c78b2140cb4861d445 = L.marker(
+                [52.44805, 4.82367],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_991cc8643d06647d7bab95976447f154 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab6221f75b5d2b597fb5e85c38135f7f = $(`<div id="html_ab6221f75b5d2b597fb5e85c38135f7f" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Sporthal de Struijck, INGANG PROF.STRUIJCKENSTRAAT</h4><p> Totaal geldige uitgebrachte stemmen: 498</p><p><b>ROSA</b> 9%</br> (Absoluut aantal stemmen: 45)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (15%)</li><li>Partij van de Arbeid (P.v.d.A.) (14%)</li><li>GROENLINKS (9%)</li></ol></p></p></div>`)[0];
+                popup_991cc8643d06647d7bab95976447f154.setContent(html_ab6221f75b5d2b597fb5e85c38135f7f);
+            
+        
+
+        marker_5096e1160205f8c78b2140cb4861d445.bindPopup(popup_991cc8643d06647d7bab95976447f154)
+        ;
+
+        
+    
+    
+            var circle_902ec2c7803efb290433c3412fd137b7 = L.circle(
+                [52.44981, 4.82664],
+                {"bubblingMouseEvents": true, "color": "#67c300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#67c300", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 254, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_650b6fa51443cee26ae3ebc92efe9d4a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29c5dc58ca568428a5812b2437c63243 = $(`<div id="html_29c5dc58ca568428a5812b2437c63243" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 127</div>`)[0];
+                popup_650b6fa51443cee26ae3ebc92efe9d4a.setContent(html_29c5dc58ca568428a5812b2437c63243);
+            
+        
+
+        circle_902ec2c7803efb290433c3412fd137b7.bindPopup(popup_650b6fa51443cee26ae3ebc92efe9d4a)
+        ;
+
+        
+    
+    
+            var marker_07cac8cdde2e08438b0eaf6a93480604 = L.marker(
+                [52.44981, 4.82664],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_e6ce89549b736046c9e02079a29ea837 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_898c822a2cd21a6333b6befec44a0559 = $(`<div id="html_898c822a2cd21a6333b6befec44a0559" style="width: 100.0%; height: 100.0%;"><h4>Stembureau De Noorderkerk</h4><p> Totaal geldige uitgebrachte stemmen: 1449</p><p><b>ROSA</b> 9%</br> (Absoluut aantal stemmen: 127)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (15%)</li><li>Partij voor Ouderen en Veiligheid (12%)</li><li>ROSA (8%)</li></ol></p></p></div>`)[0];
+                popup_e6ce89549b736046c9e02079a29ea837.setContent(html_898c822a2cd21a6333b6befec44a0559);
+            
+        
+
+        marker_07cac8cdde2e08438b0eaf6a93480604.bindPopup(popup_e6ce89549b736046c9e02079a29ea837)
+        ;
+
+        
+    
+    
+            var circle_de731f0fb59beaf9a294f2f70d41cb25 = L.circle(
+                [52.45823, 4.83142],
+                {"bubblingMouseEvents": true, "color": "#c0e900", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c0e900", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_c12313956221833a4f2625ab1822671b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d056b5cbbefe54a577b32d5e81d3cee2 = $(`<div id="html_d056b5cbbefe54a577b32d5e81d3cee2" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 10</div>`)[0];
+                popup_c12313956221833a4f2625ab1822671b.setContent(html_d056b5cbbefe54a577b32d5e81d3cee2);
+            
+        
+
+        circle_de731f0fb59beaf9a294f2f70d41cb25.bindPopup(popup_c12313956221833a4f2625ab1822671b)
+        ;
+
+        
+    
+    
+            var marker_cf701088f0a2d810d7d5b27713fa7515 = L.marker(
+                [52.45823, 4.83142],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_5c08c19dfd95d050b4943864226a528f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5d5606b5c33a2b82ec251f59f97b7cf = $(`<div id="html_a5d5606b5c33a2b82ec251f59f97b7cf" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Basisschool Kogerveld</h4><p> Totaal geldige uitgebrachte stemmen: 228</p><p><b>ROSA</b> 4%</br> (Absoluut aantal stemmen: 10)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (18%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li><li>D66 (9%)</li></ol></p></p></div>`)[0];
+                popup_5c08c19dfd95d050b4943864226a528f.setContent(html_a5d5606b5c33a2b82ec251f59f97b7cf);
+            
+        
+
+        marker_cf701088f0a2d810d7d5b27713fa7515.bindPopup(popup_5c08c19dfd95d050b4943864226a528f)
+        ;
+
+        
+    
+    
+            var circle_9fe8e3f6825c35bd13f59eb9a0c05c1b = L.circle(
+                [52.4582, 4.82359],
+                {"bubblingMouseEvents": true, "color": "#31a500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#31a500", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 176, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_0ff84f00d51e08de62d012718160a2ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2590086fc9cf64a7e3c5ddd4ad9a33f1 = $(`<div id="html_2590086fc9cf64a7e3c5ddd4ad9a33f1" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 88</div>`)[0];
+                popup_0ff84f00d51e08de62d012718160a2ea.setContent(html_2590086fc9cf64a7e3c5ddd4ad9a33f1);
+            
+        
+
+        circle_9fe8e3f6825c35bd13f59eb9a0c05c1b.bindPopup(popup_0ff84f00d51e08de62d012718160a2ea)
+        ;
+
+        
+    
+    
+            var marker_2fea63cc250ac2b42f4ff807f048a2e6 = L.marker(
+                [52.4582, 4.82359],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_7d4da18df8fdf1c7060062c789d3c664 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7b10a7feb7506e265ffcad051b70445 = $(`<div id="html_a7b10a7feb7506e265ffcad051b70445" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Veldbloemenweg</h4><p> Totaal geldige uitgebrachte stemmen: 662</p><p><b>ROSA</b> 13%</br> (Absoluut aantal stemmen: 88)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (14%)</li><li>ROSA (13%)</li><li>DENK (11%)</li></ol></p></p></div>`)[0];
+                popup_7d4da18df8fdf1c7060062c789d3c664.setContent(html_a7b10a7feb7506e265ffcad051b70445);
+            
+        
+
+        marker_2fea63cc250ac2b42f4ff807f048a2e6.bindPopup(popup_7d4da18df8fdf1c7060062c789d3c664)
+        ;
+
+        
+    
+    
+            var circle_585b894369d1a047d01b97eed837fe5c = L.circle(
+                [52.4676, 4.8346],
+                {"bubblingMouseEvents": true, "color": "#58bc00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#58bc00", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 298, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_7980832c523b7baa3cd0d6c4232921e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_923232fd13afbb5f9d7df91f14c2334c = $(`<div id="html_923232fd13afbb5f9d7df91f14c2334c" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 149</div>`)[0];
+                popup_7980832c523b7baa3cd0d6c4232921e7.setContent(html_923232fd13afbb5f9d7df91f14c2334c);
+            
+        
+
+        circle_585b894369d1a047d01b97eed837fe5c.bindPopup(popup_7980832c523b7baa3cd0d6c4232921e7)
+        ;
+
+        
+    
+    
+            var marker_0cc0715392ee8f5d3b8132b01b05d5c9 = L.marker(
+                [52.4676, 4.8346],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_8a0b0032163cae103bc8ed4c1771c11a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc001d0c0d642d9cac6a06bbf25f783a = $(`<div id="html_fc001d0c0d642d9cac6a06bbf25f783a" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurtcentrum de Bovenkruier</h4><p> Totaal geldige uitgebrachte stemmen: 1527</p><p><b>ROSA</b> 10%</br> (Absoluut aantal stemmen: 149)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (20%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_8a0b0032163cae103bc8ed4c1771c11a.setContent(html_fc001d0c0d642d9cac6a06bbf25f783a);
+            
+        
+
+        marker_0cc0715392ee8f5d3b8132b01b05d5c9.bindPopup(popup_8a0b0032163cae103bc8ed4c1771c11a)
+        ;
+
+        
+    
+    
+            var circle_7595fb70565f1d1bc6f91bf76408a04c = L.circle(
+                [52.46802, 4.8366],
+                {"bubblingMouseEvents": true, "color": "#67c300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#67c300", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 180, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_e6e2418d129b5c11dfa1746f0eb393b0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c94e5a389435b6402391f47b5259942 = $(`<div id="html_3c94e5a389435b6402391f47b5259942" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 90</div>`)[0];
+                popup_e6e2418d129b5c11dfa1746f0eb393b0.setContent(html_3c94e5a389435b6402391f47b5259942);
+            
+        
+
+        circle_7595fb70565f1d1bc6f91bf76408a04c.bindPopup(popup_e6e2418d129b5c11dfa1746f0eb393b0)
+        ;
+
+        
+    
+    
+            var marker_08430ecbf8b71925bdda5369ca015412 = L.marker(
+                [52.46802, 4.8366],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_d0c668fc2596ec53ade2f45e21803eb0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e734214c0c086dfd1ebe8719436cd26 = $(`<div id="html_3e734214c0c086dfd1ebe8719436cd26" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Sporthal de Tref</h4><p> Totaal geldige uitgebrachte stemmen: 1035</p><p><b>ROSA</b> 9%</br> (Absoluut aantal stemmen: 90)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (15%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li><li>VVD (10%)</li></ol></p></p></div>`)[0];
+                popup_d0c668fc2596ec53ade2f45e21803eb0.setContent(html_3e734214c0c086dfd1ebe8719436cd26);
+            
+        
+
+        marker_08430ecbf8b71925bdda5369ca015412.bindPopup(popup_d0c668fc2596ec53ade2f45e21803eb0)
+        ;
+
+        
+    
+    
+            var circle_6a85689421baee23c5de6fdab420f224 = L.circle(
+                [52.42847, 4.83209],
+                {"bubblingMouseEvents": true, "color": "#88d200", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#88d200", "fillOpacity": 0.35, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 92, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_88edefdf1f801514d9de214f06094e7e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a4fd8983eea808aad43e4e3bbc7dbe6 = $(`<div id="html_5a4fd8983eea808aad43e4e3bbc7dbe6" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 46</div>`)[0];
+                popup_88edefdf1f801514d9de214f06094e7e.setContent(html_5a4fd8983eea808aad43e4e3bbc7dbe6);
+            
+        
+
+        circle_6a85689421baee23c5de6fdab420f224.bindPopup(popup_88edefdf1f801514d9de214f06094e7e)
+        ;
+
+        
+    
+    
+            var marker_9b12f13e0a2f8d693247b772d95b4770 = L.marker(
+                [52.42847, 4.83209],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_0bbf134022c70503eb22ba46c86cc951 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b62ec71f1ba31036bb8da50db7da8c2 = $(`<div id="html_0b62ec71f1ba31036bb8da50db7da8c2" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Speeltuinvereniging "Het Havenkwartier"</h4><p> Totaal geldige uitgebrachte stemmen: 677</p><p><b>ROSA</b> 7%</br> (Absoluut aantal stemmen: 46)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (15%)</li><li>Democratisch Zaanstad (DZ) (14%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_0bbf134022c70503eb22ba46c86cc951.setContent(html_0b62ec71f1ba31036bb8da50db7da8c2);
+            
+        
+
+        marker_9b12f13e0a2f8d693247b772d95b4770.bindPopup(popup_0bbf134022c70503eb22ba46c86cc951)
+        ;
+
+        
+    
+    
+            var circle_6f2bc52ef9011ee79f13ea9c0514d118 = L.circle(
+                [52.43837, 4.82545],
+                {"bubblingMouseEvents": true, "color": "#31a500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#31a500", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 210, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_f2a1744b7b03917f51820a85cda37677 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bbf39dbe5f95f388ce6086eed394c4d6 = $(`<div id="html_bbf39dbe5f95f388ce6086eed394c4d6" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 105</div>`)[0];
+                popup_f2a1744b7b03917f51820a85cda37677.setContent(html_bbf39dbe5f95f388ce6086eed394c4d6);
+            
+        
+
+        circle_6f2bc52ef9011ee79f13ea9c0514d118.bindPopup(popup_f2a1744b7b03917f51820a85cda37677)
+        ;
+
+        
+    
+    
+            var marker_63da24b2753045ea813fbd69a43a2732 = L.marker(
+                [52.43837, 4.82545],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_fbe9c2d05ce7fe39cdacb8ac7444897f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_083c85166d1c8120bbdef5688f612f03 = $(`<div id="html_083c85166d1c8120bbdef5688f612f03" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Het Zaantheater</h4><p> Totaal geldige uitgebrachte stemmen: 796</p><p><b>ROSA</b> 13%</br> (Absoluut aantal stemmen: 105)<p><b>Top drie:</b><ol><li>ROSA (13%)</li><li>Partij van de Arbeid (P.v.d.A.) (12%)</li><li>GROENLINKS (11%)</li></ol></p></p></div>`)[0];
+                popup_fbe9c2d05ce7fe39cdacb8ac7444897f.setContent(html_083c85166d1c8120bbdef5688f612f03);
+            
+        
+
+        marker_63da24b2753045ea813fbd69a43a2732.bindPopup(popup_fbe9c2d05ce7fe39cdacb8ac7444897f)
+        ;
+
+        
+    
+    
+            var circle_7757fcda5e4e8d0a8d56242bca83cd96 = L.circle(
+                [52.44797, 4.81985],
+                {"bubblingMouseEvents": true, "color": "#1b9600", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1b9600", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 134, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_7cc059228b7fc4dd0c47bf4ef314b993 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7bb586a3fdc432163335bd83475d5a36 = $(`<div id="html_7bb586a3fdc432163335bd83475d5a36" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 67</div>`)[0];
+                popup_7cc059228b7fc4dd0c47bf4ef314b993.setContent(html_7bb586a3fdc432163335bd83475d5a36);
+            
+        
+
+        circle_7757fcda5e4e8d0a8d56242bca83cd96.bindPopup(popup_7cc059228b7fc4dd0c47bf4ef314b993)
+        ;
+
+        
+    
+    
+            var marker_94883bc5d65042d6bc163bdf5d90ebd1 = L.marker(
+                [52.44797, 4.81985],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_57159578ad5e9fb921f6cea13414c7a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_84c58addd5e2a66875b00bf07fac878f = $(`<div id="html_84c58addd5e2a66875b00bf07fac878f" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Het Tolhuys aan de Zaan</h4><p> Totaal geldige uitgebrachte stemmen: 454</p><p><b>ROSA</b> 15%</br> (Absoluut aantal stemmen: 67)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (15%)</li><li>ROSA (14%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_57159578ad5e9fb921f6cea13414c7a6.setContent(html_84c58addd5e2a66875b00bf07fac878f);
+            
+        
+
+        marker_94883bc5d65042d6bc163bdf5d90ebd1.bindPopup(popup_57159578ad5e9fb921f6cea13414c7a6)
+        ;
+
+        
+    
+    
+            var circle_50b598925aa036c4e2997d4d68e208b9 = L.circle(
+                [52.44943, 4.8169],
+                {"bubblingMouseEvents": true, "color": "#1b9600", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1b9600", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 176, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_69ce701d368c91d9978dc63e11eb4e37 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f9ae9bf0614ec91b45fb5bc4249d8d9 = $(`<div id="html_5f9ae9bf0614ec91b45fb5bc4249d8d9" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 88</div>`)[0];
+                popup_69ce701d368c91d9978dc63e11eb4e37.setContent(html_5f9ae9bf0614ec91b45fb5bc4249d8d9);
+            
+        
+
+        circle_50b598925aa036c4e2997d4d68e208b9.bindPopup(popup_69ce701d368c91d9978dc63e11eb4e37)
+        ;
+
+        
+    
+    
+            var marker_dbaae376316d34f3a07bad98d1dac616 = L.marker(
+                [52.44943, 4.8169],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_81dc66bedfae72a01c98e1956599ae8f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29d5d01ac2b0e0806b26fb74df7be852 = $(`<div id="html_29d5d01ac2b0e0806b26fb74df7be852" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Atletiekvereniging Zaanland</h4><p> Totaal geldige uitgebrachte stemmen: 590</p><p><b>ROSA</b> 15%</br> (Absoluut aantal stemmen: 88)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (16%)</li><li>ROSA (14%)</li><li>GROENLINKS (11%)</li></ol></p></p></div>`)[0];
+                popup_81dc66bedfae72a01c98e1956599ae8f.setContent(html_29d5d01ac2b0e0806b26fb74df7be852);
+            
+        
+
+        marker_dbaae376316d34f3a07bad98d1dac616.bindPopup(popup_81dc66bedfae72a01c98e1956599ae8f)
+        ;
+
+        
+    
+    
+            var circle_986d236fcdde34ef86a712022df4b629 = L.circle(
+                [52.43817, 4.8118],
+                {"bubblingMouseEvents": true, "color": "#3dad00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3dad00", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 60, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_fdabadc482ce687b97030237bbdb9fd4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fded22442f4cadc52e99eaf6c40021fd = $(`<div id="html_fded22442f4cadc52e99eaf6c40021fd" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 30</div>`)[0];
+                popup_fdabadc482ce687b97030237bbdb9fd4.setContent(html_fded22442f4cadc52e99eaf6c40021fd);
+            
+        
+
+        circle_986d236fcdde34ef86a712022df4b629.bindPopup(popup_fdabadc482ce687b97030237bbdb9fd4)
+        ;
+
+        
+    
+    
+            var marker_80eab3182bc25ff00aeec1e1c760ba75 = L.marker(
+                [52.43817, 4.8118],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_3d8bd409d307c4185636c4826f5180a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_70f737efa29864899b03792c354ae57a = $(`<div id="html_70f737efa29864899b03792c354ae57a" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Zaan Hotel</h4><p> Totaal geldige uitgebrachte stemmen: 249</p><p><b>ROSA</b> 12%</br> (Absoluut aantal stemmen: 30)<p><b>Top drie:</b><ol><li>D66 (12%)</li><li>ROSA (12%)</li><li>Democratisch Zaanstad (DZ) (12%)</li></ol></p></p></div>`)[0];
+                popup_3d8bd409d307c4185636c4826f5180a8.setContent(html_70f737efa29864899b03792c354ae57a);
+            
+        
+
+        marker_80eab3182bc25ff00aeec1e1c760ba75.bindPopup(popup_3d8bd409d307c4185636c4826f5180a8)
+        ;
+
+        
+    
+    
+            var circle_1dc1c38330645f010eb772147f9a2151 = L.circle(
+                [52.44768, 4.80579],
+                {"bubblingMouseEvents": true, "color": "#9ada00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9ada00", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 62, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_a09d94cf1f15640e0a597e80829ec2eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa52732a475e071f17f50a7d0675a87b = $(`<div id="html_aa52732a475e071f17f50a7d0675a87b" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 31</div>`)[0];
+                popup_a09d94cf1f15640e0a597e80829ec2eb.setContent(html_aa52732a475e071f17f50a7d0675a87b);
+            
+        
+
+        circle_1dc1c38330645f010eb772147f9a2151.bindPopup(popup_a09d94cf1f15640e0a597e80829ec2eb)
+        ;
+
+        
+    
+    
+            var marker_f3f923c5a10762d9030ee372c0d5aa7e = L.marker(
+                [52.44768, 4.80579],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_fde521b951bc62de2fbb5129a21645aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6015488059e082c7f6530ca313ee622 = $(`<div id="html_d6015488059e082c7f6530ca313ee622" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurtcentrum De Zeskanter</h4><p> Totaal geldige uitgebrachte stemmen: 516</p><p><b>ROSA</b> 6%</br> (Absoluut aantal stemmen: 31)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (21%)</li><li>Democratisch Zaanstad (DZ) (13%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li></ol></p></p></div>`)[0];
+                popup_fde521b951bc62de2fbb5129a21645aa.setContent(html_d6015488059e082c7f6530ca313ee622);
+            
+        
+
+        marker_f3f923c5a10762d9030ee372c0d5aa7e.bindPopup(popup_fde521b951bc62de2fbb5129a21645aa)
+        ;
+
+        
+    
+    
+            var circle_2c67efa3c22306da9994e4510c1dbb62 = L.circle(
+                [52.44802, 4.8004],
+                {"bubblingMouseEvents": true, "color": "#ace100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ace100", "fillOpacity": 0.25, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 84, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_db75c8113958714c07fb734644db877b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f9fdf875b48044343edb837b19b2463 = $(`<div id="html_6f9fdf875b48044343edb837b19b2463" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 42</div>`)[0];
+                popup_db75c8113958714c07fb734644db877b.setContent(html_6f9fdf875b48044343edb837b19b2463);
+            
+        
+
+        circle_2c67efa3c22306da9994e4510c1dbb62.bindPopup(popup_db75c8113958714c07fb734644db877b)
+        ;
+
+        
+    
+    
+            var marker_a4352d66b6946242ad878f60dbf6d85c = L.marker(
+                [52.44802, 4.8004],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_4a6c6f43306c32070b8d5c0867971644 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b55c06d511894f9ffdcc3aa7b4c289c = $(`<div id="html_9b55c06d511894f9ffdcc3aa7b4c289c" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Meverstraat</h4><p> Totaal geldige uitgebrachte stemmen: 872</p><p><b>ROSA</b> 5%</br> (Absoluut aantal stemmen: 42)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (15%)</li><li>VVD (14%)</li><li>Partij van de Arbeid (P.v.d.A.) (14%)</li></ol></p></p></div>`)[0];
+                popup_4a6c6f43306c32070b8d5c0867971644.setContent(html_9b55c06d511894f9ffdcc3aa7b4c289c);
+            
+        
+
+        marker_a4352d66b6946242ad878f60dbf6d85c.bindPopup(popup_4a6c6f43306c32070b8d5c0867971644)
+        ;
+
+        
+    
+    
+            var circle_b487d0b70f78a40b7d35a28c895a3c0c = L.circle(
+                [52.447231, 4.805182],
+                {"bubblingMouseEvents": true, "color": "#9ada00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9ada00", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 66, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_51f9549ffe68e9d0f3693c96a5f1ca56 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_350a0be3d14acf24c473763c63d49ffd = $(`<div id="html_350a0be3d14acf24c473763c63d49ffd" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 33</div>`)[0];
+                popup_51f9549ffe68e9d0f3693c96a5f1ca56.setContent(html_350a0be3d14acf24c473763c63d49ffd);
+            
+        
+
+        circle_b487d0b70f78a40b7d35a28c895a3c0c.bindPopup(popup_51f9549ffe68e9d0f3693c96a5f1ca56)
+        ;
+
+        
+    
+    
+            var marker_03e87c0736d1d185b035b45b7f085f00 = L.marker(
+                [52.447231, 4.805182],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_6661cb41eb11b468d278c586d8cd5a82 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78bb87126c4f83007a9b0580fbc6b82c = $(`<div id="html_78bb87126c4f83007a9b0580fbc6b82c" style="width: 100.0%; height: 100.0%;"><h4>Stembureau De Volleyhal</h4><p> Totaal geldige uitgebrachte stemmen: 538</p><p><b>ROSA</b> 6%</br> (Absoluut aantal stemmen: 33)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (15%)</li><li>Partij voor Ouderen en Veiligheid (15%)</li><li>VVD (14%)</li></ol></p></p></div>`)[0];
+                popup_6661cb41eb11b468d278c586d8cd5a82.setContent(html_78bb87126c4f83007a9b0580fbc6b82c);
+            
+        
+
+        marker_03e87c0736d1d185b035b45b7f085f00.bindPopup(popup_6661cb41eb11b468d278c586d8cd5a82)
+        ;
+
+        
+    
+    
+            var circle_87ee741b38f3736d30232fb97a35d6af = L.circle(
+                [52.43566, 4.81414],
+                {"bubblingMouseEvents": true, "color": "#4ab400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4ab400", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 208, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_e7227cbae327d2982f96f0dfebac027d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7bda1e877b0faed82027b1b9d090ecc6 = $(`<div id="html_7bda1e877b0faed82027b1b9d090ecc6" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 104</div>`)[0];
+                popup_e7227cbae327d2982f96f0dfebac027d.setContent(html_7bda1e877b0faed82027b1b9d090ecc6);
+            
+        
+
+        circle_87ee741b38f3736d30232fb97a35d6af.bindPopup(popup_e7227cbae327d2982f96f0dfebac027d)
+        ;
+
+        
+    
+    
+            var marker_07b1aac6fec221a83d54c794e2858ea5 = L.marker(
+                [52.43566, 4.81414],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_90cfdeee1ea44a78977c8bfdea0808c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ffbdecc82b92b03801f70b0f3de76130 = $(`<div id="html_ffbdecc82b92b03801f70b0f3de76130" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Brandweerkazerne Houtveldweg</h4><p> Totaal geldige uitgebrachte stemmen: 930</p><p><b>ROSA</b> 11%</br> (Absoluut aantal stemmen: 104)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (16%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li><li>Democratisch Zaanstad (DZ) (11%)</li></ol></p></p></div>`)[0];
+                popup_90cfdeee1ea44a78977c8bfdea0808c4.setContent(html_ffbdecc82b92b03801f70b0f3de76130);
+            
+        
+
+        marker_07b1aac6fec221a83d54c794e2858ea5.bindPopup(popup_90cfdeee1ea44a78977c8bfdea0808c4)
+        ;
+
+        
+    
+    
+            var circle_6fbdb12094b37c173da97c68a5fb5bce = L.circle(
+                [52.43832, 4.81463],
+                {"bubblingMouseEvents": true, "color": "#4ab400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4ab400", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 530, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_aab511d045739c445378bfd8fef38599 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d810aac3ab6a842b4503377b7b2f7ba3 = $(`<div id="html_d810aac3ab6a842b4503377b7b2f7ba3" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 265</div>`)[0];
+                popup_aab511d045739c445378bfd8fef38599.setContent(html_d810aac3ab6a842b4503377b7b2f7ba3);
+            
+        
+
+        circle_6fbdb12094b37c173da97c68a5fb5bce.bindPopup(popup_aab511d045739c445378bfd8fef38599)
+        ;
+
+        
+    
+    
+            var marker_2c0ac6ea3387d23c41f8c6e23850b5fb = L.marker(
+                [52.43832, 4.81463],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_16f6be1a07c2083be80f1694223fd918 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5410b321ec01f8efad605437fcf79ccd = $(`<div id="html_5410b321ec01f8efad605437fcf79ccd" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Stadhuis van Zaanstad</h4><p> Totaal geldige uitgebrachte stemmen: 2420</p><p><b>ROSA</b> 11%</br> (Absoluut aantal stemmen: 265)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (14%)</li><li>GROENLINKS (13%)</li><li>ROSA (10%)</li></ol></p></p></div>`)[0];
+                popup_16f6be1a07c2083be80f1694223fd918.setContent(html_5410b321ec01f8efad605437fcf79ccd);
+            
+        
+
+        marker_2c0ac6ea3387d23c41f8c6e23850b5fb.bindPopup(popup_16f6be1a07c2083be80f1694223fd918)
+        ;
+
+        
+    
+    
+            var circle_c29f3a4762e9ec49d2bf517b962ebec6 = L.circle(
+                [52.43969, 4.81118],
+                {"bubblingMouseEvents": true, "color": "#9ada00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9ada00", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 84, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_cb5b7a4cd12f77fc0f2a89958f41350d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f5e35cf069b6cbf13eb80e589d114c3 = $(`<div id="html_6f5e35cf069b6cbf13eb80e589d114c3" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 42</div>`)[0];
+                popup_cb5b7a4cd12f77fc0f2a89958f41350d.setContent(html_6f5e35cf069b6cbf13eb80e589d114c3);
+            
+        
+
+        circle_c29f3a4762e9ec49d2bf517b962ebec6.bindPopup(popup_cb5b7a4cd12f77fc0f2a89958f41350d)
+        ;
+
+        
+    
+    
+            var marker_c041ce6f270000b630de1482a980f9e0 = L.marker(
+                [52.43969, 4.81118],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_6a1d68ba2211454107e22f235a4d07ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_082fc70011ce326c3503751ca3ee48a0 = $(`<div id="html_082fc70011ce326c3503751ca3ee48a0" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Best Western Zaan Inn</h4><p> Totaal geldige uitgebrachte stemmen: 696</p><p><b>ROSA</b> 6%</br> (Absoluut aantal stemmen: 42)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (15%)</li><li>Partij voor Ouderen en Veiligheid (14%)</li><li>VVD (12%)</li></ol></p></p></div>`)[0];
+                popup_6a1d68ba2211454107e22f235a4d07ec.setContent(html_082fc70011ce326c3503751ca3ee48a0);
+            
+        
+
+        marker_c041ce6f270000b630de1482a980f9e0.bindPopup(popup_6a1d68ba2211454107e22f235a4d07ec)
+        ;
+
+        
+    
+    
+            var circle_89204004520a57d7dbd878bf20ebf5f6 = L.circle(
+                [52.44457, 4.81894],
+                {"bubblingMouseEvents": true, "color": "#259e00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#259e00", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 306, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_2f4e91e10016f49f5236d6aa604e602d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c19613e790e013f1c68cb923a463b29 = $(`<div id="html_0c19613e790e013f1c68cb923a463b29" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 153</div>`)[0];
+                popup_2f4e91e10016f49f5236d6aa604e602d.setContent(html_0c19613e790e013f1c68cb923a463b29);
+            
+        
+
+        circle_89204004520a57d7dbd878bf20ebf5f6.bindPopup(popup_2f4e91e10016f49f5236d6aa604e602d)
+        ;
+
+        
+    
+    
+            var marker_3cc5a46ed2a30c33e020c78227e1b1e2 = L.marker(
+                [52.44457, 4.81894],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_21ff60d2832f441e011095a8a58dd9eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ab3aa5d641214b8dea2414d71a92d56 = $(`<div id="html_2ab3aa5d641214b8dea2414d71a92d56" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Cultureel Centrum Bullekerk</h4><p> Totaal geldige uitgebrachte stemmen: 1066</p><p><b>ROSA</b> 14%</br> (Absoluut aantal stemmen: 153)<p><b>Top drie:</b><ol><li>ROSA (14%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li><li>GROENLINKS (12%)</li></ol></p></p></div>`)[0];
+                popup_21ff60d2832f441e011095a8a58dd9eb.setContent(html_2ab3aa5d641214b8dea2414d71a92d56);
+            
+        
+
+        marker_3cc5a46ed2a30c33e020c78227e1b1e2.bindPopup(popup_21ff60d2832f441e011095a8a58dd9eb)
+        ;
+
+        
+    
+    
+            var circle_99446f962c0c6b59188e50265a790e4e = L.circle(
+                [52.43955, 4.83068],
+                {"bubblingMouseEvents": true, "color": "#58bc00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#58bc00", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 62, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_965123deee746721797e0e959ae16b62 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3dac15dc2a7959e8ecee88a2b5551e8 = $(`<div id="html_b3dac15dc2a7959e8ecee88a2b5551e8" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 31</div>`)[0];
+                popup_965123deee746721797e0e959ae16b62.setContent(html_b3dac15dc2a7959e8ecee88a2b5551e8);
+            
+        
+
+        circle_99446f962c0c6b59188e50265a790e4e.bindPopup(popup_965123deee746721797e0e959ae16b62)
+        ;
+
+        
+    
+    
+            var marker_9686ff5a8fd00931ff7884de3a9b0d39 = L.marker(
+                [52.43955, 4.83068],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_7af1c6ee76accadc6e39e00757a259df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7dc0973c4073a593d54b1bf698cfc0f = $(`<div id="html_e7dc0973c4073a593d54b1bf698cfc0f" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurthuis De Doorbraak</h4><p> Totaal geldige uitgebrachte stemmen: 308</p><p><b>ROSA</b> 10%</br> (Absoluut aantal stemmen: 31)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (15%)</li><li>Partij voor Ouderen en Veiligheid (13%)</li><li>PVV (Partij voor de Vrijheid) (13%)</li></ol></p></p></div>`)[0];
+                popup_7af1c6ee76accadc6e39e00757a259df.setContent(html_e7dc0973c4073a593d54b1bf698cfc0f);
+            
+        
+
+        marker_9686ff5a8fd00931ff7884de3a9b0d39.bindPopup(popup_7af1c6ee76accadc6e39e00757a259df)
+        ;
+
+        
+    
+    
+            var circle_a1864f9e6f655ba73299659b0a6144a5 = L.circle(
+                [52.45633, 4.81124],
+                {"bubblingMouseEvents": true, "color": "#259e00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#259e00", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 306, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_7321cd2e14f7ee42fb1a3552713fc104 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7b3755ed8c2692f2d7d10ab9ea497be = $(`<div id="html_d7b3755ed8c2692f2d7d10ab9ea497be" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 153</div>`)[0];
+                popup_7321cd2e14f7ee42fb1a3552713fc104.setContent(html_d7b3755ed8c2692f2d7d10ab9ea497be);
+            
+        
+
+        circle_a1864f9e6f655ba73299659b0a6144a5.bindPopup(popup_7321cd2e14f7ee42fb1a3552713fc104)
+        ;
+
+        
+    
+    
+            var marker_2144142a49d9911e2611f57401175ffd = L.marker(
+                [52.45633, 4.81124],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_0edc24e10357dfdeeb25710153081d59 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_98987ebd6e70dcfb804b1d5a372f2853 = $(`<div id="html_98987ebd6e70dcfb804b1d5a372f2853" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Kerk van de Nazarener</h4><p> Totaal geldige uitgebrachte stemmen: 1102</p><p><b>ROSA</b> 14%</br> (Absoluut aantal stemmen: 153)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (14%)</li><li>ROSA (13%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li></ol></p></p></div>`)[0];
+                popup_0edc24e10357dfdeeb25710153081d59.setContent(html_98987ebd6e70dcfb804b1d5a372f2853);
+            
+        
+
+        marker_2144142a49d9911e2611f57401175ffd.bindPopup(popup_0edc24e10357dfdeeb25710153081d59)
+        ;
+
+        
+    
+    
+            var circle_9693df65b5820987ef8a7152fc88b8c5 = L.circle(
+                [52.46294, 4.80905],
+                {"bubblingMouseEvents": true, "color": "#259e00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#259e00", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 260, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_ff34bedc25f11ba16b95a1b21e11ed7d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ccf5871faaced22c24b3389fcc471fe = $(`<div id="html_4ccf5871faaced22c24b3389fcc471fe" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 130</div>`)[0];
+                popup_ff34bedc25f11ba16b95a1b21e11ed7d.setContent(html_4ccf5871faaced22c24b3389fcc471fe);
+            
+        
+
+        circle_9693df65b5820987ef8a7152fc88b8c5.bindPopup(popup_ff34bedc25f11ba16b95a1b21e11ed7d)
+        ;
+
+        
+    
+    
+            var marker_f4244e228be98ca135b6f9d67bc84498 = L.marker(
+                [52.46294, 4.80905],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_3568c6f5b26c19bc254a8f148884d0b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d0e711658ad8919a58ada92406f20fa = $(`<div id="html_5d0e711658ad8919a58ada92406f20fa" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurthuis Het BrandtWeer</h4><p> Totaal geldige uitgebrachte stemmen: 910</p><p><b>ROSA</b> 14%</br> (Absoluut aantal stemmen: 130)<p><b>Top drie:</b><ol><li>ROSA (14%)</li><li>Partij voor Ouderen en Veiligheid (11%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li></ol></p></p></div>`)[0];
+                popup_3568c6f5b26c19bc254a8f148884d0b9.setContent(html_5d0e711658ad8919a58ada92406f20fa);
+            
+        
+
+        marker_f4244e228be98ca135b6f9d67bc84498.bindPopup(popup_3568c6f5b26c19bc254a8f148884d0b9)
+        ;
+
+        
+    
+    
+            var circle_07f53a622e014e5d9097285e83298c7b = L.circle(
+                [52.4576, 4.79939],
+                {"bubblingMouseEvents": true, "color": "#31a500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#31a500", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 838, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_6840c81b068c7ac945b704322be637eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7966149039ac5403a8b5216028fb1d11 = $(`<div id="html_7966149039ac5403a8b5216028fb1d11" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 419</div>`)[0];
+                popup_6840c81b068c7ac945b704322be637eb.setContent(html_7966149039ac5403a8b5216028fb1d11);
+            
+        
+
+        circle_07f53a622e014e5d9097285e83298c7b.bindPopup(popup_6840c81b068c7ac945b704322be637eb)
+        ;
+
+        
+    
+    
+            var marker_f177d61023cd32ff214baba89728ffd2 = L.marker(
+                [52.4576, 4.79939],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_d37473ad85c6da75c8ac3bb10cf1add1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9c0bae3ab4d04f285b9e47b8f2e4a5a = $(`<div id="html_b9c0bae3ab4d04f285b9e47b8f2e4a5a" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurtcentrum De Vuister</h4><p> Totaal geldige uitgebrachte stemmen: 3294</p><p><b>ROSA</b> 13%</br> (Absoluut aantal stemmen: 419)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (14%)</li><li>ROSA (12%)</li><li>Democratisch Zaanstad (DZ) (11%)</li></ol></p></p></div>`)[0];
+                popup_d37473ad85c6da75c8ac3bb10cf1add1.setContent(html_b9c0bae3ab4d04f285b9e47b8f2e4a5a);
+            
+        
+
+        marker_f177d61023cd32ff214baba89728ffd2.bindPopup(popup_d37473ad85c6da75c8ac3bb10cf1add1)
+        ;
+
+        
+    
+    
+            var circle_f865c22d03e123680bb2b98eb9640987 = L.circle(
+                [52.45906, 4.79932],
+                {"bubblingMouseEvents": true, "color": "#31a500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#31a500", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 120, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_51f3736aff76bff80bb1845c13198b15 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5ae4d4b969b01bc0db08aee7fa46201 = $(`<div id="html_f5ae4d4b969b01bc0db08aee7fa46201" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 60</div>`)[0];
+                popup_51f3736aff76bff80bb1845c13198b15.setContent(html_f5ae4d4b969b01bc0db08aee7fa46201);
+            
+        
+
+        circle_f865c22d03e123680bb2b98eb9640987.bindPopup(popup_51f3736aff76bff80bb1845c13198b15)
+        ;
+
+        
+    
+    
+            var marker_9d92b6e36232e404ab21084beb8cbcaf = L.marker(
+                [52.45906, 4.79932],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_816ea380c702b933fb33074499fa662a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9992dde0aea162315538985f948b74d7 = $(`<div id="html_9992dde0aea162315538985f948b74d7" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Basisschool de Golfbreker</h4><p> Totaal geldige uitgebrachte stemmen: 460</p><p><b>ROSA</b> 13%</br> (Absoluut aantal stemmen: 60)<p><b>Top drie:</b><ol><li>VVD (15%)</li><li>ROSA (13%)</li><li>Partij voor Ouderen en Veiligheid (12%)</li></ol></p></p></div>`)[0];
+                popup_816ea380c702b933fb33074499fa662a.setContent(html_9992dde0aea162315538985f948b74d7);
+            
+        
+
+        marker_9d92b6e36232e404ab21084beb8cbcaf.bindPopup(popup_816ea380c702b933fb33074499fa662a)
+        ;
+
+        
+    
+    
+            var circle_e6238c3c56268a9299905183e6a9ca89 = L.circle(
+                [52.4746, 4.81349],
+                {"bubblingMouseEvents": true, "color": "#259e00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#259e00", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 398, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_f762a8c1450d9cddd027ca60d94bbc98 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43d24462aa740fbca3884066ba925c1b = $(`<div id="html_43d24462aa740fbca3884066ba925c1b" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 199</div>`)[0];
+                popup_f762a8c1450d9cddd027ca60d94bbc98.setContent(html_43d24462aa740fbca3884066ba925c1b);
+            
+        
+
+        circle_e6238c3c56268a9299905183e6a9ca89.bindPopup(popup_f762a8c1450d9cddd027ca60d94bbc98)
+        ;
+
+        
+    
+    
+            var marker_a0fdfcc293ebb551c60d3c6f6248cfb2 = L.marker(
+                [52.4746, 4.81349],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_705ab080e616e32f33b4ad301d693dea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_601e5eb5b37b113b55887716dea518cc = $(`<div id="html_601e5eb5b37b113b55887716dea518cc" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Apostolisch Genootschap</h4><p> Totaal geldige uitgebrachte stemmen: 1432</p><p><b>ROSA</b> 14%</br> (Absoluut aantal stemmen: 199)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (14%)</li><li>ROSA (13%)</li><li>Partij voor Ouderen en Veiligheid (12%)</li></ol></p></p></div>`)[0];
+                popup_705ab080e616e32f33b4ad301d693dea.setContent(html_601e5eb5b37b113b55887716dea518cc);
+            
+        
+
+        marker_a0fdfcc293ebb551c60d3c6f6248cfb2.bindPopup(popup_705ab080e616e32f33b4ad301d693dea)
+        ;
+
+        
+    
+    
+            var circle_5170ced9128bb73974c2bb42e6f7af20 = L.circle(
+                [52.47439, 4.79702],
+                {"bubblingMouseEvents": true, "color": "#9ada00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9ada00", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 146, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_30a78a09ab1bda504b4fbe4521a9b409 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_708937dd6fdd23a4c487edcb63bbcb49 = $(`<div id="html_708937dd6fdd23a4c487edcb63bbcb49" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 73</div>`)[0];
+                popup_30a78a09ab1bda504b4fbe4521a9b409.setContent(html_708937dd6fdd23a4c487edcb63bbcb49);
+            
+        
+
+        circle_5170ced9128bb73974c2bb42e6f7af20.bindPopup(popup_30a78a09ab1bda504b4fbe4521a9b409)
+        ;
+
+        
+    
+    
+            var marker_97113c1a6552f763a6f49fa7275200d8 = L.marker(
+                [52.47439, 4.79702],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_8590e6f4f74dac23a31e2a2d009224bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1dad656ae17d30ec47dc6752bdbe5bc = $(`<div id="html_c1dad656ae17d30ec47dc6752bdbe5bc" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Fortuinweg</h4><p> Totaal geldige uitgebrachte stemmen: 1177</p><p><b>ROSA</b> 6%</br> (Absoluut aantal stemmen: 73)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (13%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li><li>Partij voor Ouderen en Veiligheid (13%)</li></ol></p></p></div>`)[0];
+                popup_8590e6f4f74dac23a31e2a2d009224bc.setContent(html_c1dad656ae17d30ec47dc6752bdbe5bc);
+            
+        
+
+        marker_97113c1a6552f763a6f49fa7275200d8.bindPopup(popup_8590e6f4f74dac23a31e2a2d009224bc)
+        ;
+
+        
+    
+    
+            var circle_c4485a9f7515fd944f3154b7f299c163 = L.circle(
+                [52.47303, 4.80383],
+                {"bubblingMouseEvents": true, "color": "#9ada00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9ada00", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 70, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_4091557984e63931ab3ae4d687fbc9c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dca5cff50f2ce55dd6c290e9ee162341 = $(`<div id="html_dca5cff50f2ce55dd6c290e9ee162341" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 35</div>`)[0];
+                popup_4091557984e63931ab3ae4d687fbc9c6.setContent(html_dca5cff50f2ce55dd6c290e9ee162341);
+            
+        
+
+        circle_c4485a9f7515fd944f3154b7f299c163.bindPopup(popup_4091557984e63931ab3ae4d687fbc9c6)
+        ;
+
+        
+    
+    
+            var marker_fb0f63a486be39ae0a0ab097cae065ea = L.marker(
+                [52.47303, 4.80383],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_3aa80384d65e67f2efaad98b7233c847 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a00cd7bb207787bd31a6010c09a83ef0 = $(`<div id="html_a00cd7bb207787bd31a6010c09a83ef0" style="width: 100.0%; height: 100.0%;"><h4>Stembureau ZFC Orkest & Muziekschool</h4><p> Totaal geldige uitgebrachte stemmen: 549</p><p><b>ROSA</b> 6%</br> (Absoluut aantal stemmen: 35)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (17%)</li><li>Partij voor Ouderen en Veiligheid (16%)</li><li>Democratisch Zaanstad (DZ) (10%)</li></ol></p></p></div>`)[0];
+                popup_3aa80384d65e67f2efaad98b7233c847.setContent(html_a00cd7bb207787bd31a6010c09a83ef0);
+            
+        
+
+        marker_fb0f63a486be39ae0a0ab097cae065ea.bindPopup(popup_3aa80384d65e67f2efaad98b7233c847)
+        ;
+
+        
+    
+    
+            var circle_2bfce120fbb0ae3c697e3c026536e232 = L.circle(
+                [52.48903, 4.79962],
+                {"bubblingMouseEvents": true, "color": "#31a500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#31a500", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 158, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_c988ac9ead0405b56f50be1bc5058f4c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_66ef363a838ede674b92504b7b37995b = $(`<div id="html_66ef363a838ede674b92504b7b37995b" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 79</div>`)[0];
+                popup_c988ac9ead0405b56f50be1bc5058f4c.setContent(html_66ef363a838ede674b92504b7b37995b);
+            
+        
+
+        circle_2bfce120fbb0ae3c697e3c026536e232.bindPopup(popup_c988ac9ead0405b56f50be1bc5058f4c)
+        ;
+
+        
+    
+    
+            var marker_336dc7303ef78b2648e45bd1dc1dacd8 = L.marker(
+                [52.48903, 4.79962],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_cfe6e89dc721a211bef9b65f4cfc7245 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c69634fdc4b72f70ca7ccd33ffcefe1 = $(`<div id="html_3c69634fdc4b72f70ca7ccd33ffcefe1" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Goudastraat</h4><p> Totaal geldige uitgebrachte stemmen: 610</p><p><b>ROSA</b> 13%</br> (Absoluut aantal stemmen: 79)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (13%)</li><li>ROSA (12%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_cfe6e89dc721a211bef9b65f4cfc7245.setContent(html_3c69634fdc4b72f70ca7ccd33ffcefe1);
+            
+        
+
+        marker_336dc7303ef78b2648e45bd1dc1dacd8.bindPopup(popup_cfe6e89dc721a211bef9b65f4cfc7245)
+        ;
+
+        
+    
+    
+            var circle_84b997d12aa89d7da20f260e222ce917 = L.circle(
+                [52.49417, 4.7868],
+                {"bubblingMouseEvents": true, "color": "#4ab400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4ab400", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 502, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_6eb2975afea0de64f3c5b838f654334e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5911fcf74ee1dfc9eb56870f70c82e62 = $(`<div id="html_5911fcf74ee1dfc9eb56870f70c82e62" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 251</div>`)[0];
+                popup_6eb2975afea0de64f3c5b838f654334e.setContent(html_5911fcf74ee1dfc9eb56870f70c82e62);
+            
+        
+
+        circle_84b997d12aa89d7da20f260e222ce917.bindPopup(popup_6eb2975afea0de64f3c5b838f654334e)
+        ;
+
+        
+    
+    
+            var marker_6da583a7b26fb7e57038032ec967d805 = L.marker(
+                [52.49417, 4.7868],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_8469546f295f51f215b4342b614fd0af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_726ebf6c4f51b39b8c2fd3a8e9282914 = $(`<div id="html_726ebf6c4f51b39b8c2fd3a8e9282914" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurtcentrum De Lorzie</h4><p> Totaal geldige uitgebrachte stemmen: 2293</p><p><b>ROSA</b> 11%</br> (Absoluut aantal stemmen: 251)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (21%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li><li>ROSA (10%)</li></ol></p></p></div>`)[0];
+                popup_8469546f295f51f215b4342b614fd0af.setContent(html_726ebf6c4f51b39b8c2fd3a8e9282914);
+            
+        
+
+        marker_6da583a7b26fb7e57038032ec967d805.bindPopup(popup_8469546f295f51f215b4342b614fd0af)
+        ;
+
+        
+    
+    
+            var circle_b5675df034b60fa4bb34b32719a27ec3 = L.circle(
+                [52.49593, 4.78692],
+                {"bubblingMouseEvents": true, "color": "#9ada00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9ada00", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 26, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_b5a7c0e9a57deffdf3d3affc654ad3e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_94bd820d690bac929d1eb977628a55f4 = $(`<div id="html_94bd820d690bac929d1eb977628a55f4" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 13</div>`)[0];
+                popup_b5a7c0e9a57deffdf3d3affc654ad3e7.setContent(html_94bd820d690bac929d1eb977628a55f4);
+            
+        
+
+        circle_b5675df034b60fa4bb34b32719a27ec3.bindPopup(popup_b5a7c0e9a57deffdf3d3affc654ad3e7)
+        ;
+
+        
+    
+    
+            var marker_615b5d3f5df0627cf07b9e78a65d90f3 = L.marker(
+                [52.49593, 4.78692],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_5c165552a23b088bcef58fc7816e3be2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f6c28c876a3f7a07fb2acd94331e661 = $(`<div id="html_8f6c28c876a3f7a07fb2acd94331e661" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Anemoonstraat</h4><p> Totaal geldige uitgebrachte stemmen: 227</p><p><b>ROSA</b> 6%</br> (Absoluut aantal stemmen: 13)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (18%)</li><li>Partij voor Ouderen en Veiligheid (16%)</li><li>Partij van de Arbeid (P.v.d.A.) (10%)</li></ol></p></p></div>`)[0];
+                popup_5c165552a23b088bcef58fc7816e3be2.setContent(html_8f6c28c876a3f7a07fb2acd94331e661);
+            
+        
+
+        marker_615b5d3f5df0627cf07b9e78a65d90f3.bindPopup(popup_5c165552a23b088bcef58fc7816e3be2)
+        ;
+
+        
+    
+    
+            var circle_696459439080e7e416972750559b4b93 = L.circle(
+                [52.49792, 4.78813],
+                {"bubblingMouseEvents": true, "color": "#67c300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#67c300", "fillOpacity": 0.45, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 82, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_0ccc2e1f1eddd98348e4bf5984788c41 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_427d3e70509765bff8d32abee4926118 = $(`<div id="html_427d3e70509765bff8d32abee4926118" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 41</div>`)[0];
+                popup_0ccc2e1f1eddd98348e4bf5984788c41.setContent(html_427d3e70509765bff8d32abee4926118);
+            
+        
+
+        circle_696459439080e7e416972750559b4b93.bindPopup(popup_0ccc2e1f1eddd98348e4bf5984788c41)
+        ;
+
+        
+    
+    
+            var marker_079a8c4c49d150ac738f1344654c581a = L.marker(
+                [52.49792, 4.78813],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_4abb4924449565735be9f1a3c92ba75c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_656af8a6938a0df445ca832e680af975 = $(`<div id="html_656af8a6938a0df445ca832e680af975" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Vereniging de Bloesem, complex de Amandelbloesem</h4><p> Totaal geldige uitgebrachte stemmen: 477</p><p><b>ROSA</b> 9%</br> (Absoluut aantal stemmen: 41)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (20%)</li><li>Democratisch Zaanstad (DZ) (12%)</li><li>CDA (9%)</li></ol></p></p></div>`)[0];
+                popup_4abb4924449565735be9f1a3c92ba75c.setContent(html_656af8a6938a0df445ca832e680af975);
+            
+        
+
+        marker_079a8c4c49d150ac738f1344654c581a.bindPopup(popup_4abb4924449565735be9f1a3c92ba75c)
+        ;
+
+        
+    
+    
+            var circle_254c8cb8d7a94c708243079f61bb9ec6 = L.circle(
+                [52.51745, 4.78595],
+                {"bubblingMouseEvents": true, "color": "#58bc00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#58bc00", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 58, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_7cc8e88ec5ef9220c7f3eb5a076ccfd1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_02cf4ff8bdad2c8d980ed96f1e7c8f1b = $(`<div id="html_02cf4ff8bdad2c8d980ed96f1e7c8f1b" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 29</div>`)[0];
+                popup_7cc8e88ec5ef9220c7f3eb5a076ccfd1.setContent(html_02cf4ff8bdad2c8d980ed96f1e7c8f1b);
+            
+        
+
+        circle_254c8cb8d7a94c708243079f61bb9ec6.bindPopup(popup_7cc8e88ec5ef9220c7f3eb5a076ccfd1)
+        ;
+
+        
+    
+    
+            var marker_c71c041777cca1ad3de2096cadfab55b = L.marker(
+                [52.51745, 4.78595],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_4457026cbc6e69bb22169b15a1a5d804 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eff57866c3138e878f3a16bfc5d5dcda = $(`<div id="html_eff57866c3138e878f3a16bfc5d5dcda" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Dorpshuis "De Noorddam"</h4><p> Totaal geldige uitgebrachte stemmen: 296</p><p><b>ROSA</b> 10%</br> (Absoluut aantal stemmen: 29)<p><b>Top drie:</b><ol><li>VVD (19%)</li><li>Democratisch Zaanstad (DZ) (15%)</li><li>Partij voor Ouderen en Veiligheid (10%)</li></ol></p></p></div>`)[0];
+                popup_4457026cbc6e69bb22169b15a1a5d804.setContent(html_eff57866c3138e878f3a16bfc5d5dcda);
+            
+        
+
+        marker_c71c041777cca1ad3de2096cadfab55b.bindPopup(popup_4457026cbc6e69bb22169b15a1a5d804)
+        ;
+
+        
+    
+    
+            var circle_812ce2d5c30ea43a9c3e62333e5df594 = L.circle(
+                [52.49055, 4.79631],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 116, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_9a6620af6359b219037f765eeb709b3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e37b172f9e50000b2551683a28bd578 = $(`<div id="html_4e37b172f9e50000b2551683a28bd578" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 58</div>`)[0];
+                popup_9a6620af6359b219037f765eeb709b3a.setContent(html_4e37b172f9e50000b2551683a28bd578);
+            
+        
+
+        circle_812ce2d5c30ea43a9c3e62333e5df594.bindPopup(popup_9a6620af6359b219037f765eeb709b3a)
+        ;
+
+        
+    
+    
+            var marker_3f69f9c547b4bdb26a1653857c6c95d1 = L.marker(
+                [52.49055, 4.79631],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_eec430a07ed952a10fde8b1e60c82e8f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_25a701faae7d260a482203cb7815747e = $(`<div id="html_25a701faae7d260a482203cb7815747e" style="width: 100.0%; height: 100.0%;"><h4>Stembureau De Wormerveerse Vermaning</h4><p> Totaal geldige uitgebrachte stemmen: 330</p><p><b>ROSA</b> 18%</br> (Absoluut aantal stemmen: 58)<p><b>Top drie:</b><ol><li>ROSA (17%)</li><li>VVD (13%)</li><li>Partij van de Arbeid (P.v.d.A.) (13%)</li></ol></p></p></div>`)[0];
+                popup_eec430a07ed952a10fde8b1e60c82e8f.setContent(html_25a701faae7d260a482203cb7815747e);
+            
+        
+
+        marker_3f69f9c547b4bdb26a1653857c6c95d1.bindPopup(popup_eec430a07ed952a10fde8b1e60c82e8f)
+        ;
+
+        
+    
+    
+            var circle_eb79a9e7bd8e779bc160c8b359663dda = L.circle(
+                [52.4979, 4.76625],
+                {"bubblingMouseEvents": true, "color": "#088700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#088700", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 370, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_65df2f445e12778565a7421054af8978 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b249d79519615628dca206262a6d4d7 = $(`<div id="html_5b249d79519615628dca206262a6d4d7" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 185</div>`)[0];
+                popup_65df2f445e12778565a7421054af8978.setContent(html_5b249d79519615628dca206262a6d4d7);
+            
+        
+
+        circle_eb79a9e7bd8e779bc160c8b359663dda.bindPopup(popup_65df2f445e12778565a7421054af8978)
+        ;
+
+        
+    
+    
+            var marker_ffa80dee1785a5b0a9728fec6038738e = L.marker(
+                [52.4979, 4.76625],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_4742d515e91439f2e34fa7dd51cd4ac8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00c97a2382412d4065561d49e5f5b89a = $(`<div id="html_00c97a2382412d4065561d49e5f5b89a" style="width: 100.0%; height: 100.0%;"><h4>Stembureau St. Petrusparochie, INGANG KERK</h4><p> Totaal geldige uitgebrachte stemmen: 1100</p><p><b>ROSA</b> 17%</br> (Absoluut aantal stemmen: 185)<p><b>Top drie:</b><ol><li>ROSA (16%)</li><li>Partij voor Ouderen en Veiligheid (16%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_4742d515e91439f2e34fa7dd51cd4ac8.setContent(html_00c97a2382412d4065561d49e5f5b89a);
+            
+        
+
+        marker_ffa80dee1785a5b0a9728fec6038738e.bindPopup(popup_4742d515e91439f2e34fa7dd51cd4ac8)
+        ;
+
+        
+    
+    
+            var circle_232bd2fb22a1120531370ce190f1081e = L.circle(
+                [52.50597, 4.76797],
+                {"bubblingMouseEvents": true, "color": "#88d200", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#88d200", "fillOpacity": 0.35, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 158, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_576ed1d8ac7af11bb17e0d88b1c05513 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ac0fe5776271c0602df962dd802b3a2 = $(`<div id="html_6ac0fe5776271c0602df962dd802b3a2" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 79</div>`)[0];
+                popup_576ed1d8ac7af11bb17e0d88b1c05513.setContent(html_6ac0fe5776271c0602df962dd802b3a2);
+            
+        
+
+        circle_232bd2fb22a1120531370ce190f1081e.bindPopup(popup_576ed1d8ac7af11bb17e0d88b1c05513)
+        ;
+
+        
+    
+    
+            var marker_543caa326f244141aab5d18474f7065b = L.marker(
+                [52.50597, 4.76797],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_f71388f8aa411a9d312a7feed4e462ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d4bb99538613c899ced1c17ccc65952 = $(`<div id="html_1d4bb99538613c899ced1c17ccc65952" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Dependance basisschool de Hoeksteen</h4><p> Totaal geldige uitgebrachte stemmen: 1136</p><p><b>ROSA</b> 7%</br> (Absoluut aantal stemmen: 79)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (17%)</li><li>VVD (17%)</li><li>Democratisch Zaanstad (DZ) (14%)</li></ol></p></p></div>`)[0];
+                popup_f71388f8aa411a9d312a7feed4e462ca.setContent(html_1d4bb99538613c899ced1c17ccc65952);
+            
+        
+
+        marker_543caa326f244141aab5d18474f7065b.bindPopup(popup_f71388f8aa411a9d312a7feed4e462ca)
+        ;
+
+        
+    
+    
+            var circle_cb245e9997238d5b4195cd72164c77eb = L.circle(
+                [52.49977, 4.75707],
+                {"bubblingMouseEvents": true, "color": "#31a500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#31a500", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 132, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_217cdca7a94789ccec36e2ec92a4231d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c54ebfdd95a7fdeaa39fa8441e182fc = $(`<div id="html_0c54ebfdd95a7fdeaa39fa8441e182fc" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 66</div>`)[0];
+                popup_217cdca7a94789ccec36e2ec92a4231d.setContent(html_0c54ebfdd95a7fdeaa39fa8441e182fc);
+            
+        
+
+        circle_cb245e9997238d5b4195cd72164c77eb.bindPopup(popup_217cdca7a94789ccec36e2ec92a4231d)
+        ;
+
+        
+    
+    
+            var marker_e1acc4dacb62cb3174443f8d0cf5176e = L.marker(
+                [52.49977, 4.75707],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_a5e80824860e32668754cd2bf6ecf7eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d73d4a51d3476f86f2787f38fd7d6e35 = $(`<div id="html_d73d4a51d3476f86f2787f38fd7d6e35" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Braillestraat</h4><p> Totaal geldige uitgebrachte stemmen: 527</p><p><b>ROSA</b> 13%</br> (Absoluut aantal stemmen: 66)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (18%)</li><li>Democratisch Zaanstad (DZ) (12%)</li><li>ROSA (12%)</li></ol></p></p></div>`)[0];
+                popup_a5e80824860e32668754cd2bf6ecf7eb.setContent(html_d73d4a51d3476f86f2787f38fd7d6e35);
+            
+        
+
+        marker_e1acc4dacb62cb3174443f8d0cf5176e.bindPopup(popup_a5e80824860e32668754cd2bf6ecf7eb)
+        ;
+
+        
+    
+    
+            var circle_89e289bd09351420959b1b9aee40b4e1 = L.circle(
+                [52.50114, 4.76816],
+                {"bubblingMouseEvents": true, "color": "#4ab400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4ab400", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 112, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_96959e5e9a471e5b53d91010865bf08c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1a353fe919d0ccfa307a0e4bd528752 = $(`<div id="html_c1a353fe919d0ccfa307a0e4bd528752" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 56</div>`)[0];
+                popup_96959e5e9a471e5b53d91010865bf08c.setContent(html_c1a353fe919d0ccfa307a0e4bd528752);
+            
+        
+
+        circle_89e289bd09351420959b1b9aee40b4e1.bindPopup(popup_96959e5e9a471e5b53d91010865bf08c)
+        ;
+
+        
+    
+    
+            var marker_bd7d11f6dfe33b48775ec74cb96ce203 = L.marker(
+                [52.50114, 4.76816],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_704e02fc5c0c0aa3a02e32c39d580875 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d54b59a09492d6df2b3da44201827397 = $(`<div id="html_d54b59a09492d6df2b3da44201827397" style="width: 100.0%; height: 100.0%;"><h4>Stembureau De Durghorstplantsoen</h4><p> Totaal geldige uitgebrachte stemmen: 519</p><p><b>ROSA</b> 11%</br> (Absoluut aantal stemmen: 56)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (29%)</li><li>ROSA (10%)</li><li>Partij van de Arbeid (P.v.d.A.) (10%)</li></ol></p></p></div>`)[0];
+                popup_704e02fc5c0c0aa3a02e32c39d580875.setContent(html_d54b59a09492d6df2b3da44201827397);
+            
+        
+
+        marker_bd7d11f6dfe33b48775ec74cb96ce203.bindPopup(popup_704e02fc5c0c0aa3a02e32c39d580875)
+        ;
+
+        
+    
+    
+            var circle_3a6ebbf1841b47bdf14af55cebbf279c = L.circle(
+                [52.50135, 4.75089],
+                {"bubblingMouseEvents": true, "color": "#9ada00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9ada00", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 98, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_1e4a7250502328ea531d7f68e423ccc3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc8a58469a6b9f074174c382b85d772b = $(`<div id="html_bc8a58469a6b9f074174c382b85d772b" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 49</div>`)[0];
+                popup_1e4a7250502328ea531d7f68e423ccc3.setContent(html_bc8a58469a6b9f074174c382b85d772b);
+            
+        
+
+        circle_3a6ebbf1841b47bdf14af55cebbf279c.bindPopup(popup_1e4a7250502328ea531d7f68e423ccc3)
+        ;
+
+        
+    
+    
+            var marker_36f62c813c0c9ba6fe195d891e0a29be = L.marker(
+                [52.50135, 4.75089],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_390838e4c854c99a5cbd59333b4b9a32 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad3064c195bd6b7afbca64965d3fb2fb = $(`<div id="html_ad3064c195bd6b7afbca64965d3fb2fb" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Jupiterstraat 139 Evenaar</h4><p> Totaal geldige uitgebrachte stemmen: 863</p><p><b>ROSA</b> 6%</br> (Absoluut aantal stemmen: 49)<p><b>Top drie:</b><ol><li>VVD (16%)</li><li>Partij voor Ouderen en Veiligheid (15%)</li><li>Partij van de Arbeid (P.v.d.A.) (12%)</li></ol></p></p></div>`)[0];
+                popup_390838e4c854c99a5cbd59333b4b9a32.setContent(html_ad3064c195bd6b7afbca64965d3fb2fb);
+            
+        
+
+        marker_36f62c813c0c9ba6fe195d891e0a29be.bindPopup(popup_390838e4c854c99a5cbd59333b4b9a32)
+        ;
+
+        
+    
+    
+            var circle_3b3539bf26e8147456b32547c006e990 = L.circle(
+                [52.50908, 4.75773],
+                {"bubblingMouseEvents": true, "color": "#77cb00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77cb00", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 72, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_c4c8bd28db79bd3565ce343761b3f671 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5463f7c29e9552455e2a11b33e7d9ee0 = $(`<div id="html_5463f7c29e9552455e2a11b33e7d9ee0" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 36</div>`)[0];
+                popup_c4c8bd28db79bd3565ce343761b3f671.setContent(html_5463f7c29e9552455e2a11b33e7d9ee0);
+            
+        
+
+        circle_3b3539bf26e8147456b32547c006e990.bindPopup(popup_c4c8bd28db79bd3565ce343761b3f671)
+        ;
+
+        
+    
+    
+            var marker_e4e2a8858f9f8bbd88d26a26d0a27e25 = L.marker(
+                [52.50908, 4.75773],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_f93ee48c06dba8ac27834d8147ba288b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c29f570f0e480b7d8f32eba91c655aa = $(`<div id="html_0c29f570f0e480b7d8f32eba91c655aa" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Odd Fellow Huis</h4><p> Totaal geldige uitgebrachte stemmen: 459</p><p><b>ROSA</b> 8%</br> (Absoluut aantal stemmen: 36)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (16%)</li><li>Democratisch Zaanstad (DZ) (14%)</li><li>VVD (13%)</li></ol></p></p></div>`)[0];
+                popup_f93ee48c06dba8ac27834d8147ba288b.setContent(html_0c29f570f0e480b7d8f32eba91c655aa);
+            
+        
+
+        marker_e4e2a8858f9f8bbd88d26a26d0a27e25.bindPopup(popup_f93ee48c06dba8ac27834d8147ba288b)
+        ;
+
+        
+    
+    
+            var circle_0cf602324648d86020261d450abf8499 = L.circle(
+                [52.50491, 4.76333],
+                {"bubblingMouseEvents": true, "color": "#58bc00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#58bc00", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 66, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_b93fe21a1e634318ae7e73ca791a5700 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13317b82f07ea11095d649ff6f200c1b = $(`<div id="html_13317b82f07ea11095d649ff6f200c1b" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 33</div>`)[0];
+                popup_b93fe21a1e634318ae7e73ca791a5700.setContent(html_13317b82f07ea11095d649ff6f200c1b);
+            
+        
+
+        circle_0cf602324648d86020261d450abf8499.bindPopup(popup_b93fe21a1e634318ae7e73ca791a5700)
+        ;
+
+        
+    
+    
+            var marker_9c51b87267ca4d3734d7fc93e7b91225 = L.marker(
+                [52.50491, 4.76333],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_d60a703376de60231fc23b22381e933c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ffd6c76d6c99c93c274bae9a22e3dd9c = $(`<div id="html_ffd6c76d6c99c93c274bae9a22e3dd9c" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Basisschool de Hoeksteen</h4><p> Totaal geldige uitgebrachte stemmen: 316</p><p><b>ROSA</b> 10%</br> (Absoluut aantal stemmen: 33)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (20%)</li><li>Democratisch Zaanstad (DZ) (12%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li></ol></p></p></div>`)[0];
+                popup_d60a703376de60231fc23b22381e933c.setContent(html_ffd6c76d6c99c93c274bae9a22e3dd9c);
+            
+        
+
+        marker_9c51b87267ca4d3734d7fc93e7b91225.bindPopup(popup_d60a703376de60231fc23b22381e933c)
+        ;
+
+        
+    
+    
+            var circle_789cd45912726e3733355e137e74521d = L.circle(
+                [52.50401, 4.75849],
+                {"bubblingMouseEvents": true, "color": "#58bc00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#58bc00", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 408, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_6379342345fcd59b43d0881a0b182975 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44704844938df336bb5a5fe342703bbd = $(`<div id="html_44704844938df336bb5a5fe342703bbd" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 204</div>`)[0];
+                popup_6379342345fcd59b43d0881a0b182975.setContent(html_44704844938df336bb5a5fe342703bbd);
+            
+        
+
+        circle_789cd45912726e3733355e137e74521d.bindPopup(popup_6379342345fcd59b43d0881a0b182975)
+        ;
+
+        
+    
+    
+            var marker_e6a3fffb96ba087861c1493fec1aa3b6 = L.marker(
+                [52.50401, 4.75849],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_d644f2b95277fe88333f4272b287d894 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e9cf4845be0696a0d2b7d63e953b662 = $(`<div id="html_1e9cf4845be0696a0d2b7d63e953b662" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurtcentrum de Pelikaan</h4><p> Totaal geldige uitgebrachte stemmen: 1992</p><p><b>ROSA</b> 10%</br> (Absoluut aantal stemmen: 204)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (18%)</li><li>Partij van de Arbeid (P.v.d.A.) (12%)</li><li>VVD (10%)</li></ol></p></p></div>`)[0];
+                popup_d644f2b95277fe88333f4272b287d894.setContent(html_1e9cf4845be0696a0d2b7d63e953b662);
+            
+        
+
+        marker_e6a3fffb96ba087861c1493fec1aa3b6.bindPopup(popup_d644f2b95277fe88333f4272b287d894)
+        ;
+
+        
+    
+    
+            var circle_a06f2661ef86d0ad0c9b8dcfc91d9987 = L.circle(
+                [52.45938, 4.73717],
+                {"bubblingMouseEvents": true, "color": "#9ada00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9ada00", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 72, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_7670e402d0ac1323895e140f92eb8706 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0418e2e7cb252fa9e58aa31bcca5982c = $(`<div id="html_0418e2e7cb252fa9e58aa31bcca5982c" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 36</div>`)[0];
+                popup_7670e402d0ac1323895e140f92eb8706.setContent(html_0418e2e7cb252fa9e58aa31bcca5982c);
+            
+        
+
+        circle_a06f2661ef86d0ad0c9b8dcfc91d9987.bindPopup(popup_7670e402d0ac1323895e140f92eb8706)
+        ;
+
+        
+    
+    
+            var marker_86936958c00cb2def473d58189c890f6 = L.marker(
+                [52.45938, 4.73717],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_eb4a57a95be209b97e3fe38d9bfd35f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9e23f519e87d027a198a48091181a7f = $(`<div id="html_a9e23f519e87d027a198a48091181a7f" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Kantine vv Assendelft</h4><p> Totaal geldige uitgebrachte stemmen: 614</p><p><b>ROSA</b> 6%</br> (Absoluut aantal stemmen: 36)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (20%)</li><li>VVD (17%)</li><li>Partij voor Ouderen en Veiligheid (11%)</li></ol></p></p></div>`)[0];
+                popup_eb4a57a95be209b97e3fe38d9bfd35f0.setContent(html_a9e23f519e87d027a198a48091181a7f);
+            
+        
+
+        marker_86936958c00cb2def473d58189c890f6.bindPopup(popup_eb4a57a95be209b97e3fe38d9bfd35f0)
+        ;
+
+        
+    
+    
+            var circle_1c1b382cc2748eb9130c41aa0b54dc5f = L.circle(
+                [52.46675, 4.74109],
+                {"bubblingMouseEvents": true, "color": "#9ada00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9ada00", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 120, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_edc8f85fb6291ee233bbc218691cebf5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d19c371fd5dd5e4c4222030116880e91 = $(`<div id="html_d19c371fd5dd5e4c4222030116880e91" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 60</div>`)[0];
+                popup_edc8f85fb6291ee233bbc218691cebf5.setContent(html_d19c371fd5dd5e4c4222030116880e91);
+            
+        
+
+        circle_1c1b382cc2748eb9130c41aa0b54dc5f.bindPopup(popup_edc8f85fb6291ee233bbc218691cebf5)
+        ;
+
+        
+    
+    
+            var marker_df789cd7b9191c23e4372549ac862294 = L.marker(
+                [52.46675, 4.74109],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_b0906e8dd4db3c1cfb36e732fbc3afdc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_73870e37053cbffb2641171db4c1ef91 = $(`<div id="html_73870e37053cbffb2641171db4c1ef91" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Brandweerkazerne Assendelft</h4><p> Totaal geldige uitgebrachte stemmen: 988</p><p><b>ROSA</b> 6%</br> (Absoluut aantal stemmen: 60)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (19%)</li><li>Partij voor Ouderen en Veiligheid (17%)</li><li>VVD (11%)</li></ol></p></p></div>`)[0];
+                popup_b0906e8dd4db3c1cfb36e732fbc3afdc.setContent(html_73870e37053cbffb2641171db4c1ef91);
+            
+        
+
+        marker_df789cd7b9191c23e4372549ac862294.bindPopup(popup_b0906e8dd4db3c1cfb36e732fbc3afdc)
+        ;
+
+        
+    
+    
+            var circle_a9ef57664041aacbfce7e3a5283074f5 = L.circle(
+                [52.4742, 4.74845],
+                {"bubblingMouseEvents": true, "color": "#77cb00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77cb00", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 126, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_8db42081baffdeda8519f3401b600c8f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a719a6350faf6b6c8a76e1d4ef4e0c7 = $(`<div id="html_5a719a6350faf6b6c8a76e1d4ef4e0c7" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 63</div>`)[0];
+                popup_8db42081baffdeda8519f3401b600c8f.setContent(html_5a719a6350faf6b6c8a76e1d4ef4e0c7);
+            
+        
+
+        circle_a9ef57664041aacbfce7e3a5283074f5.bindPopup(popup_8db42081baffdeda8519f3401b600c8f)
+        ;
+
+        
+    
+    
+            var marker_df3e2ae91d6e5835e6ef64f21f625d8f = L.marker(
+                [52.4742, 4.74845],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_7a25c1ee3d3a12a4fa77fd679ea6bc31 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7f815ad04857b8b2f0bc0030a2b7ce0 = $(`<div id="html_e7f815ad04857b8b2f0bc0030a2b7ce0" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Tennisvereniging Overdan</h4><p> Totaal geldige uitgebrachte stemmen: 821</p><p><b>ROSA</b> 8%</br> (Absoluut aantal stemmen: 63)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (22%)</li><li>VVD (14%)</li><li>Partij voor Ouderen en Veiligheid (13%)</li></ol></p></p></div>`)[0];
+                popup_7a25c1ee3d3a12a4fa77fd679ea6bc31.setContent(html_e7f815ad04857b8b2f0bc0030a2b7ce0);
+            
+        
+
+        marker_df3e2ae91d6e5835e6ef64f21f625d8f.bindPopup(popup_7a25c1ee3d3a12a4fa77fd679ea6bc31)
+        ;
+
+        
+    
+    
+            var circle_7507108e71264a82b2d95e2ae18deaa1 = L.circle(
+                [52.46618, 4.74004],
+                {"bubblingMouseEvents": true, "color": "#9ada00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9ada00", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 108, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_a7f65551005f70a34ab4b9c8c307648b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d633e95e7d18760f9b616b521015de4d = $(`<div id="html_d633e95e7d18760f9b616b521015de4d" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 54</div>`)[0];
+                popup_a7f65551005f70a34ab4b9c8c307648b.setContent(html_d633e95e7d18760f9b616b521015de4d);
+            
+        
+
+        circle_7507108e71264a82b2d95e2ae18deaa1.bindPopup(popup_a7f65551005f70a34ab4b9c8c307648b)
+        ;
+
+        
+    
+    
+            var marker_779f329cee103e4efe7fcc65f13e5cae = L.marker(
+                [52.46618, 4.74004],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_e97d9f0beb3b374e07e41244d26cc355 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ab5e86d1812da26c7633f2c5993e486 = $(`<div id="html_6ab5e86d1812da26c7633f2c5993e486" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Buurtcentrum A3</h4><p> Totaal geldige uitgebrachte stemmen: 981</p><p><b>ROSA</b> 6%</br> (Absoluut aantal stemmen: 54)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (20%)</li><li>Partij voor Ouderen en Veiligheid (17%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li></ol></p></p></div>`)[0];
+                popup_e97d9f0beb3b374e07e41244d26cc355.setContent(html_6ab5e86d1812da26c7633f2c5993e486);
+            
+        
+
+        marker_779f329cee103e4efe7fcc65f13e5cae.bindPopup(popup_e97d9f0beb3b374e07e41244d26cc355)
+        ;
+
+        
+    
+    
+            var circle_dd66b1fa9059afe550dfc5cf88708d68 = L.circle(
+                [52.49317, 4.75898],
+                {"bubblingMouseEvents": true, "color": "#4ab400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4ab400", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 118, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_b776b276e27ba94c54970bfc8e71d0d9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3530b3b968e88b64a1504c00a79eca57 = $(`<div id="html_3530b3b968e88b64a1504c00a79eca57" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 59</div>`)[0];
+                popup_b776b276e27ba94c54970bfc8e71d0d9.setContent(html_3530b3b968e88b64a1504c00a79eca57);
+            
+        
+
+        circle_dd66b1fa9059afe550dfc5cf88708d68.bindPopup(popup_b776b276e27ba94c54970bfc8e71d0d9)
+        ;
+
+        
+    
+    
+            var marker_6f175ca09a9fe531addf42bd97a6afc1 = L.marker(
+                [52.49317, 4.75898],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_6e96d6becde2e15256e1aa945cedfc7c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1a7708bc87e5523b3afc5cb4b8d6e09 = $(`<div id="html_a1a7708bc87e5523b3afc5cb4b8d6e09" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal de Springplank</h4><p> Totaal geldige uitgebrachte stemmen: 537</p><p><b>ROSA</b> 11%</br> (Absoluut aantal stemmen: 59)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (18%)</li><li>Partij voor Ouderen en Veiligheid (15%)</li><li>VVD (13%)</li></ol></p></p></div>`)[0];
+                popup_6e96d6becde2e15256e1aa945cedfc7c.setContent(html_a1a7708bc87e5523b3afc5cb4b8d6e09);
+            
+        
+
+        marker_6f175ca09a9fe531addf42bd97a6afc1.bindPopup(popup_6e96d6becde2e15256e1aa945cedfc7c)
+        ;
+
+        
+    
+    
+            var circle_d36a881c1e37111dfa5856b37204f0f7 = L.circle(
+                [52.48415, 4.76134],
+                {"bubblingMouseEvents": true, "color": "#ace100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ace100", "fillOpacity": 0.25, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 92, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_3c15238da11f85a26dafe4b9657a107c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_330f36dbf82c8d689f19508ec6ab7bc4 = $(`<div id="html_330f36dbf82c8d689f19508ec6ab7bc4" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 46</div>`)[0];
+                popup_3c15238da11f85a26dafe4b9657a107c.setContent(html_330f36dbf82c8d689f19508ec6ab7bc4);
+            
+        
+
+        circle_d36a881c1e37111dfa5856b37204f0f7.bindPopup(popup_3c15238da11f85a26dafe4b9657a107c)
+        ;
+
+        
+    
+    
+            var marker_82a90f88aad52afa10fb60d234e1f0b9 = L.marker(
+                [52.48415, 4.76134],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_460be503ae4ad379b9cce17c378ac12e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a71c8a462cf6966441b399a96e0bc6e9 = $(`<div id="html_a71c8a462cf6966441b399a96e0bc6e9" style="width: 100.0%; height: 100.0%;"><h4>Stembureau BUKO</h4><p> Totaal geldige uitgebrachte stemmen: 970</p><p><b>ROSA</b> 5%</br> (Absoluut aantal stemmen: 46)<p><b>Top drie:</b><ol><li>VVD (16%)</li><li>Partij voor Ouderen en Veiligheid (13%)</li><li>Partij van de Arbeid (P.v.d.A.) (12%)</li></ol></p></p></div>`)[0];
+                popup_460be503ae4ad379b9cce17c378ac12e.setContent(html_a71c8a462cf6966441b399a96e0bc6e9);
+            
+        
+
+        marker_82a90f88aad52afa10fb60d234e1f0b9.bindPopup(popup_460be503ae4ad379b9cce17c378ac12e)
+        ;
+
+        
+    
+    
+            var circle_1ee1a40cb67eebf68ac7be57583a470b = L.circle(
+                [52.48838, 4.75082],
+                {"bubblingMouseEvents": true, "color": "#ace100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ace100", "fillOpacity": 0.25, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 96, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_e0e8242aabe0125edfc10dca2f64d704 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d0ab8954ec9b7da48ab4cc83882fda5d = $(`<div id="html_d0ab8954ec9b7da48ab4cc83882fda5d" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 48</div>`)[0];
+                popup_e0e8242aabe0125edfc10dca2f64d704.setContent(html_d0ab8954ec9b7da48ab4cc83882fda5d);
+            
+        
+
+        circle_1ee1a40cb67eebf68ac7be57583a470b.bindPopup(popup_e0e8242aabe0125edfc10dca2f64d704)
+        ;
+
+        
+    
+    
+            var marker_0c366e709f384f38b7e15f8d5a0c9671 = L.marker(
+                [52.48838, 4.75082],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_020506757f60cc9a44f4fa438d324e52 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f50c56a39043dfa21a029e9a21607398 = $(`<div id="html_f50c56a39043dfa21a029e9a21607398" style="width: 100.0%; height: 100.0%;"><h4>Stembureau JongerenHUB Noord</h4><p> Totaal geldige uitgebrachte stemmen: 959</p><p><b>ROSA</b> 5%</br> (Absoluut aantal stemmen: 48)<p><b>Top drie:</b><ol><li>VVD (20%)</li><li>DENK (11%)</li><li>Partij voor Ouderen en Veiligheid (11%)</li></ol></p></p></div>`)[0];
+                popup_020506757f60cc9a44f4fa438d324e52.setContent(html_f50c56a39043dfa21a029e9a21607398);
+            
+        
+
+        marker_0c366e709f384f38b7e15f8d5a0c9671.bindPopup(popup_020506757f60cc9a44f4fa438d324e52)
+        ;
+
+        
+    
+    
+            var circle_e7d72b410f9af0fdf0ae256589f41396 = L.circle(
+                [52.49536, 4.75036],
+                {"bubblingMouseEvents": true, "color": "#c0e900", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c0e900", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 26, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_d9f7315a3934da8d3918575df8fd2b09 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_54c3d98776f0350533e4880d10e659b0 = $(`<div id="html_54c3d98776f0350533e4880d10e659b0" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 13</div>`)[0];
+                popup_d9f7315a3934da8d3918575df8fd2b09.setContent(html_54c3d98776f0350533e4880d10e659b0);
+            
+        
+
+        circle_e7d72b410f9af0fdf0ae256589f41396.bindPopup(popup_d9f7315a3934da8d3918575df8fd2b09)
+        ;
+
+        
+    
+    
+            var marker_29d44dfdf4280457ddd599c1173ec4d7 = L.marker(
+                [52.49536, 4.75036],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_dc6da1cc64070c537ed8c67a25575d64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a2224d8ecff400425e793738b32df19 = $(`<div id="html_4a2224d8ecff400425e793738b32df19" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Kreekrijklaan 2</h4><p> Totaal geldige uitgebrachte stemmen: 356</p><p><b>ROSA</b> 4%</br> (Absoluut aantal stemmen: 13)<p><b>Top drie:</b><ol><li>VVD (20%)</li><li>Partij van de Arbeid (P.v.d.A.) (12%)</li><li>Democratisch Zaanstad (DZ) (12%)</li></ol></p></p></div>`)[0];
+                popup_dc6da1cc64070c537ed8c67a25575d64.setContent(html_4a2224d8ecff400425e793738b32df19);
+            
+        
+
+        marker_29d44dfdf4280457ddd599c1173ec4d7.bindPopup(popup_dc6da1cc64070c537ed8c67a25575d64)
+        ;
+
+        
+    
+    
+            var circle_c6447a900ed56c2f15a78e0e69de3804 = L.circle(
+                [52.49454, 4.74488],
+                {"bubblingMouseEvents": true, "color": "#d4f000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d4f000", "fillOpacity": 0.15, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 22, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_2c56bdc033c4f9430f1ec9407539e0ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10f59448e78a1ec25db84434b6633ed5 = $(`<div id="html_10f59448e78a1ec25db84434b6633ed5" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 11</div>`)[0];
+                popup_2c56bdc033c4f9430f1ec9407539e0ba.setContent(html_10f59448e78a1ec25db84434b6633ed5);
+            
+        
+
+        circle_c6447a900ed56c2f15a78e0e69de3804.bindPopup(popup_2c56bdc033c4f9430f1ec9407539e0ba)
+        ;
+
+        
+    
+    
+            var marker_c9ca0bc92e75d5bc51e48a74f455c287 = L.marker(
+                [52.49454, 4.74488],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_ef092835f3bff82ecb0f4f11370db8d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e68e16cbdefbf3e7e6037d4fce100a36 = $(`<div id="html_e68e16cbdefbf3e7e6037d4fce100a36" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Beemdgras</h4><p> Totaal geldige uitgebrachte stemmen: 412</p><p><b>ROSA</b> 3%</br> (Absoluut aantal stemmen: 11)<p><b>Top drie:</b><ol><li>VVD (23%)</li><li>Democratisch Zaanstad (DZ) (12%)</li><li>Partij van de Arbeid (P.v.d.A.) (10%)</li></ol></p></p></div>`)[0];
+                popup_ef092835f3bff82ecb0f4f11370db8d5.setContent(html_e68e16cbdefbf3e7e6037d4fce100a36);
+            
+        
+
+        marker_c9ca0bc92e75d5bc51e48a74f455c287.bindPopup(popup_ef092835f3bff82ecb0f4f11370db8d5)
+        ;
+
+        
+    
+    
+            var circle_54bd3422d562b144b927ee42f67cfc30 = L.circle(
+                [52.48864, 4.75283],
+                {"bubblingMouseEvents": true, "color": "#ace100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ace100", "fillOpacity": 0.25, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 184, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_18f52d9d8860eb61ee961f2220b29183 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e59cdee0df222e9bd6fa72ad8d67eaf = $(`<div id="html_7e59cdee0df222e9bd6fa72ad8d67eaf" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 92</div>`)[0];
+                popup_18f52d9d8860eb61ee961f2220b29183.setContent(html_7e59cdee0df222e9bd6fa72ad8d67eaf);
+            
+        
+
+        circle_54bd3422d562b144b927ee42f67cfc30.bindPopup(popup_18f52d9d8860eb61ee961f2220b29183)
+        ;
+
+        
+    
+    
+            var marker_a025f4df2a77d3104e6c48d224e74223 = L.marker(
+                [52.48864, 4.75283],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_7a3fd0f4d084797f710acab03e9ab5f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4afa0966fa3705dae9b222fe02f20446 = $(`<div id="html_4afa0966fa3705dae9b222fe02f20446" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Het Sociale Winkeltje</h4><p> Totaal geldige uitgebrachte stemmen: 2001</p><p><b>ROSA</b> 5%</br> (Absoluut aantal stemmen: 92)<p><b>Top drie:</b><ol><li>VVD (17%)</li><li>Partij voor Ouderen en Veiligheid (14%)</li><li>Democratisch Zaanstad (DZ) (11%)</li></ol></p></p></div>`)[0];
+                popup_7a3fd0f4d084797f710acab03e9ab5f8.setContent(html_4afa0966fa3705dae9b222fe02f20446);
+            
+        
+
+        marker_a025f4df2a77d3104e6c48d224e74223.bindPopup(popup_7a3fd0f4d084797f710acab03e9ab5f8)
+        ;
+
+        
+    
+    
+            var circle_e15f9af733af464d798911e093d6f6de = L.circle(
+                [52.44896, 4.77604],
+                {"bubblingMouseEvents": true, "color": "#58bc00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#58bc00", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 146, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_418138ad2a5b2ef4f2dbff853bc034cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8edb7bd3df95b40e12827759cbeb9e57 = $(`<div id="html_8edb7bd3df95b40e12827759cbeb9e57" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 73</div>`)[0];
+                popup_418138ad2a5b2ef4f2dbff853bc034cd.setContent(html_8edb7bd3df95b40e12827759cbeb9e57);
+            
+        
+
+        circle_e15f9af733af464d798911e093d6f6de.bindPopup(popup_418138ad2a5b2ef4f2dbff853bc034cd)
+        ;
+
+        
+    
+    
+            var marker_702ced97fca1cfdbc28ec3f30f3a1d25 = L.marker(
+                [52.44896, 4.77604],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_fc265556d1d23e0becfdc77e054a1f62 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d87f42eb5f508de1848611fa5d8317d = $(`<div id="html_1d87f42eb5f508de1848611fa5d8317d" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Dorpshuis "De Kwaker"</h4><p> Totaal geldige uitgebrachte stemmen: 725</p><p><b>ROSA</b> 10%</br> (Absoluut aantal stemmen: 73)<p><b>Top drie:</b><ol><li>Democratisch Zaanstad (DZ) (14%)</li><li>VVD (14%)</li><li>PVV (Partij voor de Vrijheid) (10%)</li></ol></p></p></div>`)[0];
+                popup_fc265556d1d23e0becfdc77e054a1f62.setContent(html_1d87f42eb5f508de1848611fa5d8317d);
+            
+        
+
+        marker_702ced97fca1cfdbc28ec3f30f3a1d25.bindPopup(popup_fc265556d1d23e0becfdc77e054a1f62)
+        ;
+
+        
+    
+    
+            var circle_12da6fe46c47cee3a18cb999ba413cf0 = L.circle(
+                [52.4638, 4.76978],
+                {"bubblingMouseEvents": true, "color": "#58bc00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#58bc00", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 258, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_9687e40aba69dc079a8953e2d96bb5e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9a559a16696f3722b1306525543afec = $(`<div id="html_b9a559a16696f3722b1306525543afec" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 129</div>`)[0];
+                popup_9687e40aba69dc079a8953e2d96bb5e6.setContent(html_b9a559a16696f3722b1306525543afec);
+            
+        
+
+        circle_12da6fe46c47cee3a18cb999ba413cf0.bindPopup(popup_9687e40aba69dc079a8953e2d96bb5e6)
+        ;
+
+        
+    
+    
+            var marker_21c2310eee4efb076a1a7345dca7311d = L.marker(
+                [52.4638, 4.76978],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_7a74ec76fd3f268b75a23ac25a475c8c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa7ea9e12896977537fa5fe54cafda02 = $(`<div id="html_fa7ea9e12896977537fa5fe54cafda02" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Wijksteunpunt Lambert Melisz</h4><p> Totaal geldige uitgebrachte stemmen: 1258</p><p><b>ROSA</b> 10%</br> (Absoluut aantal stemmen: 129)<p><b>Top drie:</b><ol><li>VVD (16%)</li><li>Partij voor Ouderen en Veiligheid (13%)</li><li>Partij van de Arbeid (P.v.d.A.) (10%)</li></ol></p></p></div>`)[0];
+                popup_7a74ec76fd3f268b75a23ac25a475c8c.setContent(html_fa7ea9e12896977537fa5fe54cafda02);
+            
+        
+
+        marker_21c2310eee4efb076a1a7345dca7311d.bindPopup(popup_7a74ec76fd3f268b75a23ac25a475c8c)
+        ;
+
+        
+    
+    
+            var circle_5322a5bb017547c5086a086cd5cabb83 = L.circle(
+                [52.46317, 4.77163],
+                {"bubblingMouseEvents": true, "color": "#31a500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#31a500", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 70, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_ede1df43a9e31c39cd5c31af3f625900 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8f2f739376071326674fa844368c5ad = $(`<div id="html_e8f2f739376071326674fa844368c5ad" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 35</div>`)[0];
+                popup_ede1df43a9e31c39cd5c31af3f625900.setContent(html_e8f2f739376071326674fa844368c5ad);
+            
+        
+
+        circle_5322a5bb017547c5086a086cd5cabb83.bindPopup(popup_ede1df43a9e31c39cd5c31af3f625900)
+        ;
+
+        
+    
+    
+            var marker_c9376b4aa7f949c2377f55cbade1553c = L.marker(
+                [52.46317, 4.77163],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_92642dfafebf413a6bf8b42637c94008 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b2e8eee75b82c27d91f58d371feb8d0 = $(`<div id="html_7b2e8eee75b82c27d91f58d371feb8d0" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Gymzaal Torenstraat, INGANG KERKBUURT 21</h4><p> Totaal geldige uitgebrachte stemmen: 269</p><p><b>ROSA</b> 13%</br> (Absoluut aantal stemmen: 35)<p><b>Top drie:</b><ol><li>VVD (17%)</li><li>ROSA (13%)</li><li>Democratisch Zaanstad (DZ) (11%)</li></ol></p></p></div>`)[0];
+                popup_92642dfafebf413a6bf8b42637c94008.setContent(html_7b2e8eee75b82c27d91f58d371feb8d0);
+            
+        
+
+        marker_c9376b4aa7f949c2377f55cbade1553c.bindPopup(popup_92642dfafebf413a6bf8b42637c94008)
+        ;
+
+        
+    
+    
+            var circle_c0c7103af225126930fd2fd2aa14d310 = L.circle(
+                [52.45375, 4.83569],
+                {"bubblingMouseEvents": true, "color": "#ace100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ace100", "fillOpacity": 0.25, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_bcb4c442b04b7f068a3e7326946f03db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_576e59d6fc7ffc32c6aecde16d288a70 = $(`<div id="html_576e59d6fc7ffc32c6aecde16d288a70" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 1</div>`)[0];
+                popup_bcb4c442b04b7f068a3e7326946f03db.setContent(html_576e59d6fc7ffc32c6aecde16d288a70);
+            
+        
+
+        circle_c0c7103af225126930fd2fd2aa14d310.bindPopup(popup_bcb4c442b04b7f068a3e7326946f03db)
+        ;
+
+        
+    
+    
+            var marker_2961c66827b51980ecf5b8112bd832ee = L.marker(
+                [52.45375, 4.83569],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_70162fd59de1369b7aa59a8b1af3b246 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a6242a84c2b066039c49e0052114cf89 = $(`<div id="html_a6242a84c2b066039c49e0052114cf89" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean Oostergouw, HOOFDINGANG</h4><p> Totaal geldige uitgebrachte stemmen: 20</p><p><b>ROSA</b> 5%</br> (Absoluut aantal stemmen: 1)<p><b>Top drie:</b><ol><li>SP (Socialistische Partij) (15%)</li><li>VVD (10%)</li><li>Partij van de Arbeid (P.v.d.A.) (10%)</li></ol></p></p></div>`)[0];
+                popup_70162fd59de1369b7aa59a8b1af3b246.setContent(html_a6242a84c2b066039c49e0052114cf89);
+            
+        
+
+        marker_2961c66827b51980ecf5b8112bd832ee.bindPopup(popup_70162fd59de1369b7aa59a8b1af3b246)
+        ;
+
+        
+    
+    
+            var circle_c631648bbfaee7b3a578bb26ec1a8048 = L.circle(
+                [52.44012, 4.84136],
+                {"bubblingMouseEvents": true, "color": "#ace100", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ace100", "fillOpacity": 0.25, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_c11bc172d705bb43fb9952e150f5486f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_613fe62cc747709918a4fd31a86b2608 = $(`<div id="html_613fe62cc747709918a4fd31a86b2608" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 1</div>`)[0];
+                popup_c11bc172d705bb43fb9952e150f5486f.setContent(html_613fe62cc747709918a4fd31a86b2608);
+            
+        
+
+        circle_c631648bbfaee7b3a578bb26ec1a8048.bindPopup(popup_c11bc172d705bb43fb9952e150f5486f)
+        ;
+
+        
+    
+    
+            var marker_f56788aa1f815c4e8c97d17f7f2e6c7a = L.marker(
+                [52.44012, 4.84136],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_4086a627b75d45f7815a4d03b26f518b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ac56d8d7ee88d8252d3d173e41f6156 = $(`<div id="html_8ac56d8d7ee88d8252d3d173e41f6156" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean Het Erasmushuis</h4><p> Totaal geldige uitgebrachte stemmen: 20</p><p><b>ROSA</b> 5%</br> (Absoluut aantal stemmen: 1)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (20%)</li><li>Partij voor Ouderen en Veiligheid (15%)</li><li>D66 (15%)</li></ol></p></p></div>`)[0];
+                popup_4086a627b75d45f7815a4d03b26f518b.setContent(html_8ac56d8d7ee88d8252d3d173e41f6156);
+            
+        
+
+        marker_f56788aa1f815c4e8c97d17f7f2e6c7a.bindPopup(popup_4086a627b75d45f7815a4d03b26f518b)
+        ;
+
+        
+    
+    
+            var circle_eca72b7adea3fa12ef670a24f6918a45 = L.circle(
+                [52.44115, 4.83269],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_e7d5de1ad46c12eec86e275ad706dcae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19567825ea358e0b3a24a1b1735b7442 = $(`<div id="html_19567825ea358e0b3a24a1b1735b7442" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 0</div>`)[0];
+                popup_e7d5de1ad46c12eec86e275ad706dcae.setContent(html_19567825ea358e0b3a24a1b1735b7442);
+            
+        
+
+        circle_eca72b7adea3fa12ef670a24f6918a45.bindPopup(popup_e7d5de1ad46c12eec86e275ad706dcae)
+        ;
+
+        
+    
+    
+            var marker_a2c9c922d400eca557a5376cc933e65a = L.marker(
+                [52.44115, 4.83269],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_7fb513776044e9a89bb81b401c67ae97 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d5dbff4f83d61ad79fcba3e0e319d4f = $(`<div id="html_2d5dbff4f83d61ad79fcba3e0e319d4f" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Zorgcentrum Mennistenerf</h4><p> Totaal geldige uitgebrachte stemmen: 51</p><p><b>ROSA</b> 0%</br> (Absoluut aantal stemmen: 0)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (43%)</li><li>Partij van de Arbeid (P.v.d.A.) (11%)</li><li>DENK (11%)</li></ol></p></p></div>`)[0];
+                popup_7fb513776044e9a89bb81b401c67ae97.setContent(html_2d5dbff4f83d61ad79fcba3e0e319d4f);
+            
+        
+
+        marker_a2c9c922d400eca557a5376cc933e65a.bindPopup(popup_7fb513776044e9a89bb81b401c67ae97)
+        ;
+
+        
+    
+    
+            var circle_8a130177b4c78bfa68825bdad1768d68 = L.circle(
+                [52.44342, 4.83039],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_720f46bc6cec727c2f07cad0a1531a56 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06fa5187eac52425637c9f7bee5e125c = $(`<div id="html_06fa5187eac52425637c9f7bee5e125c" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 0</div>`)[0];
+                popup_720f46bc6cec727c2f07cad0a1531a56.setContent(html_06fa5187eac52425637c9f7bee5e125c);
+            
+        
+
+        circle_8a130177b4c78bfa68825bdad1768d68.bindPopup(popup_720f46bc6cec727c2f07cad0a1531a56)
+        ;
+
+        
+    
+    
+            var marker_20be4e9205509a5c8ff7f98c5f7f2a6b = L.marker(
+                [52.44342, 4.83039],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_07f07eded6b8313810f1d5ea90d578c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_644e0532f7e3c78526ed4a08b295a6e7 = $(`<div id="html_644e0532f7e3c78526ed4a08b295a6e7" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Hervormd Centrum Pennemes, HOOFDINGANG</h4><p> Totaal geldige uitgebrachte stemmen: 42</p><p><b>ROSA</b> 0%</br> (Absoluut aantal stemmen: 0)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (21%)</li><li>ChristenUnie (21%)</li><li>Partij van de Arbeid (P.v.d.A.) (14%)</li></ol></p></p></div>`)[0];
+                popup_07f07eded6b8313810f1d5ea90d578c4.setContent(html_644e0532f7e3c78526ed4a08b295a6e7);
+            
+        
+
+        marker_20be4e9205509a5c8ff7f98c5f7f2a6b.bindPopup(popup_07f07eded6b8313810f1d5ea90d578c4)
+        ;
+
+        
+    
+    
+            var circle_bbf75274047f05ee688f2462d624910f = L.circle(
+                [52.4704, 4.83439],
+                {"bubblingMouseEvents": true, "color": "#c0e900", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c0e900", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_652d496525953f57b16f87017aca2ddf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f227904f2cf6ade344b48c796529ccb = $(`<div id="html_4f227904f2cf6ade344b48c796529ccb" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 2</div>`)[0];
+                popup_652d496525953f57b16f87017aca2ddf.setContent(html_4f227904f2cf6ade344b48c796529ccb);
+            
+        
+
+        circle_bbf75274047f05ee688f2462d624910f.bindPopup(popup_652d496525953f57b16f87017aca2ddf)
+        ;
+
+        
+    
+    
+            var marker_91352fe133e44f460f5df1cc969691c3 = L.marker(
+                [52.4704, 4.83439],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_d5cfc077ea6e414bdacb4cf76cf576b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be1930e51b5fbca30ebfcb38782c0082 = $(`<div id="html_be1930e51b5fbca30ebfcb38782c0082" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Zorgcentrum Nieuw Groenland</h4><p> Totaal geldige uitgebrachte stemmen: 47</p><p><b>ROSA</b> 4%</br> (Absoluut aantal stemmen: 2)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (14%)</li><li>CDA (12%)</li><li>Partij voor de Dieren (12%)</li></ol></p></p></div>`)[0];
+                popup_d5cfc077ea6e414bdacb4cf76cf576b2.setContent(html_be1930e51b5fbca30ebfcb38782c0082);
+            
+        
+
+        marker_91352fe133e44f460f5df1cc969691c3.bindPopup(popup_d5cfc077ea6e414bdacb4cf76cf576b2)
+        ;
+
+        
+    
+    
+            var circle_b81077009f1112de3a3d62d8959734e9 = L.circle(
+                [52.44279, 4.81852],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_001a461e9234a059afcca5b78c18278a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8194b781dc18453a2063dc09552c2e9b = $(`<div id="html_8194b781dc18453a2063dc09552c2e9b" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 0</div>`)[0];
+                popup_001a461e9234a059afcca5b78c18278a.setContent(html_8194b781dc18453a2063dc09552c2e9b);
+            
+        
+
+        circle_b81077009f1112de3a3d62d8959734e9.bindPopup(popup_001a461e9234a059afcca5b78c18278a)
+        ;
+
+        
+    
+    
+            var marker_62eda0bf67ddc2fd962ee6ae922e5ad5 = L.marker(
+                [52.44279, 4.81852],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_d6520eb7207f61c45db76329d9a4ea19 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_885dac95010b5ed7d789edb84cd8158f = $(`<div id="html_885dac95010b5ed7d789edb84cd8158f" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Zorgcentrum Saenden</h4><p> Totaal geldige uitgebrachte stemmen: 10</p><p><b>ROSA</b> 0%</br> (Absoluut aantal stemmen: 0)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (30%)</li><li>VVD (20%)</li><li>CDA (20%)</li></ol></p></p></div>`)[0];
+                popup_d6520eb7207f61c45db76329d9a4ea19.setContent(html_885dac95010b5ed7d789edb84cd8158f);
+            
+        
+
+        marker_62eda0bf67ddc2fd962ee6ae922e5ad5.bindPopup(popup_d6520eb7207f61c45db76329d9a4ea19)
+        ;
+
+        
+    
+    
+            var circle_ee787603845fe67a2037f39de3a169e7 = L.circle(
+                [52.44905, 4.80177],
+                {"bubblingMouseEvents": true, "color": "#e9f800", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e9f800", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_9fbd92341b7f441ebfcf0fe873a087f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a587d9df739f2b43dad5d01e262797f7 = $(`<div id="html_a587d9df739f2b43dad5d01e262797f7" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 1</div>`)[0];
+                popup_9fbd92341b7f441ebfcf0fe873a087f9.setContent(html_a587d9df739f2b43dad5d01e262797f7);
+            
+        
+
+        circle_ee787603845fe67a2037f39de3a169e7.bindPopup(popup_9fbd92341b7f441ebfcf0fe873a087f9)
+        ;
+
+        
+    
+    
+            var marker_11016ecb158770496f7c2e9d60b231a8 = L.marker(
+                [52.44905, 4.80177],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_fa0e4c3d367f9547bc58c81ed8caa047 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1412876359a1ffa9b9ef027c10fe229 = $(`<div id="html_c1412876359a1ffa9b9ef027c10fe229" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean Westerwatering, HOOFDINGANG</h4><p> Totaal geldige uitgebrachte stemmen: 50</p><p><b>ROSA</b> 2%</br> (Absoluut aantal stemmen: 1)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (54%)</li><li>Democratisch Zaanstad (DZ) (10%)</li><li>Partij van de Arbeid (P.v.d.A.) (8%)</li></ol></p></p></div>`)[0];
+                popup_fa0e4c3d367f9547bc58c81ed8caa047.setContent(html_c1412876359a1ffa9b9ef027c10fe229);
+            
+        
+
+        marker_11016ecb158770496f7c2e9d60b231a8.bindPopup(popup_fa0e4c3d367f9547bc58c81ed8caa047)
+        ;
+
+        
+    
+    
+            var circle_550aa275ad52a105e7f96523adec4dc8 = L.circle(
+                [52.46873, 4.81152],
+                {"bubblingMouseEvents": true, "color": "#31a500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#31a500", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_d8d1a96e22374adb92ab39547643445c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b28fce2b0ac90cbaba15207149114b51 = $(`<div id="html_b28fce2b0ac90cbaba15207149114b51" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 6</div>`)[0];
+                popup_d8d1a96e22374adb92ab39547643445c.setContent(html_b28fce2b0ac90cbaba15207149114b51);
+            
+        
+
+        circle_550aa275ad52a105e7f96523adec4dc8.bindPopup(popup_d8d1a96e22374adb92ab39547643445c)
+        ;
+
+        
+    
+    
+            var marker_abe8853af204e464d83bd48377b0daf8 = L.marker(
+                [52.46873, 4.81152],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_30128d8123d9a68c42e8e45f5c979a7c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3fd089ccbf0bcaa5f9d4c132669d9e8d = $(`<div id="html_3fd089ccbf0bcaa5f9d4c132669d9e8d" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean Parkzicht</h4><p> Totaal geldige uitgebrachte stemmen: 46</p><p><b>ROSA</b> 13%</br> (Absoluut aantal stemmen: 6)<p><b>Top drie:</b><ol><li>Partij voor Ouderen en Veiligheid (26%)</li><li>Partij van de Arbeid (P.v.d.A.) (15%)</li><li>ROSA (13%)</li></ol></p></p></div>`)[0];
+                popup_30128d8123d9a68c42e8e45f5c979a7c.setContent(html_3fd089ccbf0bcaa5f9d4c132669d9e8d);
+            
+        
+
+        marker_abe8853af204e464d83bd48377b0daf8.bindPopup(popup_30128d8123d9a68c42e8e45f5c979a7c)
+        ;
+
+        
+    
+    
+            var circle_02dadc4cab21a57e22b65262445c5c96 = L.circle(
+                [52.47728, 4.80156],
+                {"bubblingMouseEvents": true, "color": "#3dad00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3dad00", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_c6ab16d5a19bd12c96d58dd7587430fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e12834f54bdb1565721fac5cd5af79e = $(`<div id="html_8e12834f54bdb1565721fac5cd5af79e" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 1</div>`)[0];
+                popup_c6ab16d5a19bd12c96d58dd7587430fe.setContent(html_8e12834f54bdb1565721fac5cd5af79e);
+            
+        
+
+        circle_02dadc4cab21a57e22b65262445c5c96.bindPopup(popup_c6ab16d5a19bd12c96d58dd7587430fe)
+        ;
+
+        
+    
+    
+            var marker_6b9fe9b3d0a07dbe6ad469f0e0e550d3 = L.marker(
+                [52.47728, 4.80156],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_f4108a66476a6cc49cb9f6abb5e5d792 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9301b00a2a2472cbcc382fa31c9da69a = $(`<div id="html_9301b00a2a2472cbcc382fa31c9da69a" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean Guisveld</h4><p> Totaal geldige uitgebrachte stemmen: 8</p><p><b>ROSA</b> 12%</br> (Absoluut aantal stemmen: 1)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (25%)</li><li>ROSA (12%)</li><li>D66 (12%)</li></ol></p></p></div>`)[0];
+                popup_f4108a66476a6cc49cb9f6abb5e5d792.setContent(html_9301b00a2a2472cbcc382fa31c9da69a);
+            
+        
+
+        marker_6b9fe9b3d0a07dbe6ad469f0e0e550d3.bindPopup(popup_f4108a66476a6cc49cb9f6abb5e5d792)
+        ;
+
+        
+    
+    
+            var circle_3cee3066735c23c88146f6d4a0fdc869 = L.circle(
+                [52.48707, 4.80201],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_685130a61b9cbfd6a7257c9638e00bd9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9e4a279c96d718ae24238fe2f7aca6b4 = $(`<div id="html_9e4a279c96d718ae24238fe2f7aca6b4" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 0</div>`)[0];
+                popup_685130a61b9cbfd6a7257c9638e00bd9.setContent(html_9e4a279c96d718ae24238fe2f7aca6b4);
+            
+        
+
+        circle_3cee3066735c23c88146f6d4a0fdc869.bindPopup(popup_685130a61b9cbfd6a7257c9638e00bd9)
+        ;
+
+        
+    
+    
+            var marker_e0af272e6a31e8cc18c2df667b740efc = L.marker(
+                [52.48707, 4.80201],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_bf9e310d55823be93351c8683ad0a23b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e5b68e3da71ecc857ba1573d37d8e136 = $(`<div id="html_e5b68e3da71ecc857ba1573d37d8e136" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean Acht Staten</h4><p> Totaal geldige uitgebrachte stemmen: 19</p><p><b>ROSA</b> 0%</br> (Absoluut aantal stemmen: 0)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (26%)</li><li>Partij voor Ouderen en Veiligheid (21%)</li><li>PVV (Partij voor de Vrijheid) (10%)</li></ol></p></p></div>`)[0];
+                popup_bf9e310d55823be93351c8683ad0a23b.setContent(html_e5b68e3da71ecc857ba1573d37d8e136);
+            
+        
+
+        marker_e0af272e6a31e8cc18c2df667b740efc.bindPopup(popup_bf9e310d55823be93351c8683ad0a23b)
+        ;
+
+        
+    
+    
+            var circle_358c07e829476819d1e3024774dacdbe = L.circle(
+                [52.50553, 4.7625],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "stroke": true, "weight": 3}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_70359c5d320e28dc62e967e24c8d7a71 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e781965175175e6b1d2b7cb19d92d7ed = $(`<div id="html_e781965175175e6b1d2b7cb19d92d7ed" style="width: 100.0%; height: 100.0%;">Aantal stemmen voor ROSA: 0</div>`)[0];
+                popup_70359c5d320e28dc62e967e24c8d7a71.setContent(html_e781965175175e6b1d2b7cb19d92d7ed);
+            
+        
+
+        circle_358c07e829476819d1e3024774dacdbe.bindPopup(popup_70359c5d320e28dc62e967e24c8d7a71)
+        ;
+
+        
+    
+    
+            var marker_185da524b5736fb8831b50b58b5b4b61 = L.marker(
+                [52.50553, 4.7625],
+                {}
+            ).addTo(map_57a537ab4359d699659a7445b9231a8b);
+        
+    
+        var popup_56843e311507726d912442ebba6e428d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_58197b6fe7703e0375f61c456d0eefab = $(`<div id="html_58197b6fe7703e0375f61c456d0eefab" style="width: 100.0%; height: 100.0%;"><h4>Stembureau Evean Rosariumhorst</h4><p> Totaal geldige uitgebrachte stemmen: 18</p><p><b>ROSA</b> 0%</br> (Absoluut aantal stemmen: 0)<p><b>Top drie:</b><ol><li>Partij van de Arbeid (P.v.d.A.) (27%)</li><li>Partij voor Ouderen en Veiligheid (11%)</li><li>D66 (11%)</li></ol></p></p></div>`)[0];
+                popup_56843e311507726d912442ebba6e428d.setContent(html_58197b6fe7703e0375f61c456d0eefab);
+            
+        
+
+        marker_185da524b5736fb8831b50b58b5b4b61.bindPopup(popup_56843e311507726d912442ebba6e428d)
+        ;
+
+        
+    
+</script>
+</html>
